@@ -1,0 +1,46 @@
+{
+  "gegenereerd": "2026-07-14T12:00:00.000Z",
+  "bron": "VOORBEELDDATA - definitieve KMT-data volgt. Structuur conform API-document v1.1",
+  "activiteiten": [
+    {
+      "id": "12",
+      "naam": "Whisky Experience (voorbeeld)",
+      "datums": [
+        { "datum": "2026-07-14", "beschikbaar": true },
+        { "datum": "2026-07-15", "beschikbaar": true },
+        { "datum": "2026-07-16", "beschikbaar": false },
+        { "datum": "2026-07-17", "beschikbaar": true },
+        { "datum": "2026-07-18", "beschikbaar": true },
+        { "datum": "2026-07-19", "beschikbaar": false },
+        { "datum": "2026-07-20", "beschikbaar": true },
+        { "datum": "2026-07-21", "beschikbaar": null },
+        { "datum": "2026-07-22", "beschikbaar": true },
+        { "datum": "2026-07-23", "beschikbaar": false },
+        { "datum": "2026-07-24", "beschikbaar": true },
+        { "datum": "2026-07-25", "beschikbaar": true },
+        { "datum": "2026-07-26", "beschikbaar": false },
+        { "datum": "2026-07-27", "beschikbaar": true }
+      ]
+    },
+    {
+      "id": "56",
+      "naam": "Teambuilding Deluxe (voorbeeld)",
+      "datums": [
+        { "datum": "2026-07-14", "beschikbaar": false },
+        { "datum": "2026-07-15", "beschikbaar": true },
+        { "datum": "2026-07-16", "beschikbaar": true },
+        { "datum": "2026-07-17", "beschikbaar": true },
+        { "datum": "2026-07-18", "beschikbaar": false },
+        { "datum": "2026-07-19", "beschikbaar": true },
+        { "datum": "2026-07-20", "beschikbaar": true },
+        { "datum": "2026-07-21", "beschikbaar": false },
+        { "datum": "2026-07-22", "beschikbaar": true },
+        { "datum": "2026-07-23", "beschikbaar": true },
+        { "datum": "2026-07-24", "beschikbaar": null },
+        { "datum": "2026-07-25", "beschikbaar": false },
+        { "datum": "2026-07-26", "beschikbaar": true },
+        { "datum": "2026-07-27", "beschikbaar": true }
+      ]
+    }
+  ]
+}
