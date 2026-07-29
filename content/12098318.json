@@ -1,0 +1,27 @@
+{
+  "gegenereerd": "2026-07-29T14:23:28.758Z",
+  "arrangement": {
+    "id": "12098318",
+    "naam": "Maatwerkarrangement",
+    "type": "Bedrijfs uitje",
+    "minAantal": 15,
+    "maxAantal": 100,
+    "duurMinuten": 0,
+    "startUur": 10,
+    "meerdaags": false
+  },
+  "beschrijving": "",
+  "programmaHtml": "",
+  "keywordBeschrijving": "",
+  "browserTitel": "",
+  "beschikbaarLabel": "",
+  "arrangementLabel": "",
+  "dinerKeuzeMogelijk": false,
+  "afkoopEigenRisico": false,
+  "afbeeldingen": {
+    "hoofd": null,
+    "sticker": "https://www.heischehoeve.com/download/?id=13730083&fileType=auto",
+    "carousel": [],
+    "video": null
+  }
+}
