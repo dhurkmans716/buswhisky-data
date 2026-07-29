@@ -1,10 +1,11 @@
 {
-  "gegenereerd": "2026-07-29T13:43:57.502Z",
+  "gegenereerd": "2026-07-29T14:09:00.993Z",
   "arrangement": {
     "id": "18252288",
     "naam": "Doe-het-zelf Weekendbruiloft LIGHT laagseizoen (vr t/m zo)",
     "type": "Bruiloft",
     "minAantal": 40,
+    "maxAantal": 200,
     "duurMinuten": 2880,
     "startUur": 13,
     "meerdaags": true
