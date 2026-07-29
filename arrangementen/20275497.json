@@ -1,36 +1,19 @@
 {
-  "gegenereerd": "2026-07-25T09:13:41.269Z",
+  "gegenereerd": "2026-07-29T13:43:57.502Z",
   "arrangement": {
     "id": "20275497",
     "naam": "4x4 Ecotrail | middag",
     "type": "Bedrijfs uitje",
-    "minAantal": 4
+    "minAantal": 4,
+    "duurMinuten": 360,
+    "startUur": 14,
+    "meerdaags": false
   },
   "datums": [
     {
-      "datum": "2026-07-25",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-07-26",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-07-27",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-07-28",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
       "datum": "2026-07-29",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-07-30",
@@ -284,8 +267,8 @@
     },
     {
       "datum": "2026-09-18",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-09-19",
@@ -499,8 +482,8 @@
     },
     {
       "datum": "2026-10-31",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-11-01",
@@ -899,6 +882,26 @@
     },
     {
       "datum": "2027-01-19",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-20",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-21",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-22",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-23",
       "beschikbaar": true,
       "status": "beschikbaar"
     }
