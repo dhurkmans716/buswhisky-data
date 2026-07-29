@@ -1,32 +1,15 @@
 {
-  "gegenereerd": "2026-07-25T09:13:41.269Z",
+  "gegenereerd": "2026-07-29T13:43:57.502Z",
   "arrangement": {
     "id": "17982849",
     "naam": "Doe-het-zelf Weekendbruiloft hoogseizoen (vr t/m zo)",
     "type": "Bruiloft",
-    "minAantal": 40
+    "minAantal": 40,
+    "duurMinuten": 2879,
+    "startUur": 13,
+    "meerdaags": true
   },
   "datums": [
-    {
-      "datum": "2026-07-25",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
-    },
-    {
-      "datum": "2026-07-26",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
-    },
-    {
-      "datum": "2026-07-27",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
-    },
-    {
-      "datum": "2026-07-28",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
-    },
     {
       "datum": "2026-07-29",
       "beschikbaar": false,
@@ -899,6 +882,26 @@
     },
     {
       "datum": "2027-01-19",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-20",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-21",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-22",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-23",
       "beschikbaar": false,
       "status": "niet-beschikbaar"
     }
