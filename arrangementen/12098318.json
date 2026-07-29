@@ -1,36 +1,19 @@
 {
-  "gegenereerd": "2026-07-25T09:13:41.269Z",
+  "gegenereerd": "2026-07-29T13:43:57.502Z",
   "arrangement": {
     "id": "12098318",
     "naam": "Maatwerkarrangement",
     "type": "Bedrijfs uitje",
-    "minAantal": 15
+    "minAantal": 15,
+    "duurMinuten": 0,
+    "startUur": 10,
+    "meerdaags": false
   },
   "datums": [
     {
-      "datum": "2026-07-25",
+      "datum": "2026-07-29",
       "beschikbaar": false,
       "status": "niet-beschikbaar"
-    },
-    {
-      "datum": "2026-07-26",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-07-27",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-07-28",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-07-29",
-      "beschikbaar": true,
-      "status": "beschikbaar"
     },
     {
       "datum": "2026-07-30",
@@ -899,6 +882,26 @@
     },
     {
       "datum": "2027-01-19",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-20",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-21",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-22",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-23",
       "beschikbaar": true,
       "status": "beschikbaar"
     }
