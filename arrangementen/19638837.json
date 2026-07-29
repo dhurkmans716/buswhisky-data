@@ -1,36 +1,19 @@
 {
-  "gegenereerd": "2026-07-25T09:13:41.269Z",
+  "gegenereerd": "2026-07-29T13:43:57.502Z",
   "arrangement": {
     "id": "19638837",
     "naam": "4x4 Ecotrail, laserkleiduifschieten, tour whiskystokerij, pubquiz & overnachting",
     "type": "Bedrijfs uitje",
-    "minAantal": 15
+    "minAantal": 15,
+    "duurMinuten": 1200,
+    "startUur": 14,
+    "meerdaags": true
   },
   "datums": [
     {
-      "datum": "2026-07-25",
-      "beschikbaar": false,
-      "status": "volgeboekt"
-    },
-    {
-      "datum": "2026-07-26",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-07-27",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-07-28",
-      "beschikbaar": false,
-      "status": "volgeboekt"
-    },
-    {
       "datum": "2026-07-29",
       "beschikbaar": false,
-      "status": "volgeboekt"
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-07-30",
@@ -284,9 +267,8 @@
     },
     {
       "datum": "2026-09-17",
-      "beschikbaar": true,
-      "status": "beperkt",
-      "plekkenVrij": 20
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-09-18",
@@ -511,15 +493,13 @@
     },
     {
       "datum": "2026-10-30",
-      "beschikbaar": true,
-      "status": "beperkt",
-      "plekkenVrij": 12
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-10-31",
-      "beschikbaar": true,
-      "status": "beperkt",
-      "plekkenVrij": 2
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-11-01",
@@ -924,6 +904,26 @@
     },
     {
       "datum": "2027-01-19",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-20",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-21",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-22",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-23",
       "beschikbaar": true,
       "status": "beschikbaar"
     }
