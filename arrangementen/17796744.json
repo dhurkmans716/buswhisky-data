@@ -1,10 +1,11 @@
 {
-  "gegenereerd": "2026-07-29T13:43:57.502Z",
+  "gegenereerd": "2026-07-29T14:09:00.993Z",
   "arrangement": {
     "id": "17796744",
     "naam": "56-uurs arrangement (1 pers. kamer) alles inclusief",
     "type": "Vergadering",
     "minAantal": 5,
+    "maxAantal": 28,
     "duurMinuten": 3390,
     "startUur": 8,
     "meerdaags": true
