@@ -1,10 +1,11 @@
 {
-  "gegenereerd": "2026-07-29T13:43:57.502Z",
+  "gegenereerd": "2026-07-29T14:09:00.993Z",
   "arrangement": {
     "id": "19893479",
     "naam": "4x4 Ecotrail, Laser kleiduifschieten & Pubquiz | avond",
     "type": "Bedrijfs uitje",
     "minAantal": 15,
+    "maxAantal": 120,
     "duurMinuten": 390,
     "startUur": 17,
     "meerdaags": false
