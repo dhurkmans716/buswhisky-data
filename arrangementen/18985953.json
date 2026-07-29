@@ -1,10 +1,11 @@
 {
-  "gegenereerd": "2026-07-29T13:43:57.502Z",
+  "gegenereerd": "2026-07-29T14:09:00.993Z",
   "arrangement": {
     "id": "18985953",
     "naam": "Summer event",
     "type": "Bedrijfs uitje",
     "minAantal": 70,
+    "maxAantal": 200,
     "duurMinuten": 540,
     "startUur": 13,
     "meerdaags": false
