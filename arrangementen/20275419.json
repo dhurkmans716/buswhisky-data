@@ -1,10 +1,11 @@
 {
-  "gegenereerd": "2026-07-29T13:43:57.502Z",
+  "gegenereerd": "2026-07-29T14:09:00.993Z",
   "arrangement": {
     "id": "20275419",
     "naam": "4x4 Ecotrail, Whiskytour & Pubquiz | middag",
     "type": "Bedrijfs uitje",
     "minAantal": 15,
+    "maxAantal": 120,
     "duurMinuten": 360,
     "startUur": 14,
     "meerdaags": false
