@@ -1,10 +1,11 @@
 {
-  "gegenereerd": "2026-07-29T13:43:57.502Z",
+  "gegenereerd": "2026-07-29T14:09:00.993Z",
   "arrangement": {
     "id": "19617909",
     "naam": "4x4 Ecotrail, Laser kleiduifschieten & Whisky | middag",
     "type": "Bedrijfs uitje",
     "minAantal": 8,
+    "maxAantal": 120,
     "duurMinuten": 420,
     "startUur": 14,
     "meerdaags": false
