@@ -1,36 +1,19 @@
 {
-  "gegenereerd": "2026-07-25T09:13:41.269Z",
+  "gegenereerd": "2026-07-29T13:43:57.502Z",
   "arrangement": {
     "id": "67674",
     "naam": "Ontdekkingstocht door Brabant",
     "type": "Bedrijfs uitje",
-    "minAantal": 15
+    "minAantal": 15,
+    "duurMinuten": 720,
+    "startUur": 9,
+    "meerdaags": false
   },
   "datums": [
     {
-      "datum": "2026-07-25",
+      "datum": "2026-07-29",
       "beschikbaar": false,
       "status": "niet-beschikbaar"
-    },
-    {
-      "datum": "2026-07-26",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-07-27",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-07-28",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-07-29",
-      "beschikbaar": true,
-      "status": "beschikbaar"
     },
     {
       "datum": "2026-07-30",
@@ -284,8 +267,8 @@
     },
     {
       "datum": "2026-09-18",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-09-19",
@@ -899,6 +882,26 @@
     },
     {
       "datum": "2027-01-19",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-20",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-21",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-22",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-23",
       "beschikbaar": false,
       "status": "niet-beschikbaar"
     }
