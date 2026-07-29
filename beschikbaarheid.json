@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-07-25T09:13:41.269Z",
+  "gegenereerd": "2026-07-29T13:43:57.502Z",
   "bron": "KMT gateway via n8n (Bus Whisky)",
   "activiteiten": [
     {
@@ -7,31 +7,14 @@
       "naam": "Ontdekkingstocht door Brabant",
       "type": "Bedrijfs uitje",
       "minAantal": 15,
+      "duurMinuten": 720,
+      "startUur": 9,
+      "meerdaags": false,
       "datums": [
         {
-          "datum": "2026-07-25",
+          "datum": "2026-07-29",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
         },
         {
           "datum": "2026-07-30",
@@ -285,8 +268,8 @@
         },
         {
           "datum": "2026-09-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-19",
@@ -900,6 +883,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
         }
@@ -910,27 +913,10 @@
       "naam": "Whisky & Weilandgames",
       "type": "Bedrijfs uitje",
       "minAantal": 20,
+      "duurMinuten": 360,
+      "startUur": 14,
+      "meerdaags": false,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": false,
@@ -1188,8 +1174,8 @@
         },
         {
           "datum": "2026-09-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-19",
@@ -1403,8 +1389,8 @@
         },
         {
           "datum": "2026-10-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-01",
@@ -1803,6 +1789,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -1813,27 +1819,10 @@
       "naam": "De Whisky & Weilandgames + overnachting",
       "type": "Bedrijfs uitje",
       "minAantal": 20,
+      "duurMinuten": 1200,
+      "startUur": 14,
+      "meerdaags": true,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": false,
@@ -2716,6 +2705,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -2726,31 +2735,14 @@
       "naam": "Maatwerkarrangement",
       "type": "Bedrijfs uitje",
       "minAantal": 15,
+      "duurMinuten": 0,
+      "startUur": 10,
+      "meerdaags": false,
       "datums": [
         {
-          "datum": "2026-07-25",
+          "datum": "2026-07-29",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
         },
         {
           "datum": "2026-07-30",
@@ -3619,6 +3611,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -3629,27 +3641,10 @@
       "naam": "24-uurs arrangement (1 pers. kamer) alles inclusief",
       "type": "Vergadering",
       "minAantal": 5,
+      "duurMinuten": 1470,
+      "startUur": 8,
+      "meerdaags": true,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": false,
@@ -4530,6 +4525,26 @@
           "datum": "2027-01-19",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         }
       ]
     },
@@ -4538,27 +4553,10 @@
       "naam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
       "type": "Vergadering",
       "minAantal": 5,
+      "duurMinuten": 1920,
+      "startUur": 8,
+      "meerdaags": true,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": false,
@@ -5439,6 +5437,26 @@
           "datum": "2027-01-19",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         }
       ]
     },
@@ -5447,27 +5465,10 @@
       "naam": "12-uurs vergaderarrangement alles inclusief",
       "type": "Vergadering",
       "minAantal": 5,
+      "duurMinuten": 750,
+      "startUur": 8,
+      "meerdaags": false,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": false,
@@ -6342,6 +6343,26 @@
           "datum": "2027-01-19",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         }
       ]
     },
@@ -6350,27 +6371,10 @@
       "naam": "48-uurs arrangement (1 pers. kamer) alles inclusief",
       "type": "Vergadering",
       "minAantal": 5,
+      "duurMinuten": 2880,
+      "startUur": 8,
+      "meerdaags": true,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": false,
@@ -7248,6 +7252,26 @@
           "datum": "2027-01-19",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         }
       ]
     },
@@ -7256,27 +7280,10 @@
       "naam": "56-uurs arrangement (1 pers. kamer) alles inclusief",
       "type": "Vergadering",
       "minAantal": 5,
+      "duurMinuten": 3390,
+      "startUur": 8,
+      "meerdaags": true,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": false,
-          "status": "volgeboekt"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": false,
@@ -8165,6 +8172,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -8175,27 +8202,10 @@
       "naam": "Doe-het-zelf Weekendbruiloft hoogseizoen (vr t/m zo)",
       "type": "Bruiloft",
       "minAantal": 40,
+      "duurMinuten": 2879,
+      "startUur": 13,
+      "meerdaags": true,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": false,
@@ -9068,6 +9078,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
         }
@@ -9078,27 +9108,10 @@
       "naam": "4x4 Ecotrail, Whiskytour & Pubquiz | avond",
       "type": "Bedrijfs uitje",
       "minAantal": 15,
+      "duurMinuten": 360,
+      "startUur": 17,
+      "meerdaags": false,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": true,
@@ -9356,8 +9369,8 @@
         },
         {
           "datum": "2026-09-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-19",
@@ -9571,8 +9584,8 @@
         },
         {
           "datum": "2026-10-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-01",
@@ -9971,6 +9984,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -9981,27 +10014,10 @@
       "naam": "Doe-het-zelf Midweekbruiloft hoogseizoen (di t/m do)",
       "type": "Bruiloft",
       "minAantal": 40,
+      "duurMinuten": 2879,
+      "startUur": 13,
+      "meerdaags": true,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": false,
@@ -10874,6 +10890,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
         }
@@ -10884,27 +10920,10 @@
       "naam": "Doe-het-zelf Weekendbruiloft LIGHT laagseizoen (vr t/m zo)",
       "type": "Bruiloft",
       "minAantal": 40,
+      "duurMinuten": 2880,
+      "startUur": 13,
+      "meerdaags": true,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": false,
@@ -11777,6 +11796,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
         }
@@ -11787,27 +11826,10 @@
       "naam": "Suppen, kanovaren, fluisterboot & overnachting",
       "type": "Bedrijfs uitje",
       "minAantal": 15,
+      "duurMinuten": 1350,
+      "startUur": 13,
+      "meerdaags": true,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": false,
@@ -12063,9 +12085,8 @@
         },
         {
           "datum": "2026-09-17",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 20
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-18",
@@ -12286,9 +12307,8 @@
         },
         {
           "datum": "2026-10-30",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 12
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-31",
@@ -12692,6 +12712,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
         }
@@ -12702,27 +12742,10 @@
       "naam": "Weekend actief in Brabant",
       "type": "Bedrijfs uitje",
       "minAantal": 15,
+      "duurMinuten": 2610,
+      "startUur": 19,
+      "meerdaags": true,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": false,
@@ -12975,8 +12998,8 @@
         },
         {
           "datum": "2026-09-16",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-17",
@@ -13603,6 +13626,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
         }
@@ -13613,27 +13656,10 @@
       "naam": "Whisky & 4x4 weekend",
       "type": "Bedrijfs uitje",
       "minAantal": 15,
+      "duurMinuten": 2370,
+      "startUur": 19,
+      "meerdaags": true,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": false,
@@ -13886,8 +13912,8 @@
         },
         {
           "datum": "2026-09-16",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-17",
@@ -14519,6 +14545,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -14529,31 +14575,14 @@
       "naam": "Lunch | 4x4 ecotrail | Whiskytour",
       "type": "Bedrijfs uitje",
       "minAantal": 4,
+      "duurMinuten": 240,
+      "startUur": 12,
+      "meerdaags": false,
       "datums": [
         {
-          "datum": "2026-07-25",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
           "datum": "2026-07-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-07-30",
@@ -14807,8 +14836,8 @@
         },
         {
           "datum": "2026-09-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-19",
@@ -15022,8 +15051,8 @@
         },
         {
           "datum": "2026-10-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-01",
@@ -15422,6 +15451,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -15432,27 +15481,10 @@
       "naam": "4x4 Ecotrail | avond",
       "type": "Bedrijfs uitje",
       "minAantal": 4,
+      "duurMinuten": 300,
+      "startUur": 16,
+      "meerdaags": false,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": true,
@@ -15710,8 +15742,8 @@
         },
         {
           "datum": "2026-09-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-19",
@@ -15925,8 +15957,8 @@
         },
         {
           "datum": "2026-10-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-01",
@@ -16325,6 +16357,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -16335,27 +16387,10 @@
       "naam": "4x4 Ecotrail & overnachting",
       "type": "Bedrijfs uitje",
       "minAantal": 10,
+      "duurMinuten": 1080,
+      "startUur": 16,
+      "meerdaags": true,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": false,
-          "status": "volgeboekt"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": false,
-          "status": "volgeboekt"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": false,
@@ -16613,9 +16648,8 @@
         },
         {
           "datum": "2026-09-17",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 20
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-18",
@@ -16840,15 +16874,13 @@
         },
         {
           "datum": "2026-10-30",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 12
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-31",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 2
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-01",
@@ -17253,6 +17285,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -17263,31 +17315,14 @@
       "naam": "Summer event",
       "type": "Bedrijfs uitje",
       "minAantal": 70,
+      "duurMinuten": 540,
+      "startUur": 13,
+      "meerdaags": false,
       "datums": [
         {
-          "datum": "2026-07-25",
+          "datum": "2026-07-29",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
         },
         {
           "datum": "2026-07-30",
@@ -18156,6 +18191,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
         }
@@ -18166,31 +18221,14 @@
       "naam": "Suppen, kanovaren & fluisterboot",
       "type": "Bedrijfs uitje",
       "minAantal": 15,
+      "duurMinuten": 480,
+      "startUur": 13,
+      "meerdaags": false,
       "datums": [
         {
-          "datum": "2026-07-25",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
           "datum": "2026-07-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-07-30",
@@ -18444,8 +18482,8 @@
         },
         {
           "datum": "2026-09-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-19",
@@ -19059,6 +19097,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
         }
@@ -19069,31 +19127,14 @@
       "naam": "4x4 Ecotrail, Laser kleiduifschieten & Whisky | middag",
       "type": "Bedrijfs uitje",
       "minAantal": 8,
+      "duurMinuten": 420,
+      "startUur": 14,
+      "meerdaags": false,
       "datums": [
         {
-          "datum": "2026-07-25",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
           "datum": "2026-07-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-07-30",
@@ -19347,8 +19388,8 @@
         },
         {
           "datum": "2026-09-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-19",
@@ -19562,8 +19603,8 @@
         },
         {
           "datum": "2026-10-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-01",
@@ -19962,6 +20003,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -19972,31 +20033,14 @@
       "naam": "Laser Kleiduifschieten | middag",
       "type": "Bedrijfs uitje",
       "minAantal": 4,
+      "duurMinuten": 360,
+      "startUur": 14,
+      "meerdaags": false,
       "datums": [
         {
-          "datum": "2026-07-25",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
           "datum": "2026-07-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-07-30",
@@ -20250,8 +20294,8 @@
         },
         {
           "datum": "2026-09-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-19",
@@ -20465,8 +20509,8 @@
         },
         {
           "datum": "2026-10-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-01",
@@ -20867,6 +20911,26 @@
           "datum": "2027-01-19",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
+          "beschikbaar": true,
+          "status": "beschikbaar"
         }
       ]
     },
@@ -20875,31 +20939,14 @@
       "naam": "4x4 Ecotrail, laserkleiduifschieten, tour whiskystokerij, pubquiz & overnachting",
       "type": "Bedrijfs uitje",
       "minAantal": 15,
+      "duurMinuten": 1200,
+      "startUur": 14,
+      "meerdaags": true,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": false,
-          "status": "volgeboekt"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": false,
-          "status": "volgeboekt"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": false,
-          "status": "volgeboekt"
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-07-30",
@@ -21153,9 +21200,8 @@
         },
         {
           "datum": "2026-09-17",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 20
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-18",
@@ -21380,15 +21426,13 @@
         },
         {
           "datum": "2026-10-30",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 12
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-31",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 2
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-01",
@@ -21795,6 +21839,26 @@
           "datum": "2027-01-19",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
+          "beschikbaar": true,
+          "status": "beschikbaar"
         }
       ]
     },
@@ -21803,27 +21867,10 @@
       "naam": "4x4 Ecotrail, Laser kleiduifschieten & Pubquiz | avond",
       "type": "Bedrijfs uitje",
       "minAantal": 15,
+      "duurMinuten": 390,
+      "startUur": 17,
+      "meerdaags": false,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": true,
@@ -22081,8 +22128,8 @@
         },
         {
           "datum": "2026-09-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-19",
@@ -22296,8 +22343,8 @@
         },
         {
           "datum": "2026-10-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-01",
@@ -22698,6 +22745,26 @@
           "datum": "2027-01-19",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
+          "beschikbaar": true,
+          "status": "beschikbaar"
         }
       ]
     },
@@ -22706,27 +22773,10 @@
       "naam": "Winterse dropping, Pubquiz & overnachting",
       "type": "Bedrijfs uitje",
       "minAantal": 20,
+      "duurMinuten": 1180,
+      "startUur": 16,
+      "meerdaags": true,
       "datums": [
-        {
-          "datum": "2026-07-25",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-07-29",
           "beschikbaar": false,
@@ -23202,15 +23252,13 @@
         },
         {
           "datum": "2026-10-30",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 12
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-31",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 2
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-01",
@@ -23617,6 +23665,26 @@
           "datum": "2027-01-19",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
+          "beschikbaar": true,
+          "status": "beschikbaar"
         }
       ]
     },
@@ -23625,31 +23693,14 @@
       "naam": "4x4 ecotrail, kleiduifschieten, suppen & kanovaren",
       "type": "Bedrijfs uitje",
       "minAantal": 15,
+      "duurMinuten": 660,
+      "startUur": 10,
+      "meerdaags": false,
       "datums": [
         {
-          "datum": "2026-07-25",
+          "datum": "2026-07-29",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
         },
         {
           "datum": "2026-07-30",
@@ -23903,8 +23954,8 @@
         },
         {
           "datum": "2026-09-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-19",
@@ -24518,6 +24569,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
         }
@@ -24528,31 +24599,14 @@
       "naam": "4x4 ecotrail, kleiduifschieten & whiskygames",
       "type": "Bedrijfs uitje",
       "minAantal": 15,
+      "duurMinuten": 600,
+      "startUur": 10,
+      "meerdaags": false,
       "datums": [
         {
-          "datum": "2026-07-25",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
           "datum": "2026-07-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-07-30",
@@ -24806,8 +24860,8 @@
         },
         {
           "datum": "2026-09-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-19",
@@ -25021,8 +25075,8 @@
         },
         {
           "datum": "2026-10-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-01",
@@ -25421,6 +25475,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -25431,31 +25505,14 @@
       "naam": "4x4 Ecotrail, Whiskytour & Pubquiz | middag",
       "type": "Bedrijfs uitje",
       "minAantal": 15,
+      "duurMinuten": 360,
+      "startUur": 14,
+      "meerdaags": false,
       "datums": [
         {
-          "datum": "2026-07-25",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
           "datum": "2026-07-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-07-30",
@@ -25709,8 +25766,8 @@
         },
         {
           "datum": "2026-09-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-19",
@@ -25924,8 +25981,8 @@
         },
         {
           "datum": "2026-10-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-01",
@@ -26324,6 +26381,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -26334,31 +26411,14 @@
       "naam": "4x4 Ecotrail | middag",
       "type": "Bedrijfs uitje",
       "minAantal": 4,
+      "duurMinuten": 360,
+      "startUur": 14,
+      "meerdaags": false,
       "datums": [
         {
-          "datum": "2026-07-25",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
           "datum": "2026-07-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-07-30",
@@ -26612,8 +26672,8 @@
         },
         {
           "datum": "2026-09-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-19",
@@ -26827,8 +26887,8 @@
         },
         {
           "datum": "2026-10-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-01",
@@ -27227,6 +27287,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -27237,31 +27317,14 @@
       "naam": "Lunch | Laser Kleiduifschieten | Whiskytour",
       "type": "Bedrijfs uitje",
       "minAantal": 4,
+      "duurMinuten": 240,
+      "startUur": 12,
+      "meerdaags": false,
       "datums": [
         {
-          "datum": "2026-07-25",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-07-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
           "datum": "2026-07-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-07-30",
@@ -27515,8 +27578,8 @@
         },
         {
           "datum": "2026-09-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-19",
@@ -27730,8 +27793,8 @@
         },
         {
           "datum": "2026-10-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-01",
@@ -28130,6 +28193,26 @@
         },
         {
           "datum": "2027-01-19",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
