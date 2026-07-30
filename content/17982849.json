@@ -1,11 +1,12 @@
 {
-  "gegenereerd": "2026-07-30T10:02:47.684Z",
+  "gegenereerd": "2026-07-30T14:03:51.648Z",
   "arrangement": {
     "id": "17982849",
     "naam": "Doe-het-zelf Weekendbruiloft hoogseizoen (vr t/m zo)",
     "type": "Bruiloft",
     "minAantal": 40,
     "maxAantal": 200,
+    "prijs": 10587.21,
     "duurMinuten": 2879,
     "startUur": 13,
     "meerdaags": true
