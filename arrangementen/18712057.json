@@ -1,16 +1,27 @@
 {
-  "gegenereerd": "2026-07-30T10:02:47.684Z",
+  "gegenereerd": "2026-07-30T14:03:51.648Z",
   "arrangement": {
     "id": "18712057",
     "naam": "4x4 Ecotrail | avond",
     "type": "Bedrijfs uitje",
     "minAantal": 4,
     "maxAantal": 250,
+    "prijs": 99.5,
     "duurMinuten": 300,
     "startUur": 16,
     "meerdaags": false
   },
   "datums": [
+    {
+      "datum": "2026-07-30",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-07-31",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
     {
       "datum": "2026-08-01",
       "beschikbaar": true,
@@ -808,6 +819,91 @@
     },
     {
       "datum": "2027-01-07",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-08",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-09",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-10",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-11",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-12",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-13",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-14",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-15",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-16",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-17",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-18",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-19",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-20",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-21",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-22",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-23",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-24",
       "beschikbaar": true,
       "status": "beschikbaar"
     }
