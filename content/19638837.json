@@ -1,11 +1,12 @@
 {
-  "gegenereerd": "2026-07-30T10:02:47.684Z",
+  "gegenereerd": "2026-07-30T14:03:51.648Z",
   "arrangement": {
     "id": "19638837",
     "naam": "4x4 Ecotrail, laserkleiduifschieten, tour whiskystokerij, pubquiz & overnachting",
     "type": "Bedrijfs uitje",
     "minAantal": 15,
     "maxAantal": 100,
+    "prijs": 225,
     "duurMinuten": 1200,
     "startUur": 14,
     "meerdaags": true
