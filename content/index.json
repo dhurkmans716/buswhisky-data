@@ -1,10 +1,11 @@
 {
-  "gegenereerd": "2026-07-30T10:02:47.684Z",
+  "gegenereerd": "2026-07-30T14:03:51.648Z",
   "arrangementen": [
     {
       "id": "67674",
       "naam": "Ontdekkingstocht door Brabant",
       "type": "Bedrijfs uitje",
+      "prijs": 125,
       "contentUrl": "content/67674.json",
       "beschikbaarheidUrl": "arrangementen/67674.json"
     },
@@ -12,6 +13,7 @@
       "id": "960185",
       "naam": "Whisky & Weilandgames",
       "type": "Bedrijfs uitje",
+      "prijs": 99.5,
       "contentUrl": "content/960185.json",
       "beschikbaarheidUrl": "arrangementen/960185.json"
     },
@@ -19,6 +21,7 @@
       "id": "961017",
       "naam": "De Whisky & Weilandgames + overnachting",
       "type": "Bedrijfs uitje",
+      "prijs": 175,
       "contentUrl": "content/961017.json",
       "beschikbaarheidUrl": "arrangementen/961017.json"
     },
@@ -26,6 +29,7 @@
       "id": "12098318",
       "naam": "Maatwerkarrangement",
       "type": "Bedrijfs uitje",
+      "prijs": 1,
       "contentUrl": "content/12098318.json",
       "beschikbaarheidUrl": "arrangementen/12098318.json"
     },
@@ -33,6 +37,7 @@
       "id": "17793235",
       "naam": "24-uurs arrangement (1 pers. kamer) alles inclusief",
       "type": "Vergadering",
+      "prijs": 325,
       "contentUrl": "content/17793235.json",
       "beschikbaarheidUrl": "arrangementen/17793235.json"
     },
@@ -40,6 +45,7 @@
       "id": "17793261",
       "naam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
       "type": "Vergadering",
+      "prijs": 395,
       "contentUrl": "content/17793261.json",
       "beschikbaarheidUrl": "arrangementen/17793261.json"
     },
@@ -47,6 +53,7 @@
       "id": "17793283",
       "naam": "12-uurs vergaderarrangement alles inclusief",
       "type": "Vergadering",
+      "prijs": 137.5,
       "contentUrl": "content/17793283.json",
       "beschikbaarheidUrl": "arrangementen/17793283.json"
     },
@@ -54,6 +61,7 @@
       "id": "17796664",
       "naam": "48-uurs arrangement (1 pers. kamer) alles inclusief",
       "type": "Vergadering",
+      "prijs": 600,
       "contentUrl": "content/17796664.json",
       "beschikbaarheidUrl": "arrangementen/17796664.json"
     },
@@ -61,6 +69,7 @@
       "id": "17796744",
       "naam": "56-uurs arrangement (1 pers. kamer) alles inclusief",
       "type": "Vergadering",
+      "prijs": 675,
       "contentUrl": "content/17796744.json",
       "beschikbaarheidUrl": "arrangementen/17796744.json"
     },
@@ -68,6 +77,7 @@
       "id": "17982849",
       "naam": "Doe-het-zelf Weekendbruiloft hoogseizoen (vr t/m zo)",
       "type": "Bruiloft",
+      "prijs": 10587.21,
       "contentUrl": "content/17982849.json",
       "beschikbaarheidUrl": "arrangementen/17982849.json"
     },
@@ -75,6 +85,7 @@
       "id": "18212800",
       "naam": "4x4 Ecotrail, Whiskytour & Pubquiz | avond",
       "type": "Bedrijfs uitje",
+      "prijs": 125,
       "contentUrl": "content/18212800.json",
       "beschikbaarheidUrl": "arrangementen/18212800.json"
     },
@@ -82,6 +93,7 @@
       "id": "18252230",
       "naam": "Doe-het-zelf Midweekbruiloft hoogseizoen (di t/m do)",
       "type": "Bruiloft",
+      "prijs": 8107.87,
       "contentUrl": "content/18252230.json",
       "beschikbaarheidUrl": "arrangementen/18252230.json"
     },
@@ -89,6 +101,7 @@
       "id": "18252288",
       "naam": "Doe-het-zelf Weekendbruiloft LIGHT laagseizoen (vr t/m zo)",
       "type": "Bruiloft",
+      "prijs": 6454.98,
       "contentUrl": "content/18252288.json",
       "beschikbaarheidUrl": "arrangementen/18252288.json"
     },
@@ -96,6 +109,7 @@
       "id": "18361936",
       "naam": "Suppen, kanovaren, fluisterboot & overnachting",
       "type": "Bedrijfs uitje",
+      "prijs": 225,
       "contentUrl": "content/18361936.json",
       "beschikbaarheidUrl": "arrangementen/18361936.json"
     },
@@ -103,6 +117,7 @@
       "id": "18385479",
       "naam": "Weekend actief in Brabant",
       "type": "Bedrijfs uitje",
+      "prijs": 395,
       "contentUrl": "content/18385479.json",
       "beschikbaarheidUrl": "arrangementen/18385479.json"
     },
@@ -110,6 +125,7 @@
       "id": "18494490",
       "naam": "Whisky & 4x4 weekend",
       "type": "Bedrijfs uitje",
+      "prijs": 395,
       "contentUrl": "content/18494490.json",
       "beschikbaarheidUrl": "arrangementen/18494490.json"
     },
@@ -117,6 +133,7 @@
       "id": "18522570",
       "naam": "Lunch | 4x4 ecotrail | Whiskytour",
       "type": "Bedrijfs uitje",
+      "prijs": 50,
       "contentUrl": "content/18522570.json",
       "beschikbaarheidUrl": "arrangementen/18522570.json"
     },
@@ -124,6 +141,7 @@
       "id": "18712057",
       "naam": "4x4 Ecotrail | avond",
       "type": "Bedrijfs uitje",
+      "prijs": 99.5,
       "contentUrl": "content/18712057.json",
       "beschikbaarheidUrl": "arrangementen/18712057.json"
     },
@@ -131,6 +149,7 @@
       "id": "18795159",
       "naam": "4x4 Ecotrail & overnachting",
       "type": "Bedrijfs uitje",
+      "prijs": 175,
       "contentUrl": "content/18795159.json",
       "beschikbaarheidUrl": "arrangementen/18795159.json"
     },
@@ -138,6 +157,7 @@
       "id": "18985953",
       "naam": "Summer event",
       "type": "Bedrijfs uitje",
+      "prijs": 125,
       "contentUrl": "content/18985953.json",
       "beschikbaarheidUrl": "arrangementen/18985953.json"
     },
@@ -145,6 +165,7 @@
       "id": "19310420",
       "naam": "Suppen, kanovaren & fluisterboot",
       "type": "Bedrijfs uitje",
+      "prijs": 99.5,
       "contentUrl": "content/19310420.json",
       "beschikbaarheidUrl": "arrangementen/19310420.json"
     },
@@ -152,6 +173,7 @@
       "id": "19617909",
       "naam": "4x4 Ecotrail, Laser kleiduifschieten & Whisky | middag",
       "type": "Bedrijfs uitje",
+      "prijs": 150,
       "contentUrl": "content/19617909.json",
       "beschikbaarheidUrl": "arrangementen/19617909.json"
     },
@@ -159,6 +181,7 @@
       "id": "19617961",
       "naam": "Laser Kleiduifschieten | middag",
       "type": "Bedrijfs uitje",
+      "prijs": 99.5,
       "contentUrl": "content/19617961.json",
       "beschikbaarheidUrl": "arrangementen/19617961.json"
     },
@@ -166,6 +189,7 @@
       "id": "19638837",
       "naam": "4x4 Ecotrail, laserkleiduifschieten, tour whiskystokerij, pubquiz & overnachting",
       "type": "Bedrijfs uitje",
+      "prijs": 225,
       "contentUrl": "content/19638837.json",
       "beschikbaarheidUrl": "arrangementen/19638837.json"
     },
@@ -173,6 +197,7 @@
       "id": "19893479",
       "naam": "4x4 Ecotrail, Laser kleiduifschieten & Pubquiz | avond",
       "type": "Bedrijfs uitje",
+      "prijs": 150,
       "contentUrl": "content/19893479.json",
       "beschikbaarheidUrl": "arrangementen/19893479.json"
     },
@@ -180,6 +205,7 @@
       "id": "19893954",
       "naam": "Winterse dropping, Pubquiz & overnachting",
       "type": "Bedrijfs uitje",
+      "prijs": 175,
       "contentUrl": "content/19893954.json",
       "beschikbaarheidUrl": "arrangementen/19893954.json"
     },
@@ -187,6 +213,7 @@
       "id": "19972803",
       "naam": "4x4 ecotrail, kleiduifschieten, suppen & kanovaren",
       "type": "Bedrijfs uitje",
+      "prijs": 175,
       "contentUrl": "content/19972803.json",
       "beschikbaarheidUrl": "arrangementen/19972803.json"
     },
@@ -194,6 +221,7 @@
       "id": "19972945",
       "naam": "4x4 ecotrail, kleiduifschieten & whiskygames",
       "type": "Bedrijfs uitje",
+      "prijs": 175,
       "contentUrl": "content/19972945.json",
       "beschikbaarheidUrl": "arrangementen/19972945.json"
     },
@@ -201,6 +229,7 @@
       "id": "20275419",
       "naam": "4x4 Ecotrail, Whiskytour & Pubquiz | middag",
       "type": "Bedrijfs uitje",
+      "prijs": 125,
       "contentUrl": "content/20275419.json",
       "beschikbaarheidUrl": "arrangementen/20275419.json"
     },
@@ -208,6 +237,7 @@
       "id": "20275497",
       "naam": "4x4 Ecotrail | middag",
       "type": "Bedrijfs uitje",
+      "prijs": 99.5,
       "contentUrl": "content/20275497.json",
       "beschikbaarheidUrl": "arrangementen/20275497.json"
     },
@@ -215,6 +245,7 @@
       "id": "20327328",
       "naam": "Lunch | Laser Kleiduifschieten | Whiskytour",
       "type": "Bedrijfs uitje",
+      "prijs": 50,
       "contentUrl": "content/20327328.json",
       "beschikbaarheidUrl": "arrangementen/20327328.json"
     }
