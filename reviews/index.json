@@ -1,0 +1,188 @@
+{
+  "gegenereerd": "2026-07-30T14:18:32.312Z",
+  "schaal": 10,
+  "arrangementen": [
+    {
+      "id": "67674",
+      "naam": "Ontdekkingstocht door Brabant",
+      "score": 8,
+      "aantalBeoordelingen": 276,
+      "reviewsUrl": "reviews/67674.json"
+    },
+    {
+      "id": "960185",
+      "naam": "Whisky & Weilandgames",
+      "score": 9,
+      "aantalBeoordelingen": 219,
+      "reviewsUrl": "reviews/960185.json"
+    },
+    {
+      "id": "17793235",
+      "naam": "24-uurs arrangement (1 pers. kamer) alles inclusief",
+      "score": 8,
+      "aantalBeoordelingen": 138,
+      "reviewsUrl": "reviews/17793235.json"
+    },
+    {
+      "id": "17793261",
+      "naam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
+      "score": 8,
+      "aantalBeoordelingen": 601,
+      "reviewsUrl": "reviews/17793261.json"
+    },
+    {
+      "id": "17793283",
+      "naam": "12-uurs vergaderarrangement alles inclusief",
+      "score": 9,
+      "aantalBeoordelingen": 113,
+      "reviewsUrl": "reviews/17793283.json"
+    },
+    {
+      "id": "17796664",
+      "naam": "48-uurs arrangement (1 pers. kamer) alles inclusief",
+      "score": 9,
+      "aantalBeoordelingen": 15,
+      "reviewsUrl": "reviews/17796664.json"
+    },
+    {
+      "id": "17796744",
+      "naam": "56-uurs arrangement (1 pers. kamer) alles inclusief",
+      "score": 8,
+      "aantalBeoordelingen": 69,
+      "reviewsUrl": "reviews/17796744.json"
+    },
+    {
+      "id": "17982849",
+      "naam": "Doe-het-zelf Weekendbruiloft hoogseizoen (vr t/m zo)",
+      "score": 9,
+      "aantalBeoordelingen": 37,
+      "reviewsUrl": "reviews/17982849.json"
+    },
+    {
+      "id": "18212800",
+      "naam": "4x4 Ecotrail, Whiskytour & Pubquiz | avond",
+      "score": 8,
+      "aantalBeoordelingen": 144,
+      "reviewsUrl": "reviews/18212800.json"
+    },
+    {
+      "id": "18252230",
+      "naam": "Doe-het-zelf Midweekbruiloft hoogseizoen (di t/m do)",
+      "score": 9,
+      "aantalBeoordelingen": 18,
+      "reviewsUrl": "reviews/18252230.json"
+    },
+    {
+      "id": "18252288",
+      "naam": "Doe-het-zelf Weekendbruiloft LIGHT laagseizoen (vr t/m zo)",
+      "score": 9,
+      "aantalBeoordelingen": 19,
+      "reviewsUrl": "reviews/18252288.json"
+    },
+    {
+      "id": "18361936",
+      "naam": "Suppen, kanovaren, fluisterboot & overnachting",
+      "score": 9,
+      "aantalBeoordelingen": 10,
+      "reviewsUrl": "reviews/18361936.json"
+    },
+    {
+      "id": "18385479",
+      "naam": "Weekend actief in Brabant",
+      "score": 8,
+      "aantalBeoordelingen": 8,
+      "reviewsUrl": "reviews/18385479.json"
+    },
+    {
+      "id": "18494490",
+      "naam": "Whisky & 4x4 weekend",
+      "score": 10,
+      "aantalBeoordelingen": 20,
+      "reviewsUrl": "reviews/18494490.json"
+    },
+    {
+      "id": "18522570",
+      "naam": "Lunch | 4x4 ecotrail | Whiskytour",
+      "score": 9,
+      "aantalBeoordelingen": 23,
+      "reviewsUrl": "reviews/18522570.json"
+    },
+    {
+      "id": "18712057",
+      "naam": "4x4 Ecotrail | avond",
+      "score": 9,
+      "aantalBeoordelingen": 160,
+      "reviewsUrl": "reviews/18712057.json"
+    },
+    {
+      "id": "18795159",
+      "naam": "4x4 Ecotrail & overnachting",
+      "score": 9,
+      "aantalBeoordelingen": 37,
+      "reviewsUrl": "reviews/18795159.json"
+    },
+    {
+      "id": "18985953",
+      "naam": "Summer event",
+      "score": 8,
+      "aantalBeoordelingen": 1,
+      "reviewsUrl": "reviews/18985953.json"
+    },
+    {
+      "id": "19310420",
+      "naam": "Suppen, kanovaren & fluisterboot",
+      "score": 9,
+      "aantalBeoordelingen": 22,
+      "reviewsUrl": "reviews/19310420.json"
+    },
+    {
+      "id": "19617909",
+      "naam": "4x4 Ecotrail, Laser kleiduifschieten & Whisky | middag",
+      "score": 9,
+      "aantalBeoordelingen": 67,
+      "reviewsUrl": "reviews/19617909.json"
+    },
+    {
+      "id": "19617961",
+      "naam": "Laser Kleiduifschieten | middag",
+      "score": 9,
+      "aantalBeoordelingen": 31,
+      "reviewsUrl": "reviews/19617961.json"
+    },
+    {
+      "id": "19638837",
+      "naam": "4x4 Ecotrail, laserkleiduifschieten, tour whiskystokerij, pubquiz & overnachting",
+      "score": 8,
+      "aantalBeoordelingen": 72,
+      "reviewsUrl": "reviews/19638837.json"
+    },
+    {
+      "id": "19893479",
+      "naam": "4x4 Ecotrail, Laser kleiduifschieten & Pubquiz | avond",
+      "score": 8,
+      "aantalBeoordelingen": 5,
+      "reviewsUrl": "reviews/19893479.json"
+    },
+    {
+      "id": "19893954",
+      "naam": "Winterse dropping, Pubquiz & overnachting",
+      "score": 7,
+      "aantalBeoordelingen": 5,
+      "reviewsUrl": "reviews/19893954.json"
+    },
+    {
+      "id": "19972945",
+      "naam": "4x4 ecotrail, kleiduifschieten & whiskygames",
+      "score": 9,
+      "aantalBeoordelingen": 2,
+      "reviewsUrl": "reviews/19972945.json"
+    },
+    {
+      "id": "20275497",
+      "naam": "4x4 Ecotrail | middag",
+      "score": 9,
+      "aantalBeoordelingen": 11,
+      "reviewsUrl": "reviews/20275497.json"
+    }
+  ]
+}
