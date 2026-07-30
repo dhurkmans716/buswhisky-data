@@ -1,11 +1,12 @@
 {
-  "gegenereerd": "2026-07-30T10:02:47.684Z",
+  "gegenereerd": "2026-07-30T14:03:51.648Z",
   "arrangement": {
     "id": "17793283",
     "naam": "12-uurs vergaderarrangement alles inclusief",
     "type": "Vergadering",
     "minAantal": 5,
     "maxAantal": 200,
+    "prijs": 137.5,
     "duurMinuten": 750,
     "startUur": 8,
     "meerdaags": false
