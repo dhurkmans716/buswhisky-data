@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-07-30T05:00:59.132Z",
+  "gegenereerd": "2026-07-30T10:02:47.684Z",
   "arrangement": {
     "id": "17793235",
     "naam": "24-uurs arrangement (1 pers. kamer) alles inclusief",
@@ -538,12 +538,14 @@
     {
       "datum": "2026-11-11",
       "beschikbaar": true,
-      "status": "beschikbaar"
+      "status": "beperkt",
+      "plekkenVrij": 10
     },
     {
       "datum": "2026-11-12",
       "beschikbaar": true,
-      "status": "beschikbaar"
+      "status": "beperkt",
+      "plekkenVrij": 10
     },
     {
       "datum": "2026-11-13",
