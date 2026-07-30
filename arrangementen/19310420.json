@@ -1,11 +1,12 @@
 {
-  "gegenereerd": "2026-07-30T10:02:47.684Z",
+  "gegenereerd": "2026-07-30T14:03:51.648Z",
   "arrangement": {
     "id": "19310420",
     "naam": "Suppen, kanovaren & fluisterboot",
     "type": "Bedrijfs uitje",
     "minAantal": 15,
     "maxAantal": 150,
+    "prijs": 99.5,
     "duurMinuten": 480,
     "startUur": 13,
     "meerdaags": false
@@ -13,8 +14,8 @@
   "datums": [
     {
       "datum": "2026-07-30",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-07-31",
