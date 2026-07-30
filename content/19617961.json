@@ -1,11 +1,12 @@
 {
-  "gegenereerd": "2026-07-30T10:02:47.684Z",
+  "gegenereerd": "2026-07-30T14:03:51.648Z",
   "arrangement": {
     "id": "19617961",
     "naam": "Laser Kleiduifschieten | middag",
     "type": "Bedrijfs uitje",
     "minAantal": 4,
     "maxAantal": 250,
+    "prijs": 99.5,
     "duurMinuten": 360,
     "startUur": 14,
     "meerdaags": false
