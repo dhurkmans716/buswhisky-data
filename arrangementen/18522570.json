@@ -1,11 +1,12 @@
 {
-  "gegenereerd": "2026-07-30T10:02:47.684Z",
+  "gegenereerd": "2026-07-30T14:03:51.648Z",
   "arrangement": {
     "id": "18522570",
     "naam": "Lunch | 4x4 ecotrail | Whiskytour",
     "type": "Bedrijfs uitje",
     "minAantal": 4,
     "maxAantal": 80,
+    "prijs": 50,
     "duurMinuten": 240,
     "startUur": 12,
     "meerdaags": false
