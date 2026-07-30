@@ -1,11 +1,12 @@
 {
-  "gegenereerd": "2026-07-30T10:02:47.684Z",
+  "gegenereerd": "2026-07-30T14:03:51.648Z",
   "arrangement": {
     "id": "19638837",
     "naam": "4x4 Ecotrail, laserkleiduifschieten, tour whiskystokerij, pubquiz & overnachting",
     "type": "Bedrijfs uitje",
     "minAantal": 15,
     "maxAantal": 100,
+    "prijs": 225,
     "duurMinuten": 1200,
     "startUur": 14,
     "meerdaags": true
@@ -527,6 +528,131 @@
       "status": "beschikbaar"
     },
     {
+      "datum": "2026-11-07",
+      "beschikbaar": true,
+      "status": "beperkt",
+      "plekkenVrij": 6.5
+    },
+    {
+      "datum": "2026-11-08",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2026-11-09",
+      "beschikbaar": false,
+      "status": "volgeboekt"
+    },
+    {
+      "datum": "2026-11-10",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2026-11-11",
+      "beschikbaar": true,
+      "status": "beperkt",
+      "plekkenVrij": 10
+    },
+    {
+      "datum": "2026-11-12",
+      "beschikbaar": true,
+      "status": "beperkt",
+      "plekkenVrij": 10
+    },
+    {
+      "datum": "2026-11-13",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2026-11-14",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2026-11-15",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2026-11-16",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2026-11-17",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2026-11-18",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2026-11-19",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2026-11-20",
+      "beschikbaar": false,
+      "status": "volgeboekt"
+    },
+    {
+      "datum": "2026-11-21",
+      "beschikbaar": false,
+      "status": "volgeboekt"
+    },
+    {
+      "datum": "2026-11-22",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2026-11-23",
+      "beschikbaar": true,
+      "status": "beperkt",
+      "plekkenVrij": 23
+    },
+    {
+      "datum": "2026-11-24",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2026-11-25",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2026-11-26",
+      "beschikbaar": false,
+      "status": "volgeboekt"
+    },
+    {
+      "datum": "2026-11-27",
+      "beschikbaar": true,
+      "status": "beperkt",
+      "plekkenVrij": 15.5
+    },
+    {
+      "datum": "2026-11-28",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2026-11-29",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2026-11-30",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
       "datum": "2026-12-01",
       "beschikbaar": true,
       "status": "beschikbaar"
@@ -711,6 +837,96 @@
     },
     {
       "datum": "2027-01-06",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-07",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-08",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-09",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-10",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-11",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-12",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-13",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-14",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-15",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-16",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-17",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-18",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-19",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-20",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-21",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-22",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-23",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-24",
       "beschikbaar": true,
       "status": "beschikbaar"
     }
