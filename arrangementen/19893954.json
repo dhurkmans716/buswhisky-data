@@ -1,11 +1,12 @@
 {
-  "gegenereerd": "2026-07-30T10:02:47.684Z",
+  "gegenereerd": "2026-07-30T14:03:51.648Z",
   "arrangement": {
     "id": "19893954",
     "naam": "Winterse dropping, Pubquiz & overnachting",
     "type": "Bedrijfs uitje",
     "minAantal": 20,
     "maxAantal": 500,
+    "prijs": 175,
     "duurMinuten": 1180,
     "startUur": 16,
     "meerdaags": true
