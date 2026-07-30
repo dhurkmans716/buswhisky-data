@@ -1,11 +1,12 @@
 {
-  "gegenereerd": "2026-07-30T10:02:47.684Z",
+  "gegenereerd": "2026-07-30T14:03:51.648Z",
   "arrangement": {
     "id": "19972803",
     "naam": "4x4 ecotrail, kleiduifschieten, suppen & kanovaren",
     "type": "Bedrijfs uitje",
     "minAantal": 15,
     "maxAantal": 150,
+    "prijs": 175,
     "duurMinuten": 660,
     "startUur": 10,
     "meerdaags": false
