@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-05T16:01:31.594Z",
+  "gegenereerd": "2026-08-06T05:31:27.837Z",
   "arrangement": {
     "id": "960185",
     "naam": "Whisky & Weilandgames",
@@ -12,11 +12,6 @@
     "meerdaags": false
   },
   "datums": [
-    {
-      "datum": "2026-08-05",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
-    },
     {
       "datum": "2026-08-06",
       "beschikbaar": true,
@@ -906,6 +901,11 @@
       "datum": "2027-01-30",
       "beschikbaar": true,
       "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-01-31",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     }
   ]
 }
