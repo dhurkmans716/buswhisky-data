@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-06T10:01:34.407Z",
+  "gegenereerd": "2026-08-06T16:01:29.012Z",
   "arrangement": {
     "id": "19893479",
     "naam": "4x4 Ecotrail, Laser kleiduifschieten & Pubquiz | avond",
@@ -14,8 +14,8 @@
   "datums": [
     {
       "datum": "2026-08-06",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-08-07",
