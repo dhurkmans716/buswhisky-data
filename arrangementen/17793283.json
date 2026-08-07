@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-06T16:01:29.012Z",
+  "gegenereerd": "2026-08-07T05:31:28.687Z",
   "arrangement": {
     "id": "17793283",
     "naam": "12-uurs vergaderarrangement alles inclusief",
@@ -12,11 +12,6 @@
     "meerdaags": false
   },
   "datums": [
-    {
-      "datum": "2026-08-06",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
-    },
     {
       "datum": "2026-08-07",
       "beschikbaar": false,
@@ -904,6 +899,11 @@
     },
     {
       "datum": "2027-01-31",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-02-01",
       "beschikbaar": true,
       "status": "beschikbaar"
     }
