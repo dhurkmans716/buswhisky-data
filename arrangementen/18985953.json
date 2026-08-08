@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-07T16:02:46.277Z",
+  "gegenereerd": "2026-08-08T05:31:27.411Z",
   "arrangement": {
     "id": "18985953",
     "naam": "Summer event",
@@ -12,11 +12,6 @@
     "meerdaags": false
   },
   "datums": [
-    {
-      "datum": "2026-08-07",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
-    },
     {
       "datum": "2026-08-08",
       "beschikbaar": true,
@@ -369,8 +364,8 @@
     },
     {
       "datum": "2026-10-17",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
+      "beschikbaar": true,
+      "status": "beschikbaar"
     },
     {
       "datum": "2026-10-18",
@@ -404,8 +399,8 @@
     },
     {
       "datum": "2026-10-24",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-10-25",
@@ -904,6 +899,11 @@
     },
     {
       "datum": "2027-02-01",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-02",
       "beschikbaar": false,
       "status": "niet-beschikbaar"
     }
