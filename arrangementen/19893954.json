@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-12T05:31:28.608Z",
+  "gegenereerd": "2026-08-12T10:02:37.685Z",
   "arrangement": {
     "id": "19893954",
     "naam": "Winterse dropping, Pubquiz & overnachting",
@@ -516,12 +516,14 @@
     {
       "datum": "2026-11-18",
       "beschikbaar": true,
-      "status": "beschikbaar"
+      "status": "beperkt",
+      "plekkenVrij": 11
     },
     {
       "datum": "2026-11-19",
       "beschikbaar": true,
-      "status": "beschikbaar"
+      "status": "beperkt",
+      "plekkenVrij": 11
     },
     {
       "datum": "2026-11-20",
