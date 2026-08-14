@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-14T05:31:26.964Z",
+  "gegenereerd": "2026-08-14T10:01:36.269Z",
   "arrangement": {
     "id": "18494490",
     "naam": "Whisky & 4x4 weekend",
@@ -81,7 +81,7 @@
       "datum": "2026-08-27",
       "beschikbaar": true,
       "status": "beperkt",
-      "plekkenVrij": 15
+      "plekkenVrij": 16
     },
     {
       "datum": "2026-08-28",
@@ -421,7 +421,8 @@
     {
       "datum": "2026-11-02",
       "beschikbaar": true,
-      "status": "beschikbaar"
+      "status": "beperkt",
+      "plekkenVrij": 22
     },
     {
       "datum": "2026-11-03",
