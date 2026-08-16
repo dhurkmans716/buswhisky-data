@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beschikbaarheid gegenereerd="2026-08-16T05:31:28.126Z">
+<beschikbaarheid gegenereerd="2026-08-16T10:01:29.180Z">
   <activiteit id="67674" naam="Ontdekkingstocht door Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="125" duurMinuten="720" startUur="9" meerdaags="false">
     <datum waarde="2026-08-16" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-08-17" beschikbaar="true" status="beschikbaar"/>
@@ -544,7 +544,7 @@
     <datum waarde="2027-02-10" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="12098318" naam="Maatwerkarrangement" type="Bedrijfs uitje" minAantal="15" maxAantal="100" prijs="1" duurMinuten="0" startUur="10" meerdaags="false">
-    <datum waarde="2026-08-16" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-16" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-08-17" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-08-18" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-08-19" beschikbaar="true" status="beschikbaar"/>
