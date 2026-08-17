@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-17T05:31:26.806Z",
+  "gegenereerd": "2026-08-17T10:02:40.263Z",
   "arrangement": {
     "id": "18522570",
     "naam": "Lunch | 4x4 ecotrail | Whiskytour",
@@ -14,8 +14,8 @@
   "datums": [
     {
       "datum": "2026-08-17",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-08-18",
