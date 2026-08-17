@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-17T10:02:40.263Z",
+  "gegenereerd": "2026-08-17T16:01:27.993Z",
   "arrangement": {
     "id": "18252230",
     "naam": "Doe-het-zelf Midweekbruiloft hoogseizoen (di t/m do)",
@@ -19,8 +19,8 @@
     },
     {
       "datum": "2026-08-18",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-08-19",
