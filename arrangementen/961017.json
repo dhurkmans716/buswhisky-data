@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-17T05:31:26.806Z",
+  "gegenereerd": "2026-08-17T10:02:40.263Z",
   "arrangement": {
     "id": "961017",
     "naam": "De Whisky & Weilandgames + overnachting",
@@ -127,8 +127,7 @@
     {
       "datum": "2026-09-08",
       "beschikbaar": true,
-      "status": "beperkt",
-      "plekkenVrij": 22
+      "status": "beschikbaar"
     },
     {
       "datum": "2026-09-09",
