@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-18T05:31:28.858Z",
+  "gegenereerd": "2026-08-18T10:01:44.146Z",
   "arrangement": {
     "id": "20327328",
     "naam": "Lunch | Laser Kleiduifschieten | Whiskytour",
@@ -14,8 +14,8 @@
   "datums": [
     {
       "datum": "2026-08-18",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-08-19",
