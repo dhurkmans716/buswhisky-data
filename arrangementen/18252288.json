@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-17T16:01:27.993Z",
+  "gegenereerd": "2026-08-18T05:31:28.858Z",
   "arrangement": {
     "id": "18252288",
     "naam": "Doe-het-zelf Weekendbruiloft LIGHT laagseizoen (vr t/m zo)",
@@ -12,11 +12,6 @@
     "meerdaags": true
   },
   "datums": [
-    {
-      "datum": "2026-08-17",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
-    },
     {
       "datum": "2026-08-18",
       "beschikbaar": false,
@@ -906,6 +901,11 @@
       "datum": "2027-02-11",
       "beschikbaar": false,
       "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-12",
+      "beschikbaar": true,
+      "status": "beschikbaar"
     }
   ]
 }
