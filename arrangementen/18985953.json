@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-20T10:01:28.009Z",
+  "gegenereerd": "2026-08-20T16:01:31.767Z",
   "arrangement": {
     "id": "18985953",
     "naam": "Summer event",
@@ -14,8 +14,8 @@
   "datums": [
     {
       "datum": "2026-08-20",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-08-21",
