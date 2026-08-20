@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-20T05:32:36.438Z",
+  "gegenereerd": "2026-08-20T10:01:28.009Z",
   "arrangement": {
     "id": "20275419",
     "naam": "4x4 Ecotrail, Whiskytour & Pubquiz | middag",
@@ -374,8 +374,8 @@
     },
     {
       "datum": "2026-10-31",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
+      "beschikbaar": true,
+      "status": "beschikbaar"
     },
     {
       "datum": "2026-11-01",
