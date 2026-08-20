@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-19T16:01:24.667Z",
+  "gegenereerd": "2026-08-20T05:32:36.438Z",
   "arrangement": {
     "id": "18361936",
     "naam": "Suppen, kanovaren, fluisterboot & overnachting",
@@ -12,11 +12,6 @@
     "meerdaags": true
   },
   "datums": [
-    {
-      "datum": "2026-08-19",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
-    },
     {
       "datum": "2026-08-20",
       "beschikbaar": false,
@@ -912,6 +907,11 @@
     },
     {
       "datum": "2027-02-13",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-14",
       "beschikbaar": false,
       "status": "niet-beschikbaar"
     }
