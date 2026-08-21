@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-21T05:31:28.446Z",
+  "gegenereerd": "2026-08-21T10:02:36.963Z",
   "arrangement": {
     "id": "67674",
     "naam": "Ontdekkingstocht door Brabant",
@@ -14,8 +14,8 @@
   "datums": [
     {
       "datum": "2026-08-21",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-08-22",
@@ -259,8 +259,8 @@
     },
     {
       "datum": "2026-10-09",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-10-10",
