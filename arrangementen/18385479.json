@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-21T05:31:28.446Z",
+  "gegenereerd": "2026-08-21T10:02:36.963Z",
   "arrangement": {
     "id": "18385479",
     "naam": "Weekend actief in Brabant",
@@ -41,7 +41,7 @@
       "datum": "2026-08-26",
       "beschikbaar": true,
       "status": "beperkt",
-      "plekkenVrij": 8
+      "plekkenVrij": 3
     },
     {
       "datum": "2026-08-27",
@@ -254,9 +254,8 @@
     },
     {
       "datum": "2026-10-07",
-      "beschikbaar": true,
-      "status": "beperkt",
-      "plekkenVrij": 14
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-10-08",
