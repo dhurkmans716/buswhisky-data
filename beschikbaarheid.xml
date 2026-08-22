@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beschikbaarheid gegenereerd="2026-08-22T05:31:28.769Z">
+<beschikbaarheid gegenereerd="2026-08-22T10:01:27.662Z">
   <activiteit id="67674" naam="Ontdekkingstocht door Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="125" duurMinuten="720" startUur="9" meerdaags="false">
-    <datum waarde="2026-08-22" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-22" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-08-23" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-08-24" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-08-25" beschikbaar="true" status="beschikbaar"/>
@@ -544,7 +544,7 @@
     <datum waarde="2027-02-16" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="12098318" naam="Maatwerkarrangement" type="Bedrijfs uitje" minAantal="15" maxAantal="100" prijs="1" duurMinuten="0" startUur="10" meerdaags="false">
-    <datum waarde="2026-08-22" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-22" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-08-23" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-08-24" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-08-25" beschikbaar="true" status="beschikbaar"/>
@@ -2897,7 +2897,7 @@
     <datum waarde="2027-02-16" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="18522570" naam="Lunch | 4x4 ecotrail | Whiskytour" type="Bedrijfs uitje" minAantal="4" maxAantal="80" prijs="50" duurMinuten="240" startUur="12" meerdaags="false">
-    <datum waarde="2026-08-22" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-22" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-08-23" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-08-24" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-08-25" beschikbaar="true" status="beschikbaar"/>
@@ -4707,7 +4707,7 @@
     <datum waarde="2027-02-16" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="19972803" naam="4x4 ecotrail, kleiduifschieten, suppen &amp; kanovaren" type="Bedrijfs uitje" minAantal="15" maxAantal="150" prijs="175" duurMinuten="660" startUur="10" meerdaags="false">
-    <datum waarde="2026-08-22" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-22" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-08-23" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-08-24" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-08-25" beschikbaar="true" status="beschikbaar"/>
@@ -4888,7 +4888,7 @@
     <datum waarde="2027-02-16" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
   <activiteit id="19972945" naam="4x4 ecotrail, kleiduifschieten &amp; whiskygames" type="Bedrijfs uitje" minAantal="15" maxAantal="450" prijs="175" duurMinuten="600" startUur="10" meerdaags="false">
-    <datum waarde="2026-08-22" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-22" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-08-23" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-08-24" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-08-25" beschikbaar="true" status="beschikbaar"/>
@@ -5431,7 +5431,7 @@
     <datum waarde="2027-02-16" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="20327328" naam="Lunch | Laser Kleiduifschieten | Whiskytour" type="Bedrijfs uitje" minAantal="4" maxAantal="80" prijs="50" duurMinuten="240" startUur="12" meerdaags="false">
-    <datum waarde="2026-08-22" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-22" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-08-23" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-08-24" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-08-25" beschikbaar="true" status="beschikbaar"/>
