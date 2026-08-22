@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-21T16:01:27.388Z",
+  "gegenereerd": "2026-08-22T05:31:28.769Z",
   "arrangement": {
     "id": "18795159",
     "naam": "4x4 Ecotrail & overnachting",
@@ -12,11 +12,6 @@
     "meerdaags": true
   },
   "datums": [
-    {
-      "datum": "2026-08-21",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
-    },
     {
       "datum": "2026-08-22",
       "beschikbaar": false,
@@ -934,6 +929,11 @@
     },
     {
       "datum": "2027-02-15",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-02-16",
       "beschikbaar": true,
       "status": "beschikbaar"
     }
