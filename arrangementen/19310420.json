@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-22T10:01:27.662Z",
+  "gegenereerd": "2026-08-22T16:01:27.334Z",
   "arrangement": {
     "id": "19310420",
     "naam": "Suppen, kanovaren & fluisterboot",
@@ -14,8 +14,8 @@
   "datums": [
     {
       "datum": "2026-08-22",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-08-23",
