@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-23T16:01:27.198Z",
+  "gegenereerd": "2026-08-24T05:31:27.137Z",
   "arrangement": {
     "id": "17982849",
     "naam": "Doe-het-zelf Weekendbruiloft hoogseizoen (vr t/m zo)",
@@ -12,11 +12,6 @@
     "meerdaags": true
   },
   "datums": [
-    {
-      "datum": "2026-08-23",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
-    },
     {
       "datum": "2026-08-24",
       "beschikbaar": false,
@@ -904,6 +899,11 @@
     },
     {
       "datum": "2027-02-17",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-18",
       "beschikbaar": false,
       "status": "niet-beschikbaar"
     }
