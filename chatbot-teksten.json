@@ -1,0 +1,72 @@
+{
+  "_uitleg": "Openingsteksten van de website-chatbot per taal. Een taal toevoegen doe je hier: kopieer een blok, verander de taalcode en vertaal de teksten. Er hoeft niets aan de website te veranderen. De taalcode is het eerste stuk van de URL, dus /fr hoort bij fr. Nederlands staat op de root en heet nl.",
+  "_bijgewerkt": "2026-08-24",
+  "talen": {
+    "nl": {
+      "welkom": [
+        "Hoi! Ik ben Claude van Bus Whisky 👋",
+        "Vraag me gerust naar beschikbaarheid meetings & events, restaurant en B&B reserveringen of nieuwe whiskyreleases. Hoe kan ik je helpen?"
+      ],
+      "subtitle": "We helpen je graag verder.",
+      "getStarted": "Nieuw gesprek",
+      "inputPlaceholder": "Typ je vraag…",
+      "close": "Sluiten",
+      "closeAria": "Chat sluiten"
+    },
+    "en": {
+      "welkom": [
+        "Hi! I'm Claude from Bus Whisky 👋",
+        "Feel free to ask me about availability for meetings & events, restaurant and B&B bookings, or new whisky releases. How can I help you?"
+      ],
+      "subtitle": "We're happy to help.",
+      "getStarted": "New conversation",
+      "inputPlaceholder": "Type your question…",
+      "close": "Close",
+      "closeAria": "Close chat"
+    },
+    "de": {
+      "welkom": [
+        "Hallo! Ich bin Claude von Bus Whisky 👋",
+        "Frag mich gerne nach Verfügbarkeiten für Meetings & Events, Restaurant- und B&B-Reservierungen oder neuen Whisky-Releases. Wie kann ich dir helfen?"
+      ],
+      "subtitle": "Wir helfen dir gerne weiter.",
+      "getStarted": "Neues Gespräch",
+      "inputPlaceholder": "Schreib deine Frage…",
+      "close": "Schließen",
+      "closeAria": "Chat schließen"
+    },
+    "fr": {
+      "welkom": [
+        "Salut ! Je suis Claude de Bus Whisky 👋",
+        "N'hésite pas à me demander les disponibilités pour les réunions et événements, les réservations du restaurant et des chambres d'hôtes, ou les nouvelles sorties de whisky. Comment puis-je t'aider ?"
+      ],
+      "subtitle": "Nous sommes là pour t'aider.",
+      "getStarted": "Nouvelle conversation",
+      "inputPlaceholder": "Écris ta question…",
+      "close": "Fermer",
+      "closeAria": "Fermer le chat"
+    },
+    "es": {
+      "welkom": [
+        "¡Hola! Soy Claude de Bus Whisky 👋",
+        "Pregúntame lo que quieras sobre disponibilidad para reuniones y eventos, reservas del restaurante y del alojamiento B&B, o nuevos lanzamientos de whisky. ¿En qué puedo ayudarte?"
+      ],
+      "subtitle": "Estamos aquí para ayudarte.",
+      "getStarted": "Nueva conversación",
+      "inputPlaceholder": "Escribe tu pregunta…",
+      "close": "Cerrar",
+      "closeAria": "Cerrar el chat"
+    },
+    "zh": {
+      "welkom": [
+        "你好！我是 Bus Whisky 的 Claude 👋",
+        "欢迎咨询会议与活动的空档、餐厅和住宿预订，或最新的威士忌发布。有什么可以帮你的吗？"
+      ],
+      "subtitle": "我们很乐意为你提供帮助。",
+      "getStarted": "开始新对话",
+      "inputPlaceholder": "输入你的问题…",
+      "close": "关闭",
+      "closeAria": "关闭对话窗口"
+    }
+  }
+}
