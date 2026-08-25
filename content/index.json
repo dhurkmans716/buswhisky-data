@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-25T10:01:34.221Z",
+  "gegenereerd": "2026-08-25T16:01:23.743Z",
   "arrangementen": [
     {
       "id": "67674",
@@ -24,14 +24,6 @@
       "prijs": 175,
       "contentUrl": "content/961017.json",
       "beschikbaarheidUrl": "arrangementen/961017.json"
-    },
-    {
-      "id": "12098318",
-      "naam": "Maatwerkarrangement",
-      "type": "Bedrijfs uitje",
-      "prijs": 1,
-      "contentUrl": "content/12098318.json",
-      "beschikbaarheidUrl": "arrangementen/12098318.json"
     },
     {
       "id": "17793235",
