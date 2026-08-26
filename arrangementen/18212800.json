@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-26T05:31:23.536Z",
+  "gegenereerd": "2026-08-26T10:01:34.411Z",
   "arrangement": {
     "id": "18212800",
     "naam": "4x4 Ecotrail, Whiskytour & Pubquiz | avond",
@@ -12,36 +12,6 @@
     "meerdaags": false
   },
   "datums": [
-    {
-      "datum": "2026-08-26",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-08-27",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-08-28",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-08-29",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-08-30",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-08-31",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
     {
       "datum": "2026-09-01",
       "beschikbaar": true,
@@ -224,126 +194,6 @@
     },
     {
       "datum": "2026-10-07",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-08",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-09",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
-    },
-    {
-      "datum": "2026-10-10",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
-    },
-    {
-      "datum": "2026-10-11",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-12",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-13",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-14",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-15",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-16",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-17",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-18",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-19",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-20",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-21",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-22",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-23",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-24",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-25",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-26",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-27",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-28",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-29",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-30",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
-    {
-      "datum": "2026-10-31",
       "beschikbaar": true,
       "status": "beschikbaar"
     },
