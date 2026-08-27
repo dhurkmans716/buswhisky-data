@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-27T10:01:32.397Z",
+  "gegenereerd": "2026-08-27T16:02:37.409Z",
   "arrangement": {
     "id": "19972803",
     "naam": "4x4 ecotrail, kleiduifschieten, suppen & kanovaren",
@@ -304,8 +304,8 @@
     },
     {
       "datum": "2026-10-24",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-10-25",
