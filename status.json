@@ -1,0 +1,16 @@
+{
+  "gegenereerd": "2026-08-28T12:39:39.194Z",
+  "vorigeFeedGegenereerd": "2026-08-28T05:31:24.413Z",
+  "maandcalls": {
+    "totaal": 210,
+    "geldig": 210,
+    "mislukt": 0
+  },
+  "arrangementen": {
+    "totaal": 30,
+    "vers": 30,
+    "hergebruikt": 0,
+    "onvolledig": 0
+  },
+  "afwijkingen": []
+}
