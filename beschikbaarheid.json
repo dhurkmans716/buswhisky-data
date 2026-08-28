@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-28T05:31:24.413Z",
+  "gegenereerd": "2026-08-28T12:39:39.194Z",
   "bron": "KMT gateway via n8n (Bus Whisky)",
   "activiteiten": [
     {
@@ -12,11 +12,12 @@
       "duurMinuten": 720,
       "startUur": 9,
       "meerdaags": false,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-08-29",
@@ -920,11 +921,12 @@
       "duurMinuten": 360,
       "startUur": 14,
       "meerdaags": false,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-08-29",
@@ -1828,6 +1830,7 @@
       "duurMinuten": 1200,
       "startUur": 14,
       "meerdaags": true,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
@@ -2058,14 +2061,13 @@
         },
         {
           "datum": "2026-10-12",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 15
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-13",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "optie"
         },
         {
           "datum": "2026-10-14",
@@ -2751,6 +2753,7 @@
       "duurMinuten": 1470,
       "startUur": 8,
       "meerdaags": true,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
@@ -2981,14 +2984,13 @@
         },
         {
           "datum": "2026-10-12",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 15
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-13",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "optie"
         },
         {
           "datum": "2026-10-14",
@@ -3672,6 +3674,7 @@
       "duurMinuten": 1920,
       "startUur": 8,
       "meerdaags": true,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
@@ -3902,14 +3905,13 @@
         },
         {
           "datum": "2026-10-12",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 15
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-13",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "optie"
         },
         {
           "datum": "2026-10-14",
@@ -4593,11 +4595,12 @@
       "duurMinuten": 750,
       "startUur": 8,
       "meerdaags": false,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-08-29",
@@ -4826,8 +4829,8 @@
         },
         {
           "datum": "2026-10-13",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "optie"
         },
         {
           "datum": "2026-10-14",
@@ -5501,6 +5504,7 @@
       "duurMinuten": 2880,
       "startUur": 8,
       "meerdaags": true,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
@@ -5729,14 +5733,13 @@
         },
         {
           "datum": "2026-10-12",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 15
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-13",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "optie"
         },
         {
           "datum": "2026-10-14",
@@ -6416,6 +6419,7 @@
       "duurMinuten": 3390,
       "startUur": 8,
       "meerdaags": true,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
@@ -7340,6 +7344,7 @@
       "duurMinuten": 2879,
       "startUur": 13,
       "meerdaags": true,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
@@ -8248,6 +8253,7 @@
       "duurMinuten": 360,
       "startUur": 17,
       "meerdaags": false,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
@@ -9156,6 +9162,7 @@
       "duurMinuten": 2879,
       "startUur": 13,
       "meerdaags": true,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
@@ -10064,6 +10071,7 @@
       "duurMinuten": 2880,
       "startUur": 13,
       "meerdaags": true,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
@@ -10972,11 +10980,12 @@
       "duurMinuten": 1350,
       "startUur": 13,
       "meerdaags": true,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-08-29",
@@ -11205,14 +11214,13 @@
         },
         {
           "datum": "2026-10-12",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 15
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-13",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "optie"
         },
         {
           "datum": "2026-10-14",
@@ -11889,6 +11897,7 @@
       "duurMinuten": 2610,
       "startUur": 19,
       "meerdaags": true,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
@@ -12803,6 +12812,7 @@
       "duurMinuten": 2370,
       "startUur": 19,
       "meerdaags": true,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
@@ -13725,11 +13735,12 @@
       "duurMinuten": 240,
       "startUur": 12,
       "meerdaags": false,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-08-29",
@@ -14633,6 +14644,7 @@
       "duurMinuten": 300,
       "startUur": 16,
       "meerdaags": false,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
@@ -15541,6 +15553,7 @@
       "duurMinuten": 1080,
       "startUur": 16,
       "meerdaags": true,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
@@ -16477,11 +16490,12 @@
       "duurMinuten": 540,
       "startUur": 13,
       "meerdaags": false,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-08-29",
@@ -17385,11 +17399,12 @@
       "duurMinuten": 480,
       "startUur": 13,
       "meerdaags": false,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-08-29",
@@ -18293,11 +18308,12 @@
       "duurMinuten": 420,
       "startUur": 14,
       "meerdaags": false,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-08-29",
@@ -19201,11 +19217,12 @@
       "duurMinuten": 360,
       "startUur": 14,
       "meerdaags": false,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-08-29",
@@ -20109,11 +20126,12 @@
       "duurMinuten": 1200,
       "startUur": 14,
       "meerdaags": true,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-08-29",
@@ -21028,6 +21046,7 @@
       "duurMinuten": 390,
       "startUur": 17,
       "meerdaags": false,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
@@ -21936,6 +21955,7 @@
       "duurMinuten": 1180,
       "startUur": 16,
       "meerdaags": true,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
@@ -22866,11 +22886,12 @@
       "duurMinuten": 660,
       "startUur": 10,
       "meerdaags": false,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-08-29",
@@ -23774,11 +23795,12 @@
       "duurMinuten": 600,
       "startUur": 10,
       "meerdaags": false,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-08-29",
@@ -24682,11 +24704,12 @@
       "duurMinuten": 360,
       "startUur": 14,
       "meerdaags": false,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-08-29",
@@ -25590,11 +25613,12 @@
       "duurMinuten": 360,
       "startUur": 14,
       "meerdaags": false,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-08-29",
@@ -26498,11 +26522,12 @@
       "duurMinuten": 240,
       "startUur": 12,
       "meerdaags": false,
+      "bron": "vers",
       "datums": [
         {
           "datum": "2026-08-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-08-29",
