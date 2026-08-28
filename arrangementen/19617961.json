@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-27T16:02:37.409Z",
+  "gegenereerd": "2026-08-28T05:31:24.413Z",
   "arrangement": {
     "id": "19617961",
     "naam": "Laser Kleiduifschieten | middag",
@@ -12,11 +12,6 @@
     "meerdaags": false
   },
   "datums": [
-    {
-      "datum": "2026-08-27",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
-    },
     {
       "datum": "2026-08-28",
       "beschikbaar": true,
@@ -904,6 +899,11 @@
     },
     {
       "datum": "2027-02-21",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-02-22",
       "beschikbaar": true,
       "status": "beschikbaar"
     }
