@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beschikbaarheid gegenereerd="2026-08-30T05:32:12.070Z">
+<beschikbaarheid gegenereerd="2026-08-30T10:02:13.130Z">
   <activiteit id="67674" naam="Ontdekkingstocht door Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="125" duurMinuten="720" startUur="9" meerdaags="false">
     <datum waarde="2026-08-30" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-08-31" beschikbaar="true" status="beschikbaar"/>
