@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beschikbaarheid gegenereerd="2026-08-31T10:02:15.432Z">
+<beschikbaarheid gegenereerd="2026-08-31T16:02:13.357Z">
   <activiteit id="67674" naam="Ontdekkingstocht door Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="125" duurMinuten="720" startUur="9" meerdaags="false">
     <datum waarde="2026-08-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-01" beschikbaar="true" status="beschikbaar"/>
@@ -366,32 +366,32 @@
     <datum waarde="2026-08-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-09-03" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-04" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-06" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-07" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-08" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-09" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-10" beschikbaar="true" status="beperkt" plekkenVrij="18"/>
+    <datum waarde="2026-09-07" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-08" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-09" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-10" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-11" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-12" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-09-13" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-14" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-13" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-14" beschikbaar="false" status="optie"/>
     <datum waarde="2026-09-15" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-09-16" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-09-16" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-17" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-18" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-20" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-21" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-22" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-09-21" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-22" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-23" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-24" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-25" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-27" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-28" beschikbaar="true" status="beperkt" plekkenVrij="9"/>
+    <datum waarde="2026-09-28" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-29" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-30" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-01" beschikbaar="false" status="niet-beschikbaar"/>
@@ -401,147 +401,147 @@
     <datum waarde="2026-10-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-06" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-07" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-10-08" beschikbaar="false" status="optie"/>
+    <datum waarde="2026-10-08" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-09" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-10" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-11" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-10-12" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-10-13" beschikbaar="false" status="optie"/>
-    <datum waarde="2026-10-14" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-10-13" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-14" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-15" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-10-16" beschikbaar="false" status="optie"/>
-    <datum waarde="2026-10-17" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-10-16" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-17" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-18" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-19" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-20" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-21" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-22" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-10-19" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-20" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-21" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-22" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-23" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-24" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-26" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-27" beschikbaar="true" status="beperkt" plekkenVrij="21"/>
-    <datum waarde="2026-10-28" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-29" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-10-26" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-27" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-28" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-29" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-30" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-31" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-11-01" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-02" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-03" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-04" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-05" beschikbaar="true" status="beperkt" plekkenVrij="20"/>
+    <datum waarde="2026-11-01" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-02" beschikbaar="false" status="optie"/>
+    <datum waarde="2026-11-03" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-04" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-06" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-07" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-08" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-09" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-10" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-11-11" beschikbaar="true" status="beperkt" plekkenVrij="10"/>
-    <datum waarde="2026-11-12" beschikbaar="true" status="beperkt" plekkenVrij="10"/>
-    <datum waarde="2026-11-13" beschikbaar="true" status="beperkt" plekkenVrij="15.5"/>
-    <datum waarde="2026-11-14" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-11" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-12" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-13" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-14" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-15" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-16" beschikbaar="true" status="beperkt" plekkenVrij="26"/>
-    <datum waarde="2026-11-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-18" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-16" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-17" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-18" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-22" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-11-23" beschikbaar="true" status="beperkt" plekkenVrij="23"/>
-    <datum waarde="2026-11-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-25" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-23" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-24" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-25" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-27" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-11-28" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-28" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-29" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-30" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-01" beschikbaar="true" status="beperkt" plekkenVrij="15"/>
-    <datum waarde="2026-12-02" beschikbaar="true" status="beperkt" plekkenVrij="15"/>
-    <datum waarde="2026-12-03" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-04" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-05" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-30" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-01" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-02" beschikbaar="false" status="optie"/>
+    <datum waarde="2026-12-03" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-04" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-06" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-07" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-08" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-09" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-10" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-11" beschikbaar="true" status="beperkt" plekkenVrij="11"/>
-    <datum waarde="2026-12-12" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-07" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-08" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-09" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-10" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-11" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-12" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-13" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-14" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-15" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-16" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-18" beschikbaar="true" status="beperkt" plekkenVrij="20.5"/>
-    <datum waarde="2026-12-19" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-14" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-15" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-16" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-17" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-18" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-20" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-21" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-21" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-22" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-23" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-24" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="false" status="optie"/>
     <datum waarde="2026-12-28" beschikbaar="false" status="optie"/>
-    <datum waarde="2026-12-29" beschikbaar="false" status="optie"/>
+    <datum waarde="2026-12-29" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-30" beschikbaar="false" status="optie"/>
-    <datum waarde="2026-12-31" beschikbaar="false" status="optie"/>
+    <datum waarde="2026-12-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-01" beschikbaar="false" status="optie"/>
-    <datum waarde="2027-01-02" beschikbaar="false" status="optie"/>
+    <datum waarde="2027-01-02" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-03" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-04" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-05" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-06" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-07" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-08" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-09" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-04" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-05" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-06" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-07" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-08" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-09" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-10" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-11" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-12" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-13" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-14" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-15" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-16" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-11" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-12" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-13" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-14" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-15" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-16" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-18" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-19" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-20" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-21" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-23" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-18" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-19" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-20" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-21" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-22" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-23" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-26" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-27" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-28" beschikbaar="true" status="beperkt" plekkenVrij="16"/>
-    <datum waarde="2027-01-29" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-30" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-26" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-27" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-28" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-29" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-30" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-31" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-01" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-02" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-03" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-04" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-05" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-06" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-02-01" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-02" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-03" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-04" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-05" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-06" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-07" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-08" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-09" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-10" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-11" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-12" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-13" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-02-08" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-09" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-10" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-11" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-12" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-13" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-14" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-15" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-16" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-18" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-19" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-20" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-02-15" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-16" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-17" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-18" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-19" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-21" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-23" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-25" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-02-22" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-23" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-24" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-25" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
   <activiteit id="17793235" naam="24-uurs arrangement (1 pers. kamer) alles inclusief" type="Vergadering" minAantal="5" maxAantal="28" prijs="325" duurMinuten="1470" startUur="8" meerdaags="true">
     <datum waarde="2026-08-31" beschikbaar="false" status="niet-beschikbaar"/>
@@ -607,7 +607,7 @@
     <datum waarde="2026-10-30" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-01" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-11-02" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-02" beschikbaar="true" status="beperkt" plekkenVrij="16"/>
     <datum waarde="2026-11-03" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-04" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-05" beschikbaar="true" status="beperkt" plekkenVrij="20"/>
@@ -788,7 +788,7 @@
     <datum waarde="2026-10-30" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-01" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-11-02" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-02" beschikbaar="true" status="beperkt" plekkenVrij="16"/>
     <datum waarde="2026-11-03" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-04" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-05" beschikbaar="true" status="beperkt" plekkenVrij="20"/>
@@ -1150,7 +1150,7 @@
     <datum waarde="2026-10-30" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-01" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-11-02" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-02" beschikbaar="true" status="beperkt" plekkenVrij="16"/>
     <datum waarde="2026-11-03" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-04" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-05" beschikbaar="false" status="niet-beschikbaar"/>
@@ -1331,7 +1331,7 @@
     <datum waarde="2026-10-30" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-01" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-02" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-02" beschikbaar="true" status="beperkt" plekkenVrij="16"/>
     <datum waarde="2026-11-03" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-04" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-05" beschikbaar="true" status="beperkt" plekkenVrij="20"/>
@@ -1630,7 +1630,7 @@
     <datum waarde="2027-02-25" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
   <activiteit id="18212800" naam="4x4 Ecotrail, Whiskytour &amp; Pubquiz | avond" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="125" duurMinuten="360" startUur="17" meerdaags="false">
-    <datum waarde="2026-08-31" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
@@ -2173,67 +2173,67 @@
     <datum waarde="2027-02-25" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
   <activiteit id="18361936" naam="Suppen, kanovaren, fluisterboot &amp; overnachting" type="Bedrijfs uitje" minAantal="15" maxAantal="100" prijs="225" duurMinuten="1350" startUur="13" meerdaags="true">
-    <datum waarde="2026-08-31" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-09-03" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-04" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-06" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-07" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-08" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-09" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-10" beschikbaar="true" status="beperkt" plekkenVrij="18"/>
+    <datum waarde="2026-09-07" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-08" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-09" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-10" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-11" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-12" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-09-13" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-14" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-15" beschikbaar="true" status="beperkt" plekkenVrij="18"/>
-    <datum waarde="2026-09-16" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-09-13" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-14" beschikbaar="false" status="optie"/>
+    <datum waarde="2026-09-15" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-16" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-17" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-18" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-20" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-21" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-22" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-09-21" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-22" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-23" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-24" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-25" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-27" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-28" beschikbaar="true" status="beperkt" plekkenVrij="9"/>
+    <datum waarde="2026-09-28" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-29" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-30" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-10-01" beschikbaar="true" status="beperkt" plekkenVrij="14"/>
+    <datum waarde="2026-10-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-02" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-03" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-04" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-06" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-07" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-10-08" beschikbaar="false" status="optie"/>
+    <datum waarde="2026-10-08" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-09" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-10" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-11" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-10-12" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-10-13" beschikbaar="false" status="optie"/>
-    <datum waarde="2026-10-14" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-10-13" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-14" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-15" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-10-16" beschikbaar="false" status="optie"/>
-    <datum waarde="2026-10-17" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-10-16" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-17" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-18" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-19" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-20" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-21" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-23" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-24" beschikbaar="true" status="beperkt" plekkenVrij="11"/>
+    <datum waarde="2026-10-19" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-20" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-21" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-22" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-23" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-24" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-26" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-27" beschikbaar="true" status="beperkt" plekkenVrij="21"/>
-    <datum waarde="2026-10-28" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-29" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-30" beschikbaar="true" status="beperkt" plekkenVrij="12"/>
+    <datum waarde="2026-10-26" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-27" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-28" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-29" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-30" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-02" beschikbaar="false" status="niet-beschikbaar"/>
@@ -2598,7 +2598,7 @@
     <datum waarde="2026-10-30" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-01" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-02" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-02" beschikbaar="true" status="beperkt" plekkenVrij="16"/>
     <datum waarde="2026-11-03" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-04" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-05" beschikbaar="false" status="niet-beschikbaar"/>
@@ -2897,7 +2897,7 @@
     <datum waarde="2027-02-25" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="18712057" naam="4x4 Ecotrail | avond" type="Bedrijfs uitje" minAantal="4" maxAantal="250" prijs="99.5" duurMinuten="300" startUur="16" meerdaags="false">
-    <datum waarde="2026-08-31" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
@@ -3078,188 +3078,188 @@
     <datum waarde="2027-02-25" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="18795159" naam="4x4 Ecotrail &amp; overnachting" type="Bedrijfs uitje" minAantal="10" maxAantal="100" prijs="175" duurMinuten="1080" startUur="16" meerdaags="true">
-    <datum waarde="2026-08-31" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-01" beschikbaar="true" status="beperkt" plekkenVrij="21"/>
-    <datum waarde="2026-09-02" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-31" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-01" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-02" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-03" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-04" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-06" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-07" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-08" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-09" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-10" beschikbaar="true" status="beperkt" plekkenVrij="18"/>
+    <datum waarde="2026-09-07" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-08" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-09" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-10" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-11" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-12" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-09-13" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-14" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-15" beschikbaar="true" status="beperkt" plekkenVrij="18"/>
-    <datum waarde="2026-09-16" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-09-13" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-14" beschikbaar="false" status="optie"/>
+    <datum waarde="2026-09-15" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-16" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-17" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-18" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-20" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-21" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-22" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-09-21" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-22" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-23" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-24" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-25" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-27" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-28" beschikbaar="true" status="beperkt" plekkenVrij="9"/>
-    <datum waarde="2026-09-29" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-30" beschikbaar="true" status="beperkt" plekkenVrij="18"/>
-    <datum waarde="2026-10-01" beschikbaar="true" status="beperkt" plekkenVrij="14"/>
+    <datum waarde="2026-09-28" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-29" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-30" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-02" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-03" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-10-04" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-05" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-10-06" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-07" beschikbaar="true" status="beperkt" plekkenVrij="15"/>
+    <datum waarde="2026-10-04" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-05" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-06" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-07" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-08" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-09" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-10" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-11" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-12" beschikbaar="true" status="beperkt" plekkenVrij="15"/>
-    <datum waarde="2026-10-13" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-14" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-15" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-10-16" beschikbaar="true" status="beperkt" plekkenVrij="8"/>
-    <datum waarde="2026-10-17" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-10-12" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-13" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-14" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-15" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-16" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-17" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-18" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-19" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-20" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-21" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-23" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-24" beschikbaar="true" status="beperkt" plekkenVrij="11"/>
+    <datum waarde="2026-10-19" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-20" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-21" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-22" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-23" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-24" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-26" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-27" beschikbaar="true" status="beperkt" plekkenVrij="21"/>
-    <datum waarde="2026-10-28" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-29" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-30" beschikbaar="true" status="beperkt" plekkenVrij="12"/>
-    <datum waarde="2026-10-31" beschikbaar="true" status="beperkt" plekkenVrij="2"/>
-    <datum waarde="2026-11-01" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-02" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-03" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-04" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-05" beschikbaar="true" status="beperkt" plekkenVrij="20"/>
-    <datum waarde="2026-11-06" beschikbaar="true" status="beperkt" plekkenVrij="15.5"/>
-    <datum waarde="2026-11-07" beschikbaar="true" status="beperkt" plekkenVrij="6.5"/>
-    <datum waarde="2026-11-08" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-09" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-11-10" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-11" beschikbaar="true" status="beperkt" plekkenVrij="10"/>
-    <datum waarde="2026-11-12" beschikbaar="true" status="beperkt" plekkenVrij="10"/>
-    <datum waarde="2026-11-13" beschikbaar="true" status="beperkt" plekkenVrij="15.5"/>
-    <datum waarde="2026-11-14" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-10-26" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-27" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-28" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-29" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-30" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-31" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-01" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-02" beschikbaar="false" status="optie"/>
+    <datum waarde="2026-11-03" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-04" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-05" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-06" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-07" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-08" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-09" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-10" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-11" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-12" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-13" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-14" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-15" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-16" beschikbaar="true" status="beperkt" plekkenVrij="26"/>
-    <datum waarde="2026-11-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-18" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-19" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-20" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-11-21" beschikbaar="false" status="volgeboekt"/>
+    <datum waarde="2026-11-16" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-17" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-18" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-19" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-20" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-23" beschikbaar="true" status="beperkt" plekkenVrij="23"/>
-    <datum waarde="2026-11-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-26" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-11-27" beschikbaar="true" status="beperkt" plekkenVrij="15.5"/>
-    <datum waarde="2026-11-28" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-23" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-24" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-26" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-27" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-28" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-29" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-30" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-01" beschikbaar="true" status="beperkt" plekkenVrij="15"/>
-    <datum waarde="2026-12-02" beschikbaar="true" status="beperkt" plekkenVrij="15"/>
-    <datum waarde="2026-12-03" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-04" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-05" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-30" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-01" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-02" beschikbaar="false" status="optie"/>
+    <datum waarde="2026-12-03" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-04" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-06" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-07" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-08" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-09" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-10" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-11" beschikbaar="true" status="beperkt" plekkenVrij="11"/>
-    <datum waarde="2026-12-12" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-07" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-08" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-09" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-10" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-11" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-12" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-13" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-14" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-15" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-16" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-18" beschikbaar="true" status="beperkt" plekkenVrij="20.5"/>
-    <datum waarde="2026-12-19" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-14" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-15" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-16" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-17" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-18" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-20" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-21" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-26" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-27" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-12-28" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-12-29" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-12-30" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-12-31" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2027-01-01" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2027-01-02" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-21" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-22" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-23" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-24" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-27" beschikbaar="false" status="optie"/>
+    <datum waarde="2026-12-28" beschikbaar="false" status="optie"/>
+    <datum waarde="2026-12-29" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-30" beschikbaar="false" status="optie"/>
+    <datum waarde="2026-12-31" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-01" beschikbaar="false" status="optie"/>
+    <datum waarde="2027-01-02" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-03" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-04" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-05" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-06" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-07" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-08" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-09" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-04" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-05" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-06" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-07" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-08" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-09" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-10" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-11" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-12" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-13" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-14" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-15" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-16" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-11" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-12" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-13" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-14" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-15" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-16" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-18" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-19" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-20" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-21" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-23" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-18" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-19" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-20" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-21" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-22" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-23" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-26" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-27" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-28" beschikbaar="true" status="beperkt" plekkenVrij="16"/>
-    <datum waarde="2027-01-29" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-30" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-26" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-27" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-28" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-29" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-30" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-31" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-01" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-02" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-03" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-04" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-05" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-06" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-02-01" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-02" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-03" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-04" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-05" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-06" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-07" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-08" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-09" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-10" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-11" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-12" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-13" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-02-08" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-09" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-10" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-11" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-12" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-13" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-14" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-15" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-16" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-18" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-19" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-20" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-02-15" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-16" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-17" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-18" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-19" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-21" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-23" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-25" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-02-22" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-23" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-24" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-25" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
   <activiteit id="18985953" naam="Summer event" type="Bedrijfs uitje" minAantal="70" maxAantal="200" prijs="125" duurMinuten="540" startUur="13" meerdaags="false">
-    <datum waarde="2026-08-31" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
@@ -3440,7 +3440,7 @@
     <datum waarde="2027-02-25" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
   <activiteit id="19310420" naam="Suppen, kanovaren &amp; fluisterboot" type="Bedrijfs uitje" minAantal="15" maxAantal="150" prijs="99.5" duurMinuten="480" startUur="13" meerdaags="false">
-    <datum waarde="2026-08-31" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
@@ -3621,7 +3621,7 @@
     <datum waarde="2027-02-25" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
   <activiteit id="19617909" naam="4x4 Ecotrail, Laser kleiduifschieten &amp; Whisky | middag" type="Bedrijfs uitje" minAantal="8" maxAantal="120" prijs="150" duurMinuten="420" startUur="14" meerdaags="false">
-    <datum waarde="2026-08-31" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
@@ -3802,7 +3802,7 @@
     <datum waarde="2027-02-25" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="19617961" naam="Laser Kleiduifschieten | middag" type="Bedrijfs uitje" minAantal="4" maxAantal="250" prijs="99.5" duurMinuten="360" startUur="14" meerdaags="false">
-    <datum waarde="2026-08-31" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
@@ -3996,8 +3996,8 @@
     <datum waarde="2026-09-10" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-11" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-12" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-09-13" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-09-14" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-13" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-09-14" beschikbaar="false" status="optie"/>
     <datum waarde="2026-09-15" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-16" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-17" beschikbaar="false" status="niet-beschikbaar"/>
@@ -4017,7 +4017,7 @@
     <datum waarde="2026-10-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-02" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-03" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-10-04" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-10-04" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-06" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-07" beschikbaar="false" status="niet-beschikbaar"/>
@@ -4029,134 +4029,134 @@
     <datum waarde="2026-10-13" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-14" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-15" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-10-16" beschikbaar="true" status="beperkt" plekkenVrij="8"/>
-    <datum waarde="2026-10-17" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-10-16" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-17" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-18" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-10-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-21" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-22" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-10-23" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-24" beschikbaar="true" status="beperkt" plekkenVrij="11"/>
+    <datum waarde="2026-10-23" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-24" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-25" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-10-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-27" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-28" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-29" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-10-30" beschikbaar="true" status="beperkt" plekkenVrij="12"/>
-    <datum waarde="2026-10-31" beschikbaar="true" status="beperkt" plekkenVrij="2"/>
-    <datum waarde="2026-11-01" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-02" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-30" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-31" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-01" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-02" beschikbaar="false" status="optie"/>
     <datum waarde="2026-11-03" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-04" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-05" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-11-06" beschikbaar="true" status="beperkt" plekkenVrij="15.5"/>
-    <datum waarde="2026-11-07" beschikbaar="true" status="beperkt" plekkenVrij="6.5"/>
-    <datum waarde="2026-11-08" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-06" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-07" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-08" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-09" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-10" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-11" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-12" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-11-13" beschikbaar="true" status="beperkt" plekkenVrij="15.5"/>
-    <datum waarde="2026-11-14" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-13" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-14" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-15" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-16" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-17" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-18" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-19" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-11-20" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-11-21" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-11-22" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-20" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-22" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-23" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-24" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-25" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-26" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-11-27" beschikbaar="true" status="beperkt" plekkenVrij="15.5"/>
-    <datum waarde="2026-11-28" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-27" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-28" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-29" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-30" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-01" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-12-02" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-02" beschikbaar="false" status="optie"/>
     <datum waarde="2026-12-03" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-12-04" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-05" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-04" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-06" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-07" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-08" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-09" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-10" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-12-11" beschikbaar="true" status="beperkt" plekkenVrij="11"/>
-    <datum waarde="2026-12-12" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-11" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-12" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-13" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-14" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-15" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-16" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-17" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-12-18" beschikbaar="true" status="beperkt" plekkenVrij="20.5"/>
-    <datum waarde="2026-12-19" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-18" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-20" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-21" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-22" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-24" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-26" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-27" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-12-28" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-27" beschikbaar="false" status="optie"/>
+    <datum waarde="2026-12-28" beschikbaar="false" status="optie"/>
     <datum waarde="2026-12-29" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-12-30" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-30" beschikbaar="false" status="optie"/>
     <datum waarde="2026-12-31" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2027-01-01" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2027-01-02" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-01" beschikbaar="false" status="optie"/>
+    <datum waarde="2027-01-02" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-03" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-01-04" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-06" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-07" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2027-01-08" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-09" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-08" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-09" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-10" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-01-11" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-12" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-13" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-14" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2027-01-15" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-16" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-15" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-16" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-17" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-01-18" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-21" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2027-01-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-23" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-22" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-23" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-24" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-01-25" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-27" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-28" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2027-01-29" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-30" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-29" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-30" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-31" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-02-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-02" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-03" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-04" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2027-02-05" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-06" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-02-05" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-06" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-07" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-02-08" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-09" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-10" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-11" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2027-02-12" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-13" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-02-12" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-13" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-14" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-02-15" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-16" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-17" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-18" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2027-02-19" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-20" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-02-19" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-21" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-02-22" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-23" beschikbaar="false" status="niet-beschikbaar"/>
@@ -4164,7 +4164,7 @@
     <datum waarde="2027-02-25" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
   <activiteit id="19893479" naam="4x4 Ecotrail, Laser kleiduifschieten &amp; Pubquiz | avond" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="150" duurMinuten="390" startUur="17" meerdaags="false">
-    <datum waarde="2026-08-31" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
@@ -4376,154 +4376,154 @@
     <datum waarde="2026-09-28" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-29" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-30" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-10-01" beschikbaar="true" status="beperkt" plekkenVrij="14"/>
+    <datum waarde="2026-10-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-02" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-03" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-04" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-05" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-10-06" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-07" beschikbaar="true" status="beperkt" plekkenVrij="15"/>
+    <datum waarde="2026-10-05" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-06" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-07" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-08" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-09" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-10" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-11" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-12" beschikbaar="true" status="beperkt" plekkenVrij="15"/>
-    <datum waarde="2026-10-13" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-14" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-15" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-10-16" beschikbaar="true" status="beperkt" plekkenVrij="8"/>
-    <datum waarde="2026-10-17" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-10-12" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-13" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-14" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-15" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-16" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-17" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-18" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-19" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-20" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-21" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-23" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-24" beschikbaar="true" status="beperkt" plekkenVrij="11"/>
+    <datum waarde="2026-10-19" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-20" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-21" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-22" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-23" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-24" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-26" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-27" beschikbaar="true" status="beperkt" plekkenVrij="21"/>
-    <datum waarde="2026-10-28" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-29" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-10-30" beschikbaar="true" status="beperkt" plekkenVrij="12"/>
-    <datum waarde="2026-10-31" beschikbaar="true" status="beperkt" plekkenVrij="2"/>
+    <datum waarde="2026-10-26" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-27" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-28" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-29" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-30" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-10-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-01" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-02" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-03" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-04" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-05" beschikbaar="true" status="beperkt" plekkenVrij="20"/>
-    <datum waarde="2026-11-06" beschikbaar="true" status="beperkt" plekkenVrij="15.5"/>
-    <datum waarde="2026-11-07" beschikbaar="true" status="beperkt" plekkenVrij="6.5"/>
+    <datum waarde="2026-11-02" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-03" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-04" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-05" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-06" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-07" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-08" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-09" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-11-10" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-11" beschikbaar="true" status="beperkt" plekkenVrij="10"/>
-    <datum waarde="2026-11-12" beschikbaar="true" status="beperkt" plekkenVrij="10"/>
-    <datum waarde="2026-11-13" beschikbaar="true" status="beperkt" plekkenVrij="15.5"/>
-    <datum waarde="2026-11-14" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-09" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-10" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-11" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-12" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-13" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-14" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-15" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-16" beschikbaar="true" status="beperkt" plekkenVrij="26"/>
-    <datum waarde="2026-11-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-18" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-19" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-20" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-11-21" beschikbaar="false" status="volgeboekt"/>
+    <datum waarde="2026-11-16" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-17" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-18" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-19" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-20" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-23" beschikbaar="true" status="beperkt" plekkenVrij="23"/>
-    <datum waarde="2026-11-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-26" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-11-27" beschikbaar="true" status="beperkt" plekkenVrij="15.5"/>
-    <datum waarde="2026-11-28" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-23" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-24" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-26" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-27" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-11-28" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-29" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-11-30" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-01" beschikbaar="true" status="beperkt" plekkenVrij="15"/>
-    <datum waarde="2026-12-02" beschikbaar="true" status="beperkt" plekkenVrij="15"/>
-    <datum waarde="2026-12-03" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-04" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-05" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-30" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-01" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-02" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-03" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-04" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-06" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-07" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-08" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-09" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-10" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-11" beschikbaar="true" status="beperkt" plekkenVrij="11"/>
-    <datum waarde="2026-12-12" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-07" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-08" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-09" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-10" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-11" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-12" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-13" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-14" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-15" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-16" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-18" beschikbaar="true" status="beperkt" plekkenVrij="20.5"/>
-    <datum waarde="2026-12-19" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-14" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-15" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-16" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-17" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-18" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-20" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-21" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-26" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-21" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-22" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-23" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-24" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-12-28" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-12-29" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-12-30" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2026-12-31" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2027-01-01" beschikbaar="false" status="volgeboekt"/>
-    <datum waarde="2027-01-02" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-28" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-29" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-30" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-31" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-01" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-02" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-03" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-04" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-05" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-06" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-07" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-08" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-09" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-04" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-05" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-06" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-07" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-08" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-09" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-10" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-11" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-12" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-13" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-14" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-15" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-16" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-11" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-12" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-13" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-14" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-15" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-16" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-18" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-19" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-20" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-21" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-23" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-18" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-19" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-20" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-21" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-22" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-23" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-26" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-27" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-28" beschikbaar="true" status="beperkt" plekkenVrij="16"/>
-    <datum waarde="2027-01-29" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-01-30" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-01-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-26" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-27" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-28" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-29" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-01-30" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-01-31" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-01" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-02" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-03" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-04" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-05" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-06" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-02-01" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-02" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-03" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-04" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-05" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-06" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-07" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-08" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-09" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-10" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-11" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-12" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-13" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-02-08" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-09" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-10" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-11" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-12" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-13" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-14" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-15" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-16" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-18" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-19" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-20" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-02-15" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-16" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-17" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-18" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-19" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-02-21" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-23" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2027-02-25" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2027-02-22" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-23" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-24" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2027-02-25" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
   <activiteit id="19972803" naam="4x4 ecotrail, kleiduifschieten, suppen &amp; kanovaren" type="Bedrijfs uitje" minAantal="15" maxAantal="150" prijs="175" duurMinuten="660" startUur="10" meerdaags="false">
     <datum waarde="2026-08-31" beschikbaar="false" status="niet-beschikbaar"/>
@@ -4888,7 +4888,7 @@
     <datum waarde="2027-02-25" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="20275419" naam="4x4 Ecotrail, Whiskytour &amp; Pubquiz | middag" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="125" duurMinuten="360" startUur="14" meerdaags="false">
-    <datum waarde="2026-08-31" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
@@ -5069,7 +5069,7 @@
     <datum waarde="2027-02-25" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="20275497" naam="4x4 Ecotrail | middag" type="Bedrijfs uitje" minAantal="4" maxAantal="250" prijs="99.5" duurMinuten="360" startUur="14" meerdaags="false">
-    <datum waarde="2026-08-31" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-08-31" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
