@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-08-31T04:00:22.503Z",
+  "gegenereerd": "2026-09-01T04:00:21.950Z",
   "arrangement": {
     "id": "18361936",
     "naam": "Suppen, kanovaren, fluisterboot & overnachting"
@@ -7,15 +7,15 @@
   "beoordeling": {
     "score": 9,
     "schaal": 10,
-    "aantalBeoordelingen": 10
+    "aantalBeoordelingen": 20
   },
   "deelscores": {
     "Programma": 9.2,
-    "Begeleiding outdoor": 8.8,
-    "Kwaliteit diner/BBQ": 8.8,
-    "Vriendelijkheid bediening": 9,
+    "Begeleiding outdoor": 8.6,
+    "Kwaliteit diner/BBQ": 7.6,
+    "Vriendelijkheid bediening": 8.9,
     "Algemene oordeel": 8.8,
-    "Aantal metingen": 9
+    "Aantal metingen": 18
   },
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-suppen,_kanovaren,_fluisterboot___overnachting"
 }
