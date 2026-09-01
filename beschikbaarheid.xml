@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beschikbaarheid gegenereerd="2026-09-01T05:32:12.587Z">
+<beschikbaarheid gegenereerd="2026-09-01T10:02:15.751Z">
   <activiteit id="67674" naam="Ontdekkingstocht door Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="125" duurMinuten="720" startUur="9" meerdaags="false">
-    <datum waarde="2026-09-01" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-09-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-04" beschikbaar="true" status="beschikbaar"/>
@@ -1268,7 +1268,7 @@
     <datum waarde="2027-02-26" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
   <activiteit id="17796744" naam="56-uurs arrangement (1 pers. kamer) alles inclusief" type="Vergadering" minAantal="5" maxAantal="28" prijs="675" duurMinuten="3390" startUur="8" meerdaags="true">
-    <datum waarde="2026-09-01" beschikbaar="true" status="beperkt" plekkenVrij="21"/>
+    <datum waarde="2026-09-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-03" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-04" beschikbaar="false" status="niet-beschikbaar"/>
@@ -2716,7 +2716,7 @@
     <datum waarde="2027-02-26" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="18522570" naam="Lunch | 4x4 ecotrail | Whiskytour" type="Bedrijfs uitje" minAantal="4" maxAantal="80" prijs="50" duurMinuten="240" startUur="12" meerdaags="false">
-    <datum waarde="2026-09-01" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-09-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-04" beschikbaar="true" status="beschikbaar"/>
@@ -4526,7 +4526,7 @@
     <datum waarde="2027-02-26" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
   <activiteit id="19972803" naam="4x4 ecotrail, kleiduifschieten, suppen &amp; kanovaren" type="Bedrijfs uitje" minAantal="15" maxAantal="150" prijs="175" duurMinuten="660" startUur="10" meerdaags="false">
-    <datum waarde="2026-09-01" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-09-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-04" beschikbaar="true" status="beschikbaar"/>
@@ -4707,7 +4707,7 @@
     <datum waarde="2027-02-26" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
   <activiteit id="19972945" naam="4x4 ecotrail, kleiduifschieten &amp; whiskygames" type="Bedrijfs uitje" minAantal="15" maxAantal="450" prijs="175" duurMinuten="600" startUur="10" meerdaags="false">
-    <datum waarde="2026-09-01" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-09-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-04" beschikbaar="true" status="beschikbaar"/>
@@ -5250,7 +5250,7 @@
     <datum waarde="2027-02-26" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="20327328" naam="Lunch | Laser Kleiduifschieten | Whiskytour" type="Bedrijfs uitje" minAantal="4" maxAantal="80" prijs="50" duurMinuten="240" startUur="12" meerdaags="false">
-    <datum waarde="2026-09-01" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-09-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-03" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-04" beschikbaar="true" status="beschikbaar"/>
