@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-01T10:02:15.751Z",
+  "gegenereerd": "2026-09-01T16:02:10.488Z",
   "bron": "KMT gateway via n8n (Bus Whisky)",
   "activiteiten": [
     {
@@ -925,8 +925,8 @@
       "datums": [
         {
           "datum": "2026-09-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-02",
@@ -8246,8 +8246,8 @@
       "datums": [
         {
           "datum": "2026-09-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-02",
@@ -14629,8 +14629,8 @@
       "datums": [
         {
           "datum": "2026-09-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-02",
@@ -16447,8 +16447,8 @@
       "datums": [
         {
           "datum": "2026-09-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-02",
@@ -17356,8 +17356,8 @@
       "datums": [
         {
           "datum": "2026-09-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-02",
@@ -18265,8 +18265,8 @@
       "datums": [
         {
           "datum": "2026-09-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-02",
@@ -19174,8 +19174,8 @@
       "datums": [
         {
           "datum": "2026-09-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-02",
@@ -20992,8 +20992,8 @@
       "datums": [
         {
           "datum": "2026-09-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-02",
@@ -24628,8 +24628,8 @@
       "datums": [
         {
           "datum": "2026-09-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-02",
@@ -25537,8 +25537,8 @@
       "datums": [
         {
           "datum": "2026-09-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-02",
@@ -26434,13 +26434,13 @@
     },
     {
       "id": "20327328",
-      "naam": "Lunch | Laser Kleiduifschieten | Whiskytour",
+      "naam": "4x4 Ecotrail | Lunch | Laser Kleiduifschieten | Whiskytour",
       "type": "Bedrijfs uitje",
       "minAantal": 4,
       "maxAantal": 80,
-      "prijs": 50,
-      "duurMinuten": 240,
-      "startUur": 12,
+      "prijs": 75,
+      "duurMinuten": 330,
+      "startUur": 10,
       "meerdaags": false,
       "bron": "vers",
       "datums": [
