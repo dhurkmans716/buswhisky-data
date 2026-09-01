@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-01T10:02:15.751Z",
+  "gegenereerd": "2026-09-01T16:02:10.488Z",
   "arrangementen": [
     {
       "id": "67674",
@@ -235,9 +235,9 @@
     },
     {
       "id": "20327328",
-      "naam": "Lunch | Laser Kleiduifschieten | Whiskytour",
+      "naam": "4x4 Ecotrail | Lunch | Laser Kleiduifschieten | Whiskytour",
       "type": "Bedrijfs uitje",
-      "prijs": 50,
+      "prijs": 75,
       "contentUrl": "content/20327328.json",
       "beschikbaarheidUrl": "arrangementen/20327328.json"
     }
