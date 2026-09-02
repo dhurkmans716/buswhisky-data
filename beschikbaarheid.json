@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-02T05:32:11.960Z",
+  "gegenereerd": "2026-09-02T10:02:14.472Z",
   "bron": "KMT gateway via n8n (Bus Whisky)",
   "activiteiten": [
     {
@@ -16,8 +16,8 @@
       "datums": [
         {
           "datum": "2026-09-02",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-03",
@@ -1185,8 +1185,8 @@
         },
         {
           "datum": "2026-10-24",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-25",
@@ -6412,8 +6412,8 @@
       "datums": [
         {
           "datum": "2026-09-02",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-03",
@@ -8506,8 +8506,8 @@
         },
         {
           "datum": "2026-10-24",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-25",
@@ -12135,19 +12135,18 @@
         },
         {
           "datum": "2026-10-22",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-23",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-24",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 11
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-25",
@@ -13720,8 +13719,8 @@
       "datums": [
         {
           "datum": "2026-09-02",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-03",
@@ -13980,8 +13979,8 @@
         },
         {
           "datum": "2026-10-24",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-25",
@@ -14889,8 +14888,8 @@
         },
         {
           "datum": "2026-10-24",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-25",
@@ -14924,8 +14923,8 @@
         },
         {
           "datum": "2026-10-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-01",
@@ -15763,8 +15762,8 @@
         },
         {
           "datum": "2026-10-17",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-10-18",
@@ -15898,13 +15897,14 @@
         },
         {
           "datum": "2026-11-13",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beperkt",
+          "plekkenVrij": 15.5
         },
         {
           "datum": "2026-11-14",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-11-15",
@@ -15973,8 +15973,8 @@
         },
         {
           "datum": "2026-11-28",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-11-29",
@@ -16003,13 +16003,13 @@
         },
         {
           "datum": "2026-12-04",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-12-05",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-12-06",
@@ -16043,8 +16043,8 @@
         },
         {
           "datum": "2026-12-12",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-12-13",
@@ -16078,8 +16078,8 @@
         },
         {
           "datum": "2026-12-19",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-12-20",
@@ -16108,8 +16108,8 @@
         },
         {
           "datum": "2026-12-25",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-12-26",
@@ -16149,7 +16149,7 @@
         {
           "datum": "2027-01-02",
           "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "status": "optie"
         },
         {
           "datum": "2027-01-03",
@@ -16178,13 +16178,13 @@
         },
         {
           "datum": "2027-01-08",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2027-01-09",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2027-01-10",
@@ -16213,13 +16213,13 @@
         },
         {
           "datum": "2027-01-15",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2027-01-16",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2027-01-17",
@@ -16248,13 +16248,13 @@
         },
         {
           "datum": "2027-01-22",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2027-01-23",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2027-01-24",
@@ -16283,13 +16283,13 @@
         },
         {
           "datum": "2027-01-29",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2027-01-30",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2027-01-31",
@@ -16318,13 +16318,13 @@
         },
         {
           "datum": "2027-02-05",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2027-02-06",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2027-02-07",
@@ -16353,13 +16353,13 @@
         },
         {
           "datum": "2027-02-12",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2027-02-13",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2027-02-14",
@@ -16388,13 +16388,13 @@
         },
         {
           "datum": "2027-02-19",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2027-02-20",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2027-02-21",
@@ -16423,13 +16423,13 @@
         },
         {
           "datum": "2027-02-26",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         },
         {
           "datum": "2027-02-27",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
+          "beschikbaar": true,
+          "status": "beschikbaar"
         }
       ]
     },
@@ -18525,8 +18525,8 @@
         },
         {
           "datum": "2026-10-24",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-25",
@@ -19434,8 +19434,8 @@
         },
         {
           "datum": "2026-10-24",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-25",
@@ -21252,8 +21252,8 @@
         },
         {
           "datum": "2026-10-24",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-25",
@@ -22810,8 +22810,8 @@
       "datums": [
         {
           "datum": "2026-09-02",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-03",
@@ -23719,8 +23719,8 @@
       "datums": [
         {
           "datum": "2026-09-02",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-03",
@@ -23979,8 +23979,8 @@
         },
         {
           "datum": "2026-10-24",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-25",
@@ -24888,8 +24888,8 @@
         },
         {
           "datum": "2026-10-24",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-25",
@@ -25797,8 +25797,8 @@
         },
         {
           "datum": "2026-10-24",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-25",
@@ -25832,8 +25832,8 @@
         },
         {
           "datum": "2026-10-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-01",
@@ -26446,8 +26446,8 @@
       "datums": [
         {
           "datum": "2026-09-02",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-03",
@@ -26706,8 +26706,8 @@
         },
         {
           "datum": "2026-10-24",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-10-25",
