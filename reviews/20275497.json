@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-02T04:00:21.810Z",
+  "gegenereerd": "2026-09-03T04:00:24.008Z",
   "arrangement": {
     "id": "20275497",
     "naam": "4x4 Ecotrail | middag"
@@ -7,15 +7,15 @@
   "beoordeling": {
     "score": 9,
     "schaal": 10,
-    "aantalBeoordelingen": 11
+    "aantalBeoordelingen": 17
   },
   "deelscores": {
-    "Programma": 9.1,
-    "Begeleiding outdoor": 8.7,
-    "Kwaliteit diner/BBQ": 9.3,
-    "Vriendelijkheid bediening": 9.1,
-    "Algemene oordeel": 9.1,
-    "Aantal metingen": 11
+    "Programma": 9.3,
+    "Begeleiding outdoor": 9.2,
+    "Kwaliteit diner/BBQ": 9.4,
+    "Vriendelijkheid bediening": 9.4,
+    "Algemene oordeel": 9.2,
+    "Aantal metingen": 17
   },
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-4x4_ecotrail_%7C_middag"
 }
