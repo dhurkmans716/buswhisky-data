@@ -1,0 +1,912 @@
+{
+  "gegenereerd": "2026-09-03T16:02:18.785Z",
+  "bron": "vers",
+  "arrangement": {
+    "id": "19721122",
+    "naam": "Doe-het-zelf Weekendbruiloft LIGHT hoogseizoen (vr t/m zo)",
+    "type": "Bruiloft",
+    "minAantal": 40,
+    "maxAantal": 200,
+    "prijs": 8934.32,
+    "duurMinuten": 2879,
+    "startUur": 13,
+    "meerdaags": true
+  },
+  "datums": [
+    {
+      "datum": "2026-09-03",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-04",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-05",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-06",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-07",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-08",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-09",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-10",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-11",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-12",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-13",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-14",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-15",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-16",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-17",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-18",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-19",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-20",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-21",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-22",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-23",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-24",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-25",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-26",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-27",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-28",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-29",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-09-30",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-01",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-02",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-03",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-04",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-05",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-06",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-07",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-08",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-09",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-10",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-11",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-12",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-13",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-14",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-15",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-16",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-17",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-18",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-19",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-20",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-21",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-22",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-23",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-24",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-25",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-26",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-27",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-28",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-29",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-30",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-10-31",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-01",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-02",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-03",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-04",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-05",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-06",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-07",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-08",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-09",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-10",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-11",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-12",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-13",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-14",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-15",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-16",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-17",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-18",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-19",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-20",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-21",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-22",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-23",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-24",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-25",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-26",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-27",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-28",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-29",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-11-30",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-01",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-02",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-03",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-04",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-05",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-06",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-07",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-08",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-09",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-10",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-11",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-12",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-13",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-14",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-15",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-16",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-17",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-18",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-19",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-20",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-21",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-22",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-23",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-24",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-25",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-26",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-27",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-28",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-29",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-30",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2026-12-31",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-01",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-02",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-03",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-04",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-05",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-06",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-07",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-08",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-09",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-10",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-11",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-12",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-13",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-14",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-15",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-16",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-17",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-18",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-19",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-20",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-21",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-22",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-23",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-24",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-25",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-26",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-27",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-28",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-29",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-30",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-01-31",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-01",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-02",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-03",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-04",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-05",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-06",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-07",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-08",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-09",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-10",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-11",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-12",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-13",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-14",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-15",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-16",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-17",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-18",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-19",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-20",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-21",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-22",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-23",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-24",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-25",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-26",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-27",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    },
+    {
+      "datum": "2027-02-28",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
+    }
+  ]
+}
