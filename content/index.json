@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-03T10:02:14.836Z",
+  "gegenereerd": "2026-09-03T16:02:18.785Z",
   "arrangementen": [
     {
       "id": "67674",
@@ -69,7 +69,7 @@
       "id": "17982849",
       "naam": "Doe-het-zelf Weekendbruiloft hoogseizoen (vr t/m zo)",
       "type": "Bruiloft",
-      "prijs": 10587.21,
+      "prijs": 13066.55,
       "contentUrl": "content/17982849.json",
       "beschikbaarheidUrl": "arrangementen/17982849.json"
     },
@@ -184,6 +184,14 @@
       "prijs": 225,
       "contentUrl": "content/19638837.json",
       "beschikbaarheidUrl": "arrangementen/19638837.json"
+    },
+    {
+      "id": "19721122",
+      "naam": "Doe-het-zelf Weekendbruiloft LIGHT hoogseizoen (vr t/m zo)",
+      "type": "Bruiloft",
+      "prijs": 8934.32,
+      "contentUrl": "content/19721122.json",
+      "beschikbaarheidUrl": "arrangementen/19721122.json"
     },
     {
       "id": "19893479",
