@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-02T04:00:21.810Z",
+  "gegenereerd": "2026-09-03T04:00:24.008Z",
   "schaal": 10,
   "arrangementen": [
     {
@@ -111,7 +111,7 @@
       "id": "18712057",
       "naam": "4x4 Ecotrail | avond",
       "score": 9,
-      "aantalBeoordelingen": 160,
+      "aantalBeoordelingen": 171,
       "reviewsUrl": "reviews/18712057.json"
     },
     {
@@ -181,7 +181,7 @@
       "id": "20275497",
       "naam": "4x4 Ecotrail | middag",
       "score": 9,
-      "aantalBeoordelingen": 11,
+      "aantalBeoordelingen": 17,
       "reviewsUrl": "reviews/20275497.json"
     }
   ]
