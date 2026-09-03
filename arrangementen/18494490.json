@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-03T10:02:14.836Z",
+  "gegenereerd": "2026-09-03T16:02:18.785Z",
   "bron": "vers",
   "arrangement": {
     "id": "18494490",
@@ -71,7 +71,7 @@
     {
       "datum": "2026-09-14",
       "beschikbaar": false,
-      "status": "niet-beschikbaar"
+      "status": "optie"
     },
     {
       "datum": "2026-09-15",
@@ -325,18 +325,18 @@
     },
     {
       "datum": "2026-11-03",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-11-04",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-11-05",
       "beschikbaar": false,
-      "status": "niet-beschikbaar"
+      "status": "optie"
     },
     {
       "datum": "2026-11-06",
