@@ -1,12 +1,12 @@
 {
-  "gegenereerd": "2026-09-05T05:32:19.050Z",
+  "gegenereerd": "2026-09-05T10:02:19.919Z",
   "arrangement": {
     "id": "18795159",
     "naam": "4x4 Ecotrail & overnachting",
     "type": "Bedrijfs uitje",
     "minAantal": 10,
     "maxAantal": 100,
-    "prijs": 175,
+    "prijs": 235,
     "duurMinuten": 1080,
     "startUur": 16,
     "meerdaags": true
