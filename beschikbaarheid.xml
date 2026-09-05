@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beschikbaarheid gegenereerd="2026-09-05T05:32:19.050Z">
+<beschikbaarheid gegenereerd="2026-09-05T10:02:19.919Z">
   <activiteit id="67674" naam="Ontdekkingstocht door Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="125" duurMinuten="720" startUur="9" meerdaags="false">
     <datum waarde="2026-09-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-06" beschikbaar="true" status="beschikbaar"/>
@@ -362,7 +362,7 @@
     <datum waarde="2027-03-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-03-02" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
-  <activiteit id="961017" naam="De Whisky &amp; Weilandgames + overnachting" type="Bedrijfs uitje" minAantal="20" maxAantal="100" prijs="175" duurMinuten="1200" startUur="14" meerdaags="true">
+  <activiteit id="961017" naam="De Whisky &amp; Weilandgames + overnachting" type="Bedrijfs uitje" minAantal="20" maxAantal="100" prijs="235" duurMinuten="1200" startUur="14" meerdaags="true">
     <datum waarde="2026-09-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-06" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-07" beschikbaar="false" status="niet-beschikbaar"/>
@@ -543,7 +543,7 @@
     <datum waarde="2027-03-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-03-02" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
-  <activiteit id="17793235" naam="24-uurs arrangement (1 pers. kamer) alles inclusief" type="Vergadering" minAantal="5" maxAantal="28" prijs="325" duurMinuten="1470" startUur="8" meerdaags="true">
+  <activiteit id="17793235" naam="24-uurs arrangement (1 pers. kamer) alles inclusief" type="Vergadering" minAantal="5" maxAantal="28" prijs="350" duurMinuten="1470" startUur="8" meerdaags="true">
     <datum waarde="2026-09-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-06" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-07" beschikbaar="true" status="beschikbaar"/>
@@ -724,7 +724,7 @@
     <datum waarde="2027-03-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-03-02" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
-  <activiteit id="17793261" naam="32-uurs arrangement (1 pers. kamer) alles inclusief" type="Vergadering" minAantal="5" maxAantal="28" prijs="395" duurMinuten="1920" startUur="8" meerdaags="true">
+  <activiteit id="17793261" naam="32-uurs arrangement (1 pers. kamer) alles inclusief" type="Vergadering" minAantal="5" maxAantal="28" prijs="425" duurMinuten="1920" startUur="8" meerdaags="true">
     <datum waarde="2026-09-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-06" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-07" beschikbaar="true" status="beschikbaar"/>
@@ -905,7 +905,7 @@
     <datum waarde="2027-03-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-03-02" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
-  <activiteit id="17793283" naam="12-uurs vergaderarrangement alles inclusief" type="Vergadering" minAantal="5" maxAantal="200" prijs="137.5" duurMinuten="750" startUur="8" meerdaags="false">
+  <activiteit id="17793283" naam="12-uurs vergaderarrangement alles inclusief" type="Vergadering" minAantal="5" maxAantal="200" prijs="150" duurMinuten="750" startUur="8" meerdaags="false">
     <datum waarde="2026-09-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-06" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-07" beschikbaar="true" status="beschikbaar"/>
@@ -1086,7 +1086,7 @@
     <datum waarde="2027-03-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-03-02" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
-  <activiteit id="17796664" naam="48-uurs arrangement (1 pers. kamer) alles inclusief" type="Vergadering" minAantal="5" maxAantal="28" prijs="600" duurMinuten="2880" startUur="8" meerdaags="true">
+  <activiteit id="17796664" naam="48-uurs arrangement (1 pers. kamer) alles inclusief" type="Vergadering" minAantal="5" maxAantal="28" prijs="650" duurMinuten="2880" startUur="8" meerdaags="true">
     <datum waarde="2026-09-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-06" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-07" beschikbaar="true" status="beschikbaar"/>
@@ -1267,7 +1267,7 @@
     <datum waarde="2027-03-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-03-02" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
-  <activiteit id="17796744" naam="56-uurs arrangement (1 pers. kamer) alles inclusief" type="Vergadering" minAantal="5" maxAantal="28" prijs="675" duurMinuten="3390" startUur="8" meerdaags="true">
+  <activiteit id="17796744" naam="56-uurs arrangement (1 pers. kamer) alles inclusief" type="Vergadering" minAantal="5" maxAantal="28" prijs="725" duurMinuten="3390" startUur="8" meerdaags="true">
     <datum waarde="2026-09-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-06" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-07" beschikbaar="true" status="beschikbaar"/>
@@ -2172,7 +2172,7 @@
     <datum waarde="2027-03-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-03-02" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
-  <activiteit id="18361936" naam="Suppen, kanovaren, fluisterboot &amp; overnachting" type="Bedrijfs uitje" minAantal="15" maxAantal="100" prijs="225" duurMinuten="1350" startUur="13" meerdaags="true">
+  <activiteit id="18361936" naam="Suppen, kanovaren, fluisterboot &amp; overnachting" type="Bedrijfs uitje" minAantal="15" maxAantal="100" prijs="275" duurMinuten="1350" startUur="13" meerdaags="true">
     <datum waarde="2026-09-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-06" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-07" beschikbaar="false" status="niet-beschikbaar"/>
@@ -2353,7 +2353,7 @@
     <datum waarde="2027-03-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-03-02" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
-  <activiteit id="18385479" naam="Weekend actief in Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="100" prijs="395" duurMinuten="2610" startUur="19" meerdaags="true">
+  <activiteit id="18385479" naam="Weekend actief in Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="100" prijs="495" duurMinuten="2610" startUur="19" meerdaags="true">
     <datum waarde="2026-09-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-06" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-07" beschikbaar="true" status="beschikbaar"/>
@@ -2534,7 +2534,7 @@
     <datum waarde="2027-03-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-03-02" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
-  <activiteit id="18494490" naam="Whisky &amp; 4x4 weekend" type="Bedrijfs uitje" minAantal="15" maxAantal="100" prijs="395" duurMinuten="2370" startUur="19" meerdaags="true">
+  <activiteit id="18494490" naam="Whisky &amp; 4x4 weekend" type="Bedrijfs uitje" minAantal="15" maxAantal="100" prijs="495" duurMinuten="2370" startUur="19" meerdaags="true">
     <datum waarde="2026-09-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-06" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-07" beschikbaar="true" status="beschikbaar"/>
@@ -3077,7 +3077,7 @@
     <datum waarde="2027-03-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-03-02" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
-  <activiteit id="18795159" naam="4x4 Ecotrail &amp; overnachting" type="Bedrijfs uitje" minAantal="10" maxAantal="100" prijs="175" duurMinuten="1080" startUur="16" meerdaags="true">
+  <activiteit id="18795159" naam="4x4 Ecotrail &amp; overnachting" type="Bedrijfs uitje" minAantal="10" maxAantal="100" prijs="235" duurMinuten="1080" startUur="16" meerdaags="true">
     <datum waarde="2026-09-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-06" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-07" beschikbaar="false" status="niet-beschikbaar"/>
@@ -3982,7 +3982,7 @@
     <datum waarde="2027-03-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-03-02" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
-  <activiteit id="19638837" naam="4x4 Ecotrail, laserkleiduifschieten, tour whiskystokerij, pubquiz &amp; overnachting" type="Bedrijfs uitje" minAantal="4" maxAantal="100" prijs="225" duurMinuten="1200" startUur="14" meerdaags="true">
+  <activiteit id="19638837" naam="4x4 Ecotrail, laserkleiduifschieten, tour whiskystokerij, pubquiz &amp; overnachting" type="Bedrijfs uitje" minAantal="4" maxAantal="100" prijs="275" duurMinuten="1200" startUur="14" meerdaags="true">
     <datum waarde="2026-09-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-06" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-09-07" beschikbaar="false" status="niet-beschikbaar"/>
@@ -4525,7 +4525,7 @@
     <datum waarde="2027-03-01" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-03-02" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
-  <activiteit id="19893954" naam="Winterse dropping, Pubquiz &amp; overnachting" type="Bedrijfs uitje" minAantal="20" maxAantal="500" prijs="175" duurMinuten="1180" startUur="16" meerdaags="true">
+  <activiteit id="19893954" naam="Winterse dropping, Pubquiz &amp; overnachting" type="Bedrijfs uitje" minAantal="20" maxAantal="500" prijs="235" duurMinuten="1180" startUur="16" meerdaags="true">
     <datum waarde="2026-09-05" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-06" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-09-07" beschikbaar="false" status="niet-beschikbaar"/>
