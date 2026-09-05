@@ -1,12 +1,12 @@
 {
-  "gegenereerd": "2026-09-05T05:32:19.050Z",
+  "gegenereerd": "2026-09-05T10:02:19.919Z",
   "arrangement": {
     "id": "18494490",
     "naam": "Whisky & 4x4 weekend",
     "type": "Bedrijfs uitje",
     "minAantal": 15,
     "maxAantal": 100,
-    "prijs": 395,
+    "prijs": 495,
     "duurMinuten": 2370,
     "startUur": 19,
     "meerdaags": true
