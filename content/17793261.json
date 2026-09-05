@@ -1,12 +1,12 @@
 {
-  "gegenereerd": "2026-09-05T05:32:19.050Z",
+  "gegenereerd": "2026-09-05T10:02:19.919Z",
   "arrangement": {
     "id": "17793261",
     "naam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
     "type": "Vergadering",
     "minAantal": 5,
     "maxAantal": 28,
-    "prijs": 395,
+    "prijs": 425,
     "duurMinuten": 1920,
     "startUur": 8,
     "meerdaags": true
