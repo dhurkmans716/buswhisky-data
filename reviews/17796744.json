@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-05T04:00:22.198Z",
+  "gegenereerd": "2026-09-06T04:00:22.770Z",
   "arrangement": {
     "id": "17796744",
     "naam": "56-uurs arrangement (1 pers. kamer) alles inclusief"
@@ -7,18 +7,18 @@
   "beoordeling": {
     "score": 8,
     "schaal": 10,
-    "aantalBeoordelingen": 69
+    "aantalBeoordelingen": 70
   },
   "deelscores": {
-    "Algehele verzorging": 8.4,
-    "Ontbijt/lunch/diner": 8.9,
-    "Vriendelijkheid bediening": 9,
+    "Algehele verzorging": 8.3,
+    "Ontbijt/lunch/diner": 8.8,
+    "Vriendelijkheid bediening": 8.9,
     "Inrichting kamer": 7,
     "Schoonmaak kamer": 7.8,
     "Comfort bed": 7.6,
     "Comfort douche": 6.9,
     "Algemene oordeel": 8.2,
-    "Aantal metingen": 65
+    "Aantal metingen": 66
   },
   "bron": "https://www.heischehoeve.com/vergaderlocatie-56_uurs_arrangement_(1_pers._kamer)_alles_inclusief"
 }
