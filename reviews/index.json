@@ -1,19 +1,19 @@
 {
-  "gegenereerd": "2026-09-05T04:00:22.198Z",
+  "gegenereerd": "2026-09-06T04:00:22.770Z",
   "schaal": 10,
   "arrangementen": [
     {
       "id": "67674",
       "naam": "Ontdekkingstocht door Brabant",
       "score": 8,
-      "aantalBeoordelingen": 276,
+      "aantalBeoordelingen": 277,
       "reviewsUrl": "reviews/67674.json"
     },
     {
       "id": "960185",
       "naam": "Whisky & Weilandgames",
       "score": 9,
-      "aantalBeoordelingen": 219,
+      "aantalBeoordelingen": 220,
       "reviewsUrl": "reviews/960185.json"
     },
     {
@@ -27,7 +27,7 @@
       "id": "17793261",
       "naam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
       "score": 8,
-      "aantalBeoordelingen": 601,
+      "aantalBeoordelingen": 604,
       "reviewsUrl": "reviews/17793261.json"
     },
     {
@@ -48,7 +48,7 @@
       "id": "17796744",
       "naam": "56-uurs arrangement (1 pers. kamer) alles inclusief",
       "score": 8,
-      "aantalBeoordelingen": 69,
+      "aantalBeoordelingen": 70,
       "reviewsUrl": "reviews/17796744.json"
     },
     {
@@ -62,7 +62,7 @@
       "id": "18212800",
       "naam": "4x4 Ecotrail, Whiskytour & Pubquiz | avond",
       "score": 8,
-      "aantalBeoordelingen": 144,
+      "aantalBeoordelingen": 145,
       "reviewsUrl": "reviews/18212800.json"
     },
     {
@@ -132,14 +132,14 @@
       "id": "19310420",
       "naam": "Suppen, kanovaren & fluisterboot",
       "score": 9,
-      "aantalBeoordelingen": 22,
+      "aantalBeoordelingen": 23,
       "reviewsUrl": "reviews/19310420.json"
     },
     {
       "id": "19617909",
       "naam": "4x4 Ecotrail, Laser kleiduifschieten & Whisky | middag",
       "score": 9,
-      "aantalBeoordelingen": 67,
+      "aantalBeoordelingen": 69,
       "reviewsUrl": "reviews/19617909.json"
     },
     {
@@ -159,8 +159,8 @@
     {
       "id": "19893479",
       "naam": "4x4 Ecotrail, Laser kleiduifschieten & Pubquiz | avond",
-      "score": 8,
-      "aantalBeoordelingen": 5,
+      "score": 7,
+      "aantalBeoordelingen": 6,
       "reviewsUrl": "reviews/19893479.json"
     },
     {
@@ -174,14 +174,14 @@
       "id": "19972945",
       "naam": "4x4 ecotrail, kleiduifschieten & whiskygames",
       "score": 9,
-      "aantalBeoordelingen": 2,
+      "aantalBeoordelingen": 3,
       "reviewsUrl": "reviews/19972945.json"
     },
     {
       "id": "20275497",
       "naam": "4x4 Ecotrail | middag",
       "score": 9,
-      "aantalBeoordelingen": 17,
+      "aantalBeoordelingen": 18,
       "reviewsUrl": "reviews/20275497.json"
     }
   ]
