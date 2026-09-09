@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-09T05:32:19.931Z",
+  "gegenereerd": "2026-09-09T10:02:21.705Z",
   "bron": "KMT gateway via n8n (Bus Whisky)",
   "activiteiten": [
     {
@@ -16,8 +16,8 @@
       "datums": [
         {
           "datum": "2026-09-09",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-10",
@@ -2743,8 +2743,8 @@
       "datums": [
         {
           "datum": "2026-09-09",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-10",
@@ -3664,8 +3664,8 @@
       "datums": [
         {
           "datum": "2026-09-09",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-10",
@@ -4585,8 +4585,8 @@
       "datums": [
         {
           "datum": "2026-09-09",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-10",
@@ -5494,8 +5494,8 @@
       "datums": [
         {
           "datum": "2026-09-09",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-10",
@@ -6409,8 +6409,8 @@
       "datums": [
         {
           "datum": "2026-09-09",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-10",
@@ -13711,8 +13711,8 @@
       "datums": [
         {
           "datum": "2026-09-09",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-10",
@@ -14614,7 +14614,7 @@
       "maxAantal": 250,
       "prijs": 99.5,
       "duurMinuten": 300,
-      "startUur": 16,
+      "startUur": 17,
       "meerdaags": false,
       "bron": "vers",
       "datums": [
@@ -23711,8 +23711,8 @@
       "datums": [
         {
           "datum": "2026-09-09",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-10",
@@ -24620,8 +24620,8 @@
       "datums": [
         {
           "datum": "2026-09-09",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-10",
@@ -27347,8 +27347,8 @@
       "datums": [
         {
           "datum": "2026-09-09",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-10",
