@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "18212800",
     "naam": "4x4 Ecotrail, Whiskytour & Pubquiz | avond"
@@ -17,5 +17,167 @@
     "Algemene oordeel": 8.4,
     "Aantal metingen": 135
   },
+  "gastenboek": [
+    {
+      "datum": "6 juli",
+      "naam": "H&R Badmeubelen & Sanitair",
+      "aantalPersonen": 19,
+      "cijfer": 8,
+      "tekst": "Het is een prachtig mooie locatie met veel mogelijkheden. Het jeeprijden is een aanrader en het eten was heerlijk!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-H-R-Badmeubelen-Sanitair-20277325"
+    },
+    {
+      "datum": "18 mei",
+      "naam": "Vitalis Kronehoef",
+      "aantalPersonen": 16,
+      "cijfer": 6,
+      "tekst": "De 4x4 ecotrail is een geweldige ervaring voor een team uitje. Er zijn veel mogelijkheden binnen de locatie en de locatie ziet er prachtig uit.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Vitalis-Kronehoef-20289851"
+    },
+    {
+      "datum": "23 februari",
+      "naam": "Andusta B.V.",
+      "aantalPersonen": 54,
+      "cijfer": 8,
+      "tekst": "Bedankt voor de gastvrijheid en de goede zorgen. We hebben hier een erg leuk personeelsuitje gehad, leuke 4x4 route door de modder! Gezellig samen de bar en bbq in gebruik. Zeker geschikt ter teambuilding!\n\nGroetjes team Andusta",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Andusta-B.V.-20237134"
+    },
+    {
+      "datum": "28 april",
+      "naam": "Wilwy",
+      "aantalPersonen": 22,
+      "cijfer": 8,
+      "tekst": "super leuk uitje met alle collega`s alles was goed verzorgd m.n. het zelf drinken inschenken en het zelf bbqen droeg bij tot een fijne sfeer.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Wilwy-20116067"
+    },
+    {
+      "datum": "17 maart",
+      "naam": "VANGAAL b.v.",
+      "aantalPersonen": 19,
+      "cijfer": 10,
+      "tekst": "Aanrader, voor jong en oud. Alles onder de noemer: Brabantse Gemoedelijkheid",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-VANGAAL-b.v.-20165289"
+    },
+    {
+      "datum": "2 januari",
+      "naam": "Advocaten Familie en Erfrecht",
+      "aantalPersonen": 57,
+      "cijfer": 6,
+      "tekst": "Mooie sfeervolle locatie!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Advocaten-Familie-en-Erfrecht-20125115"
+    },
+    {
+      "datum": "17 november",
+      "naam": "Nestaan Holland",
+      "aantalPersonen": 44,
+      "cijfer": 8,
+      "tekst": "Erg leuke dag gehad met de personeelsvereniging van ons bedrijf met een zeer leuke ecotrail, op een prachtige locatie , en zeer goed verzorgde barbecue , je komt hier aan niets tekort.\nJohan Moerland",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Nestaan-Holland-20028044"
+    },
+    {
+      "datum": "5 november",
+      "naam": "AFL Groep B.V.",
+      "aantalPersonen": 28,
+      "cijfer": 4,
+      "tekst": "Mooie locatie! De ecotrail was super en in het donker was het NOG gaver.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-AFL-Groep-B.V.-20008760"
+    },
+    {
+      "datum": "21 oktober",
+      "naam": "Brushcom",
+      "aantalPersonen": 17,
+      "cijfer": 10,
+      "tekst": "Wij hebben erg genoten van het uitje. Het rijden in de jeeps door de bossen was fantastisch, het eten was echt heerlijk en de bediening was ontzettend vriendelijk en gastvrij. We voelden ons erg welkom. De eigen bar was ook erg fijn.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Brushcom-20109083"
+    },
+    {
+      "datum": "6 oktober",
+      "naam": "Heijmans",
+      "aantalPersonen": 28,
+      "cijfer": 10,
+      "tekst": "We hebben een fantastische teamdag gehad. Een heerlijke sfeer door de dekentjes, haardvuurtjes en hele ambiance. Zelf drinken pakken is fijn. De plek is echt fantastisch! Aardig personeel en erg behulpzaam. De uitleg van de activiteit was duidelijk, zeker de gil. Dat was een giller. De activiteiten waren leuk! Bedankt!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Heijmans-20056461"
+    },
+    {
+      "datum": "23 september",
+      "naam": "RJ Networks & Security",
+      "aantalPersonen": 36,
+      "cijfer": 6,
+      "tekst": "Hele mooie locatie , en ook mooi ingericht. Prachtig midden in natuur.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-RJ-Networks-Security-19917236"
+    },
+    {
+      "datum": "15 juli",
+      "naam": "AB Telecom Solutions BV",
+      "aantalPersonen": 20,
+      "cijfer": 10,
+      "tekst": "De dag was erg goed verzorgt, met vriendelijk personeel op een mooie locatie! Bedankt!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-AB-Telecom-Solutions-BV-20013611"
+    },
+    {
+      "datum": "28 mei",
+      "naam": "Hoppenbrouwers",
+      "aantalPersonen": 76,
+      "cijfer": 8,
+      "tekst": "Mooie locatie met veel mogelijkheden tot het beleven van een fantastische dag!\nWij hebben de 4x4 en wisky tour gedaan waaraan we veel lol hebben beleefd als afsluiting te goed gedaan aan een goede BBQ. Kort om genoten!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Hoppenbrouwers-19888178"
+    },
+    {
+      "datum": "13 mei",
+      "naam": "Van Blijderveen Fruit",
+      "aantalPersonen": 40,
+      "cijfer": 8,
+      "tekst": "Afgelopen zaterdag hebben wij ons personeelsuitje gehad naar de Heische Hoeve en het was super! We hebben lekker gegeten, rond gereden met de 4x4 ecotrail, de whiskey geproefd en afgesloten met een pubquiz. Het was een geslaagde middag/avond! Bedankt team Heische Hoeve",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Van-Blijderveen-Fruit-19972129"
+    },
+    {
+      "datum": "24 april",
+      "naam": "HAS green academy",
+      "aantalPersonen": 70,
+      "cijfer": 10,
+      "tekst": "Ontzettend bedankt voor de gastvrijheid en gezelligheid! Onze collega's hebben genoten van de binnen- en buitenactiviteiten en gingen met een grote glimlach huiswaarts. Graag tot ziens!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-HAS-green-academy-19972064"
+    },
+    {
+      "datum": "22 april",
+      "naam": "JVS Service BV",
+      "aantalPersonen": 27,
+      "cijfer": 10,
+      "tekst": "kan",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-JVS-Service-BV-19923605"
+    },
+    {
+      "datum": "22 december",
+      "naam": "Mondial van Dijk verhuizingen",
+      "aantalPersonen": 28,
+      "cijfer": 10,
+      "tekst": "Super locatie, goede begeleiding en vriendelijke medewerkers!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Mondial-van-Dijk-verhuizingen-19858351"
+    },
+    {
+      "datum": "16 december",
+      "naam": "Breakfast and Business",
+      "aantalPersonen": 14,
+      "cijfer": 6,
+      "tekst": "Super uitje gehad! Dankjewel",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Breakfast-and-Business-19862759"
+    },
+    {
+      "datum": "23 november",
+      "naam": "KBO-PCOB",
+      "aantalPersonen": 21,
+      "cijfer": 10,
+      "tekst": "Het is een aanrader om naar de Heische Hoeve toe te gaan met een groep. De 4x4 Ecotrail is heel leuk en zeker wanneer het langdurig geregend heeft de periode ervoor. Het 3 gangen diner is heel lekker en goed verzorgd. Alleen maar positieve berichten van iedereen over alles.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-KBO-PCOB-19839021"
+    },
+    {
+      "datum": "12 november",
+      "naam": "Bouwbedrijf Peter Peters BV",
+      "aantalPersonen": 60,
+      "cijfer": 8,
+      "tekst": "Echt een leuk uitje voor mannen!!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Bouwbedrijf-Peter-Peters-BV-19836529"
+    }
+  ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-4x4_ecotrail,_whiskytour___pubquiz_%7C_avond"
 }
