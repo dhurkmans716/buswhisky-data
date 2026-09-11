@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "19972945",
     "naam": "4x4 ecotrail, kleiduifschieten & whiskygames"
@@ -17,5 +17,15 @@
     "Algemene oordeel": 9.3,
     "Aantal metingen": 3
   },
+  "gastenboek": [
+    {
+      "datum": "15 september",
+      "naam": "Lighthouse Woldwide Solutions Benelux BV",
+      "aantalPersonen": 33,
+      "cijfer": 10,
+      "tekst": "De Heische Hoeve is een prachtige locatie waar je alles kunt doen wat je op een personeelsdag zou willen doen. Zeer vriendelijk en kundig personeel en de Whisky stokerij &eacute;n proeverij geeft het nog een extra mooi en lekker tintje!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Lighthouse-Woldwide-Solutions-Benelux-BV-20156785"
+    }
+  ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-4x4_ecotrail,_kleiduifschieten___whiskygames"
 }
