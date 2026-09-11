@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "19617961",
     "naam": "Laser Kleiduifschieten | middag"
@@ -17,5 +17,31 @@
     "Algemene oordeel": 8.5,
     "Aantal metingen": 30
   },
+  "gastenboek": [
+    {
+      "datum": "11 september",
+      "naam": "Hanab Infra Solutions",
+      "aantalPersonen": 23,
+      "cijfer": 8,
+      "tekst": "Dat men bij jullie echt eens een afdelingsuitje moet gaan organiseren omdat alles zo goed en snel geregeld was. En dat de locatie waar jullie zitten op een perfect locatie zit.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Hanab-Infra-Solutions-20332298"
+    },
+    {
+      "datum": "6 mei",
+      "naam": "Basisschool Karel de Grote SKPO",
+      "aantalPersonen": 18,
+      "cijfer": 8,
+      "tekst": "Beste Heische Hoeve, \n\nBedankt voor het organiseren van ons teamuitje. Jullie hebben vanaf moment 1 goed met ons meegedacht en naar onze wensen geluisterd. We hadden een zeer geslaagde dag. Vriendelijk personeel en lekker eten. Het toetje, een aantal speciaalbieren en gewonnen prijs voor de winnaar na het schieten, hebben we niet eens besproken maar toch was het er. Iets extra's wat voor ons als iets groots voelt. Super bedankt en wellicht tot ziens!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Basisschool-Karel-de-Grote-SKPO-20286060"
+    },
+    {
+      "datum": "24 maart",
+      "naam": "Bolsius International BV",
+      "aantalPersonen": 7,
+      "cijfer": 10,
+      "tekst": "Hele leuke ervaring, leuk samengesteld programma, lekker relaxed, vriendelijk personeel.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Bolsius-International-BV-20292428"
+    }
+  ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-laser_kleiduifschieten_%7C_middag"
 }
