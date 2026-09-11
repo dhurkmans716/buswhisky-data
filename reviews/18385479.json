@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "18385479",
     "naam": "Weekend actief in Brabant"
@@ -17,5 +17,39 @@
     "Algemene oordeel": 8,
     "Aantal metingen": 7
   },
+  "gastenboek": [
+    {
+      "datum": "16 april",
+      "naam": "Vermeer Loonwerken",
+      "aantalPersonen": 20,
+      "cijfer": 10,
+      "tekst": "Voor groepen een top accommodatie",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Vermeer-Loonwerken-19459793"
+    },
+    {
+      "datum": "28 mei",
+      "naam": "Dikker Zeelst B.V.",
+      "aantalPersonen": 21,
+      "cijfer": 10,
+      "tekst": "Wat hebben wij een top weekend gehad. Het was werkelijk geweldig. Alles was tot in de puntjes verzorgd. Mijn collega&rsquo;s waren allemaal aangenaam verrast. Zij wisten van niks dus alles was een verrassing.\nNogmaals dank voor een top weekend en ik ga jullie zeker aan iedereen aanbevelen!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Dikker-Zeelst-B.V.-18588935"
+    },
+    {
+      "datum": "28 mei",
+      "naam": "Dikker Zeelst B.V.",
+      "aantalPersonen": 21,
+      "cijfer": 10,
+      "tekst": "top weekend gehad met bedrijf Dikker BV. werkelijk alles was top verzorgd eten drinken alle outdoor activiteiten. Speciale dank aan Tim voor de prima begeleiding",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Dikker-Zeelst-B.V.-18588935"
+    },
+    {
+      "datum": "28 mei",
+      "naam": "Dikker Zeelst B.V.",
+      "aantalPersonen": 21,
+      "cijfer": 10,
+      "tekst": "wij hebben een geweldig weekend gehad. alles was top verzorgd. de activiteiten, het eten en drinken, niets op aan te merken. super vriendelijk personeel. Tim dank je wel voor de begeleiding van zaterdag 26 mei. je had alles prima voor elkaar!! mochten we in de toekomst nog eens zo'n uitje willen plannen weten we waar we moeten zijn!!!!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Dikker-Zeelst-B.V.-18588935"
+    }
+  ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-weekend_actief_in_brabant"
 }
