@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "20275497",
     "naam": "4x4 Ecotrail | middag"
@@ -17,5 +17,79 @@
     "Algemene oordeel": 9.2,
     "Aantal metingen": 18
   },
+  "gastenboek": [
+    {
+      "datum": "3 september",
+      "naam": "Vipam International BV",
+      "aantalPersonen": 12,
+      "cijfer": 10,
+      "tekst": "Wat een leuke ecotrail was dit! \nVooral de diepe regenplassen op de zandpaden maakte het erg leuk. \nDe distileerderij is erg intressant om te zien en uitleg te krijgen.\nSuper begeleid door John! Goede verteller!\nAfgesloten met een prima BBQ.\nAl met al een fantastisch teamuitje!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Vipam-International-BV-20302535"
+    },
+    {
+      "datum": "23 juli",
+      "naam": "Jan van Erp",
+      "aantalPersonen": 4,
+      "cijfer": 10,
+      "tekst": "Super leuke middag gehad. Aanrader !!!",
+      "referentieUrl": null
+    },
+    {
+      "datum": "13 juli",
+      "naam": "Ekosiet Products B.V.",
+      "aantalPersonen": 21,
+      "cijfer": 10,
+      "tekst": "Allereerst bedankt voor de gezellige middag/avond.\nEr stond al iemand klaar bij de ontvangst dat is prettig. Een hobbelige maar super leuke 4x4 rit gehad, daarna rondleiding in de whiskystokerij en proeverij. Ondanks de hitte een interessante mooie ervaring. Het verrassingsmenu was een uitstekende keuze, heerlijk. \nOnze ervaring: TOP",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Ekosiet-Products-B.V.-20324123"
+    },
+    {
+      "datum": "2 juli",
+      "naam": "Circet Nederland",
+      "aantalPersonen": 13,
+      "cijfer": 10,
+      "tekst": "Ontzettend ontspannen lokatie voor een bedrijfsuitje, vriendelijke mensen, echt een aanrader!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Circet-Nederland-20315738"
+    },
+    {
+      "datum": "29 juni",
+      "naam": "Willem van Erp",
+      "aantalPersonen": 6,
+      "cijfer": 8,
+      "tekst": "Top vrijgezellenfeest voor een echte whisky liefhebber. Goede uitleg tijdens de whisky tour en toen we echt interesse in de whisky toonden werd ruim de tijd voor ons genomen om verschillende whisky's te proeven. Er zijn twee flessen mee naar huis gegaan.",
+      "referentieUrl": null
+    },
+    {
+      "datum": "22 juni",
+      "naam": "Dusty van den Hoogen",
+      "aantalPersonen": 18,
+      "cijfer": 10,
+      "tekst": "Wij waren zeer tevreden en goed ontvangen. Complimenten aan de organisatie!",
+      "referentieUrl": null
+    },
+    {
+      "datum": "29 mei",
+      "naam": "Enexis",
+      "aantalPersonen": 16,
+      "cijfer": 10,
+      "tekst": "We hebben met een groep van 16 personen een fantastische middag gehad bij de Heische Hoeve. De ontvangst was vriendelijk, met koffie gebak en of fris. de 4x4 Ecotrail was een unieke ervaring voor iedereen. Als afsluiting hebben we genoten van een mooie en interessante whiskytour en een BBQ. Bedankt voor de gastvrijheid en de goede organisatie. We kijken met veel plezier terug op deze dag. Team Meter Expertise",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Enexis-20289703"
+    },
+    {
+      "datum": "20 mei",
+      "naam": "Vermilion Energy Netherlands",
+      "aantalPersonen": 13,
+      "cijfer": 10,
+      "tekst": "Was een zeer geslaagd team uitje en mooi gevarieerd programma. En was zeer interessant om de productie process te zien hoe whiskey wordt gemaakt. We waren zeer tevreden en personeel goed geinformeerd",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Vermilion-Energy-Netherlands-20302476"
+    },
+    {
+      "datum": "27 april",
+      "naam": "Ron Spoormakers",
+      "aantalPersonen": 14,
+      "cijfer": 10,
+      "tekst": "Wat een top dag gehad, alles goed verzorgd kwamen niks te kort. En super bediening",
+      "referentieUrl": null
+    }
+  ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-4x4_ecotrail_%7C_middag"
 }
