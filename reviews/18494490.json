@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "18494490",
     "naam": "Whisky & 4x4 weekend"
@@ -17,5 +17,55 @@
     "Algemene oordeel": 9.5,
     "Aantal metingen": 20
   },
+  "gastenboek": [
+    {
+      "datum": "24 februari",
+      "naam": "De Vriendengroep",
+      "aantalPersonen": 30,
+      "cijfer": 10,
+      "tekst": "Een weekend Heische Hoeve is een grote aanrader! De activiteiten zijn superleuk voor jong en oud, er is voldoende ruimte om spelletjes etc te doen, de bediening is vriendelijk, het ontbijt is heerlijk, kortom, een aanrader!",
+      "referentieUrl": null
+    },
+    {
+      "datum": "24 februari",
+      "naam": "De Vriendengroep",
+      "aantalPersonen": 30,
+      "cijfer": 10,
+      "tekst": "Was weer een zeer geslaagd weekend!",
+      "referentieUrl": null
+    },
+    {
+      "datum": "24 februari",
+      "naam": "De Vriendengroep",
+      "aantalPersonen": 30,
+      "cijfer": 10,
+      "tekst": "De heische hoe en haar personeel is erg gastvrij. Aanwezig waar nodig maar laten je te ens vrij om zelf te genieten. Aanrader!",
+      "referentieUrl": null
+    },
+    {
+      "datum": "24 februari",
+      "naam": "De Vriendengroep",
+      "aantalPersonen": 30,
+      "cijfer": 10,
+      "tekst": "Een heerlijk verblijf bij Bus Whisky! De activiteiten waren enorm leuk om te doen en de begeleiding super!\nEten en drinken? Tja, een betere bourgondische combi van ontbijt, lunch, avondeten en borrelplankjes is er niet te vinden. \n\nInteressant om het verhaal achter de Heische Hoeve rn Bus Whisky (🥃 lekker!) te horen. \n\nEen absolute aanrader",
+      "referentieUrl": null
+    },
+    {
+      "datum": "6 november",
+      "naam": "Toyota Landcruiserclub",
+      "aantalPersonen": 45,
+      "cijfer": 4,
+      "tekst": "Uitstekende kwaliteit, mooi complex, duurzaam en ruim scala aan mogelijkheden.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Toyota-Landcruiserclub-19646766"
+    },
+    {
+      "datum": "21 november",
+      "naam": "Regardt Kr&uuml;ger",
+      "aantalPersonen": 9,
+      "cijfer": 10,
+      "tekst": "Hartelijk dank voor de goede zorgen en veel succes met de Whisky!",
+      "referentieUrl": null
+    }
+  ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-whisky___4x4_weekend"
 }
