@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "18361936",
     "naam": "Suppen, kanovaren, fluisterboot & overnachting"
@@ -17,5 +17,71 @@
     "Algemene oordeel": 8.8,
     "Aantal metingen": 18
   },
+  "gastenboek": [
+    {
+      "datum": "19 augustus",
+      "naam": "Samen voor onze Regio",
+      "aantalPersonen": 11,
+      "cijfer": 8,
+      "tekst": "Dankjewel voor de gastvrijheid!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Samen-voor-onze-Regio-20278079"
+    },
+    {
+      "datum": "19 augustus",
+      "naam": "Samen voor onze Regio",
+      "aantalPersonen": 11,
+      "cijfer": 10,
+      "tekst": "Prachtige locatie met ontzettend veel mogelijkheden voor een gezellige dag of weekend. Dankjewel voor de fijne organisatie.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Samen-voor-onze-Regio-20278079"
+    },
+    {
+      "datum": "19 januari",
+      "naam": "Children of the Water",
+      "aantalPersonen": 26,
+      "cijfer": 10,
+      "tekst": "Wij zijn voor de 2de keer gekomen met ons team en vinden het super! Eten is zo lekker, activiteiten zijn leuk en de mensen die er werken ook lief en behulpzaam. Zeker een aanrader!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Children-of-the-Water-20069106"
+    },
+    {
+      "datum": "7 juli",
+      "naam": "Avans Hogeschool",
+      "aantalPersonen": 45,
+      "cijfer": 10,
+      "tekst": "Wij hebben met onze afdeling MNEXT van Avans Hogeschool een ontzettend leuk samengesteld programma gehad. Wat een fijne locatie en vriendelijk personeel. Echt een aanrader",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Avans-Hogeschool-19766134"
+    },
+    {
+      "datum": "27 september",
+      "naam": "Aces BV",
+      "aantalPersonen": 15,
+      "cijfer": 10,
+      "tekst": "Enorm genoten van een superleuk en redelijk actief personeelsfeest. \nKano, familiefiets, 4x4 en niet te vergeten de bbq maar ook zo gezellige avond bij het kampvuur.\nHet personeel is heel erg vriendelijk en zorgt ervoor dat je je meteen op je gemak voelt.\nDe entourage is in zijn geheel top, echt een aanrader!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Aces-BV-18858798"
+    },
+    {
+      "datum": "27 september",
+      "naam": "VBR Nike Europe Holding B.V. (ELC)",
+      "aantalPersonen": 14,
+      "cijfer": 8,
+      "tekst": "Een ideale locatie en accomodatie voor een geslaagd teamevent.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-VBR-Nike-Europe-Holding-B.V.-ELC-18676579"
+    },
+    {
+      "datum": "30 oktober",
+      "naam": "Gemini Electronics BV",
+      "aantalPersonen": 14,
+      "cijfer": 10,
+      "tekst": "We hebben (weer) een super leuke dag gehad. Een mooie tocht met de huifkar en aansluitend een boottocht op de Aa. Het fietsen met de familiefiets was hilarisch.....De BBQ was lekker en meer dan genoeg. Vooral het ijsje achteraf was een verrassing. Na een gezellige avond aan de open haard goed geslapen. Het ontbijt was ook zeer goed met lekker vers brood en broodjes.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Gemini-Electronics-BV-18548585"
+    },
+    {
+      "datum": "7 juli",
+      "naam": "Stadtwerke Goch B&auml;der GmbH",
+      "aantalPersonen": 42,
+      "cijfer": 10,
+      "tekst": "Wij hadden een perfekte dag op de Heische Hoeve .. En dat met een groep van 41 Personen. (Personeel van een groot Zwembad met Sauna in Goch, Duitsland).\nOndanks heftige regen hadden wij veel plezier. Vooral omdat jullie `s middags snel een alternatief hadden om ons op te warmen. De BBQ was heerlijk en te drinken was ook genoeg aanwezig.\nDank je wel aan jullie TEAM .!! Joris Hartmans.. Bedrijfsleider Stadtwerke Goch B&auml;der, Freizeitbad Goch Ness.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Stadtwerke-Goch-B%C3%A4der-GmbH-18407826"
+    }
+  ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-suppen,_kanovaren,_fluisterboot___overnachting"
 }
