@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "18522570",
     "naam": "Lunch | 4x4 ecotrail | Whiskytour"
@@ -17,5 +17,63 @@
     "Algemene oordeel": 9.3,
     "Aantal metingen": 23
   },
+  "gastenboek": [
+    {
+      "datum": "23 augustus",
+      "naam": "Heesakkers voeg bedrijf",
+      "aantalPersonen": 4,
+      "cijfer": 8,
+      "tekst": "Topuitje!! We hebben genoten van de sfeer!!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Heesakkers-voeg-bedrijf-20343533"
+    },
+    {
+      "datum": "9 maart",
+      "naam": "Koen & Harrie Daamen",
+      "aantalPersonen": 10,
+      "cijfer": 10,
+      "tekst": "We hebben met een groep van tien personen een fantastische dag gehad bij de Heische Hoeve. De ontvangst was vriendelijk, de lunch was uitstekend verzorgd en de 4x4 Ecotrail was een unieke ervaring voor iedereen. Als afsluiting hebben we genoten van een mooie en interessante whiskytour.\nBedankt voor de gastvrijheid en de goede organisatie. We kijken met veel plezier terug op deze dag.",
+      "referentieUrl": null
+    },
+    {
+      "datum": "21 januari",
+      "naam": "MAKARORA",
+      "aantalPersonen": 12,
+      "cijfer": 10,
+      "tekst": "Gezellige locatie, heel vriendelijk personeel en heerlijke lunch en borrelplank. De 4x4 rit was erg leuk, vooral het ruige stuk langs de sloot. Afgesloten met een pubquiz. Helemaal goed.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-MAKARORA-20268581"
+    },
+    {
+      "datum": "21 januari",
+      "naam": "MAKARORA",
+      "aantalPersonen": 12,
+      "cijfer": 10,
+      "tekst": "Wat een fijne lokatie en enorm gastvrije ontvangst. Niets is teveel en het team is bijna net zo enthousiast als de gasten. Iedereen heeft veel plezier beleefd aan deze dag dankzij jullie.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-MAKARORA-20268581"
+    },
+    {
+      "datum": "3 april",
+      "naam": "Zwijsen College",
+      "aantalPersonen": 17,
+      "cijfer": 10,
+      "tekst": "Hebben met collega's een rondleiding en lunch gedaan dit was op alle fronten super.\nDuidelijke uitleg en ook de lunch met allemaal streek producten was zeer goed, we konden ook netjes de dieet wensen door geven.\nEen aanrader voor anderen",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Zwijsen-College-19974068"
+    },
+    {
+      "datum": "6 mei",
+      "naam": "Ciska Hovestadt",
+      "aantalPersonen": 12,
+      "cijfer": 10,
+      "tekst": "We hebben erg gelachen op de familiefiets en heerlijk gegeten!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Ciska-Hovestadt-18625593"
+    },
+    {
+      "datum": "9 oktober",
+      "naam": "Buurtbusvereniging Waalwijk-Oosterhout",
+      "aantalPersonen": 41,
+      "cijfer": 6,
+      "tekst": "Aardig personeel.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Buurtbusvereniging-Waalwijk-Oosterhout-18541634"
+    }
+  ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-lunch_%7C_4x4_ecotrail_%7C_whiskytour"
 }
