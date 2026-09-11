@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "19617909",
     "naam": "4x4 Ecotrail, Laser kleiduifschieten & Whisky | middag"
@@ -17,5 +17,167 @@
     "Algemene oordeel": 8.7,
     "Aantal metingen": 65
   },
+  "gastenboek": [
+    {
+      "datum": "5 juli",
+      "naam": "T.F.V.",
+      "aantalPersonen": 46,
+      "cijfer": 8,
+      "tekst": "Echt een enorm leuke dag gehad! Ook super handig dat er een busregeling is waarmee je makkelijk op de locatie komt. Het is prachtig en het wordt ook duidelijk op wat voor bijzondere plek je bent.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-T.F.V.-20293820"
+    },
+    {
+      "datum": "6 juni",
+      "naam": "Vrijwilligers Kasteel Heeswijk",
+      "aantalPersonen": 60,
+      "cijfer": 10,
+      "tekst": "Het was een heel geslaagd uitstapje voor onze vrijwilligers, goed verzorgd door alle medewerkers en aan het eind een heerlijk borrelmoment met rijk gevulde borrelplanken &eacute;n niet te vergeten de bitterballen die gretig aftrek vonden. \nAl met al voor iedereen aan te raden!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Vrijwilligers-Kasteel-Heeswijk-20308743"
+    },
+    {
+      "datum": "4 juni",
+      "naam": "SAP Nederland B.V.",
+      "aantalPersonen": 13,
+      "cijfer": 8,
+      "tekst": "Wat een verrassende en inspirerende locatie zo midden in de natuur! We kunnen terugkijken op een erg geslaagd teamuitje. De 4x4 ecotrail, het kleiduiven schieten en de whiskytour vielen goed in de smaak en het eten was uitstekend. Echt een aanrader!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-SAP-Nederland-B.V.-20309988"
+    },
+    {
+      "datum": "23 maart",
+      "naam": "Machinaal Timmerbedrijf van Heertum B.V.",
+      "aantalPersonen": 24,
+      "cijfer": 10,
+      "tekst": "Wij hebben een erg leuk en gezellig uitje gehad bij Bus Whisky, leuke activiteiten, prima concept met een eigen ruimte binnen en buiten, met eigen bar. Wij hadden gekozen voor de BBQ, dit was goed verzorgd, vlees was prima en heerlijke salades, brood. ect. Gezellig en vriendelijk personeel ook!\nWe hadden heerlijk zonnig weer en dat maakt dat het extra genieten was!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Machinaal-Timmerbedrijf-van-Heertum-B.V.-20270982"
+    },
+    {
+      "datum": "2 februari",
+      "naam": "Van Lieshout Constructies BV",
+      "aantalPersonen": 23,
+      "cijfer": 10,
+      "tekst": "E hebben een hele leuke dag gehad. Een leuke afsluiting van ons bedrijf.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Van-Lieshout-Constructies-BV-20240914"
+    },
+    {
+      "datum": "20 oktober",
+      "naam": "Laskar Puntlastechniek",
+      "aantalPersonen": 15,
+      "cijfer": 8,
+      "tekst": "Wij hadden als teamuitje gekozen voor het rally rijden, kleiduiven schieten, whisky tour en de BBQ. Het is een prachtige sfeervolle locatie. Het was goed verzorgd en we hebben een hele leuke middag gehad. Het eten was heerlijk. Het enige 'min'-puntje was dat voor mijn collega's het rally rijden wel wat langer had mogen duren.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Laskar-Puntlastechniek-20198766"
+    },
+    {
+      "datum": "29 september",
+      "naam": "Feenstra",
+      "aantalPersonen": 70,
+      "cijfer": 10,
+      "tekst": "We hebben een leuk personeelsuitje gehad. Na onze vergadering hebben we de 4x4 ecotrail gedaan en kleiduiven geschoten. We hebben de dag afgesloten met een pubquiz en een heerlijke BBQ. Dank voor de goede zorgen.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Feenstra-20196016"
+    },
+    {
+      "datum": "23 september",
+      "naam": "Scheffer keukens",
+      "aantalPersonen": 41,
+      "cijfer": 10,
+      "tekst": "Een gezellig dagje uit met 37 collega's. Iedereen was enthousiast over de locatie, de vriendelijke mensen en de leuke activiteiten. Kortom een geslaagde dag voor allemaal. Zeker een aanrader.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Scheffer-keukens-20027411"
+    },
+    {
+      "datum": "19 juni",
+      "naam": "BGH Accountants & Adviseurs",
+      "aantalPersonen": 73,
+      "cijfer": 8,
+      "tekst": "Ondanks het warme weer een fantastische dag gehad bij De Heische Hoeve met onze collega's! Communicatie rondom het evenement had iets beter gekund.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-BGH-Accountants-Adviseurs-19993914"
+    },
+    {
+      "datum": "12 juni",
+      "naam": "Hilco Chemie B.V.",
+      "aantalPersonen": 49,
+      "cijfer": 10,
+      "tekst": "Super leuke locatie met zeer vriendelijk en behulpzaam personeel. Lekker eten en drinken. Top dag gehad met hele bedrijf. Iedereen was zeer te spreken over alles.\n\nIn &eacute;&eacute;n word TOP!\n\nBedankt alle medewerkers en John.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Hilco-Chemie-B.V.-20183567"
+    },
+    {
+      "datum": "9 mei",
+      "naam": "De Ruwenberg",
+      "aantalPersonen": 6,
+      "cijfer": 10,
+      "tekst": "Erg hartelijk ontvangen en leuk om zo ge&iuml;nspireerd te worden.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-De-Ruwenberg-20140584"
+    },
+    {
+      "datum": "6 mei",
+      "naam": "Voets & Donkers Koeltechniek BV",
+      "aantalPersonen": 85,
+      "cijfer": 8,
+      "tekst": "Mooie locatie, met goed verzorgde BBQ en leuke activiteiten!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Voets-Donkers-Koeltechniek-BV-20139195"
+    },
+    {
+      "datum": "23 december",
+      "naam": "Koenen Groen Grond en Infra BV",
+      "aantalPersonen": 25,
+      "cijfer": 10,
+      "tekst": "vriendelijk en gastvrij!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Koenen-Groen-Grond-en-Infra-BV-20111059"
+    },
+    {
+      "datum": "5 december",
+      "naam": "Flevo Berry Breeding",
+      "aantalPersonen": 15,
+      "cijfer": 10,
+      "tekst": "Mooie combinatie van activiteiten en tour door de wiskystokerij. Super geregeld allemaal!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Flevo-Berry-Breeding-20128153"
+    },
+    {
+      "datum": "2 december",
+      "naam": "Profile Care & Tire Service",
+      "aantalPersonen": 33,
+      "cijfer": 10,
+      "tekst": "Prachtige locatie, het eten was perfect en niemand kwam te kort. het personeel is vriendelijk en zeer behulpzaam. MVG Profile Heurkens.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Profile-Care-Tire-Service-20108910"
+    },
+    {
+      "datum": "8 november",
+      "naam": "Banken Champignons",
+      "aantalPersonen": 38,
+      "cijfer": 10,
+      "tekst": "We hebben een schitterende leveranciersavond bij De Heische Hoeve gehad. Veel dank Dennis en het hele team voor het mooie verhaal en de heerlijke gerechten en dranken.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Banken-Champignons-20014859"
+    },
+    {
+      "datum": "30 september",
+      "naam": "Beaphar",
+      "aantalPersonen": 24,
+      "cijfer": 8,
+      "tekst": "Gezellige dag gehad. Hoogtepunt was de 4x4 eco-tour zeker een aanrader!! Zeer gepassioneerde rondleiding in de whiskey stokerij gehad. Mooi en inspirerend verhaal!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Beaphar-20035374"
+    },
+    {
+      "datum": "23 september",
+      "naam": "Moree",
+      "aantalPersonen": 43,
+      "cijfer": 10,
+      "tekst": "prachtige locatie in een prachtige omgeving. het totale concept klopt ! duurzaamheid staat erg hoog in het vaandel! erg vriendelijk en behulpzaam personeel. Bus Wisky uitleg is top gedaan door een erg gepassioneerd en betrokken kenner. Buitenactiviteiten werden op een leuke manier gedaan. We komen graag nog eens terug!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Moree-19982565"
+    },
+    {
+      "datum": "8 juli",
+      "naam": "Indec Internet Decisions",
+      "aantalPersonen": 20,
+      "cijfer": 8,
+      "tekst": "Prachtige locatie met heerlijke streekproducten, huis gestookte whiskey en goed georganiseerde evenementen.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Indec-Internet-Decisions-20012959"
+    },
+    {
+      "datum": "24 juni",
+      "naam": "Advisor ICT Solutions",
+      "aantalPersonen": 40,
+      "cijfer": 10,
+      "tekst": "Mooie locatie, leuke activiteiten, vriendelijk en behulpzaam personeel, lekker eten.\nWij hebben met ons bedrijfsuitje een heerlijke dag gehad, nogmaals bedankt.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Advisor-ICT-Solutions-19925503"
+    }
+  ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-4x4_ecotrail,_laser_kleiduifschieten___whisky_%7C_middag"
 }
