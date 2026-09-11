@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "18252288",
     "naam": "Doe-het-zelf Weekendbruiloft LIGHT laagseizoen (vr t/m zo)"
@@ -19,5 +19,79 @@
     "Comfort douche": 8,
     "Aantal metingen": 19
   },
+  "gastenboek": [
+    {
+      "datum": "2 februari",
+      "naam": "Machteld en Patrick Voormolen",
+      "aantalPersonen": 55,
+      "cijfer": 10,
+      "tekst": "Wat hebben wij genoten van ons prachtige bruiloftsweekend op de Heische Hoeve.\nDe locatie nodigt uit om er helemaal je eigen weekend van te maken samen met de gasten. Dit gaf een hele bijzondere sfeer! Zeker een aanrader.",
+      "referentieUrl": null
+    },
+    {
+      "datum": "17 november",
+      "naam": "Sjors en Liselotte Driessen-Hitters",
+      "aantalPersonen": 121,
+      "cijfer": 8,
+      "tekst": "Wat een geweldige locatie. Wij hebben hier onze winterbruiloft gevierd, de sfeer is fantastisch. Ons weekend was onbeschrijfelijk mede door de locatie. Heische hoeve bedankt!!",
+      "referentieUrl": null
+    },
+    {
+      "datum": "15 oktober",
+      "naam": "Estelle & Cees Gillessen / Maessen",
+      "aantalPersonen": 130,
+      "cijfer": 8,
+      "tekst": "Bedankt voor dit top weekend. Wij hebben door oa deze locatie een droom bruiloft gehad. Door er een weekend van te maken met overnachting, maak je een feest van en voor iedereen. Daarnaast heb je volledig eigen regie. Dit is veel werk, maar maakt het enorm eigen. Ook onze gasten vonden de locatie fantastisch. Zeker een aanrader voor alle toekomstige bruidsparen. Bedankt!\n\nCees&Estelle",
+      "referentieUrl": null
+    },
+    {
+      "datum": "14 november",
+      "naam": "Erika & Pascal De Kort",
+      "aantalPersonen": 70,
+      "cijfer": 8,
+      "tekst": "Wij hebben een fantastische bruiloft mogen vieren met al onze gasten op Heische hoeve. Heel fijn dat we zelf mochten bedenken en bepalen hoe we de locatie in ging delen. En wat een prachtige natuur en zo mooi onderhouden. Het personeel van de Heische Hoeve was in alles heel behulpzaam en onze gasten en wij, hebben echt het gevoel gehad wat we even met elkaar op vakantie waren tijdens onze bruiloft. Wat een mooie herinnering hebben wij gekregen. Veel liefs Pascal en Erika",
+      "referentieUrl": null
+    },
+    {
+      "datum": "10 februari",
+      "naam": "Carolien Kamps",
+      "aantalPersonen": 105,
+      "cijfer": 10,
+      "tekst": "Fantastisch weekend gehad! Zelf gezorgd voor alles erop en eraan maar zonder zo'n mooie locatie was dit nergens zo gedaagd geworden!",
+      "referentieUrl": null
+    },
+    {
+      "datum": "28 oktober",
+      "naam": "Ilse & Sjoerd van Hooft",
+      "aantalPersonen": 100,
+      "cijfer": 6,
+      "tekst": "Mooie locatie, veel eigen mogelijkheden. Zeker aan te raden voor een onvergetelijk weekend.",
+      "referentieUrl": null
+    },
+    {
+      "datum": "28 oktober",
+      "naam": "Art van der Vorm",
+      "aantalPersonen": 100,
+      "cijfer": 10,
+      "tekst": "Zeer hulpvaardig personeel, super locatie voor trouwen.",
+      "referentieUrl": null
+    },
+    {
+      "datum": "28 oktober",
+      "naam": "Ilse & Sjoerd van Hooft",
+      "aantalPersonen": 100,
+      "cijfer": 8,
+      "tekst": "Jullie hebben een geweldige locatie en we hebben een fantastisch weekend gehad. De gasten waren helemaal verrast. Het was nog beter dan we hadden durven dromen. Met een prachtige herfstzon hebben we een mooie ceremonie buiten gehad. John en Carla bedankt voor jullie hulp!",
+      "referentieUrl": null
+    },
+    {
+      "datum": "7 oktober",
+      "naam": "Wendy van den Boomen",
+      "aantalPersonen": 180,
+      "cijfer": 8,
+      "tekst": "Wij kende de heische hoeve van een eerdere bruiloft waar we op het feest aanwezig waren geweest een paar jaartjes terug. Op dat moment zeiden we meteen. Als we gaan trouwen dan moet dat hier zijn. De sfeer is super prettig, je hebt alle vrijheid en kunt het precies invullen zoals je zelf wilt. Wij besloten helemaal geen personeel in te huren en alles samen te doen met ons gezelschap wat er het hele weekend was. Er was direct een super sfeer en iedereen hielp elkaar. Het was in een woord GEWELDIG!",
+      "referentieUrl": null
+    }
+  ],
   "bron": "https://www.heischehoeve.com/weekendbruiloft-heische-hoeve-laagseizoen"
 }
