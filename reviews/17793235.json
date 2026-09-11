@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "17793235",
     "naam": "24-uurs arrangement (1 pers. kamer) alles inclusief"
@@ -20,5 +20,167 @@
     "Algemene oordeel": 8.4,
     "Aantal metingen": 131
   },
+  "gastenboek": [
+    {
+      "datum": "19 februari",
+      "naam": "PinkRoccade Local Government",
+      "aantalPersonen": 5,
+      "cijfer": 8,
+      "tekst": "We hebben enorm genoten! \nDe kamer was prima in orde en zowel de rondleiding als het eten waren fantastisch.\nOok de pubquiz was ontzettend vermakelijk en de gastheer was een uitstekende host.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-PinkRoccade-Local-Government-20275693"
+    },
+    {
+      "datum": "20 oktober",
+      "naam": "Gom Schoonhouden BV",
+      "aantalPersonen": 15,
+      "cijfer": 10,
+      "tekst": "Ik zou jullie hartelijk willen bedanken voor de hartelijke ontvangst binnen jullie buitengewoon prettige accommodatie, voor mij met stip op 1!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Gom-Schoonhouden-BV-18528849"
+    },
+    {
+      "datum": "1 oktober",
+      "naam": "Canon Nederland N.V.",
+      "aantalPersonen": 12,
+      "cijfer": 10,
+      "tekst": "Super leuke plek om aan teambuilding te doen, alles netjes georganiseerd, vriendelijk en schoon. Fijne plek!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Canon-Nederland-N.V.-20198304"
+    },
+    {
+      "datum": "4 juli",
+      "naam": "Canon Nederland NV",
+      "aantalPersonen": 10,
+      "cijfer": 4,
+      "tekst": "Super bedankt voor de prachtige lokatie en vooral de enthousiaste rondleiding!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Canon-Nederland-NV-20167614"
+    },
+    {
+      "datum": "5 juni",
+      "naam": "Gom Schoonhouden BV",
+      "aantalPersonen": 27,
+      "cijfer": 10,
+      "tekst": "Wat hebben wij genoten van onze 24-uurs sessie bij De Heische Hoeve! Alles was tot in de puntjes verzorgd &ndash; van de voorbereiding tot de overnachting. De locatie is prachtig en de omgeving straalt rust uit, wat echt heeft bijgedragen aan een inspirerende en productieve bijeenkomst. Bedankt voor de gastvrijheid en goede zorgen!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Gom-Schoonhouden-BV-18528849"
+    },
+    {
+      "datum": "29 mei",
+      "naam": "Unilever CA&MM Knorr Team",
+      "aantalPersonen": 25,
+      "cijfer": 10,
+      "tekst": "Een fantastische locatie voor een team event, met veel binnen en buitenruimte en een goede verzorging. Heerlijk om in de avond door te kunnen gaan met het team zonder anderen te storen of naar een andere locatie te moeten gaan. Eigen bar met zelfbediening en een eigen kamer om te overnachten. Fantastisch. Hartelijk dank!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Unilever-CA-MM-Knorr-Team-20164627"
+    },
+    {
+      "datum": "13 januari",
+      "naam": "Verweij Electrotechniek",
+      "aantalPersonen": 14,
+      "cijfer": 8,
+      "tekst": "Fijn ontvangst en goede service.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Verweij-Electrotechniek-20108539"
+    },
+    {
+      "datum": "13 januari",
+      "naam": "Verweij Electrotechniek",
+      "aantalPersonen": 14,
+      "cijfer": 10,
+      "tekst": "Het is een fantastisch verblijf. Mooie locatie. Top activiteiten! 4x4 en rondleiding door de stokerij zijn echt heel leuk!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Verweij-Electrotechniek-20108539"
+    },
+    {
+      "datum": "13 januari",
+      "naam": "Verweij Electrotechniek",
+      "aantalPersonen": 14,
+      "cijfer": 8,
+      "tekst": "Goede sfeer vriendelijke bediening voor herhaling vatbaar",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Verweij-Electrotechniek-20108539"
+    },
+    {
+      "datum": "2 september",
+      "naam": "Fakton",
+      "aantalPersonen": 29,
+      "cijfer": 6,
+      "tekst": "Mooie locatie met mooie producten en een fijne tuin waar bij mooi weer heerlijk gedineerd kan worden. Zeker een aanrader voor grote meetings en een gezellige borrel achteraf!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Fakton-19875952"
+    },
+    {
+      "datum": "1 maart",
+      "naam": "NIRAS",
+      "aantalPersonen": 11,
+      "cijfer": 10,
+      "tekst": "Super locatie om te vergaderen. Relax, down-to-earth en flexibel. Het voelde als thuis.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-NIRAS-19910345"
+    },
+    {
+      "datum": "22 januari",
+      "naam": "gemeente Heusden",
+      "aantalPersonen": 8,
+      "cijfer": 8,
+      "tekst": "Erg goed verzorgd en leuk verblijf. Leuke activiteiten en een zeer goed ontbijt/lunch/diner, ook voor de veganist in onze groep top verzorgd. Erg tevreden en we kijken terug op een geslaagde twee-daagse!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-gemeente-Heusden-19768805"
+    },
+    {
+      "datum": "4 december",
+      "naam": "Starcker B.V.",
+      "aantalPersonen": 9,
+      "cijfer": 8,
+      "tekst": "Leuke ervaring, inspiratievol verhaal tijdens de tour, lekker eten en een mooie locatie met voldoende sfeervolle ruimte voor overleg.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Starcker-B.V.-19868661"
+    },
+    {
+      "datum": "13 november",
+      "naam": "Samenwerkingsverband VO 3006",
+      "aantalPersonen": 16,
+      "cijfer": 10,
+      "tekst": "Goed verzorgde tweedaagse gehad! top locatie, lekker eten en prettige omgeving",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Samenwerkingsverband-VO-3006-19815385"
+    },
+    {
+      "datum": "13 november",
+      "naam": "Samenwerkingsverband VO 3006",
+      "aantalPersonen": 16,
+      "cijfer": 10,
+      "tekst": "Een fantastische plek om met je team aan het werk te gaan!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Samenwerkingsverband-VO-3006-19815385"
+    },
+    {
+      "datum": "14 juli",
+      "naam": "Flowfirm",
+      "aantalPersonen": 11,
+      "cijfer": 10,
+      "tekst": "Bedankt voor jullie gastvrijheid en alle goede zorgen.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Flowfirm-19642839"
+    },
+    {
+      "datum": "8 juni",
+      "naam": "BLECKMANN NEDERLAND",
+      "aantalPersonen": 35,
+      "cijfer": 6,
+      "tekst": "Succesvolle Marketing & Sales teammeeting gehad bij de Heische Hoeve in Loosbroek. Heerlijk vergaderen op een groene locatie waar het team de kans kreeg om met elkaar te vergaderen, bij te praten, lekker te eten en actief bezig te zijn. Fijn dat er ter plaatste ook overnacht kan worden.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-BLECKMANN-NEDERLAND-19756298"
+    },
+    {
+      "datum": "3 mei",
+      "naam": "CBS",
+      "aantalPersonen": 30,
+      "cijfer": 8,
+      "tekst": "Een mooie locatie voor een teamtraining met een gevarieerd programma, met dank aan de aanwezige faciliteiten.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-CBS-19670851"
+    },
+    {
+      "datum": "13 februari",
+      "naam": "Aesyliften B.V.",
+      "aantalPersonen": 8,
+      "cijfer": 8,
+      "tekst": "Wat een leuke heisessie hebben we mogen ervaren in deze geweldige omgeving. Aan alles is gedacht en tot in de puntjes verzorgd. Je hebt nergens omkijken naar. Mooie inspirerende omgeving!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Aesyliften-B.V.-19648898"
+    },
+    {
+      "datum": "26 september",
+      "naam": "Business Connected B.V.",
+      "aantalPersonen": 36,
+      "cijfer": 8,
+      "tekst": "Mooie landelijke en ruime locatie met veel buitenruimte die ontzettend geschikt is voor een teamdag. Je hebt de vleugel voor jezelf dus erg prettig i.v.m. privacy. Sfeervolle uitstraling en eten is goed verzorgd.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Business-Connected-B.V.-19007387"
+    }
+  ],
   "bron": "https://www.heischehoeve.com/vergaderlocatie-24_uurs_arrangement_(1_pers._kamer)_alles_inclusief"
 }
