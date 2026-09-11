@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "17796744",
     "naam": "56-uurs arrangement (1 pers. kamer) alles inclusief"
@@ -20,5 +20,167 @@
     "Algemene oordeel": 8.2,
     "Aantal metingen": 66
   },
+  "gastenboek": [
+    {
+      "datum": "15 november",
+      "naam": "Ipco Process Systems BV",
+      "aantalPersonen": 8,
+      "cijfer": 10,
+      "tekst": "ja hoor geen probleem",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Ipco-Process-Systems-BV-20089048"
+    },
+    {
+      "datum": "22 januari",
+      "naam": "AVS",
+      "aantalPersonen": 14,
+      "cijfer": 8,
+      "tekst": "Prachtige locatie, mooie werkruimtes, geode en vriendelijke bediening.\nkamer vind ik magertjes.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-AVS-19583542"
+    },
+    {
+      "datum": "22 januari",
+      "naam": "AVS",
+      "aantalPersonen": 14,
+      "cijfer": 8,
+      "tekst": "Sfeervolle locatie met goede verzorging. Slaapkamers zijn eenvoudig.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-AVS-19583542"
+    },
+    {
+      "datum": "22 januari",
+      "naam": "AVS",
+      "aantalPersonen": 14,
+      "cijfer": 8,
+      "tekst": "Prettig locatie, zeer welkom, alles mogelijk!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-AVS-19583542"
+    },
+    {
+      "datum": "22 januari",
+      "naam": "AVS",
+      "aantalPersonen": 14,
+      "cijfer": 8,
+      "tekst": "Ik ben zeer onder de indruk van het circulaire concept dat jullie voeren. Van voeding tot verblijf. Mooie producten, goed eten, met oog voor de omgeving. Aanrader!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-AVS-19583542"
+    },
+    {
+      "datum": "18 mei",
+      "naam": "Riedel B.V",
+      "aantalPersonen": 17,
+      "cijfer": 8,
+      "tekst": "Prima verblijven op de Heische hoevelen zeer kundig en vriendelijkpersoneel\nStaan bij vragen gelijk klaar met een oplossing\nKomen zeker weer terug hadden een drie daagde verblijf en een heerlijke BBQ\nBedankt voor de goede zorg",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Riedel-B.V-19668715"
+    },
+    {
+      "datum": "21 september",
+      "naam": "Sonova Audiological Care Nederland",
+      "aantalPersonen": 11,
+      "cijfer": 6,
+      "tekst": "De Heische Hoeve is een plek met potentie voor zakelijke bijeenkomsten. Op dit moment zijn er echter nog teveel gebreken en zaken die niet goed lopen. In mijn kamer (nr4) kon het gordijn van het dakraam niet dicht, was het haakje voor de handdouche afgebroken en was het bed bij aankomst niet opgemaakt.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Sonova-Audiological-Care-Nederland-19594291"
+    },
+    {
+      "datum": "20 september",
+      "naam": "Sonova Audiological Care Nederland",
+      "aantalPersonen": 11,
+      "cijfer": 6,
+      "tekst": "De eerste avond was zeer geslaagd, vriendelijk personeel en goed eten.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Sonova-Audiological-Care-Nederland-19594291"
+    },
+    {
+      "datum": "20 september",
+      "naam": "Sonova Audiological Care Nederland",
+      "aantalPersonen": 11,
+      "cijfer": 8,
+      "tekst": "fijne plek in een rustige omgeving",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Sonova-Audiological-Care-Nederland-19594291"
+    },
+    {
+      "datum": "20 september",
+      "naam": "Sonova Audiological Care Nederland",
+      "aantalPersonen": 11,
+      "cijfer": 6,
+      "tekst": "De sfeer is fijn. Lekker kneuterig. Ik vind dit kleinschalige veel fijner dan een groot luxe hotel.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Sonova-Audiological-Care-Nederland-19594291"
+    },
+    {
+      "datum": "16 juni",
+      "naam": "Yuverta",
+      "aantalPersonen": 14,
+      "cijfer": 8,
+      "tekst": "Ik heb voor de 2e heer mogen genieten van de gastvrijheid, de geweldige bediening en de mooie rustige locatie.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Yuverta-18646945"
+    },
+    {
+      "datum": "6 september",
+      "naam": "OR Avnet B.V.",
+      "aantalPersonen": 5,
+      "cijfer": 6,
+      "tekst": "complimenten voor bram en stan, top gozers waren priceless bij ons bamboe pyramide spel.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-OR-Avnet-B.V.-18836090"
+    },
+    {
+      "datum": "1 juli",
+      "naam": "Vanderlande Industries B.V.",
+      "aantalPersonen": 27,
+      "cijfer": 10,
+      "tekst": "Onze dank voor het geboden arrangement, we zijn zeer tevreden!\nDe gasten hebben zonder uitzondering allemaal hun waardering voor de locatie uitgesproken. We hebben genoten van een enorme gastvrijheid, prachtig landelijke locatie (zowel binnen als buiten) en een algemeen prima verzorgd verblijf.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Vanderlande-Industries-B.V.-18829393"
+    },
+    {
+      "datum": "27 mei",
+      "naam": "Cooperatie DELA",
+      "aantalPersonen": 17,
+      "cijfer": 8,
+      "tekst": "3 Dagen hier cursus gehad. Top locatie. Lekker rustig, mooie omgeving en wat een vriendelijke mensen. Ze denken met je mee en zelfs vooruit. Heel gastvrij. Eten was heel goed verzorgd en heerlijk (lekker vers). Absoluut een aanrader.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Cooperatie-DELA-18721092"
+    },
+    {
+      "datum": "26 mei",
+      "naam": "Cooperatie DELA",
+      "aantalPersonen": 17,
+      "cijfer": 8,
+      "tekst": "aangenaam verblijf in gemoedelijke sfeer op het platteland.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Cooperatie-DELA-18721092"
+    },
+    {
+      "datum": "24 mei",
+      "naam": "Cooperatie DELA",
+      "aantalPersonen": 17,
+      "cijfer": 10,
+      "tekst": "Prima locatie, mooi in de natuur, in de pauze even een lekkere frisse neus halen, goede verzorging. allemaal netjes.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Cooperatie-DELA-18721092"
+    },
+    {
+      "datum": "24 mei",
+      "naam": "Cooperatie DELA",
+      "aantalPersonen": 17,
+      "cijfer": 8,
+      "tekst": "De Heische Hoeve is een sfeervolle locatie waar alles tot in de puntjes verzorgd wordt. Ze luisteren echt naar je wensen en doen hun best daaraan te voldoen. En je kunt met jouw groep een 'eigen' ruimte krijgen, wat erg fijn is als teambuilding ook onderdeel is van de sessie. We hebben het top gehad die 3 dagen!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Cooperatie-DELA-18721092"
+    },
+    {
+      "datum": "24 mei",
+      "naam": "Cooperatie DELA",
+      "aantalPersonen": 17,
+      "cijfer": 8,
+      "tekst": "gastvrij ontvangen prettig om met een grote groep te verblijven",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Cooperatie-DELA-18721092"
+    },
+    {
+      "datum": "24 mei",
+      "naam": "Cooperatie DELA",
+      "aantalPersonen": 17,
+      "cijfer": 10,
+      "tekst": "Allereerst mijn complimenten aan de kok voor het heerlijke 3-gangen diner.\nDaarnaast genoten van de prachtige locatie en de hartelijke uitstekende bediening",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Cooperatie-DELA-18721092"
+    },
+    {
+      "datum": "24 mei",
+      "naam": "Cooperatie DELA",
+      "aantalPersonen": 17,
+      "cijfer": 6,
+      "tekst": "De algehele verzorging, kwaliteit medewerkers en eten, drinks en sfeer, omgeving van de locatie TOP",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Cooperatie-DELA-18721092"
+    }
+  ],
   "bron": "https://www.heischehoeve.com/vergaderlocatie-56_uurs_arrangement_(1_pers._kamer)_alles_inclusief"
 }
