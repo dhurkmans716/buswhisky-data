@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T10:02:19.232Z",
+  "gegenereerd": "2026-09-11T16:02:19.375Z",
   "bron": "KMT gateway via n8n (Bus Whisky)",
   "activiteiten": [
     {
@@ -925,8 +925,8 @@
       "datums": [
         {
           "datum": "2026-09-11",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-12",
@@ -8242,8 +8242,8 @@
       "datums": [
         {
           "datum": "2026-09-11",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-12",
@@ -14620,8 +14620,8 @@
       "datums": [
         {
           "datum": "2026-09-11",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-12",
@@ -16439,8 +16439,8 @@
       "datums": [
         {
           "datum": "2026-09-11",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-12",
@@ -17348,8 +17348,8 @@
       "datums": [
         {
           "datum": "2026-09-11",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-12",
@@ -18257,8 +18257,8 @@
       "datums": [
         {
           "datum": "2026-09-11",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-12",
@@ -19166,8 +19166,8 @@
       "datums": [
         {
           "datum": "2026-09-11",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-12",
@@ -21893,8 +21893,8 @@
       "datums": [
         {
           "datum": "2026-09-11",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-12",
@@ -25529,8 +25529,8 @@
       "datums": [
         {
           "datum": "2026-09-11",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-12",
@@ -26438,8 +26438,8 @@
       "datums": [
         {
           "datum": "2026-09-11",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-12",
