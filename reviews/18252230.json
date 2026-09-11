@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "18252230",
     "naam": "Doe-het-zelf Midweekbruiloft hoogseizoen (di t/m do)"
@@ -19,5 +19,79 @@
     "Comfort douche": 7.6,
     "Aantal metingen": 18
   },
+  "gastenboek": [
+    {
+      "datum": "17 augustus",
+      "naam": "Sheila en Pepijn Blatter",
+      "aantalPersonen": 80,
+      "cijfer": 2,
+      "tekst": "Fijne locatie waar alles kan en bijna alles mag. Het is veel werk maar hierdoor kun je echt je eigen unieke bruiloft cre&euml;eren. Het personeel is allemaal even vriendelijk. En de locatie is netjes en schoon.",
+      "referentieUrl": null
+    },
+    {
+      "datum": "8 augustus",
+      "naam": "Tom en Laura van Zutphen",
+      "aantalPersonen": 50,
+      "cijfer": 10,
+      "tekst": "Prachtige locatie, heerlijk om zo'n ruimte voor 'jezelf' te hebben. John is een topper!",
+      "referentieUrl": null
+    },
+    {
+      "datum": "28 juli",
+      "naam": "Maurice & Marieke Sammels",
+      "aantalPersonen": 87,
+      "cijfer": 10,
+      "tekst": "Na 3 jaar vertraging door gedwongen uitstel vanwege corona maatregelen, hebben we in de week van 25 july 2023 toch eindelijk onze trouwerij kunnen houden. De support, behulpzaamheid, en meedenkendheid van het team bij de heische hoeve vooraf, de ruimte en rust in het prachtige gebouw en tuin, kamers voor veel van onze gasten om te overnachten en de dagen na de bruiloft ook gezellig zamen door te brengen, het was allemaal het wachten waard want we hebben echt een super ontspannen maar oh zo mooie bruiloft gehad op deze unieke locatie.",
+      "referentieUrl": null
+    },
+    {
+      "datum": "24 juli",
+      "naam": "Lynn en Yoran O'Callaghan",
+      "aantalPersonen": 150,
+      "cijfer": 8,
+      "tekst": "Prachtige locatie, met veel mogelijkheden. Fijn dat de medewerkers altijd bereid waren vragen te beantwoorden of iets op te lossen.",
+      "referentieUrl": null
+    },
+    {
+      "datum": "19 augustus",
+      "naam": "Angelo & Eline Philippi",
+      "aantalPersonen": 60,
+      "cijfer": 10,
+      "tekst": "Na een aantal keer onze bruiloft verzet te moeten hebben, hebben we pasgeleden echt onze droombruiloft gevierd. Bij aankomst zag de locatie er al super uit en nadat we het met onze eerste gasten hadden versierd, was het echt een totaalplaatje! Leuk ook dat je alles zelf in de hand hebt zodat je de bruiloft goed kunt personaliseren met allemaal details. Aanrader dus!",
+      "referentieUrl": null
+    },
+    {
+      "datum": "13 augustus",
+      "naam": "Lynn Van Baaren en Bart",
+      "aantalPersonen": 100,
+      "cijfer": 10,
+      "tekst": "Wij hebben bij de Heische Hoeve onze droom bruiloft waar kunnen maken!",
+      "referentieUrl": null
+    },
+    {
+      "datum": "23 september",
+      "naam": "Sjoerd Appels",
+      "aantalPersonen": 60,
+      "cijfer": 10,
+      "tekst": "Fantastische locatie, mooi weer en een prachtige dag hebben wij gehad. We zijn getrouwd op het trouweiland, geborreld op het terras met een heerlijke BBQ. Gedanst in de Leijgraaffzaal en de meest mooie bijzondere momenten beleeft op de Heische Hoeve. En het is zo fijn dat ook het personeel met ons meedacht! Wat een gastvrije locatie, iedereen van de gasten heeft genoten en wij helemaal! Alles kan en niets moet! \nDe Heische Hoeve is een echte aanrader!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Sjoerd-Appels-18928044"
+    },
+    {
+      "datum": "29 augustus",
+      "naam": "Bruiloft Sheila Cooper en Kerin Paulus",
+      "aantalPersonen": 150,
+      "cijfer": 8,
+      "tekst": "Super mooie locatie met een geweldige sfeer. Als jij een landelijke locatie zoekt voor een echt familie feest, dan is dit d plek voor jullie!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Bruiloft-Sheila-Cooper-en-Kerin-Paulus-18689577"
+    },
+    {
+      "datum": "17 augustus",
+      "naam": "Mascha en James Spanjers",
+      "aantalPersonen": 90,
+      "cijfer": 8,
+      "tekst": "James en ik hebben echt absolute een van onze mooiste momenten van ons leven hier beleefd tijdens onze bruiloft. We hebben vele complimenten gekregen over de locatie, organisatie en aankleding. Heel fijn personeel van de heische hoeve om contact mee te hebben! Een dikke aanrader voor ons. Super bedankt!",
+      "referentieUrl": null
+    }
+  ],
   "bron": "https://www.heischehoeve.com/midweekbruiloft-heische-hoeve-hoogseizoen"
 }
