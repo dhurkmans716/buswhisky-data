@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "960185",
     "naam": "Whisky & Weilandgames"
@@ -17,5 +17,167 @@
     "Algemene oordeel": 8.6,
     "Aantal metingen": 213
   },
+  "gastenboek": [
+    {
+      "datum": "6 juli",
+      "naam": "CycleSoftware B.V.",
+      "aantalPersonen": 55,
+      "cijfer": 10,
+      "tekst": "Alles was top geregeld, mooie locatie en we hebben ons dan ook goed vermaakt tijdens ons jaarlijkse bedrijfsuitje.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-CycleSoftware-B.V.-20184888"
+    },
+    {
+      "datum": "20 november",
+      "naam": "Kon. Marechaussee",
+      "aantalPersonen": 38,
+      "cijfer": 4,
+      "tekst": "We zijn zeer tevreden over de dag. Accomodatie was heel gezellig. Het concept met eigen bediening bar is prettig en de workshop pizza bakken was zeer geslaagd en heel lekker.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Kon.-Marechaussee-20205292"
+    },
+    {
+      "datum": "16 september",
+      "naam": "Pivot Park",
+      "aantalPersonen": 26,
+      "cijfer": 8,
+      "tekst": "Erg gezellig uitje, leuk om met je collega's te doen. Er werd veel gelachen en leuk dat we als teams tegen elkaar moesten werken. Het is een hele mooie en rustige plek. De Ecotrail was ook leuk om heerlijk in de natuur te zitten.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Pivot-Park-20167568"
+    },
+    {
+      "datum": "7 juli",
+      "naam": "Circet Nederland",
+      "aantalPersonen": 48,
+      "cijfer": 10,
+      "tekst": "Het was een zeer leuke dag personeel was uiterlijk vriendelijk en eten was prima",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Circet-Nederland-20195176"
+    },
+    {
+      "datum": "23 september",
+      "naam": "Nilfisk",
+      "aantalPersonen": 105,
+      "cijfer": 10,
+      "tekst": "Ongedwongen en gezellig",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Nilfisk-19988376"
+    },
+    {
+      "datum": "18 september",
+      "naam": "UMC Utrecht",
+      "aantalPersonen": 60,
+      "cijfer": 10,
+      "tekst": "Een leuke locatie met Brabantse gezelligheid (en de pizza-workshop was een groot succes).",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-UMC-Utrecht-20005547"
+    },
+    {
+      "datum": "10 juni",
+      "naam": "Van der Krogt",
+      "aantalPersonen": 31,
+      "cijfer": 8,
+      "tekst": "prachtige lokatie leuke spellen van de brabandse meerkamp mooi dat we met onze groep een eigen restaurant hadden met de bbq zo bleef alles bij elkaar",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Van-der-Krogt-19725392"
+    },
+    {
+      "datum": "24 november",
+      "naam": "JBZ RVE Cardiologie",
+      "aantalPersonen": 151,
+      "cijfer": 10,
+      "tekst": "Het was een super gezellig en goed georganiseerd uitje op een mooie locatie.\nDe diversiteit van de invulling was erg leuk!\nGoed geslaagde teambuilding!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-JBZ-RVE-Cardiologie-19798580"
+    },
+    {
+      "datum": "27 september",
+      "naam": "politie Brabant Noord",
+      "aantalPersonen": 103,
+      "cijfer": 8,
+      "tekst": "Beste medewerkers van de Heische Hoeve.\nWe hebben een top dag gehad. Geweldig om te zien dat we met ruim 100 mensen bij jullie te gast mochten zijn en dat niemand iets te kort is gekomen. Behalve tijd, het was veelste gezellig en de dag is voorbij gevlogen.\nChapeau voor het team van de Heische Hoeve!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-politie-Brabant-Noord-10346089"
+    },
+    {
+      "datum": "20 oktober",
+      "naam": "Politie Basisteam Maas en Leijgraaf",
+      "aantalPersonen": 97,
+      "cijfer": 10,
+      "tekst": "Hele leuke locatie, leuke spellen goed verzorgt en heel lekker gegeten",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Politie-Basisteam-Maas-en-Leijgraaf-19332358"
+    },
+    {
+      "datum": "30 september",
+      "naam": "Theo Mulkens",
+      "aantalPersonen": 90,
+      "cijfer": 10,
+      "tekst": "Wij hebben met z&rsquo;n allen een geweldige dag gehad. Prima gastvrije lokatie. Het eten was voortreffelijk. De drank heeft rijkelijk gevloeid.",
+      "referentieUrl": null
+    },
+    {
+      "datum": "29 juni",
+      "naam": "DAF Trucks N.V.",
+      "aantalPersonen": 24,
+      "cijfer": 10,
+      "tekst": "Voor de 2e week op rij een event voor onze internationale management leergang gehad op de Heische Hoeve was weer helemaal top.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-DAF-Trucks-N.V.-17736666"
+    },
+    {
+      "datum": "22 juni",
+      "naam": "DAF Trucks N.V.",
+      "aantalPersonen": 25,
+      "cijfer": 10,
+      "tekst": "Voor het zoveelste jaar te gast op de Heische Hoeve voor ons outdoor team event voor de internationale management leergang en is het is altijd top geregeld.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-DAF-Trucks-N.V.-17736666"
+    },
+    {
+      "datum": "25 juni",
+      "naam": "Tarkett Sports bv",
+      "aantalPersonen": 16,
+      "cijfer": 10,
+      "tekst": "Dit is een absolute aanrader, een geweldige locatie, heerlijk eten en vriendelijk personeel! Super locatie voor een geslaagde teambuilding!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Tarkett-Sports-bv-18859551"
+    },
+    {
+      "datum": "19 mei",
+      "naam": "Shared Service Center DJI",
+      "aantalPersonen": 17,
+      "cijfer": 10,
+      "tekst": "Wij waren al vaker bij jullie geweest en hebben wederom een fantastische teamdag gehad. \nJullie gaan ons zeker nog eens terug zien.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Shared-Service-Center-DJI-18850436"
+    },
+    {
+      "datum": "30 oktober",
+      "naam": "AFL Groep BV",
+      "aantalPersonen": 31,
+      "cijfer": 10,
+      "tekst": "geweldige accomodatie, alles top geregeld.\ndank voor het leuke, zeer aangename verblijf",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-AFL-Groep-BV-18708346"
+    },
+    {
+      "datum": "30 oktober",
+      "naam": "AFL Groep BV",
+      "aantalPersonen": 31,
+      "cijfer": 8,
+      "tekst": "Gezellige leuke ervaring! :D",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-AFL-Groep-BV-18708346"
+    },
+    {
+      "datum": "5 oktober",
+      "naam": "GEMEENTE NIJMEGEN | Bureau Handhaving en Toezicht",
+      "aantalPersonen": 50,
+      "cijfer": 8,
+      "tekst": "Wij als Gemeente Nijmegen hebben een super leuke dag gehad op de Heische hoeve, het Brabantsemeerkamp is zeker een aanrader als je het hebt over team-spelen. Het eten was goed en de bediening vriendelijk!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-GEMEENTE-NIJMEGEN-%7C-Bureau-Handhaving-en-Toezicht-18669716"
+    },
+    {
+      "datum": "1 oktober",
+      "naam": "Swijnenburg Transport Werkendam B.V.",
+      "aantalPersonen": 40,
+      "cijfer": 8,
+      "tekst": "x",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Swijnenburg-Transport-Werkendam-B.V.-18676724"
+    },
+    {
+      "datum": "15 maart",
+      "naam": "Jeroen Bosch Ziekenhuis, afd. Intensive Care A3",
+      "aantalPersonen": 25,
+      "cijfer": 8,
+      "tekst": "Gastvrije ontvangst, relaxte sfeer.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Jeroen-Bosch-Ziekenhuis-afd.-Intensive-Care-A3-18613679"
+    }
+  ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-whisky___weilandgames"
 }
