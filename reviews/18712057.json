@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "18712057",
     "naam": "4x4 Ecotrail | avond"
@@ -17,5 +17,167 @@
     "Algemene oordeel": 8.7,
     "Aantal metingen": 161
   },
+  "gastenboek": [
+    {
+      "datum": "29 juli",
+      "naam": "Rose en de Bie BV",
+      "aantalPersonen": 10,
+      "cijfer": 10,
+      "tekst": "We hebben een heerlijke en verrassende avond gehad in een omgeving die we dachten toch al aardig te kennen.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Rose-en-de-Bie-BV-20334926"
+    },
+    {
+      "datum": "19 juni",
+      "naam": "Boskalis Nederland BV",
+      "aantalPersonen": 9,
+      "cijfer": 10,
+      "tekst": "Prachtige locatie met fijne ontvangst.\n4x4 eco trail gedaan met collega's, was lachen/gieren.\nHierna de rondleiding door de whiskey stokerij en aansluitend een verrassings 3 gangen diner. Was een gezellige invulling van de middag/avond",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Boskalis-Nederland-BV-20309249"
+    },
+    {
+      "datum": "18 juni",
+      "naam": "Nimas BV",
+      "aantalPersonen": 13,
+      "cijfer": 6,
+      "tekst": "nee",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Nimas-BV-20314881"
+    },
+    {
+      "datum": "16 juni",
+      "naam": "GOC Veghel",
+      "aantalPersonen": 26,
+      "cijfer": 10,
+      "tekst": "We hebben een mooie activiteit gehad met onze ondernemers vereniging. Het was top geregeld",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-GOC-Veghel-20319139"
+    },
+    {
+      "datum": "8 juni",
+      "naam": "VR Totaal Installaties",
+      "aantalPersonen": 40,
+      "cijfer": 10,
+      "tekst": "Wij hebben een heel leuk en afwisselend PV uitje gehad, gezellige en mooie locatie in een natuurrijke omgeving.\nWij werden heel vriendelijk ontvangen.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-VR-Totaal-Installaties-20284009"
+    },
+    {
+      "datum": "1 juni",
+      "naam": "Aspen Oss B.V.",
+      "aantalPersonen": 33,
+      "cijfer": 8,
+      "tekst": "Gezellig, leuk uitje gehad. Heel veel gelachen met de afdeling van 32 personen. Voor herhaling vatbaar!!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Aspen%C2%A0Oss%C2%A0B.V.-20293966"
+    },
+    {
+      "datum": "22 mei",
+      "naam": "AB Werkt Holding BV",
+      "aantalPersonen": 8,
+      "cijfer": 10,
+      "tekst": "Met ons team van AB Werkt op bezoek geweest bij Bus Whiskey. Een hele leuke activiteit, rondleiding en etentje gehad. Zeer aan te raden ! Complimenten voor het bedrijf, personeel en de organisatie.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-AB-Werkt-Holding-BV-20310880"
+    },
+    {
+      "datum": "15 mei",
+      "naam": "Vrijwilligers Buurt Bus Loosbroek",
+      "aantalPersonen": 34,
+      "cijfer": 10,
+      "tekst": "Dank, vooral aan John van Wijk, voor de voorteffelijke begeleiding van deze dag.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Vrijwilligers-Buurt-Bus-Loosbroek-20279498"
+    },
+    {
+      "datum": "11 mei",
+      "naam": "Vrijwilligers Buurt Bus Loosbroek",
+      "aantalPersonen": 34,
+      "cijfer": 10,
+      "tekst": "Goede rondleiding, gezellige Quiz en heerlijk diner. Alles prima geregeld.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Vrijwilligers-Buurt-Bus-Loosbroek-20279498"
+    },
+    {
+      "datum": "8 mei",
+      "naam": "Vrijwilligers Buurt Bus Loosbroek",
+      "aantalPersonen": 34,
+      "cijfer": 8,
+      "tekst": "Fijne dag gehad voor herhaling varbaar.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Vrijwilligers-Buurt-Bus-Loosbroek-20279498"
+    },
+    {
+      "datum": "4 mei",
+      "naam": "Personeelsvereniging EQUANS Regio Zuid",
+      "aantalPersonen": 60,
+      "cijfer": 10,
+      "tekst": "Mooie locatie waar je gastvrij ontvangen wordt. De Ecotrail in combinatie met de rondleiding door de biologische whiskystokerij is een aanrader. Wij hebben ervan genoten.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Personeelsvereniging-EQUANS-Regio-Zuid-20268139"
+    },
+    {
+      "datum": "17 april",
+      "naam": "Koning willem 1 college",
+      "aantalPersonen": 65,
+      "cijfer": 8,
+      "tekst": "Leuke locatie, gezellig afwisselend programma, aardig personeel, no nonsens, voor ieder wat wils. Goede kwaliteit eten.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Koning-willem-1-college-20293573"
+    },
+    {
+      "datum": "13 april",
+      "naam": "Bevers installatietechniek",
+      "aantalPersonen": 34,
+      "cijfer": 8,
+      "tekst": "We hebben er veel gelachen met de 4x4 Ecotrail tocht!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Bevers-installatietechniek-20279616"
+    },
+    {
+      "datum": "26 februari",
+      "naam": "Fluke Europe BV",
+      "aantalPersonen": 14,
+      "cijfer": 10,
+      "tekst": "Beste allemaal, wat een ontzettende mooie, leuke locatie hebben jullie. We hebben genoten, veel geleerd over whiskey en de kwaliteit van het eten en drinken was perfect. Het personeel is zo vriendelijk en gastvrij en we hebben ons als \"thuis\" gevoeld. We komen zeker nog een keer terug.\n\nVriendelijke groet namens het hele Fluke Europe Team.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Fluke-Europe-BV-20274025"
+    },
+    {
+      "datum": "5 februari",
+      "naam": "Pharming",
+      "aantalPersonen": 14,
+      "cijfer": 10,
+      "tekst": "We zijn prettig ontvangen en hebben een gezellige middag/avond gehad.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Pharming-20158630"
+    },
+    {
+      "datum": "22 december",
+      "naam": "ICTMedia BV",
+      "aantalPersonen": 20,
+      "cijfer": 10,
+      "tekst": "Dat het een Top Locatie is voor zeker ook een Kerst uitje! Mooie locatie, sfeervol, top diner, flexibel en goede service. Dank Ursula voor de top verzorging van ons!\nWe komen zeker weer terug!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-ICTMedia-BV-20237809"
+    },
+    {
+      "datum": "21 december",
+      "naam": "ICTMedia BV",
+      "aantalPersonen": 20,
+      "cijfer": 10,
+      "tekst": "Ik vind de Heische Hoeve een Top locatie voor een Kerst uitje! Het is altijd top verzorgd, Diner is altijd heel goed en jullie werken met verse streekproducten en dat is ook top! Open haard binnen en buiten aan, Kerstversiering, alles klopte!\nUrsula was ontzettend fijn voor onze begeleiding en ook John voor de Jeep tour!\nWij zijn al vaak geweest bij jullie , maar ik kom altijd terug! Thanks voor de goede zorgen!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-ICTMedia-BV-20237809"
+    },
+    {
+      "datum": "15 november",
+      "naam": "SlowCare",
+      "aantalPersonen": 38,
+      "cijfer": 8,
+      "tekst": "Prachtige ruimte zowel binnen als buiten.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-SlowCare-20243204"
+    },
+    {
+      "datum": "5 november",
+      "naam": "GGZ Oost Brabant",
+      "aantalPersonen": 19,
+      "cijfer": 10,
+      "tekst": "Top locatie voor een Teamuitje \n4x4 Ecotrial was er leuk en voor sommigen heel spannend \nBBQ was goed verzorgd",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-GGZ-Oost-Brabant-20243795"
+    },
+    {
+      "datum": "4 november",
+      "naam": "SlowCare",
+      "aantalPersonen": 24,
+      "cijfer": 8,
+      "tekst": "Mooie locatie",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-SlowCare-20243204"
+    }
+  ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-4x4_ecotrail_%7C_avond"
 }
