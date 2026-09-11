@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "17793261",
     "naam": "32-uurs arrangement (1 pers. kamer) alles inclusief"
@@ -20,5 +20,167 @@
     "Algemene oordeel": 8.2,
     "Aantal metingen": 572
   },
+  "gastenboek": [
+    {
+      "datum": "13 juli",
+      "naam": "AAG B.V.",
+      "aantalPersonen": 10,
+      "cijfer": 8,
+      "tekst": "Unieke locatie met zeer vriendelijke mensen. Een absolute aanrader !",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-AAG-B.V.-17687586"
+    },
+    {
+      "datum": "10 juni",
+      "naam": "Yuverta",
+      "aantalPersonen": 17,
+      "cijfer": 8,
+      "tekst": "Het was een leuke plek met onze grote groep om 2 dagen door te brengen. Veel ruimte voor wandelen en een prima gelegenheid binnen als het slecht weer is of als je even wat privacy zoekt.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Yuverta-20066714"
+    },
+    {
+      "datum": "11 mei",
+      "naam": "IW4",
+      "aantalPersonen": 9,
+      "cijfer": 8,
+      "tekst": "Wij hebben een prettig verblijf gehad en kijken terug op een geslaagde ervaring. Het personeel was vriendelijk, het bed lag comfortabel en zowel de whisky tour als de tocht met de buggy&rsquo;s waren erg leuk en interessant. Mooi om te zien waar jullie vandaan komen en met hoeveel passie dit wordt gedaan.\n\nEr zijn wel enkele verbeterpunten op het gebied van hygi&euml;ne (vloerbedekkingen), onderhoud en catering, maar wij geloven dat met wat extra aandacht voor de details de totale beleving nog beter kan worden. Bedankt voor de gastvrijheid en veel succes gewenst in de toekomst!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-IW4-20279120"
+    },
+    {
+      "datum": "17 april",
+      "naam": "PinkRoccade Local Government BV",
+      "aantalPersonen": 7,
+      "cijfer": 6,
+      "tekst": "Mooie omgeving en het eten en drinken is was goed verzorgd.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-PinkRoccade-Local-Government-BV-20268843"
+    },
+    {
+      "datum": "15 april",
+      "naam": "Gemeente Vught",
+      "aantalPersonen": 10,
+      "cijfer": 10,
+      "tekst": "We hebben een 2-daagse training gehad bij de Heische Hoeve. Erg vriendelijk personeel, eten was uitstekend. Kamers zijn basic maar netjes en ontbreekt nergens aan (echt boerderijstijl). Wij vonden het vooral erg fijn dat we als groep onze \"eigen' ruimten hebben voor training, lunch, buitenruimte en de bar met muziek. Kortom was erg geslaagd.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Gemeente-Vught-20233248"
+    },
+    {
+      "datum": "9 april",
+      "naam": "KC Nicolaas",
+      "aantalPersonen": 31,
+      "cijfer": 10,
+      "tekst": "Een vriendelijke, informele sfeer om een vruchtbare heisessie te houden met je collega's.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-KC-Nicolaas-20250757"
+    },
+    {
+      "datum": "24 maart",
+      "naam": "Attero",
+      "aantalPersonen": 12,
+      "cijfer": 8,
+      "tekst": "Fantastische locatie voor een training of Heisessie. Zeer gastvrij en eens een keer wat anders dan normaal!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Attero-20269846"
+    },
+    {
+      "datum": "3 februari",
+      "naam": "Woningstichting Woningbelang",
+      "aantalPersonen": 48,
+      "cijfer": 8,
+      "tekst": "Leuke en nette plek om met een grote groep te recre&euml;ren",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Woningstichting-Woningbelang-20228141"
+    },
+    {
+      "datum": "3 februari",
+      "naam": "Woningstichting Woningbelang",
+      "aantalPersonen": 48,
+      "cijfer": 8,
+      "tekst": "heerlijk gastvrij verblijf gehad. en genoten van de rondleiding en proeverij. vriendelijk gepassioneerd personeel.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Woningstichting-Woningbelang-20228141"
+    },
+    {
+      "datum": "23 januari",
+      "naam": "Rohde & Schwarz Benelux B.V.",
+      "aantalPersonen": 11,
+      "cijfer": 8,
+      "tekst": "De Heische Hoeve was de perfecte locatie voor onze 2-daagse sales meeting. \nGelegen in de prachtige heuvels, biedt de Hoeve een warme en gastvrije sfeer met een charmante mix van rustiek en modern. De vergaderruimte was goed uitgerust en comfortabel. Een absoluut pluspunt is dat je gedurende het hele verblijf toegang hebt tot je eigen vleugel, je zelf thee/koffie kunt nemen wanneer je wilt en in de vleugel je eigen bar hebt met frisdranken, wijn en bier. \nAls extra activiteiten hebben we de 4x4 ecotrail gedaan: een uitdagende en leuke manier om te teambuilden en het landschap te verkennen. En als je er dan toch bent is de whisky tasting met een boeiende presentatie, een rondleiding door de stokerij en het proeven van de duurzame whisky iets dat je niet mag missen. \nDe gastvrijheid van het personeel was fantastisch. Iedereen was vriendelijk en behulpzaam en de catering was uitstekend.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Rohde-Schwarz-Benelux-B.V.-20187696"
+    },
+    {
+      "datum": "25 november",
+      "naam": "Lithora",
+      "aantalPersonen": 19,
+      "cijfer": 10,
+      "tekst": "De Heische Hoeve is een schitterende locatie voor een succesvolle vergadering. De faciliteiten zijn prima verzorgd en de service is uitstekend, zodat je je volledig kunt focussen op de inhoud van je bijeenkomst. Het eten is van uitzonderlijke kwaliteit: vers, smaakvol en met zorg bereid, wat elke maaltijd tot een feestje maakt.\n\nDaarnaast draagt de omgeving sterk bij aan de beleving. Tussen de vergadersessies door of aan het einde van de dag kun je heerlijk ontspannen. Een enthousiaste rondleiding door de stokerij geeft je bovendien een uniek kijkje achter de schermen, terwijl de uitdagende eco-trail uitnodigt tot een actieve onderbreking in de natuur.\n\nDe combinatie van professionele voorzieningen, culinaire verwennerij en inspirerende outdoor-mogelijkheden maakt de Heische Hoeve tot een ideale keuze voor zowel zakelijke bijeenkomsten als ontspannende teamuitjes.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Lithora-20176370"
+    },
+    {
+      "datum": "24 november",
+      "naam": "Trigion Beveiliging B.V.",
+      "aantalPersonen": 9,
+      "cijfer": 10,
+      "tekst": "Het is een fijne en mooie locatie om te verblijven met genoeg te zien en doen rondom het terrein. Het doel van ons bezoek was een 2-daagse met het werk. De vergaderzalen waren mooie en stijlvol ingericht en het ontbrak ons nergens aan. Het personeel is zeer behulpzaam.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Trigion-Beveiliging-B.V.-20244771"
+    },
+    {
+      "datum": "10 november",
+      "naam": "Stroomm",
+      "aantalPersonen": 20,
+      "cijfer": 6,
+      "tekst": "Mooie rustige plek waar je met je team zowel de ruimte hebt om inhoudelijk aan de slag te gaan als elkaar op een informele manier te leren kennen. Jammer dat niet alle wensen die wel besproken waren bij de reservering goed zijn doorgekomen waardoor we zelf flexibel met ons tijdschema om moesten gaan.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Stroomm-20150984"
+    },
+    {
+      "datum": "6 november",
+      "naam": "Politie eenheid Rotterdam",
+      "aantalPersonen": 14,
+      "cijfer": 8,
+      "tekst": "Mooie rustige en relaxte omgeving om een paar \"heidagen\" te hebben met je team. Verzorging is prima, eten is goed en meer dan voldoende, het was schoon en eigenlijk was aan alles gedacht. Zo niet dan was het met een vraag opgelost.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Politie-eenheid-Rotterdam-20178587"
+    },
+    {
+      "datum": "30 oktober",
+      "naam": "AAG B.V.",
+      "aantalPersonen": 22,
+      "cijfer": 8,
+      "tekst": "Een leuke ontspannen locatie voor een prettig verblijf",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-AAG-B.V.-17687586"
+    },
+    {
+      "datum": "23 oktober",
+      "naam": "Randstad",
+      "aantalPersonen": 17,
+      "cijfer": 10,
+      "tekst": "De Heische Hoeve is een heerlijke plek, waar je in een knusse setting kunt vergaderen en waar ook tijd en ruimte is voor een leuke activiteit en voor een gezellige tijd met elkaar. De sfeer is ongedwongen, het personeel zeer vriendelijk en het eten erg lekker. Zowel tijdens het ontbijt, als de lunch en het diner (in ons geval de barbecue) is er volop keuze uit verse producten en met dieetwensen en allergieen wordt heel goed rekening gehouden. De kamers zijn klein en knus, maar bieden alles wat je nodig hebt voor een kort verblijf. De Heische Hoeve is echt een aanrader!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Randstad-18037184"
+    },
+    {
+      "datum": "6 oktober",
+      "naam": "Koninklijke Auris Groep",
+      "aantalPersonen": 27,
+      "cijfer": 8,
+      "tekst": "Een prima locatie!! Kamer/ bed / douche keurig verzorgd",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Koninklijke-Auris-Groep-20153618"
+    },
+    {
+      "datum": "6 oktober",
+      "naam": "Koninklijke Auris Groep",
+      "aantalPersonen": 27,
+      "cijfer": 8,
+      "tekst": "Leuke locatie, waar meerdere activiteiten kunnen worden bijgeboekt. Rustige omgeving en kamers zijn prima.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Koninklijke-Auris-Groep-20153618"
+    },
+    {
+      "datum": "6 oktober",
+      "naam": "Koninklijke Auris Groep",
+      "aantalPersonen": 27,
+      "cijfer": 8,
+      "tekst": "-",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Koninklijke-Auris-Groep-20153618"
+    },
+    {
+      "datum": "6 oktober",
+      "naam": "Koninklijke Auris Groep",
+      "aantalPersonen": 27,
+      "cijfer": 10,
+      "tekst": "Fijne open sfeer, leuk om zowel zakelijk als priv&eacute; te vertoeven. :-)",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Koninklijke-Auris-Groep-20153618"
+    }
+  ],
   "bron": "https://www.heischehoeve.com/vergaderlocatie-32_uurs_arrangement_(1_pers._kamer)_alles_inclusief"
 }
