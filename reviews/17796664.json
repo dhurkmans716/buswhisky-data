@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "17796664",
     "naam": "48-uurs arrangement (1 pers. kamer) alles inclusief"
@@ -20,5 +20,23 @@
     "Algemene oordeel": 8.7,
     "Aantal metingen": 14
   },
+  "gastenboek": [
+    {
+      "datum": "1 april",
+      "naam": "Trelleborg - Via VoorLocaties & BuitenBusiness",
+      "aantalPersonen": 13,
+      "cijfer": 8,
+      "tekst": "Goed verblijf gehad met veel leuke activiteiten rondom het vergaderprogramma. Erg naar ons zin gehad.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Trelleborg-Via-VoorLocaties-BuitenBusiness-20160823"
+    },
+    {
+      "datum": "24 oktober",
+      "naam": "GE Healthcare",
+      "aantalPersonen": 12,
+      "cijfer": 10,
+      "tekst": "Wat biedt De Heische Hoeve een heerlijk ontspannen sfeer, waarbij het aan niets ontbreekt!!! Het complete arrangement, inclusief activiteiten, eten en inspirerende locatie, hebben ervoor gezorgd dat wij een geweldige tijd bij/in de Heische Hoeve hebben gehad.\nWat ons betreft een hele grote aanrader!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-GE-Healthcare-20215869"
+    }
+  ],
   "bron": "https://www.heischehoeve.com/vergaderlocatie-48_uurs_arrangement_(1_pers._kamer)_alles_inclusief"
 }
