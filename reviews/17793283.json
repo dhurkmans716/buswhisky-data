@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "17793283",
     "naam": "12-uurs vergaderarrangement alles inclusief"
@@ -20,5 +20,167 @@
     "Algemene oordeel": 8.7,
     "Aantal metingen": 107
   },
+  "gastenboek": [
+    {
+      "datum": "29 juni",
+      "naam": "Gerflor Benelux",
+      "aantalPersonen": 23,
+      "cijfer": 10,
+      "tekst": "We hebben een hele leuke dag gehad. Het zelf kunnen bedienen van de bar en de diversiteit van koffie/sapjes/thee, etc. waren super en zorgden voor een ongedwongen sfeer. De airco was geweldig en onontbeerlijk tijdens deze dag met 39 graden. De ecotrail en de rondleiding waren ook heel geslaagd. Iedereen was onder de indruk van de locatie; landelijk en veelzijdig.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Gerflor-Benelux-20308535"
+    },
+    {
+      "datum": "22 mei",
+      "naam": "Brabantse Juweeltjes",
+      "aantalPersonen": 42,
+      "cijfer": 10,
+      "tekst": "We hebben de deelnemersbijeenkomst van Brabantse Juweeltjes dit keer in Bus Whisky/De Heische Hoeve gehouden. Het afgesproken arrangement werd uitstekend uitgevoerd en de sfeer was erg goed op deze rustieke locatie. Een aanrader!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Brabantse-Juweeltjes-19639499"
+    },
+    {
+      "datum": "13 november",
+      "naam": "VDK Installatiegroep",
+      "aantalPersonen": 41,
+      "cijfer": 10,
+      "tekst": "Hele fijne vergaderdag gehad bij de Heische Hoeve. Aan alles was gedacht, niks was onmogelijk. Heerlijke lunch. Leuke rondleiding gehad van enthousiaste meneer.\nHeerlijk 3 gangen menu gehad ter afsluiting.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-VDK-Installatiegroep-20233060"
+    },
+    {
+      "datum": "19 september",
+      "naam": "Royal Brinkman",
+      "aantalPersonen": 55,
+      "cijfer": 8,
+      "tekst": "Wij hebben onze leiderschapsdag bij De Heische Hoeve georganiseerd en het was in &eacute;&eacute;n woord fantastisch! De locatie is prachtig en ademt sfeer en rust; ideaal voor een inspirerende dag. Zowel de lunch als het diner waren goed verzorgd met streekproducten.\n\nWe voelden ons direct welkom dankzij de gastvrije ontvangst. Een bijzondere en exclusieve rondleiding door Dennis zelf bij de whisky distilleerderij was inspirerend en bijzonder interessant. \n\nKortom: een toplocatie met uitstekende service, heerlijk eten en een onvergetelijke beleving. Absoluut een aanrader!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Royal-Brinkman-20187405"
+    },
+    {
+      "datum": "2 september",
+      "naam": "Arcadis",
+      "aantalPersonen": 8,
+      "cijfer": 8,
+      "tekst": "We hebben een super leuke dag gehad op jullie locatie! Alles was tip top geregeld tot aan de enthousiaste collega van de whiskey rondleiding toe!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Arcadis-20184907"
+    },
+    {
+      "datum": "11 juni",
+      "naam": "Enexis",
+      "aantalPersonen": 10,
+      "cijfer": 8,
+      "tekst": "de lokatie was landelijk en dus heel fijn om rustig te vergaderen in een ruimte waar we de beschikking hadden tot beamer en flipovers en onbeperkt frisdrank. John is je vraagbaak en helpt je graag waar nodig. De verzorging is top!!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Enexis-20187303"
+    },
+    {
+      "datum": "17 januari",
+      "naam": "Profel",
+      "aantalPersonen": 40,
+      "cijfer": 10,
+      "tekst": "Fantastisch ontvangst door de medewerkers, heerlijke appeltaart ❤️ met koffie erbij. Kleine aanpassingen aan de start van ons verblijf waren allemaal goed bespreekbaar en werden direct ingewilligd. De ruimte was prachtig en voldeed aan onze wensen, De luxe winter bbq was erg divers en rijk gevuld met vlees & vis, diverse salades en frietjes en sausen erbij ook de whisky tour was geweldig. En de whisky's waren erg lekker! Geweldige beleving van uw locatie en een goede gastvrijheid mogen ervaren! Graag tot een volgende keer!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Profel-20091167"
+    },
+    {
+      "datum": "25 november",
+      "naam": "Nippur",
+      "aantalPersonen": 24,
+      "cijfer": 8,
+      "tekst": "Fijne locatie waar wij altijd prima geholpen worden. Mooie ruimtes en eten is prima verzorgd.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Nippur-19871381"
+    },
+    {
+      "datum": "21 november",
+      "naam": "Allied Motion Dordrecht B.V.",
+      "aantalPersonen": 8,
+      "cijfer": 10,
+      "tekst": "We hebben onze teamsessie met het management gehouden bij de Heische Hoeve. We werden hartelijk ontvangen en alle faciliteiten waren erg goed. Een goede ambiance met een erg leuke rondleiding in de wisky proeverij. \nOok de lunch was zeer smakelijk en de pizza workshop op het einde erg leuk! Kortom een aanrader en we komen zeker nog eens terug.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Allied-Motion-Dordrecht-B.V.-20098953"
+    },
+    {
+      "datum": "21 oktober",
+      "naam": "NV Nederlandse Gasunie",
+      "aantalPersonen": 23,
+      "cijfer": 8,
+      "tekst": "Super mooie en gezellige locatie, leuke rondleiding met een heel mooie en bijzondere film en heerlijk gegeten met mooi opgemaakte borden!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-NV-Nederlandse-Gasunie-20088392"
+    },
+    {
+      "datum": "24 juni",
+      "naam": "BDO Holding BV / afdeling DTS",
+      "aantalPersonen": 65,
+      "cijfer": 6,
+      "tekst": "We hebben genoten van de prachtige locatie en het lekkere eten.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-BDO-Holding-BV-afdeling-DTS-20012272"
+    },
+    {
+      "datum": "22 mei",
+      "naam": "JUMBO Ondernemingsraden Jumbo & La Place",
+      "aantalPersonen": 12,
+      "cijfer": 10,
+      "tekst": "Heerlijke plek, fantastische omgeving, rustig vergaderen. Kan me geen inspirerender locatie bedanken voor een goeie meeting!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-JUMBO-Ondernemingsraden-Jumbo-La-Place-19771570"
+    },
+    {
+      "datum": "22 mei",
+      "naam": "JUMBO Ondernemingsraden Jumbo & La Place",
+      "aantalPersonen": 12,
+      "cijfer": 10,
+      "tekst": "Fijne locatie om rustig te kunnen trainen met voldoende mogelijkheden om ook buiten activiteiten te kunnen doen.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-JUMBO-Ondernemingsraden-Jumbo-La-Place-19771570"
+    },
+    {
+      "datum": "28 maart",
+      "naam": "Ziekenhuis Bernhoven",
+      "aantalPersonen": 18,
+      "cijfer": 10,
+      "tekst": "Wij komen al jaren met enige regelmaat bij de Heische Hoeve. Wij zijn zeer tevreden over de service, uitstraling en producten. Een echte aanrader!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Ziekenhuis-Bernhoven-19120812"
+    },
+    {
+      "datum": "16 november",
+      "naam": "Nippur",
+      "aantalPersonen": 23,
+      "cijfer": 10,
+      "tekst": "Fijne locatie met uitstekende verzorging",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Nippur-18151071"
+    },
+    {
+      "datum": "29 juni",
+      "naam": "Christiaan Huygens College | SSC",
+      "aantalPersonen": 28,
+      "cijfer": 10,
+      "tekst": "Hele fijne gezellige teamdag gehad op deze mooie locatie. Vriendelijk en behulpzaam personeel. Leuke teambuildings activiteiten. Ontspannen sfeer!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Christiaan-Huygens-College-%7C-SSC-19774008"
+    },
+    {
+      "datum": "9 juni",
+      "naam": "ASML",
+      "aantalPersonen": 14,
+      "cijfer": 10,
+      "tekst": "Het was een leuke team offsite in een mooie omgeving! Het eten was goed, en de activiteiten waren leuk om te doen (4x4). Ook de zeer enthousiaste rondleiding in de whisky distillerij was geweldig informatief!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-ASML-19780029"
+    },
+    {
+      "datum": "6 juni",
+      "naam": "Itility",
+      "aantalPersonen": 12,
+      "cijfer": 8,
+      "tekst": "Supermooie omgeving, fijne natuurlijke uitstraling, puur en goed voedsel, vriendelijke bediening, goed ingespeeld op onze wijzigende agenda.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Itility-19781202"
+    },
+    {
+      "datum": "30 april",
+      "naam": "Enexis KV KV",
+      "aantalPersonen": 14,
+      "cijfer": 8,
+      "tekst": "Met het 12-uurs vergaderarrangement zijn we helemaal ontzorgd. Relaxte en gastvrije locatie, heerlijke lunch en diner met veel lokale producten en de4x4 eco-trail is tussendoor een lekker ruig uitstapje dat de nodige energie geeft.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Enexis-KV-KV-19726427"
+    },
+    {
+      "datum": "6 maart",
+      "naam": "Kusters Precision Parts B.V.",
+      "aantalPersonen": 6,
+      "cijfer": 8,
+      "tekst": "De rondleiding in de whisky-stokerij heeft indruk gemaakt. Was zeer interessant en enthousiaste gastheer. Ook het diner was erg goed.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Kusters-Precision-Parts-B.V.-19642115"
+    }
+  ],
   "bron": "https://www.heischehoeve.com/vergaderlocatie-12_uurs_vergaderarrangement_alles_inclusief"
 }
