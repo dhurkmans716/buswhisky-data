@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "schaal": 10,
   "arrangementen": [
     {
@@ -7,6 +7,7 @@
       "naam": "Ontdekkingstocht door Brabant",
       "score": 8,
       "aantalBeoordelingen": 277,
+      "aantalGastenboek": 20,
       "reviewsUrl": "reviews/67674.json"
     },
     {
@@ -14,6 +15,7 @@
       "naam": "Whisky & Weilandgames",
       "score": 9,
       "aantalBeoordelingen": 220,
+      "aantalGastenboek": 20,
       "reviewsUrl": "reviews/960185.json"
     },
     {
@@ -21,6 +23,7 @@
       "naam": "24-uurs arrangement (1 pers. kamer) alles inclusief",
       "score": 8,
       "aantalBeoordelingen": 138,
+      "aantalGastenboek": 20,
       "reviewsUrl": "reviews/17793235.json"
     },
     {
@@ -28,6 +31,7 @@
       "naam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
       "score": 8,
       "aantalBeoordelingen": 604,
+      "aantalGastenboek": 20,
       "reviewsUrl": "reviews/17793261.json"
     },
     {
@@ -35,6 +39,7 @@
       "naam": "12-uurs vergaderarrangement alles inclusief",
       "score": 9,
       "aantalBeoordelingen": 113,
+      "aantalGastenboek": 20,
       "reviewsUrl": "reviews/17793283.json"
     },
     {
@@ -42,6 +47,7 @@
       "naam": "48-uurs arrangement (1 pers. kamer) alles inclusief",
       "score": 9,
       "aantalBeoordelingen": 15,
+      "aantalGastenboek": 2,
       "reviewsUrl": "reviews/17796664.json"
     },
     {
@@ -49,6 +55,7 @@
       "naam": "56-uurs arrangement (1 pers. kamer) alles inclusief",
       "score": 8,
       "aantalBeoordelingen": 70,
+      "aantalGastenboek": 20,
       "reviewsUrl": "reviews/17796744.json"
     },
     {
@@ -56,6 +63,7 @@
       "naam": "Doe-het-zelf Weekendbruiloft hoogseizoen (vr t/m zo)",
       "score": 9,
       "aantalBeoordelingen": 37,
+      "aantalGastenboek": 20,
       "reviewsUrl": "reviews/17982849.json"
     },
     {
@@ -63,6 +71,7 @@
       "naam": "4x4 Ecotrail, Whiskytour & Pubquiz | avond",
       "score": 8,
       "aantalBeoordelingen": 145,
+      "aantalGastenboek": 20,
       "reviewsUrl": "reviews/18212800.json"
     },
     {
@@ -70,6 +79,7 @@
       "naam": "Doe-het-zelf Midweekbruiloft hoogseizoen (di t/m do)",
       "score": 9,
       "aantalBeoordelingen": 18,
+      "aantalGastenboek": 9,
       "reviewsUrl": "reviews/18252230.json"
     },
     {
@@ -77,6 +87,7 @@
       "naam": "Doe-het-zelf Weekendbruiloft LIGHT laagseizoen (vr t/m zo)",
       "score": 9,
       "aantalBeoordelingen": 19,
+      "aantalGastenboek": 9,
       "reviewsUrl": "reviews/18252288.json"
     },
     {
@@ -84,6 +95,7 @@
       "naam": "Suppen, kanovaren, fluisterboot & overnachting",
       "score": 9,
       "aantalBeoordelingen": 20,
+      "aantalGastenboek": 8,
       "reviewsUrl": "reviews/18361936.json"
     },
     {
@@ -91,6 +103,7 @@
       "naam": "Weekend actief in Brabant",
       "score": 8,
       "aantalBeoordelingen": 8,
+      "aantalGastenboek": 4,
       "reviewsUrl": "reviews/18385479.json"
     },
     {
@@ -98,6 +111,7 @@
       "naam": "Whisky & 4x4 weekend",
       "score": 10,
       "aantalBeoordelingen": 20,
+      "aantalGastenboek": 6,
       "reviewsUrl": "reviews/18494490.json"
     },
     {
@@ -105,6 +119,7 @@
       "naam": "Lunch | 4x4 ecotrail | Whiskytour",
       "score": 9,
       "aantalBeoordelingen": 23,
+      "aantalGastenboek": 7,
       "reviewsUrl": "reviews/18522570.json"
     },
     {
@@ -112,6 +127,7 @@
       "naam": "4x4 Ecotrail | avond",
       "score": 9,
       "aantalBeoordelingen": 171,
+      "aantalGastenboek": 20,
       "reviewsUrl": "reviews/18712057.json"
     },
     {
@@ -119,6 +135,7 @@
       "naam": "4x4 Ecotrail & overnachting",
       "score": 9,
       "aantalBeoordelingen": 37,
+      "aantalGastenboek": 16,
       "reviewsUrl": "reviews/18795159.json"
     },
     {
@@ -126,6 +143,7 @@
       "naam": "Summer event",
       "score": 8,
       "aantalBeoordelingen": 1,
+      "aantalGastenboek": 0,
       "reviewsUrl": "reviews/18985953.json"
     },
     {
@@ -133,6 +151,7 @@
       "naam": "Suppen, kanovaren & fluisterboot",
       "score": 9,
       "aantalBeoordelingen": 23,
+      "aantalGastenboek": 3,
       "reviewsUrl": "reviews/19310420.json"
     },
     {
@@ -140,6 +159,7 @@
       "naam": "4x4 Ecotrail, Laser kleiduifschieten & Whisky | middag",
       "score": 9,
       "aantalBeoordelingen": 69,
+      "aantalGastenboek": 20,
       "reviewsUrl": "reviews/19617909.json"
     },
     {
@@ -147,6 +167,7 @@
       "naam": "Laser Kleiduifschieten | middag",
       "score": 9,
       "aantalBeoordelingen": 31,
+      "aantalGastenboek": 3,
       "reviewsUrl": "reviews/19617961.json"
     },
     {
@@ -154,6 +175,7 @@
       "naam": "4x4 Ecotrail, laserkleiduifschieten, tour whiskystokerij, pubquiz & overnachting",
       "score": 8,
       "aantalBeoordelingen": 74,
+      "aantalGastenboek": 20,
       "reviewsUrl": "reviews/19638837.json"
     },
     {
@@ -161,6 +183,7 @@
       "naam": "4x4 Ecotrail, Laser kleiduifschieten & Pubquiz | avond",
       "score": 7,
       "aantalBeoordelingen": 6,
+      "aantalGastenboek": 2,
       "reviewsUrl": "reviews/19893479.json"
     },
     {
@@ -168,6 +191,7 @@
       "naam": "Winterse dropping, Pubquiz & overnachting",
       "score": 7,
       "aantalBeoordelingen": 5,
+      "aantalGastenboek": 0,
       "reviewsUrl": "reviews/19893954.json"
     },
     {
@@ -175,6 +199,7 @@
       "naam": "4x4 ecotrail, kleiduifschieten & whiskygames",
       "score": 9,
       "aantalBeoordelingen": 3,
+      "aantalGastenboek": 1,
       "reviewsUrl": "reviews/19972945.json"
     },
     {
@@ -182,6 +207,7 @@
       "naam": "4x4 Ecotrail | middag",
       "score": 9,
       "aantalBeoordelingen": 18,
+      "aantalGastenboek": 9,
       "reviewsUrl": "reviews/20275497.json"
     }
   ]
