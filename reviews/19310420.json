@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "19310420",
     "naam": "Suppen, kanovaren & fluisterboot"
@@ -17,5 +17,31 @@
     "Algemene oordeel": 9,
     "Aantal metingen": 22
   },
+  "gastenboek": [
+    {
+      "datum": "5 juli",
+      "naam": "Q Hospitality Group",
+      "aantalPersonen": 15,
+      "cijfer": 10,
+      "tekst": "We hebben met ons commerci&euml;le team van 16 personen een geweldig event gehad bij Bus Whisky. Van de ontvangst tot het vertrek: alles was perfect geregeld. Het programma was erg afwisselend en de begeleiding was aangenaam persoonlijk maar vooral professioneel. Vooraf heeft een aantal mensen nog gelogeerd in de B&B: ook dat was top. Kortom: ons event was vooral erg succesvol door het fijne team van Bus Whisky. Een enorme aanrader: we komen heel graag terug!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Q-Hospitality-Group-20319275"
+    },
+    {
+      "datum": "2 juni",
+      "naam": "ABG Personeelsvereniging",
+      "aantalPersonen": 68,
+      "cijfer": 10,
+      "tekst": "Een bijzonder leuk programma voor een personeelsuitje. Voor elk wat wils. De Heische Hoeve is een toplocatie met erg vriendelijk personeel en lekker eten. \nDe activiteiten op het water waren top geregeld en voeren over een prachtig riviertje. \nEcht een aanrader!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-ABG-Personeelsvereniging-19923512"
+    },
+    {
+      "datum": "7 juni",
+      "naam": "Technische Universiteit Eindhoven",
+      "aantalPersonen": 49,
+      "cijfer": 8,
+      "tekst": "Wij hebben een zeer geslaagd team uitje gehad, de locatie is prachtig en de bediening is zeer behulpzaam en aardig, we hebben een super leuke outdoor event gehad en volgens mij hebben we het record verbroken met 15 mensen plus die in het water gevallen al dan niet gesprongen waren, het was van A-Z erg goed geregeld.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Technische-Universiteit-Eindhoven-19757433"
+    }
+  ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-suppen,_kanovaren___fluisterboot"
 }
