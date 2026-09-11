@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-11T04:00:22.378Z",
+  "gegenereerd": "2026-09-11T22:17:35.840Z",
   "arrangement": {
     "id": "19893479",
     "naam": "4x4 Ecotrail, Laser kleiduifschieten & Pubquiz | avond"
@@ -17,5 +17,23 @@
     "Algemene oordeel": 7,
     "Aantal metingen": 4
   },
+  "gastenboek": [
+    {
+      "datum": "29 juni",
+      "naam": "Welvaarts",
+      "aantalPersonen": 34,
+      "cijfer": 2,
+      "tekst": "Activiteiten en accommodatie is prima, maar zou wel navraag doen over de dagplanning dat je wat meer begeleiding krijgt. Het leek voor ons nu alsof we een hok afgehuurd hadden en zoek het verder maar uit.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Welvaarts-20279281"
+    },
+    {
+      "datum": "10 februari",
+      "naam": "Logopak B.V.",
+      "aantalPersonen": 34,
+      "cijfer": 8,
+      "tekst": "Nee",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Logopak-B.V.-20268202"
+    }
+  ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-4x4_ecotrail,_laser_kleiduifschieten___pubquiz_%7C_avond"
 }
