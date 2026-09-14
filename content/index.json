@@ -1,11 +1,11 @@
 {
-  "gegenereerd": "2026-09-14T10:02:20.291Z",
+  "gegenereerd": "2026-09-14T16:02:19.174Z",
   "arrangementen": [
     {
       "id": "67674",
       "naam": "Ontdekkingstocht door Brabant",
       "type": "Bedrijfs uitje",
-      "prijs": 125,
+      "prijs": 135,
       "contentUrl": "content/67674.json",
       "beschikbaarheidUrl": "arrangementen/67674.json"
     },
@@ -125,7 +125,7 @@
       "id": "18522570",
       "naam": "Lunch | 4x4 ecotrail | Whiskytour",
       "type": "Bedrijfs uitje",
-      "prijs": 50,
+      "prijs": 57,
       "contentUrl": "content/18522570.json",
       "beschikbaarheidUrl": "arrangementen/18522570.json"
     },
@@ -213,7 +213,7 @@
       "id": "19972803",
       "naam": "4x4 ecotrail, kleiduifschieten, suppen & kanovaren",
       "type": "Bedrijfs uitje",
-      "prijs": 175,
+      "prijs": 185,
       "contentUrl": "content/19972803.json",
       "beschikbaarheidUrl": "arrangementen/19972803.json"
     },
@@ -221,7 +221,7 @@
       "id": "19972945",
       "naam": "4x4 ecotrail, kleiduifschieten & whiskygames",
       "type": "Bedrijfs uitje",
-      "prijs": 175,
+      "prijs": 185,
       "contentUrl": "content/19972945.json",
       "beschikbaarheidUrl": "arrangementen/19972945.json"
     },
@@ -245,7 +245,7 @@
       "id": "20327328",
       "naam": "4x4 Ecotrail | Lunch | Laser Kleiduifschieten | Whiskytour",
       "type": "Bedrijfs uitje",
-      "prijs": 75,
+      "prijs": 82,
       "contentUrl": "content/20327328.json",
       "beschikbaarheidUrl": "arrangementen/20327328.json"
     }
