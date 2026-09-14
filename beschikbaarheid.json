@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-14T10:02:20.291Z",
+  "gegenereerd": "2026-09-14T16:02:19.174Z",
   "bron": "KMT gateway via n8n (Bus Whisky)",
   "activiteiten": [
     {
@@ -8,7 +8,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 120,
-      "prijs": 125,
+      "prijs": 135,
       "duurMinuten": 720,
       "startUur": 9,
       "meerdaags": false,
@@ -1880,7 +1880,7 @@
         {
           "datum": "2026-09-23",
           "beschikbaar": false,
-          "status": "optie"
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-24",
@@ -2783,9 +2783,8 @@
         },
         {
           "datum": "2026-09-22",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 14
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-23",
@@ -3705,9 +3704,8 @@
         },
         {
           "datum": "2026-09-22",
-          "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 14
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-23",
@@ -4632,8 +4630,8 @@
         },
         {
           "datum": "2026-09-23",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-24",
@@ -5531,8 +5529,8 @@
         },
         {
           "datum": "2026-09-21",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-22",
@@ -6447,8 +6445,8 @@
         },
         {
           "datum": "2026-09-21",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-22",
@@ -8245,8 +8243,8 @@
       "datums": [
         {
           "datum": "2026-09-14",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-15",
@@ -11018,7 +11016,7 @@
         {
           "datum": "2026-09-23",
           "beschikbaar": false,
-          "status": "optie"
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-24",
@@ -12827,8 +12825,8 @@
         },
         {
           "datum": "2026-09-21",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-22",
@@ -13707,7 +13705,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 4,
       "maxAantal": 80,
-      "prijs": 50,
+      "prijs": 57,
       "duurMinuten": 240,
       "startUur": 12,
       "meerdaags": false,
@@ -14624,8 +14622,8 @@
       "datums": [
         {
           "datum": "2026-09-14",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-15",
@@ -15579,7 +15577,7 @@
         {
           "datum": "2026-09-23",
           "beschikbaar": false,
-          "status": "optie"
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-24",
@@ -16443,8 +16441,8 @@
       "datums": [
         {
           "datum": "2026-09-14",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-15",
@@ -16488,8 +16486,8 @@
         },
         {
           "datum": "2026-09-23",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-24",
@@ -17352,8 +17350,8 @@
       "datums": [
         {
           "datum": "2026-09-14",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-15",
@@ -18261,8 +18259,8 @@
       "datums": [
         {
           "datum": "2026-09-14",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-15",
@@ -19170,8 +19168,8 @@
       "datums": [
         {
           "datum": "2026-09-14",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-15",
@@ -20125,7 +20123,7 @@
         {
           "datum": "2026-09-23",
           "beschikbaar": false,
-          "status": "optie"
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-24",
@@ -21897,8 +21895,8 @@
       "datums": [
         {
           "datum": "2026-09-14",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-15",
@@ -23707,7 +23705,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 150,
-      "prijs": 175,
+      "prijs": 185,
       "duurMinuten": 660,
       "startUur": 10,
       "meerdaags": false,
@@ -24616,7 +24614,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 450,
-      "prijs": 175,
+      "prijs": 185,
       "duurMinuten": 600,
       "startUur": 10,
       "meerdaags": false,
@@ -25533,8 +25531,8 @@
       "datums": [
         {
           "datum": "2026-09-14",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-15",
@@ -26442,8 +26440,8 @@
       "datums": [
         {
           "datum": "2026-09-14",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-09-15",
@@ -27343,7 +27341,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 4,
       "maxAantal": 80,
-      "prijs": 75,
+      "prijs": 82,
       "duurMinuten": 330,
       "startUur": 10,
       "meerdaags": false,
