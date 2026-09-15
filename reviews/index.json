@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-14T04:00:25.331Z",
+  "gegenereerd": "2026-09-15T04:00:27.778Z",
   "schaal": 10,
   "arrangementen": [
     {
@@ -118,7 +118,7 @@
       "id": "18522570",
       "naam": "Lunch | 4x4 ecotrail | Whiskytour",
       "score": 9,
-      "aantalBeoordelingen": 23,
+      "aantalBeoordelingen": 26,
       "aantalGastenboek": 7,
       "reviewsUrl": "reviews/18522570.json"
     },
@@ -207,7 +207,7 @@
       "naam": "4x4 Ecotrail | middag",
       "score": 9,
       "aantalBeoordelingen": 18,
-      "aantalGastenboek": 9,
+      "aantalGastenboek": 10,
       "reviewsUrl": "reviews/20275497.json"
     }
   ]
