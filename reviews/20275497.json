@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-14T04:00:25.331Z",
+  "gegenereerd": "2026-09-15T04:00:27.778Z",
   "arrangement": {
     "id": "20275497",
     "naam": "4x4 Ecotrail | middag"
@@ -18,6 +18,14 @@
     "Aantal metingen": 18
   },
   "gastenboek": [
+    {
+      "datum": "14 september",
+      "naam": "UnitedConsumers",
+      "aantalPersonen": 11,
+      "cijfer": 8,
+      "tekst": "Een leuk en heel afwisselend programma. De 4x4 ecotrail was erg leuk om te doen. Makkelijk te navigeren en een mooie route. Indrukwekkend en mooi om vervolgens de rondleiding in de Whisky stokerij te krijgen en meegenomen te worden in het enthousiaste en bijzondere verhaal.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-UnitedConsumers-20342248"
+    },
     {
       "datum": "3 september",
       "naam": "Vipam International BV",
