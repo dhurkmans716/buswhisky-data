@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-21T04:00:24.917Z",
+  "gegenereerd": "2026-09-22T04:00:24.036Z",
   "arrangement": {
     "id": "18385479",
     "naam": "Weekend actief in Brabant"
@@ -18,6 +18,14 @@
     "Aantal metingen": 7
   },
   "gastenboek": [
+    {
+      "datum": "21 september",
+      "naam": "toneelgroep Tosjopa",
+      "aantalPersonen": 17,
+      "cijfer": 10,
+      "tekst": "Bedankt voor de hele fijne tijd!\nWij hebben ontzettend genoten bij jullie!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-toneelgroep-Tosjopa-20204418"
+    },
     {
       "datum": "16 april",
       "naam": "Vermeer Loonwerken",
