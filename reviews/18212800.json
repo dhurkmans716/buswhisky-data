@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-22T04:00:24.036Z",
+  "gegenereerd": "2026-09-23T04:00:25.797Z",
   "arrangement": {
     "id": "18212800",
     "naam": "4x4 Ecotrail, Whiskytour & Pubquiz | avond"
@@ -18,6 +18,14 @@
     "Aantal metingen": 135
   },
   "gastenboek": [
+    {
+      "datum": "15 september",
+      "naam": "Ralf Immens",
+      "aantalPersonen": 14,
+      "cijfer": 8,
+      "tekst": "Wat een heerlijk verhaal en wat een goed Whisky. Ik proef de toewijding en vakmanschap in het glas. Duurzaam en een hele mooie kwaliteit. En dat in Brabant, dat maakt mij dan ook weer trots! \nNu al, ik ben nieuwsgierig naar wat Bus Whisky de toekomst gaat brengen.",
+      "referentieUrl": null
+    },
     {
       "datum": "6 juli",
       "naam": "H&R Badmeubelen & Sanitair",
@@ -169,14 +177,6 @@
       "cijfer": 10,
       "tekst": "Het is een aanrader om naar de Heische Hoeve toe te gaan met een groep. De 4x4 Ecotrail is heel leuk en zeker wanneer het langdurig geregend heeft de periode ervoor. Het 3 gangen diner is heel lekker en goed verzorgd. Alleen maar positieve berichten van iedereen over alles.",
       "referentieUrl": "https://www.heischehoeve.com/referenties-KBO-PCOB-19839021"
-    },
-    {
-      "datum": "12 november",
-      "naam": "Bouwbedrijf Peter Peters BV",
-      "aantalPersonen": 60,
-      "cijfer": 8,
-      "tekst": "Echt een leuk uitje voor mannen!!",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Bouwbedrijf-Peter-Peters-BV-19836529"
     }
   ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-4x4_ecotrail,_whiskytour___pubquiz_%7C_avond"
