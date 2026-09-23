@@ -1,7 +1,7 @@
 {
-  "gegenereerd": "2026-09-22T04:00:24.036Z",
+  "gegenereerd": "2026-09-23T04:00:25.797Z",
   "schaal": 10,
-  "aantal": 301,
+  "aantal": 302,
   "reacties": [
     {
       "arrangementId": "67674",
@@ -806,6 +806,16 @@
     {
       "arrangementId": "17793283",
       "arrangementNaam": "12-uurs vergaderarrangement alles inclusief",
+      "datum": "22 september",
+      "naam": "Chemetall B.V.",
+      "aantalPersonen": 32,
+      "cijfer": 10,
+      "tekst": "Het ontvangst begon al goed met koffie en een heerlijke appeltaart. De ruimte was mooi ingericht en functioneel. De rondleiding en proeverij was aangenaam (ook het worstenbroodje) en ook leuk om in de shop nog de nodige aankopen te kunnen doen. Het avondeten was perfect verzorgd en de gehele setting was perfect. Ik kan maar &eacute;&eacute;n ding concluderen: MAGNIFIEK!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Chemetall-B.V.-20324478"
+    },
+    {
+      "arrangementId": "17793283",
+      "arrangementNaam": "12-uurs vergaderarrangement alles inclusief",
       "datum": "29 juni",
       "naam": "Gerflor Benelux",
       "aantalPersonen": 23,
@@ -992,16 +1002,6 @@
       "cijfer": 8,
       "tekst": "Met het 12-uurs vergaderarrangement zijn we helemaal ontzorgd. Relaxte en gastvrije locatie, heerlijke lunch en diner met veel lokale producten en de4x4 eco-trail is tussendoor een lekker ruig uitstapje dat de nodige energie geeft.",
       "referentieUrl": "https://www.heischehoeve.com/referenties-Enexis-KV-KV-19726427"
-    },
-    {
-      "arrangementId": "17793283",
-      "arrangementNaam": "12-uurs vergaderarrangement alles inclusief",
-      "datum": "6 maart",
-      "naam": "Kusters Precision Parts B.V.",
-      "aantalPersonen": 6,
-      "cijfer": 8,
-      "tekst": "De rondleiding in de whisky-stokerij heeft indruk gemaakt. Was zeer interessant en enthousiaste gastheer. Ook het diner was erg goed.",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Kusters-Precision-Parts-B.V.-19642115"
     },
     {
       "arrangementId": "17796664",
@@ -1426,6 +1426,16 @@
     {
       "arrangementId": "18212800",
       "arrangementNaam": "4x4 Ecotrail, Whiskytour & Pubquiz | avond",
+      "datum": "15 september",
+      "naam": "Ralf Immens",
+      "aantalPersonen": 14,
+      "cijfer": 8,
+      "tekst": "Wat een heerlijk verhaal en wat een goed Whisky. Ik proef de toewijding en vakmanschap in het glas. Duurzaam en een hele mooie kwaliteit. En dat in Brabant, dat maakt mij dan ook weer trots! \nNu al, ik ben nieuwsgierig naar wat Bus Whisky de toekomst gaat brengen.",
+      "referentieUrl": null
+    },
+    {
+      "arrangementId": "18212800",
+      "arrangementNaam": "4x4 Ecotrail, Whiskytour & Pubquiz | avond",
       "datum": "6 juli",
       "naam": "H&R Badmeubelen & Sanitair",
       "aantalPersonen": 19,
@@ -1612,16 +1622,6 @@
       "cijfer": 10,
       "tekst": "Het is een aanrader om naar de Heische Hoeve toe te gaan met een groep. De 4x4 Ecotrail is heel leuk en zeker wanneer het langdurig geregend heeft de periode ervoor. Het 3 gangen diner is heel lekker en goed verzorgd. Alleen maar positieve berichten van iedereen over alles.",
       "referentieUrl": "https://www.heischehoeve.com/referenties-KBO-PCOB-19839021"
-    },
-    {
-      "arrangementId": "18212800",
-      "arrangementNaam": "4x4 Ecotrail, Whiskytour & Pubquiz | avond",
-      "datum": "12 november",
-      "naam": "Bouwbedrijf Peter Peters BV",
-      "aantalPersonen": 60,
-      "cijfer": 8,
-      "tekst": "Echt een leuk uitje voor mannen!!",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Bouwbedrijf-Peter-Peters-BV-19836529"
     },
     {
       "arrangementId": "18252230",
@@ -2066,6 +2066,16 @@
     {
       "arrangementId": "18712057",
       "arrangementNaam": "4x4 Ecotrail | avond",
+      "datum": "22 september",
+      "naam": "Martin Malocha",
+      "aantalPersonen": 10,
+      "cijfer": 10,
+      "tekst": "Hebben hier een vrijgezellenfeest gehouden met 10 man. We hebben gewoon erg naar ons zin gehad. Wat een mooie en inspirerende plek! We hebben ontzettend genoten van het culinaire aspect en de heerlijke streekproducten. Het is prachtig om te zien met hoeveel passie er gewerkt wordt, en het eerlijke verhaal achter de stokerij maakte de ervaring echt compleet. Ook heel veel dank aan het personeel voor de geweldige flexibiliteit en goede zorgen. Een absolute aanrader voor iedereen die van kwaliteit, ambacht en gastvrijheid houdt!",
+      "referentieUrl": null
+    },
+    {
+      "arrangementId": "18712057",
+      "arrangementNaam": "4x4 Ecotrail | avond",
       "datum": "29 juli",
       "naam": "Rose en de Bie BV",
       "aantalPersonen": 10,
@@ -2252,16 +2262,6 @@
       "cijfer": 10,
       "tekst": "Top locatie voor een Teamuitje \n4x4 Ecotrial was er leuk en voor sommigen heel spannend \nBBQ was goed verzorgd",
       "referentieUrl": "https://www.heischehoeve.com/referenties-GGZ-Oost-Brabant-20243795"
-    },
-    {
-      "arrangementId": "18712057",
-      "arrangementNaam": "4x4 Ecotrail | avond",
-      "datum": "4 november",
-      "naam": "SlowCare",
-      "aantalPersonen": 24,
-      "cijfer": 8,
-      "tekst": "Mooie locatie",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-SlowCare-20243204"
     },
     {
       "arrangementId": "18795159",
@@ -2652,6 +2652,16 @@
       "cijfer": 10,
       "tekst": "Mooie locatie, leuke activiteiten, vriendelijk en behulpzaam personeel, lekker eten.\nWij hebben met ons bedrijfsuitje een heerlijke dag gehad, nogmaals bedankt.",
       "referentieUrl": "https://www.heischehoeve.com/referenties-Advisor-ICT-Solutions-19925503"
+    },
+    {
+      "arrangementId": "19617961",
+      "arrangementNaam": "Laser Kleiduifschieten | middag",
+      "datum": "22 september",
+      "naam": "Eindhoven Airport",
+      "aantalPersonen": 12,
+      "cijfer": 8,
+      "tekst": "nee dank u wel.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Eindhoven-Airport-20317338"
     },
     {
       "arrangementId": "19617961",
