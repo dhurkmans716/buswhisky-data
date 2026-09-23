@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-22T04:00:24.036Z",
+  "gegenereerd": "2026-09-23T04:00:25.797Z",
   "arrangement": {
     "id": "19617961",
     "naam": "Laser Kleiduifschieten | middag"
@@ -18,6 +18,14 @@
     "Aantal metingen": 30
   },
   "gastenboek": [
+    {
+      "datum": "22 september",
+      "naam": "Eindhoven Airport",
+      "aantalPersonen": 12,
+      "cijfer": 8,
+      "tekst": "nee dank u wel.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Eindhoven-Airport-20317338"
+    },
     {
       "datum": "11 september",
       "naam": "Hanab Infra Solutions",
