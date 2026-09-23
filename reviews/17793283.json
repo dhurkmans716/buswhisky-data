@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-22T04:00:24.036Z",
+  "gegenereerd": "2026-09-23T04:00:25.797Z",
   "arrangement": {
     "id": "17793283",
     "naam": "12-uurs vergaderarrangement alles inclusief"
@@ -21,6 +21,14 @@
     "Aantal metingen": 107
   },
   "gastenboek": [
+    {
+      "datum": "22 september",
+      "naam": "Chemetall B.V.",
+      "aantalPersonen": 32,
+      "cijfer": 10,
+      "tekst": "Het ontvangst begon al goed met koffie en een heerlijke appeltaart. De ruimte was mooi ingericht en functioneel. De rondleiding en proeverij was aangenaam (ook het worstenbroodje) en ook leuk om in de shop nog de nodige aankopen te kunnen doen. Het avondeten was perfect verzorgd en de gehele setting was perfect. Ik kan maar &eacute;&eacute;n ding concluderen: MAGNIFIEK!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Chemetall-B.V.-20324478"
+    },
     {
       "datum": "29 juni",
       "naam": "Gerflor Benelux",
@@ -172,14 +180,6 @@
       "cijfer": 8,
       "tekst": "Met het 12-uurs vergaderarrangement zijn we helemaal ontzorgd. Relaxte en gastvrije locatie, heerlijke lunch en diner met veel lokale producten en de4x4 eco-trail is tussendoor een lekker ruig uitstapje dat de nodige energie geeft.",
       "referentieUrl": "https://www.heischehoeve.com/referenties-Enexis-KV-KV-19726427"
-    },
-    {
-      "datum": "6 maart",
-      "naam": "Kusters Precision Parts B.V.",
-      "aantalPersonen": 6,
-      "cijfer": 8,
-      "tekst": "De rondleiding in de whisky-stokerij heeft indruk gemaakt. Was zeer interessant en enthousiaste gastheer. Ook het diner was erg goed.",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Kusters-Precision-Parts-B.V.-19642115"
     }
   ],
   "bron": "https://www.heischehoeve.com/vergaderlocatie-12_uurs_vergaderarrangement_alles_inclusief"
