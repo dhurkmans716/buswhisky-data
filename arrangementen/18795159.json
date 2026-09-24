@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-24T10:02:20.221Z",
+  "gegenereerd": "2026-09-24T16:02:17.979Z",
   "bron": "vers",
   "arrangement": {
     "id": "18795159",
@@ -382,8 +382,7 @@
     {
       "datum": "2026-12-06",
       "beschikbaar": true,
-      "status": "beperkt",
-      "plekkenVrij": 18
+      "status": "beschikbaar"
     },
     {
       "datum": "2026-12-07",
@@ -418,7 +417,8 @@
     {
       "datum": "2026-12-13",
       "beschikbaar": true,
-      "status": "beschikbaar"
+      "status": "beperkt",
+      "plekkenVrij": 18
     },
     {
       "datum": "2026-12-14",
@@ -652,8 +652,8 @@
     },
     {
       "datum": "2027-01-29",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "optie"
     },
     {
       "datum": "2027-01-30",
