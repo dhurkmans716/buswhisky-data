@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-24T10:02:20.221Z",
+  "gegenereerd": "2026-09-24T16:02:17.979Z",
   "bron": "vers",
   "arrangement": {
     "id": "19893954",
@@ -381,8 +381,7 @@
     {
       "datum": "2026-12-06",
       "beschikbaar": true,
-      "status": "beperkt",
-      "plekkenVrij": 18
+      "status": "beschikbaar"
     },
     {
       "datum": "2026-12-07",
@@ -417,7 +416,8 @@
     {
       "datum": "2026-12-13",
       "beschikbaar": true,
-      "status": "beschikbaar"
+      "status": "beperkt",
+      "plekkenVrij": 18
     },
     {
       "datum": "2026-12-14",
