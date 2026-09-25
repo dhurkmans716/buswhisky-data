@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-24T04:00:27.669Z",
+  "gegenereerd": "2026-09-25T04:00:24.839Z",
   "arrangement": {
     "id": "19617909",
     "naam": "4x4 Ecotrail, Laser kleiduifschieten & Whisky | middag"
@@ -18,6 +18,14 @@
     "Aantal metingen": 65
   },
   "gastenboek": [
+    {
+      "datum": "24 september",
+      "naam": "Printronix",
+      "aantalPersonen": 14,
+      "cijfer": 10,
+      "tekst": "Met ons team hebben we een hele leuke afwisselende middag/avond gehad. Dank je wel namens het hele team!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Printronix-20348621"
+    },
     {
       "datum": "5 juli",
       "naam": "T.F.V.",
@@ -169,14 +177,6 @@
       "cijfer": 8,
       "tekst": "Prachtige locatie met heerlijke streekproducten, huis gestookte whiskey en goed georganiseerde evenementen.",
       "referentieUrl": "https://www.heischehoeve.com/referenties-Indec-Internet-Decisions-20012959"
-    },
-    {
-      "datum": "24 juni",
-      "naam": "Advisor ICT Solutions",
-      "aantalPersonen": 40,
-      "cijfer": 10,
-      "tekst": "Mooie locatie, leuke activiteiten, vriendelijk en behulpzaam personeel, lekker eten.\nWij hebben met ons bedrijfsuitje een heerlijke dag gehad, nogmaals bedankt.",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Advisor-ICT-Solutions-19925503"
     }
   ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-4x4_ecotrail,_laser_kleiduifschieten___whisky_%7C_middag"
