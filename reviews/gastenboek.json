@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-25T04:00:24.839Z",
+  "gegenereerd": "2026-09-26T04:00:34.022Z",
   "schaal": 10,
   "aantal": 302,
   "reacties": [
@@ -2066,6 +2066,16 @@
     {
       "arrangementId": "18712057",
       "arrangementNaam": "4x4 Ecotrail | avond",
+      "datum": "25 september",
+      "naam": "VDL Bus Nederland BV",
+      "aantalPersonen": 32,
+      "cijfer": 8,
+      "tekst": "Bedankt, erg leuke locatie, passie voor het product was te proeven, ga zo door.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-VDL-Bus-Nederland-BV-20333619"
+    },
+    {
+      "arrangementId": "18712057",
+      "arrangementNaam": "4x4 Ecotrail | avond",
       "datum": "22 september",
       "naam": "Martin Malocha",
       "aantalPersonen": 10,
@@ -2252,16 +2262,6 @@
       "cijfer": 8,
       "tekst": "Prachtige ruimte zowel binnen als buiten.",
       "referentieUrl": "https://www.heischehoeve.com/referenties-SlowCare-20243204"
-    },
-    {
-      "arrangementId": "18712057",
-      "arrangementNaam": "4x4 Ecotrail | avond",
-      "datum": "5 november",
-      "naam": "GGZ Oost Brabant",
-      "aantalPersonen": 19,
-      "cijfer": 10,
-      "tekst": "Top locatie voor een Teamuitje \n4x4 Ecotrial was er leuk en voor sommigen heel spannend \nBBQ was goed verzorgd",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-GGZ-Oost-Brabant-20243795"
     },
     {
       "arrangementId": "18795159",
