@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-29T04:00:26.848Z",
+  "gegenereerd": "2026-09-30T04:00:26.484Z",
   "arrangement": {
     "id": "19310420",
     "naam": "Suppen, kanovaren & fluisterboot"
@@ -18,6 +18,14 @@
     "Aantal metingen": 22
   },
   "gastenboek": [
+    {
+      "datum": "29 september",
+      "naam": "Hornbach",
+      "aantalPersonen": 40,
+      "cijfer": 10,
+      "tekst": "Dat het een topdag was en dat iedereen genoten heeft. Zeker een aanrader als je van whisky houdt en een leuke dag wilt",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Hornbach-20276795"
+    },
     {
       "datum": "5 juli",
       "naam": "Q Hospitality Group",
