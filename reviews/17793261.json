@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-09-30T04:00:26.484Z",
+  "gegenereerd": "2026-10-01T04:00:32.327Z",
   "arrangement": {
     "id": "17793261",
     "naam": "32-uurs arrangement (1 pers. kamer) alles inclusief"
@@ -21,6 +21,22 @@
     "Aantal metingen": 572
   },
   "gastenboek": [
+    {
+      "datum": "30 september",
+      "naam": "AAG",
+      "aantalPersonen": 18,
+      "cijfer": 10,
+      "tekst": "Super leuke locatie, met goed ontbijt/lunch en bbq. Ook leuke buggy rit gedaan van 30 minuten en een tour door de whisky brouwerij, wel jammer dat we 1 soort mochten proeven ipv meerdere (ter vergelijking)",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-AAG-20295983"
+    },
+    {
+      "datum": "30 september",
+      "naam": "AAG",
+      "aantalPersonen": 18,
+      "cijfer": 10,
+      "tekst": "Bedankt voor een fijne overnachting en vooral het eten was super geregeld.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-AAG-20295983"
+    },
     {
       "datum": "13 juli",
       "naam": "AAG B.V.",
@@ -163,22 +179,6 @@
       "aantalPersonen": 27,
       "cijfer": 8,
       "tekst": "Leuke locatie, waar meerdere activiteiten kunnen worden bijgeboekt. Rustige omgeving en kamers zijn prima.",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Koninklijke-Auris-Groep-20153618"
-    },
-    {
-      "datum": "6 oktober",
-      "naam": "Koninklijke Auris Groep",
-      "aantalPersonen": 27,
-      "cijfer": 8,
-      "tekst": "-",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Koninklijke-Auris-Groep-20153618"
-    },
-    {
-      "datum": "6 oktober",
-      "naam": "Koninklijke Auris Groep",
-      "aantalPersonen": 27,
-      "cijfer": 10,
-      "tekst": "Fijne open sfeer, leuk om zowel zakelijk als priv&eacute; te vertoeven. :-)",
       "referentieUrl": "https://www.heischehoeve.com/referenties-Koninklijke-Auris-Groep-20153618"
     }
   ],
