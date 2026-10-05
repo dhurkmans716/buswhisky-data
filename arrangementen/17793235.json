@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-10-05T05:32:14.807Z",
+  "gegenereerd": "2026-10-05T10:02:27.557Z",
   "bron": "vers",
   "arrangement": {
     "id": "17793235",
@@ -238,9 +238,8 @@
     },
     {
       "datum": "2026-11-18",
-      "beschikbaar": true,
-      "status": "beperkt",
-      "plekkenVrij": 16
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-11-19",
