@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-10-09T10:02:24.333Z",
+  "gegenereerd": "2026-10-09T16:02:19.206Z",
   "bron": "vers",
   "arrangement": {
     "id": "19638837",
@@ -265,9 +265,8 @@
     },
     {
       "datum": "2026-11-28",
-      "beschikbaar": true,
-      "status": "beperkt",
-      "plekkenVrij": 20.5
+      "beschikbaar": false,
+      "status": "volgeboekt"
     },
     {
       "datum": "2026-11-29",
