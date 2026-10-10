@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beschikbaarheid gegenereerd="2026-10-10T10:02:27.765Z">
+<beschikbaarheid gegenereerd="2026-10-10T16:02:21.334Z">
   <activiteit id="67674" naam="Ontdekkingstocht door Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="135" duurMinuten="720" startUur="9" meerdaags="false">
     <datum waarde="2026-10-10" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-11" beschikbaar="true" status="beschikbaar"/>
@@ -364,7 +364,7 @@
   </activiteit>
   <activiteit id="961017" naam="De Whisky &amp; Weilandgames + overnachting" type="Bedrijfs uitje" minAantal="20" maxAantal="100" prijs="235" duurMinuten="1200" startUur="14" meerdaags="true">
     <datum waarde="2026-10-10" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-10-11" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-10-11" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-12" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-13" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-14" beschikbaar="false" status="niet-beschikbaar"/>
@@ -385,7 +385,7 @@
     <datum waarde="2026-10-29" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-30" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-10-31" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-11-01" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-02" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-03" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-04" beschikbaar="false" status="niet-beschikbaar"/>
