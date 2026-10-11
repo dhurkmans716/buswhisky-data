@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-10-10T16:02:21.334Z",
+  "gegenereerd": "2026-10-11T05:32:19.867Z",
   "bron": "vers",
   "arrangement": {
     "id": "19972945",
@@ -13,11 +13,6 @@
     "meerdaags": false
   },
   "datums": [
-    {
-      "datum": "2026-10-10",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
-    },
     {
       "datum": "2026-10-11",
       "beschikbaar": false,
@@ -905,6 +900,11 @@
     },
     {
       "datum": "2027-04-06",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-04-07",
       "beschikbaar": true,
       "status": "beschikbaar"
     }
