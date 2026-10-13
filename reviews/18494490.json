@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-10-12T04:00:23.786Z",
+  "gegenereerd": "2026-10-13T04:00:26.504Z",
   "arrangement": {
     "id": "18494490",
     "naam": "Whisky & 4x4 weekend"
@@ -18,6 +18,14 @@
     "Aantal metingen": 20
   },
   "gastenboek": [
+    {
+      "datum": "12 oktober",
+      "naam": "Ruud Van Gerwen",
+      "aantalPersonen": 10,
+      "cijfer": 10,
+      "tekst": "Wat een bevlogen en vriendelijke mensen werken er bij Bus. We hebben genoten van ons verblijf!",
+      "referentieUrl": null
+    },
     {
       "datum": "24 februari",
       "naam": "De Vriendengroep",
