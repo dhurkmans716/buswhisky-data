@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-10-12T04:00:23.786Z",
+  "gegenereerd": "2026-10-13T04:00:26.504Z",
   "arrangement": {
     "id": "18522570",
     "naam": "Lunch | 4x4 ecotrail | Whiskytour"
@@ -18,6 +18,14 @@
     "Aantal metingen": 26
   },
   "gastenboek": [
+    {
+      "datum": "12 oktober",
+      "naam": "Vd Camp lijmwerken",
+      "aantalPersonen": 4,
+      "cijfer": 4,
+      "tekst": "Heel vriendelijk personeel allemaal\nHet is er erg groot de het was een beetje zoeken naar de ruimtes",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Vd-Camp-lijmwerken-20390642"
+    },
     {
       "datum": "23 augustus",
       "naam": "Heesakkers voeg bedrijf",
