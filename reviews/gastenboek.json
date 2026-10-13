@@ -1,7 +1,7 @@
 {
-  "gegenereerd": "2026-10-12T04:00:23.786Z",
+  "gegenereerd": "2026-10-13T04:00:26.504Z",
   "schaal": 10,
-  "aantal": 305,
+  "aantal": 307,
   "reacties": [
     {
       "arrangementId": "67674",
@@ -1936,6 +1936,16 @@
     {
       "arrangementId": "18494490",
       "arrangementNaam": "Whisky & 4x4 weekend",
+      "datum": "12 oktober",
+      "naam": "Ruud Van Gerwen",
+      "aantalPersonen": 10,
+      "cijfer": 10,
+      "tekst": "Wat een bevlogen en vriendelijke mensen werken er bij Bus. We hebben genoten van ons verblijf!",
+      "referentieUrl": null
+    },
+    {
+      "arrangementId": "18494490",
+      "arrangementNaam": "Whisky & 4x4 weekend",
       "datum": "24 februari",
       "naam": "De Vriendengroep",
       "aantalPersonen": 30,
@@ -1992,6 +2002,16 @@
       "cijfer": 10,
       "tekst": "Hartelijk dank voor de goede zorgen en veel succes met de Whisky!",
       "referentieUrl": null
+    },
+    {
+      "arrangementId": "18522570",
+      "arrangementNaam": "Lunch | 4x4 ecotrail | Whiskytour",
+      "datum": "12 oktober",
+      "naam": "Vd Camp lijmwerken",
+      "aantalPersonen": 4,
+      "cijfer": 4,
+      "tekst": "Heel vriendelijk personeel allemaal\nHet is er erg groot de het was een beetje zoeken naar de ruimtes",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Vd-Camp-lijmwerken-20390642"
     },
     {
       "arrangementId": "18522570",
