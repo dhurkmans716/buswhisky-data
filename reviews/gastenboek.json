@@ -1,7 +1,7 @@
 {
-  "gegenereerd": "2026-10-26T05:00:28.633Z",
+  "gegenereerd": "2026-10-27T05:00:25.920Z",
   "schaal": 10,
-  "aantal": 307,
+  "aantal": 308,
   "reacties": [
     {
       "arrangementId": "67674",
@@ -2086,6 +2086,26 @@
     {
       "arrangementId": "18712057",
       "arrangementNaam": "4x4 Ecotrail | avond",
+      "datum": "26 oktober",
+      "naam": "Huisartsenpraktijk de boterbloem",
+      "aantalPersonen": 23,
+      "cijfer": 8,
+      "tekst": "Leuk bedrijfsuitje gehad, mooi om de geschiedenis van de Heische Hoeve te horen.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Huisartsenpraktijk-de-boterbloem-20334544"
+    },
+    {
+      "arrangementId": "18712057",
+      "arrangementNaam": "4x4 Ecotrail | avond",
+      "datum": "26 oktober",
+      "naam": "Meulepas & Partners",
+      "aantalPersonen": 28,
+      "cijfer": 10,
+      "tekst": "Ontzettend mooie en leuke locatie om een uitje voor familie of personeel te regelen.\nZe bieden leuke gevarieerde programma's aan dus voor iedereen is er wel wat te vinden.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Meulepas-Partners-20328898"
+    },
+    {
+      "arrangementId": "18712057",
+      "arrangementNaam": "4x4 Ecotrail | avond",
       "datum": "25 september",
       "naam": "VDL Bus Nederland BV",
       "aantalPersonen": 32,
@@ -2262,26 +2282,6 @@
       "cijfer": 10,
       "tekst": "Dat het een Top Locatie is voor zeker ook een Kerst uitje! Mooie locatie, sfeervol, top diner, flexibel en goede service. Dank Ursula voor de top verzorging van ons!\nWe komen zeker weer terug!",
       "referentieUrl": "https://www.heischehoeve.com/referenties-ICTMedia-BV-20237809"
-    },
-    {
-      "arrangementId": "18712057",
-      "arrangementNaam": "4x4 Ecotrail | avond",
-      "datum": "21 december",
-      "naam": "ICTMedia BV",
-      "aantalPersonen": 20,
-      "cijfer": 10,
-      "tekst": "Ik vind de Heische Hoeve een Top locatie voor een Kerst uitje! Het is altijd top verzorgd, Diner is altijd heel goed en jullie werken met verse streekproducten en dat is ook top! Open haard binnen en buiten aan, Kerstversiering, alles klopte!\nUrsula was ontzettend fijn voor onze begeleiding en ook John voor de Jeep tour!\nWij zijn al vaak geweest bij jullie , maar ik kom altijd terug! Thanks voor de goede zorgen!",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-ICTMedia-BV-20237809"
-    },
-    {
-      "arrangementId": "18712057",
-      "arrangementNaam": "4x4 Ecotrail | avond",
-      "datum": "15 november",
-      "naam": "SlowCare",
-      "aantalPersonen": 38,
-      "cijfer": 8,
-      "tekst": "Prachtige ruimte zowel binnen als buiten.",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-SlowCare-20243204"
     },
     {
       "arrangementId": "18795159",
@@ -2962,6 +2962,16 @@
       "cijfer": 10,
       "tekst": "De Heische Hoeve is een prachtige locatie waar je alles kunt doen wat je op een personeelsdag zou willen doen. Zeer vriendelijk en kundig personeel en de Whisky stokerij &eacute;n proeverij geeft het nog een extra mooi en lekker tintje!",
       "referentieUrl": "https://www.heischehoeve.com/referenties-Lighthouse-Woldwide-Solutions-Benelux-BV-20156785"
+    },
+    {
+      "arrangementId": "20275497",
+      "arrangementNaam": "4x4 Ecotrail | middag",
+      "datum": "26 oktober",
+      "naam": "ADEZZ",
+      "aantalPersonen": 5,
+      "cijfer": 10,
+      "tekst": "Top teamuitje! Wij hadden ons teamuitje bij Bus Whisky, dit bestond uit buggy tocht - rondleiding + proeverij - diner. Het regende maar helaas niet hard genoeg ;-) voor de buggy tocht is het noujuist leuk als er heel veel water buiten op de grond ligt. De rondleiding en proeverij waren interessant en leuk. Het diner was echt geweldig! Het is een verrassingsdiner maar er wordt wel rekening gehouden met eventuele dingen die je niet lust. Maar wauw, hier gaan wij zeker terugkomen!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-ADEZZ-20308983"
     },
     {
       "arrangementId": "20275497",
