@@ -395,7 +395,18 @@ window.__busChatGeladen = true;
   function bijLaden() {
     if (!bijStart) return;
     window.__busBoekIntent = Date.now();
-    setTimeout(function () { open(bijStart); }, 400);
+    setTimeout(function () { open(bijStart); zeker(bijStart, 0); }, 400);
+  }
+  // Bij het laden kan de host het paneel daarna nog op het standaardoverzicht zetten: controleren en zo nodig opnieuw.
+  function zeker(d, n) {
+    setTimeout(function () {
+      var host = document.getElementById('booking-widget');
+      var ifr = host && host.querySelector('iframe');
+      var l = '';
+      l = (ifr && ifr.getAttribute('src')) || '';
+      var goed = d.soort === 'gift' ? /[?&]gift=1/.test(l) : (!d.code || l.indexOf('arrangement=' + d.code) >= 0);
+      if (!goed && n < 5) { open(d); zeker(d, n + 1); }
+    }, 1500);
   }
   if (document.readyState === 'complete') bijLaden(); else window.addEventListener('load', bijLaden);
   window.addEventListener('hashchange', function () { var d = lees(location.href); if (d) open(d); });
