@@ -311,6 +311,37 @@ window.__busChatGeladen = true;
             
 }
 
+// === RESERVEERPANEEL NOOIT AUTOMATISCH OPENEN (Dennis 30 okt 2026) ===
+// De site (app.js, Rosegaar) opent #booking-widget bij het eerste bezoek per sessie vanzelf.
+// Dat mag niet: alleen openen na een klik op Reserveren/Cadeaubon of een boeklink.
+(function () {
+  if (window.__busGeenAutoOpen) return;
+  window.__busGeenAutoOpen = true;
+  try { sessionStorage.setItem('booking-widget-dismissed', '1'); } catch (e) {}
+  document.addEventListener('click', function (e) {
+    var t = e.target && e.target.closest ? e.target.closest('[data-booking-widget-open]') : null;
+    if (t) window.__busOpenKlik = Date.now();
+  }, true);
+  function gewild() {
+    var nu = Date.now();
+    return (window.__busOpenKlik && nu - window.__busOpenKlik < 3000) || (window.__busBoekIntent && nu - window.__busBoekIntent < 20000);
+  }
+  function dicht(host) {
+    if (!host.classList.contains('is-open') || gewild()) return;
+    var x = host.querySelector('[data-booking-widget-close]');
+    if (x) x.click();
+  }
+  function start(n) {
+    var host = document.getElementById('booking-widget');
+    if (!host) { if (n < 100) setTimeout(function () { start(n + 1); }, 50); return; }
+    dicht(host);
+    var tot = Date.now() + 15000;
+    var mo = new MutationObserver(function () { if (Date.now() > tot) { mo.disconnect(); return; } dicht(host); });
+    mo.observe(host, { attributes: true, attributeFilter: ['class'] });
+  }
+  start(0);
+})();
+
 // === BOEKLINKS NAAR DE EIGEN BUS-WIDGET (30 okt 2026) ===
 // Vangt elke boeklink op de site op en opent ons eigen reserveringspaneel (#booking-widget, /reserveren/widget)
 // op het juiste arrangement. Ondersteunt permanent de oude Guestplan-ankers en het nieuwe formaat:
