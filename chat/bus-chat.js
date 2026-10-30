@@ -399,7 +399,9 @@ window.__busChatGeladen = true;
   }
   // Bij het laden kan de host het paneel daarna nog op het standaardoverzicht zetten: controleren en zo nodig opnieuw.
   function zeker(d, n) {
+    var t0 = sluitTeller;
     setTimeout(function () {
+      if (t0 !== sluitTeller) return; // gast heeft het paneel intussen gesloten: niet opnieuw openen
       var host = document.getElementById('booking-widget');
       var ifr = host && host.querySelector('iframe');
       var l = '';
@@ -408,6 +410,44 @@ window.__busChatGeladen = true;
       if (!goed && n < 5) { open(d); zeker(d, n + 1); }
     }, 1500);
   }
+  // Na sluiten: een deeplink-paneel terugzetten naar een vers overzicht, zodat de knop Reserveren daarna alle arrangementen toont.
+  // De host laadt de iframe alleen opnieuw bij een wissel reserveren/cadeaubon en hergebruikt anders de arrangement-URL.
+  var sluitTeller = 0;
+  function urlOpschonen() {
+    try {
+      var u = new URL(location.href);
+      var w = false;
+      if (u.searchParams.has('arrangement')) { u.searchParams.delete('arrangement'); u.searchParams.delete('pax'); w = true; }
+      if (lees(location.href)) { u.hash = ''; w = true; }
+      if (w) history.replaceState(history.state, '', u.pathname + (u.searchParams.toString() ? '?' + u.searchParams.toString() : '') + u.hash);
+    } catch (e) {}
+  }
+  function resetNaSluiten(host) {
+    sluitTeller++;
+    bijStart = null;
+    urlOpschonen();
+    var ifr = host.querySelector('iframe');
+    var src = (ifr && ifr.getAttribute('src')) || '';
+    if (!ifr || !/[?&](arrangement|pax|intent)=/.test(src)) return;
+    var p = new URLSearchParams();
+    if (/[?&]gift=1/.test(src)) p.set('gift', '1');
+    p.set('launcher', '0'); p.set('modal', '1');
+    var lang = (document.documentElement.lang || '').slice(0, 2).toLowerCase();
+    if (lang && lang !== 'nl') p.set('lang', lang);
+    ifr.src = (host.dataset.url || '/reserveren/widget') + '?' + p.toString();
+  }
+  function bewaakSluiten(poging) {
+    var host = document.getElementById('booking-widget');
+    if (!host) { if ((poging || 0) < 40) setTimeout(function () { bewaakSluiten((poging || 0) + 1); }, 250); return; }
+    var wasOpen = host.classList.contains('is-open');
+    new MutationObserver(function () {
+      var nu = host.classList.contains('is-open');
+      if (wasOpen && !nu) resetNaSluiten(host);
+      wasOpen = nu;
+    }).observe(host, { attributes: true, attributeFilter: ['class'] });
+  }
+  bewaakSluiten(0);
+
   if (document.readyState === 'complete') bijLaden(); else window.addEventListener('load', bijLaden);
   window.addEventListener('hashchange', function () { var d = lees(location.href); if (d) open(d); });
 })();
