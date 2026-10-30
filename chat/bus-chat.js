@@ -310,3 +310,93 @@ window.__busChatGeladen = true;
                 }, 15000); // 15000 ms = 15 seconden
             
 }
+
+// === BOEKLINKS NAAR DE EIGEN BUS-WIDGET (30 okt 2026) ===
+// Vangt elke boeklink op de site op en opent ons eigen reserveringspaneel (#booking-widget, /reserveren/widget)
+// op het juiste arrangement. Ondersteunt permanent de oude Guestplan-ankers en het nieuwe formaat:
+//   #gstpln_openWidget?serviceCode=CODE[&partySize=N]   (oud, Guestplan)
+//   #gstpln_openGiftCardWidget                           (oud, Guestplan cadeaubon)
+//   #reserveren?arrangement=CODE[&pax=N]  of  #reserveren (nieuw, algemeen overzicht)
+//   #cadeaubon                                           (nieuw, cadeaubon)
+//   /pad?arrangement=CODE#reserveren                     (nieuw, van buiten de site)
+//   widget.guestplan.com/?...serviceCode=CODE            (oude directe Guestplan-link)
+// Werkt ook bij het laden van een pagina met zo'n hash of ?arrangement= in de URL.
+(function () {
+  if (window.__busBoekLinks) return;
+  window.__busBoekLinks = true;
+
+  function lees(href) {
+    if (!href) return null;
+    var u;
+    try { u = new URL(href, location.href); } catch (e) { return null; }
+    var hash = (u.hash || '').replace(/^#/, '');
+    var hq = new URLSearchParams(hash.indexOf('?') >= 0 ? hash.slice(hash.indexOf('?') + 1) : '');
+    var hnaam = hash.split('?')[0].toLowerCase();
+    var sq = u.searchParams;
+    var eigen = u.origin === location.origin;
+    if (/guestplan\.com$/i.test(u.hostname)) {
+      if (sq.get('openGiftCardWidget')) return { soort: 'gift' };
+      var gc = sq.get('serviceCode');
+      return gc ? { soort: 'book', code: gc, pax: sq.get('partySize') } : { soort: 'book' };
+    }
+    if (hnaam === 'gstpln_opengiftcardwidget' || hnaam === 'cadeaubon') return eigen ? { soort: 'gift' } : null;
+    if (hnaam === 'gstpln_openwidget') return eigen ? { soort: 'book', code: hq.get('serviceCode') || hq.get('arrangement'), pax: hq.get('partySize') || hq.get('pax') } : null;
+    if (hnaam === 'reserveren') {
+      if (!eigen) return null;
+      return { soort: 'book', code: hq.get('arrangement') || sq.get('arrangement'), pax: hq.get('pax') || sq.get('pax') };
+    }
+    return null;
+  }
+
+  function open(d, poging) {
+    poging = poging || 0;
+    var host = document.getElementById('booking-widget');
+    var ifr = host && host.querySelector('iframe');
+    var knop = host && host.querySelector('[data-booking-widget-open="' + d.soort + '"]');
+    var p = new URLSearchParams();
+    if (d.soort === 'gift') { p.set('gift', '1'); } else { if (d.code) p.set('arrangement', d.code); if (d.pax) p.set('pax', d.pax); }
+    p.set('launcher', '0'); p.set('modal', '1'); p.set('intent', '1');
+    var lang = (document.documentElement.lang || '').slice(0, 2).toLowerCase();
+    if (lang && lang !== 'nl') p.set('lang', lang);
+    var url = ((host && host.dataset.url) || '/reserveren/widget') + '?' + p.toString();
+    if (!host || !ifr || !knop) {
+      if (poging < 20) { setTimeout(function () { open(d, poging + 1); }, 250); return; }
+      location.href = url.replace('modal=1', 'modal=0');
+      return;
+    }
+    window.__busBoekIntent = Date.now();
+    knop.click();
+    if (!host.classList.contains('is-open') && poging < 20) { setTimeout(function () { open(d, poging + 1); }, 250); return; }
+    host.classList.remove('is-ready');
+    ifr.src = url;
+  }
+
+  window.BUSBoekLink = { open: open, lees: lees };
+
+  document.addEventListener('click', function (e) {
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    var a = e.target && e.target.closest ? e.target.closest('a[href]') : null;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    var d = lees(href);
+    if (!d) return;
+    // Herkende boeklink: altijd ter plekke openen, ook als de link naar een andere pagina wijst (zoals Guestplan deed).
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    open(d);
+  }, true);
+
+  var bijStart = lees(location.href);
+  if (!bijStart) {
+    var sa = new URLSearchParams(location.search);
+    if (sa.get('arrangement')) bijStart = { soort: 'book', code: sa.get('arrangement'), pax: sa.get('pax') };
+  }
+  if (bijStart) window.__busBoekIntent = Date.now();
+  function bijLaden() {
+    if (!bijStart) return;
+    window.__busBoekIntent = Date.now();
+    setTimeout(function () { open(bijStart); }, 400);
+  }
+  if (document.readyState === 'complete') bijLaden(); else window.addEventListener('load', bijLaden);
+  window.addEventListener('hashchange', function () { var d = lees(location.href); if (d) open(d); });
+})();
