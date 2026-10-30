@@ -180,7 +180,9 @@ window.__busChatGeladen = true;
                         // Open/sluit-knop altijd bovenop zodat hij nooit onbereikbaar is
                         '.chat-window-toggle{z-index:2147483000!important;}' +
                         // Op mobiel het venster net iets kleiner dan volledig, zodat de sluitknop altijd zichtbaar blijft
-                        '@media (max-width:640px){.chat-window{height:90vh!important;max-height:90vh!important;}}';
+                        '@media (max-width:640px){.chat-window{height:90vh!important;max-height:90vh!important;}}' +
+                        // Powered by-regel onderin het chatvenster (Dennis 30 okt 2026)
+                        ".chat-window-wrapper .chat-window{flex-direction:column!important}.chat-window-wrapper .chat-window .chat-layout{min-height:0}.bw-powered{flex:none;display:flex;align-items:center;justify-content:center;gap:6px;background:#000;color:#fff;font:500 11px/1.2 -apple-system,BlinkMacSystemFont,\"Segoe UI\",Arial,sans-serif;letter-spacing:.02em;padding:6px 10px;margin:0}.bw-powered svg{width:13px;height:13px;flex:none}";
                     document.head.appendChild(stH);
 
                     // Zet het logo én een sluitknop (×) in de kopbalk; herplaats ze als de
@@ -294,6 +296,14 @@ window.__busChatGeladen = true;
                         } catch (e) {}
                     }
                     window.setInterval(bwLinkify, 800);
+
+                    // === POWERED BY-REGEL onderin het chatvenster (Dennis 30 okt 2026) ===
+                    var BW_POWERED = "<div class=\"bw-powered\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"#C9A227\" d=\"M12 2l1.8 5.2L19 9l-5.2 1.8L12 16l-1.8-5.2L5 9l5.2-1.8z\"/><path fill=\"#C9A227\" d=\"M19 14l.9 2.1L22 17l-2.1.9L19 20l-.9-2.1L16 17l2.1-.9z\"/><path fill=\"#C9A227\" d=\"M5 14.5l.7 1.6 1.6.7-1.6.7L5 19.1l-.7-1.6-1.6-.7 1.6-.7z\"/></svg><span>Powered by Bus Whisky’s Angels’ Share</span></div>";
+                    window.setInterval(function () {
+                        var w = document.querySelector('.chat-window');
+                        if (!w || w.querySelector('.bw-powered')) return;
+                        w.insertAdjacentHTML('beforeend', BW_POWERED);
+                    }, 500);
                 }, 15000); // 15000 ms = 15 seconden
             
 }
