@@ -428,7 +428,8 @@ window.__busChatGeladen = true;
     urlOpschonen();
     var ifr = host.querySelector('iframe');
     var src = (ifr && ifr.getAttribute('src')) || '';
-    if (!ifr || !/[?&](arrangement|pax|intent)=/.test(src)) return;
+    try { if (ifr && ifr.contentWindow && ifr.contentWindow.location.href !== 'about:blank') src = ifr.contentWindow.location.search; } catch (e) {}
+    if (!ifr || !/[?&](arrangement|intent)=/.test(src)) return;
     var p = new URLSearchParams();
     if (/[?&]gift=1/.test(src)) p.set('gift', '1');
     p.set('launcher', '0'); p.set('modal', '1');
