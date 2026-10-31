@@ -543,3 +543,54 @@ window.__busChatGeladen = true;
   }, 250);
 })();
 
+// === WEBSHOP-KNOP NAAST DE CADEAUBON (Dennis 31 okt 2026) ===
+// Flessenknop naast de cadeaubonknop; opent de reserveerwidget met alleen de webshop (shop=1).
+// AAN/UIT: zet WEBSHOP.aan op false (overal uit) of zet paden in WEBSHOP.uitOpPaden (begin van het pad, * aan het eind mag).
+// Ook uit: ander domein dan buswhisky.com, een element met data-bus-shop="uit" op de pagina, of webshop=0 in de URL.
+(function () {
+  var WEBSHOP = { aan: true, uitOpPaden: [] };
+  try {
+    if (!WEBSHOP.aan) return;
+    if (!/(^|[.])buswhisky[.]com$/i.test(location.hostname)) return;
+    if (/[?&]webshop=(0|uit|nee)(&|$)/i.test(location.search)) return;
+    var pad = location.pathname;
+    for (var i = 0; i < WEBSHOP.uitOpPaden.length; i++) {
+      var u = String(WEBSHOP.uitOpPaden[i] || ''); if (!u) continue;
+      var ster = u.slice(-1) === '*'; if (ster) u = u.slice(0, -1);
+      if ((ster || u.slice(-1) === '/') ? pad.indexOf(u) === 0 : (pad === u || pad.indexOf(u + '/') === 0)) return;
+    }
+  } catch (e) { return; }
+  var LABEL = { nl: 'Whisky kopen', en: 'Buy whisky', de: 'Whisky kaufen', fr: 'Acheter du whisky', es: 'Comprar whisky' };
+  var taal = String(document.documentElement.lang || 'nl').slice(0, 2).toLowerCase();
+  var label = LABEL[taal] || LABEL.en;
+  var SVG = '<svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 2h4M10.5 2v5.2c0 .6-.3 1.1-.8 1.5C8.6 9.6 8 10.9 8 12.3V20a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-7.7c0-1.4-.6-2.7-1.7-3.6-.5-.4-.8-.9-.8-1.5V2"/><path d="M8 14h8v4H8z"/></svg>';
+  function zetShop(poging) {
+    var f = document.querySelector('iframe[src*="/reserveren/widget"]');
+    if (!f) { if (poging < 20) setTimeout(function () { zetShop(poging + 1); }, 100); return; }
+    var url = new URL(f.getAttribute('src') || '/reserveren/widget', location.href);
+    ['gift', 'category', 'type', 'arrangement', 'service', 'service_code', 'intent'].forEach(function (k) { url.searchParams.delete(k); });
+    url.searchParams.set('launcher', '0'); url.searchParams.set('modal', '1'); url.searchParams.set('shop', '1');
+    f.src = url.pathname + url.search;
+  }
+  function plaats() {
+    if (document.querySelector('[data-bus-shop="uit"],meta[name="bus-shop"][content="uit"]')) return true;
+    if (document.getElementById('bwShopLauncher')) return true;
+    var g = document.querySelector('[data-booking-widget-open="gift"]');
+    if (!g) return false;
+    var b = g.cloneNode(false);
+    b.removeAttribute('data-booking-widget-open'); b.removeAttribute('aria-controls'); b.removeAttribute('aria-expanded');
+    b.id = 'bwShopLauncher'; b.type = 'button'; b.title = label; b.setAttribute('aria-label', label);
+    b.innerHTML = SVG;
+    g.parentNode.insertBefore(b, g.nextSibling);
+    b.addEventListener('click', function (e) {
+      e.preventDefault(); e.stopPropagation();
+      window.__busOpenKlik = Date.now(); window.__busBoekIntent = Date.now();
+      var bk = document.querySelector('[data-booking-widget-open="book"]');
+      if (bk) bk.click();
+      zetShop(0);
+    });
+    return true;
+  }
+  if (!plaats()) { var n = 0, iv = setInterval(function () { if (plaats() || ++n > 40) clearInterval(iv); }, 250); }
+})();
+
