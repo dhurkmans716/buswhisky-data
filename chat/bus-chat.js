@@ -244,7 +244,7 @@ window.__busChatGeladen = true;
                         bwWasOpen = open;
                     }, 500);
                     function bwOpenChat() {
-                        if (bwUserOpened || chatIsOpen()) return;
+                        if (bwUserOpened || chatIsOpen() || document.documentElement.classList.contains('booking-widget-open')) return;
                         if (bwLees() >= BW_MAX_WEGKLIKKEN) return; // al 2x weggeklikt: deze sessie niet meer
                         var toggle = document.querySelector('.chat-window-toggle');
                         if (toggle) { toggle.click(); }
@@ -490,7 +490,7 @@ window.__busChatGeladen = true;
 (function () {
   if (window.__busPopUniform) return;
   window.__busPopUniform = true;
-  var CSS = "#bw-zwart{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:#000;z-index:39}@media(max-width:640px){html.bw-chat-open #bw-zwart{display:block}}@media(max-width:639px){html.booking-widget-open #bw-zwart{display:block}html #booking-widget #booking-widget-panel,html #booking-widget.is-gift #booking-widget-panel{top:16px!important;left:16px!important;right:16px!important;bottom:80px!important;width:auto!important;height:auto!important;max-height:none!important;border-radius:8px!important}html #booking-widget.is-open>div.fixed:not(#booking-widget-panel){display:flex!important}html #booking-widget.is-open #bwCollapse{display:grid!important;left:16px!important;right:auto!important;bottom:16px!important}}";
+  var CSS = ".chat-window-wrapper{pointer-events:none!important}.chat-window-wrapper .chat-window,.chat-window-wrapper .chat-window-toggle{pointer-events:auto!important}#bw-zwart{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:#000;z-index:39}@media(max-width:640px){html.bw-chat-open #bw-zwart{display:block}}@media(max-width:639px){html.booking-widget-open #bw-zwart{display:block}html #booking-widget #booking-widget-panel,html #booking-widget.is-gift #booking-widget-panel{top:16px!important;left:16px!important;right:16px!important;bottom:80px!important;width:auto!important;height:auto!important;max-height:none!important;border-radius:8px!important}html #booking-widget.is-open>div.fixed:not(#booking-widget-panel){display:flex!important}html #booking-widget.is-open #bwCollapse{display:grid!important;left:72px!important;right:auto!important;bottom:16px!important}html.booking-widget-open body .chat-window-wrapper{display:flex!important}html #booking-widget.is-open [data-booking-widget-open=\"book\"]{padding-right:14px!important;gap:6px!important}}@media(max-width:385px){html #booking-widget.is-open [data-booking-widget-open=\"book\"]{padding-left:16px!important}html #booking-widget.is-open [data-booking-widget-open=\"book\"] svg{display:none!important}}";
   var st = document.getElementById('bw-uniform-mobiel');
   if (!st) { st = document.createElement('style'); st.id = 'bw-uniform-mobiel'; document.head.appendChild(st); }
   st.textContent = CSS;
@@ -499,6 +499,7 @@ window.__busChatGeladen = true;
     if (document.getElementById('bw-zwart') || !document.body) return;
     var z = document.createElement('div'); z.id = 'bw-zwart'; z.setAttribute('aria-hidden', 'true'); document.body.appendChild(z);
   }
+  (function(w,d){if(w.__busPopWissel)return;w.__busPopWissel=1;function chatOpen(){var c=d.querySelector('.chat-window-wrapper .chat-window');if(!c||!c.getClientRects().length)return false;var s=w.getComputedStyle(c);return s.display!=='none'&&s.visibility!=='hidden'&&s.opacity!=='0'}d.addEventListener('click',function(e){if(!e.isTrusted||!e.target||!e.target.closest)return;if(e.target.closest('.chat-window-toggle')){var h=d.getElementById('booking-widget');if(h&&h.classList.contains('is-open')){var x=h.querySelector('[data-booking-widget-close]');if(x)x.click()}}else if(e.target.closest('[data-booking-widget-open]')&&chatOpen()){var t=d.querySelector('.chat-window-toggle');if(t)t.click()}},true)})(window, document);
   window.setInterval(function () {
     zwart();
     var w = document.querySelector('.chat-window-wrapper .chat-window');
