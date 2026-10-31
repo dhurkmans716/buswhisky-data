@@ -249,7 +249,7 @@ window.__busChatGeladen = true;
                         var toggle = document.querySelector('.chat-window-toggle');
                         if (toggle) { toggle.click(); }
                     }
-                    window.setTimeout(bwOpenChat, 15000); // 15s na de knop = ~30s na paginalaad
+                    window.setTimeout(bwOpenChat, 30000); // ~30s na paginalaad (knop staat er sinds 31 okt meteen)
 
                     // === LINKS KLIKBAAR MAKEN =========================================
                     // Zet Markdown-links [tekst](url) én kale URL's om naar echte,
@@ -307,7 +307,7 @@ window.__busChatGeladen = true;
                         if (!w || w.querySelector('.bw-powered')) return;
                         w.insertAdjacentHTML('beforeend', BW_POWERED);
                     }, 500);
-                }, 15000); // 15000 ms = 15 seconden
+                }, 0); // chatknop meteen zichtbaar (Dennis 31 okt 2026; was 15 s)
             
 }
 
@@ -500,12 +500,30 @@ window.__busChatGeladen = true;
     var z = document.createElement('div'); z.id = 'bw-zwart'; z.setAttribute('aria-hidden', 'true'); document.body.appendChild(z);
   }
   (function(w,d){if(w.__busPopWissel)return;w.__busPopWissel=1;function chatOpen(){var c=d.querySelector('.chat-window-wrapper .chat-window');if(!c||!c.getClientRects().length)return false;var s=w.getComputedStyle(c);return s.display!=='none'&&s.visibility!=='hidden'&&s.opacity!=='0'}d.addEventListener('click',function(e){if(!e.isTrusted||!e.target||!e.target.closest)return;if(e.target.closest('.chat-window-toggle')){var h=d.getElementById('booking-widget');if(h&&h.classList.contains('is-open')){var x=h.querySelector('[data-booking-widget-close]');if(x)x.click()}}else if(e.target.closest('[data-booking-widget-open]')&&chatOpen()){var t=d.querySelector('.chat-window-toggle');if(t)t.click()}},true)})(window, document);
+
+  // Chatknop blijft staan als de chat is uitgevouwen (Dennis 31 okt 2026): inklappijl buitenaan, chatknop ernaast.
+  var sk = document.createElement('style'); sk.id = 'bw-chatknop-css';
+  sk.textContent = '#bwChatKnop{display:none;position:fixed;left:72px;bottom:16px;z-index:2147483000;width:48px;height:48px;border:0;border-radius:50%;background:#C9A227;color:#111;place-items:center;padding:0;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.45),0 0 0 2px #000}#bwChatKnop svg{width:24px;height:24px}@media(max-width:640px){html.bw-chat-open #bwChatKnop{display:grid}html.bw-chat-open #booking-widget [data-booking-widget-open="book"]{padding-right:14px!important;gap:6px!important}}@media(max-width:385px){html.bw-chat-open #booking-widget [data-booking-widget-open="book"]{padding-left:16px!important}html.bw-chat-open #booking-widget [data-booking-widget-open="book"] svg{display:none!important}}';
+  document.head.appendChild(sk);
+  var bwKnopIcoon = '';
+  function chatKnop(open) {
+    var tg = document.querySelector('.chat-window-toggle');
+    if (tg && !open && tg.innerHTML.indexOf('<svg') >= 0) bwKnopIcoon = tg.innerHTML;
+    var k = document.getElementById('bwChatKnop');
+    if (!k && document.body) {
+      k = document.createElement('button'); k.id = 'bwChatKnop'; k.type = 'button'; k.setAttribute('aria-label', 'Chat'); k.title = 'Chat';
+      k.addEventListener('click', function () { var ta = document.querySelector('.chat-window textarea'); if (ta) ta.focus(); });
+      document.body.appendChild(k);
+    }
+    if (k && bwKnopIcoon && k.innerHTML !== bwKnopIcoon) k.innerHTML = bwKnopIcoon;
+  }
   window.setInterval(function () {
     zwart();
     var w = document.querySelector('.chat-window-wrapper .chat-window');
     var open = false;
     if (w && w.getClientRects().length) { var cs = getComputedStyle(w); open = cs.display !== 'none' && cs.visibility !== 'hidden' && cs.opacity !== '0'; }
     document.documentElement.classList.toggle('bw-chat-open', open);
+    chatKnop(open);
   }, 250);
 })();
 
