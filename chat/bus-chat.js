@@ -483,3 +483,28 @@ window.__busChatGeladen = true;
   if (document.readyState === 'complete') bijLaden(); else window.addEventListener('load', bijLaden);
   window.addEventListener('hashchange', function () { var d = lees(location.href); if (d) open(d); });
 })();
+
+// === POP-UPS UNIFORM + ZWARTE ACHTERGROND ACHTER DE KNOPPEN (Dennis 31 okt 2026) ===
+// Mobiel: chat en reserveer/cadeaubon dezelfde kaart (16px marge, knoppen eronder) en zwart achter de knoppen
+// zolang een pop-up open is. Zelfde CSS zet de widget-iframe (TDOHm6WLSfFVNSEo, node "Mobiel uniform met chat").
+(function () {
+  if (window.__busPopUniform) return;
+  window.__busPopUniform = true;
+  var CSS = "#bw-zwart{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:#000;z-index:39}@media(max-width:640px){html.bw-chat-open #bw-zwart{display:block}}@media(max-width:639px){html.booking-widget-open #bw-zwart{display:block}html #booking-widget #booking-widget-panel,html #booking-widget.is-gift #booking-widget-panel{top:16px!important;left:16px!important;right:16px!important;bottom:80px!important;width:auto!important;height:auto!important;max-height:none!important;border-radius:8px!important}html #booking-widget.is-open>div.fixed:not(#booking-widget-panel){display:flex!important}html #booking-widget.is-open #bwCollapse{display:grid!important;left:16px!important;right:auto!important;bottom:16px!important}}";
+  var st = document.getElementById('bw-uniform-mobiel');
+  if (!st) { st = document.createElement('style'); st.id = 'bw-uniform-mobiel'; document.head.appendChild(st); }
+  st.textContent = CSS;
+  var sc = document.createElement('style'); sc.id = 'bw-zwart-chat'; sc.textContent = 'html.bw-chat-open .chat-window-wrapper{z-index:9999!important}'; document.head.appendChild(sc);
+  function zwart() {
+    if (document.getElementById('bw-zwart') || !document.body) return;
+    var z = document.createElement('div'); z.id = 'bw-zwart'; z.setAttribute('aria-hidden', 'true'); document.body.appendChild(z);
+  }
+  window.setInterval(function () {
+    zwart();
+    var w = document.querySelector('.chat-window-wrapper .chat-window');
+    var open = false;
+    if (w && w.getClientRects().length) { var cs = getComputedStyle(w); open = cs.display !== 'none' && cs.visibility !== 'hidden' && cs.opacity !== '0'; }
+    document.documentElement.classList.toggle('bw-chat-open', open);
+  }, 250);
+})();
+
