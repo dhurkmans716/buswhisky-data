@@ -1,7 +1,23 @@
 // BUS Whisky website-chatbot. Bron: github.com/dhurkmans716/buswhisky-data/chat/bus-chat.js
 // Wordt op buswhisky.com geladen met EEN regel: <script type="module" src="https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-chat.js"></script>
 // Aanpassen via n8n-hulptool "BUS Chatwidget publiceren"; de website hoeft daarvoor niet te veranderen.
-import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js';
+// Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
+var createChat = null;
+var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
+
+// === EERSTE TIK OP RESERVEREN/CADEAUBON OP MOBIEL (Dennis 31 okt 2026) ===
+// app.js laadt bij pointerenter de widget alvast voor. Op een aanraakscherm verandert de pagina dan precies
+// onder de vinger, waardoor iOS de eerste tik als hover ziet en geen klik geeft (pas de tweede tik opende).
+// Op touch slaan we dat voorladen over; de klik laadt de widget zelf.
+(function () {
+  if (window.__busGeenTouchVoorladen) return;
+  window.__busGeenTouchVoorladen = true;
+  document.addEventListener('pointerenter', function (e) {
+    if (e.pointerType === 'mouse') return;
+    var t = e.target;
+    if (t && t.closest && t.closest('[data-booking-widget-open]')) e.stopImmediatePropagation();
+  }, true);
+})();
 if (!window.__busChatGeladen) {
 window.__busChatGeladen = true;
 (function () {
@@ -133,7 +149,7 @@ window.__busChatGeladen = true;
                 };
                 var t = teksten[taal];
 
-                window.setTimeout(function () {
+                __busChatModule.then(function () {
                     createChat({
                         webhookUrl: 'https://buswhiskyevents.app.n8n.cloud/webhook/b88f324f-e6e4-470b-a73c-4b1ecbe50721/chat',
                         mode: 'window',
@@ -307,7 +323,7 @@ window.__busChatGeladen = true;
                         if (!w || w.querySelector('.bw-powered')) return;
                         w.insertAdjacentHTML('beforeend', BW_POWERED);
                     }, 500);
-                }, 0); // chatknop meteen zichtbaar (Dennis 31 okt 2026; was 15 s)
+                }); // chatknop zodra de chatmodule binnen is (Dennis 31 okt 2026; was 15 s vertraging)
             
 }
 
