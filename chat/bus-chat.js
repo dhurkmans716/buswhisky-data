@@ -564,6 +564,8 @@ window.__busChatGeladen = true;
   var taal = String(document.documentElement.lang || 'nl').slice(0, 2).toLowerCase();
   var label = LABEL[taal] || LABEL.en;
   var SVG = '<svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 2h4M10.5 2v5.2c0 .6-.3 1.1-.8 1.5C8.6 9.6 8 10.9 8 12.3V20a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-7.7c0-1.4-.6-2.7-1.7-3.6-.5-.4-.8-.9-.8-1.5V2"/><path d="M8 14h8v4H8z"/></svg>';
+  // Desktop: bij een open paneel staat de inklapknop rechts op de plek van de laatste knop; schuif de fles ernaast.
+  if (!document.getElementById('bw-shop-launcher-css')) { var st = document.createElement('style'); st.id = 'bw-shop-launcher-css'; st.textContent = '@media (min-width:640px){#booking-widget.is-open #bwShopLauncher{margin-right:56px}}'; document.head.appendChild(st); }
   function zetShop(poging) {
     var f = document.querySelector('iframe[src*="/reserveren/widget"]');
     if (!f) { if (poging < 20) setTimeout(function () { zetShop(poging + 1); }, 100); return; }
@@ -593,4 +595,3 @@ window.__busChatGeladen = true;
   }
   if (!plaats()) { var n = 0, iv = setInterval(function () { if (plaats() || ++n > 40) clearInterval(iv); }, 250); }
 })();
-
