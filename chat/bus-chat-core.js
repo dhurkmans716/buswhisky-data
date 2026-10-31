@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026103102);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026103103);
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
 
 // === EERSTE TIK OP RESERVEREN/CADEAUBON OP MOBIEL (Dennis 31 okt 2026) ===
@@ -567,7 +567,7 @@ window.__busChatGeladen = true;
   var label = LABEL[taal] || LABEL.en;
   var SVG = '<svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 2h4M10.5 2v5.2c0 .6-.3 1.1-.8 1.5C8.6 9.6 8 10.9 8 12.3V20a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-7.7c0-1.4-.6-2.7-1.7-3.6-.5-.4-.8-.9-.8-1.5V2"/><path d="M8 14h8v4H8z"/></svg>';
   // Desktop: bij een open paneel staat de inklapknop rechts op de plek van de laatste knop; schuif de fles ernaast.
-  if (!document.getElementById('bw-shop-launcher-css')) { var st = document.createElement('style'); st.id = 'bw-shop-launcher-css'; st.textContent = "@media (min-width:640px){#booking-widget.is-open #bwShopLauncher{margin-right:56px}}@media (max-width:639px){html #booking-widget.bw-met-shop.is-open [data-booking-widget-open=\"book\"]{padding-left:16px!important;padding-right:14px!important}html #booking-widget.bw-met-shop.is-open [data-booking-widget-open=\"book\"] svg{display:none!important}}@media (max-width:370px){html #booking-widget.bw-met-shop [data-booking-widget-open=\"book\"]{padding-left:12px!important;padding-right:12px!important;gap:0!important}html #booking-widget.bw-met-shop [data-booking-widget-open=\"book\"] svg{display:none!important}html #booking-widget.bw-met-shop>div.fixed:not(#booking-widget-panel){gap:6px!important}}"; document.head.appendChild(st); }
+  var st = document.getElementById('bw-shop-launcher-css'); if (!st) { st = document.createElement('style'); st.id = 'bw-shop-launcher-css'; document.head.appendChild(st); } st.textContent = "@media (min-width:640px){#booking-widget.is-open #bwShopLauncher{margin-right:56px}}@media (max-width:639px){html #booking-widget.bw-met-shop [data-booking-widget-open=\"book\"],html #booking-widget.bw-met-shop.is-open [data-booking-widget-open=\"book\"]{padding-left:16px!important;padding-right:14px!important}html #booking-widget.bw-met-shop [data-booking-widget-open=\"book\"] svg{display:none!important}}@media (max-width:370px){html body #booking-widget.bw-met-shop [data-booking-widget-open=\"book\"],html body #booking-widget.bw-met-shop.is-open [data-booking-widget-open=\"book\"]{padding-left:12px!important;padding-right:12px!important}html body #booking-widget.bw-met-shop>div.fixed:not(#booking-widget-panel){gap:6px!important}}";
   // Mobiel: met de fles erbij past de rij alleen als Reserveren zonder icoon staat (anders schuift hij onder de chatknop).
   function zetShop(poging) {
     var f = document.querySelector('iframe[src*="/reserveren/widget"]');
