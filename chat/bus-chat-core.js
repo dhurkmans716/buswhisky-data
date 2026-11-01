@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026110103);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026110104);
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
 
 // === EERSTE TIK OP RESERVEREN/CADEAUBON OP MOBIEL (Dennis 31 okt 2026) ===
@@ -569,6 +569,11 @@ window.__busChatGeladen = true;
   // en de cadeaubon); 'Webshop afrekenen in widget' bewaart vooraf sessionStorage bw-shop-retour {u,p,t}. Komt de gast terug op een
   // Driver-pagina (bedankpagina, of /bestellen na een afkeuring), dan wordt die verborgen en gaat de gast direct terug naar de pagina
   // waar hij was, met de widget open op de bevestiging (besteld) of op de checkout met de melding (fout).
+  // Knop 'Kom proeven in Loosbroek' op de bedankpagina: #bw-open=book opent de reserveringswidget.
+  if (/bw-open=book/.test(location.hash)) {
+    try { history.replaceState(history.state, '', location.pathname + location.search); } catch (e) {}
+    (function klik(n) { var k = document.querySelector('[data-booking-widget-open="book"]'); if (k && document.readyState === 'complete') { setTimeout(function () { k.click(); }, 400); return; } if (n < 60) setTimeout(function () { klik(n + 1); }, 150); })(0);
+  }
   (function () {
     var hm = location.hash.match(/bw-shop=(besteld|fout)(?:&nr=([0-9A-Za-z%-]+))?(?:&msg=([^&]*))?/);
     if (hm) {
@@ -582,24 +587,141 @@ window.__busChatGeladen = true;
     var pad = location.pathname;
     var html0 = document.documentElement.innerHTML || '';
     // Driver's bedankpagina herkennen aan de betaalcomponent (adres van die pagina is niet vast), /bestellen en /winkelwagen bij afkeuring.
-    var bedankt = /payment-thank-you|paymentThankYou|mollie-id|Bedankt voor je bestelling|Bestelling bevestigd/i.test(html0);
-    if (!bedankt && !/winkelwagen|bestellen/i.test(pad)) return;
-    document.documentElement.style.visibility = 'hidden';
-    setTimeout(function () { document.documentElement.style.visibility = ''; }, 8000);
-    function klaar() {
-      var tx = ((document.body && document.body.textContent) || '').replace(/\s+/g, ' '), html = document.documentElement.innerHTML || '';
-      var q = '(?:&quot;|")';
-      var nrm = html.match(new RegExp('(?:order_number|ordernumber|order_nr|reference|number)' + q + '\\s*:\\s*' + q + '?([0-9][0-9A-Za-z-]{2,})', 'i'));
-      var nr = nrm ? nrm[1] : ((tx.match(/(?:bestel(?:ling|nummer)|order(?:nummer| number)?)[^0-9]{0,25}#?[ ]*([0-9]{4,})/i) || [])[1] || '');
-      var stm = html.match(new RegExp('payment_status' + q + '\\s*:\\s*\\{[^}]*?identifier' + q + '\\s*:\\s*' + q + '([A-Za-z_]+)', 'i'));
-      var nm = html.match(/[$]notify[(][{] *message: *'([^']{1,600})'/);
-      var fout = !!nm || (!bedankt && /winkelwagen|bestellen/i.test(pad)) || (stm && /cancel|fail|expir|declin|refus/i.test(stm[1])) || /geannuleerd|mislukt|niet gelukt|niet geslaagd|niet afgerond/i.test(tx);
-      var msg = '';
-      if (nm) { msg = nm[1]; [['Invoice salutation', 'Aanhef'], ['Invoice first name', 'Voornaam'], ['Invoice last name', 'Achternaam'], ['Invoice email', 'E-mailadres'], ['Invoice street', 'Straat'], ['Invoice house number', 'Huisnummer'], ['Invoice zip', 'Postcode'], ['Invoice city', 'Plaats'], ['Invoice country', 'Land'], ['Invoice phone', 'Telefoonnummer'], ['Shipping method', 'Verzendmethode'], ['Payment method', 'Betaalmethode']].forEach(function (v) { msg = msg.split(v[0]).join(v[1]); }); }
-      try { localStorage.removeItem('bw-shop-retour'); sessionStorage.removeItem('bw-shop-retour'); sessionStorage.removeItem('bw-shop-order'); } catch (e) {}
-      location.replace(String(R.u).split('#')[0] + '#bw-shop=' + (fout ? 'fout' : 'besteld') + (nr && !fout ? '&nr=' + encodeURIComponent(nr) : '') + (msg ? '&msg=' + encodeURIComponent(msg.slice(0, 300)) : ''));
+    var BED = /payment-thank-you|paymentThankYou|thankyou-wrapper|mollie-id|Bedankt voor je bestelling|Bestelling bevestigd/i;
+    // Alleen echte pagina-inhoud tellen: gewone scripts en stijlen bevatten soms dezelfde woorden (bijv. een zoekpatroon).
+    function isBed(h) {
+      try {
+        var dd = new DOMParser().parseFromString(h, 'text/html');
+        dd.querySelectorAll('script:not([type="text/x-template"]),style,noscript').forEach(function (x) { x.remove(); });
+        return BED.test(dd.documentElement.innerHTML || '');
+      } catch (e) { return BED.test(h); }
     }
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', klaar); else klaar();
+    var bedankt = isBed(html0);
+    if (!bedankt && !/winkelwagen|bestellen|bestelling|betaling|bedankt|thank/i.test(pad)) return;
+    function ruim() { try { localStorage.removeItem('bw-shop-retour'); sessionStorage.removeItem('bw-shop-retour'); sessionStorage.removeItem('bw-shop-order'); } catch (e) {} }
+    function terugFout(msg) {
+      ruim();
+      location.replace(String(R.u).split('#')[0] + '#bw-shop=fout' + (msg ? '&msg=' + encodeURIComponent(msg.slice(0, 300)) : ''));
+    }
+    // 1 nov 2026 (Dennis): eigen, enthousiaste bedankpagina. Die legt zich direct over Driver's bedankpagina (geen tweede paginalading).
+    // De betaalstatus komt uit Driver's eigen statusadres (mollie_id), niet uit de paginatekst: het Vue-sjabloon op die pagina bevat
+    // ook de teksten voor een mislukte betaling, waardoor build 0103 een geslaagde betaling als mislukt zag.
+    var T = {
+      nl: { even: 'Even je betaling checken', proost: 'Proost', bin: 'Je bestelling is binnen!', sub: 'Wij pakken hem met liefde voor je in. De bevestiging staat zo in je mailbox.', subAf: 'Wij zetten hem met liefde voor je klaar in Loosbroek. De bevestiging staat zo in je mailbox.', nr: 'Bestelnummer', engel: 'Terwijl jouw fles onderweg is, rijpen er in Loosbroek honderden vaten rustig verder. De engelen nemen hun deel, jij straks het jouwe.', engelAf: 'Terwijl jouw fles klaarstaat, rijpen er in Loosbroek honderden vaten rustig verder. De engelen nemen hun deel, jij straks het jouwe.', verwerk: 'Je betaling wordt nog verwerkt door de bank. Dat komt vanzelf goed.', verder: 'Verder kijken', proef: 'Kom proeven in Loosbroek' },
+      en: { even: 'Checking your payment', proost: 'Cheers', bin: 'Your order is in!', sub: 'We are packing it for you with love. Your confirmation will be in your inbox shortly.', subAf: 'We are getting it ready for you in Loosbroek. Your confirmation will be in your inbox shortly.', nr: 'Order number', engel: 'While your bottle is on its way, hundreds of casks keep maturing quietly in Loosbroek. The angels take their share, soon you take yours.', engelAf: 'While your bottle waits for you, hundreds of casks keep maturing quietly in Loosbroek. The angels take their share, soon you take yours.', verwerk: 'Your bank is still processing the payment. It will sort itself out.', verder: 'Keep browsing', proef: 'Come and taste in Loosbroek' },
+      de: { even: 'Zahlung wird geprüft', proost: 'Prost', bin: 'Deine Bestellung ist da!', sub: 'Wir packen sie mit Liebe für dich ein. Die Bestätigung ist gleich in deinem Postfach.', subAf: 'Wir legen sie mit Liebe in Loosbroek für dich bereit. Die Bestätigung ist gleich in deinem Postfach.', nr: 'Bestellnummer', engel: 'Während deine Flasche unterwegs ist, reifen in Loosbroek Hunderte Fässer in Ruhe weiter. Die Engel nehmen ihren Anteil, du bald deinen.', engelAf: 'Während deine Flasche auf dich wartet, reifen in Loosbroek Hunderte Fässer in Ruhe weiter. Die Engel nehmen ihren Anteil, du bald deinen.', verwerk: 'Deine Bank verarbeitet die Zahlung noch. Das klappt von selbst.', verder: 'Weiter stöbern', proef: 'Komm zur Verkostung nach Loosbroek' }
+    };
+    var t = T[taal] || T.en;
+    var css = '#bwBedankt{position:fixed;inset:0;z-index:2147483646;background:radial-gradient(120% 80% at 50% 0%,#2a2214 0%,#141414 55%,#0d0d0d 100%);color:#F7F4EE;display:flex;align-items:safe center;justify-content:center;overflow:auto;-webkit-font-smoothing:antialiased;opacity:1}'
+      + 'html.bw-bedankt-aan body>*:not(#bwBedankt){visibility:hidden!important}html.bw-bedankt-aan,html.bw-bedankt-aan body{overflow:hidden!important;background:#141414!important}'
+      + '#bwBedankt .bwb-in{position:relative;z-index:2;width:100%;max-width:460px;padding:28px 24px 24px;text-align:center;box-sizing:border-box}'
+      + '#bwBedankt .bwb-glas{width:96px;height:110px;margin:0 auto 6px;display:block}'
+      + '#bwBedankt .bwb-drank{transform:translateY(64px);transition:transform 1.6s cubic-bezier(.2,.8,.2,1)}#bwBedankt.bwb-vol .bwb-drank{transform:translateY(0)}'
+      + '#bwBedankt .bwb-tekst{opacity:0;transform:translateY(14px);transition:opacity .7s ease .5s,transform .7s ease .5s}#bwBedankt.bwb-klaar .bwb-tekst{opacity:1;transform:none}'
+      + '#bwBedankt .bwb-laad{font:500 15px/1.4 inherit;letter-spacing:.04em;color:#d9d2c6;transition:opacity .4s}#bwBedankt.bwb-klaar .bwb-laad{opacity:0;height:0;overflow:hidden}'
+      + '#bwBedankt h1{font-family:Oswald,"Oswald",Impact,sans-serif;font-weight:600;text-transform:uppercase;font-size:clamp(40px,12vw,58px);line-height:1;margin:6px 0 6px;color:#C9A227;letter-spacing:.02em}'
+      + '#bwBedankt h2{font-size:22px;line-height:1.25;margin:0 0 12px;font-weight:700;color:#fff}'
+      + '#bwBedankt p{font-size:16px;line-height:1.5;margin:0 0 14px;color:#e9e3d8}'
+      + '#bwBedankt .bwb-nr{display:inline-block;margin:6px 0 18px;padding:10px 18px;border:1px solid rgba(201,162,39,.55);border-radius:999px;font-size:15px;letter-spacing:.03em;color:#fff}#bwBedankt .bwb-nr b{color:#C9A227}'
+      + '#bwBedankt .bwb-engel{font-size:14px;color:#bdb4a5;font-style:italic;margin:2px auto 20px;max-width:360px}'
+      + '#bwBedankt .bwb-vw{font-size:13px;color:#bdb4a5}'
+      + '#bwBedankt .bwb-knop{display:block;width:100%;box-sizing:border-box;padding:14px 20px;border-radius:999px;font-family:Oswald,Impact,sans-serif;text-transform:uppercase;font-size:20px;letter-spacing:.03em;text-decoration:none;cursor:pointer;border:0;margin:0 0 12px}'
+      + '#bwBedankt .bwb-k1{background:#C9A227;color:#111}#bwBedankt .bwb-k2{background:transparent;color:#C9A227;border:1.5px solid #C9A227}'
+      + '#bwBedankt .bwb-voet{margin-top:18px;font-size:13px;letter-spacing:.05em;color:#d9d2c6}'
+      + '#bwBedankt .bwb-v{position:absolute;bottom:-20px;width:6px;height:6px;border-radius:50%;background:#C9A227;opacity:0;z-index:1;animation:bwbStijg linear infinite;box-shadow:0 0 8px #C9A227}'
+      + '@keyframes bwbStijg{0%{transform:translateY(0) scale(.6);opacity:0}15%{opacity:.85}100%{transform:translateY(-105vh) scale(1.1);opacity:0}}'
+      + '#bwBedankt .bwb-bel{animation:bwbBel 2.4s ease-in infinite}@keyframes bwbBel{0%{transform:translateY(0);opacity:0}20%{opacity:.8}100%{transform:translateY(-46px);opacity:0}}'
+      + '@media (prefers-reduced-motion:reduce){#bwBedankt .bwb-v,#bwBedankt .bwb-bel{animation:none;display:none}#bwBedankt .bwb-drank,#bwBedankt .bwb-tekst{transition:none}}';
+    var glas = '<svg class="bwb-glas" viewBox="0 0 120 140" aria-hidden="true"><defs><clipPath id="bwbClip"><path d="M22 34 L98 34 L90 122 Q89 130 81 130 L39 130 Q31 130 30 122 Z"/></clipPath>'
+      + '<linearGradient id="bwbAmber" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E7B64A"/><stop offset="1" stop-color="#A8691A"/></linearGradient></defs>'
+      + '<g clip-path="url(#bwbClip)"><g class="bwb-drank"><rect x="10" y="70" width="100" height="70" fill="url(#bwbAmber)"/><path d="M10 72 Q35 64 60 72 T110 72 L110 76 L10 76Z" fill="#F2CC6B" opacity=".7"/>'
+      + '<circle class="bwb-bel" cx="48" cy="118" r="2.2" fill="#FBE3A0"/><circle class="bwb-bel" style="animation-delay:.8s" cx="66" cy="122" r="1.8" fill="#FBE3A0"/><circle class="bwb-bel" style="animation-delay:1.6s" cx="57" cy="112" r="1.5" fill="#FBE3A0"/></g></g>'
+      + '<path d="M22 34 L98 34 L90 122 Q89 130 81 130 L39 130 Q31 130 30 122 Z" fill="none" stroke="#F7F4EE" stroke-width="3" stroke-linejoin="round" opacity=".9"/>'
+      + '<path d="M30 44 L34 112" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".25"/>'
+      + '<path d="M60 22 l2.2 5.6 5.6 2.2 -5.6 2.2 -2.2 5.6 -2.2 -5.6 -5.6 -2.2 5.6 -2.2z" fill="#C9A227" transform="translate(30 -14) scale(.9)"/><path d="M60 22 l1.6 4 4 1.6 -4 1.6 -1.6 4 -1.6 -4 -4 -1.6 4 -1.6z" fill="#C9A227" transform="translate(-34 -8)"/></svg>';
+    var O = null;
+    function bouw() {
+      if (O) return O;
+      var s = document.createElement('style'); s.id = 'bwBedanktCss'; s.textContent = css; (document.head || document.documentElement).appendChild(s);
+      document.documentElement.classList.add('bw-bedankt-aan');
+      O = document.createElement('div'); O.id = 'bwBedankt'; O.setAttribute('role', 'dialog'); O.setAttribute('aria-live', 'polite');
+      var v = ''; for (var i = 0; i < 18; i++) v += '<i class="bwb-v" style="left:' + (Math.random() * 100).toFixed(1) + '%;animation-duration:' + (5 + Math.random() * 6).toFixed(1) + 's;animation-delay:' + (Math.random() * 6).toFixed(1) + 's;width:' + (3 + Math.random() * 5).toFixed(1) + 'px;height:' + (3 + Math.random() * 5).toFixed(1) + 'px"></i>';
+      O.innerHTML = v + '<div class="bwb-in">' + glas + '<div class="bwb-laad">' + t.even + '&hellip;</div><div class="bwb-tekst"></div></div>';
+      document.body.appendChild(O);
+      return O;
+    }
+    if (bedankt) { if (document.body) bouw(); else document.addEventListener('DOMContentLoaded', bouw); }
+    function esc(x) { return String(x).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+    function toonBedankt(d) {
+      ruim();
+      bouw();
+      var af = d.afhalen, naam = d.naam ? ', ' + esc(d.naam) : '';
+      var home = String(R.u).split('#')[0];
+      O.querySelector('.bwb-tekst').innerHTML = '<h1>' + t.proost + naam + '!</h1><h2>' + t.bin + '</h2><p>' + (af ? t.subAf : t.sub) + '</p>'
+        + (d.nr ? '<div class="bwb-nr">' + t.nr + ' <b>#' + esc(d.nr) + '</b></div>' : '')
+        + '<p class="bwb-engel">' + (af ? t.engelAf : t.engel) + '</p>' + (d.pending ? '<p class="bwb-vw">' + t.verwerk + '</p>' : '')
+        + '<a class="bwb-knop bwb-k1" href="' + esc(home) + '">' + t.verder + '</a><a class="bwb-knop bwb-k2" href="' + esc(home) + '#bw-open=book">' + t.proef + '</a>'
+        + '<div class="bwb-voet">&#10022; Powered by Bus Whisky Angels&rsquo; Share &#10022;</div>';
+      O.classList.add('bwb-vol');
+      setTimeout(function () { O.classList.add('bwb-klaar'); setTimeout(function () { var l = O.querySelector('.bwb-laad'); if (l) l.remove(); }, 450); }, 900);
+      try { var dn = (d.nr || '').slice(0, 20); new Image().src = '/reserveren/widget?launcher=0&modal=1&shop=1&diag=' + encodeURIComponent('bedankt|' + dn + '|' + (d.status || '') + '|' + Date.now() % 1e7); } catch (e) {}
+    }
+    function attr(h, n) { var m = h.match(new RegExp('\\s' + n + '="([^"]*)"', 'i')); return m ? m[1].replace(/&amp;/g, '&').replace(/&quot;/g, '"') : ''; }
+    function gegevens(h) {
+      var q = '(?:&quot;|")', d = {};
+      var nrm = h.match(new RegExp('(?:order_number|ordernumber|order_nr|reference)' + q + '\\s*:\\s*' + q + '?([0-9][0-9A-Za-z-]{2,})', 'i'));
+      d.nr = nrm ? nrm[1] : '';
+      var fn = h.match(new RegExp('(?:invoice_first_name|first_name)' + q + '\\s*:\\s*' + q + '([^"&]{1,40})' + q, 'i'));
+      d.naam = fn ? fn[1].trim() : '';
+      try { d.naam = JSON.parse('"' + d.naam + '"'); } catch (e) {}
+      d.afhalen = new RegExp('shipping_method' + q + '\\s*:\\s*' + q + '?[^,}]*(?:pickup|afhal|ophal|collect)', 'i').test(h) || /afhalen in loosbroek|pick-?up/i.test((h.match(/shipping[^]{0,200}/i) || [''])[0]);
+      d.mollie = attr(h, 'mollie-id'); d.endpoint = attr(h, 'endpoint'); d.pendingId = attr(h, 'pending-identifier');
+      var stm = h.match(new RegExp('payment_status' + q + '\\s*:\\s*\\{[^}]*?identifier' + q + '\\s*:\\s*' + q + '([A-Za-z_]+)', 'i'));
+      d.status = stm ? stm[1] : '';
+      return d;
+    }
+    function isFout(s) { return /cancel|fail|expir|declin|refus|annul|mislukt/i.test(s || ''); }
+    function beslis(d) {
+      var start = Date.now();
+      function klaarMet(s, pending) {
+        if (isFout(s)) { terugFout(taal === 'nl' ? 'De betaling is niet afgerond. Probeer het gerust nog een keer.' : 'The payment was not completed. Please try again.'); return; }
+        d.status = s || d.status; d.pending = !!pending; toonBedankt(d);
+      }
+      if (d.status && d.status !== d.pendingId && !d.mollie) { klaarMet(d.status); return; }
+      if (!d.endpoint || !d.mollie) { klaarMet(d.status, d.status && d.status === d.pendingId); return; }
+      (function poll() {
+        fetch(d.endpoint + (d.endpoint.indexOf('?') < 0 ? '?' : '&') + 'mollie_id=' + encodeURIComponent(d.mollie), { credentials: 'same-origin', headers: { Accept: 'application/json', 'X-Requested-With': 'XMLHttpRequest' } })
+          .then(function (r) { return r.json(); })
+          .then(function (j) {
+            var id = (j && (j.identifier || (j.status && j.status.identifier) || j.status)) || '';
+            if (id && id !== d.pendingId) { klaarMet(String(id)); return; }
+            if (Date.now() - start > 12000) { klaarMet('', true); return; }
+            setTimeout(poll, 1200);
+          })
+          .catch(function () { if (Date.now() - start > 6000) klaarMet(d.status, true); else setTimeout(poll, 1200); });
+      })();
+    }
+    // Afkeuring van Driver (/bestellen of /winkelwagen met $notify): verbergen en terug naar de checkout in de widget.
+    if (!bedankt) {
+      document.documentElement.style.visibility = 'hidden';
+      var vt = setTimeout(function () { document.documentElement.style.visibility = ''; }, 8000);
+      var fk = function () {
+        var nm = (document.documentElement.innerHTML || '').match(/[$]notify[(][{] *message: *'([^']{1,600})'/), msg = '';
+        if (nm) { msg = nm[1]; [['Invoice salutation', 'Aanhef'], ['Invoice first name', 'Voornaam'], ['Invoice last name', 'Achternaam'], ['Invoice email', 'E-mailadres'], ['Invoice street', 'Straat'], ['Invoice house number', 'Huisnummer'], ['Invoice zip', 'Postcode'], ['Invoice city', 'Plaats'], ['Invoice country', 'Land'], ['Invoice phone', 'Telefoonnummer'], ['Shipping method', 'Verzendmethode'], ['Payment method', 'Betaalmethode']].forEach(function (v) { msg = msg.split(v[0]).join(v[1]); }); }
+        terugFout(msg);
+      };
+      // Vue kan de bedankcomponent al vervangen hebben: de ruwe HTML van deze pagina beslist dan of het toch de bedankpagina is.
+      fetch(location.href, { credentials: 'same-origin' }).then(function (r) { return r.text(); }).then(function (h) {
+        if (isBed(h) && !/[$]notify[(]/.test(h)) { clearTimeout(vt); bouw(); document.documentElement.style.visibility = ''; beslis(gegevens(h)); }
+        else if (/winkelwagen|bestellen/i.test(pad)) { if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fk); else fk(); }
+        else { clearTimeout(vt); document.documentElement.style.visibility = ''; }
+      }).catch(function () { clearTimeout(vt); document.documentElement.style.visibility = ''; });
+      return;
+    }
+    // Vue kan het element met de props al vervangen hebben; dan de ruwe HTML van dezelfde pagina ophalen.
+    var d0 = gegevens(html0);
+    if (d0.mollie || d0.nr) beslis(d0);
+    else fetch(location.href, { credentials: 'same-origin' }).then(function (r) { return r.text(); }).then(function (h) { beslis(gegevens(h)); }).catch(function () { beslis(d0); });
   })();
   var SVG = '<svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 2h4M10.5 2v5.2c0 .6-.3 1.1-.8 1.5C8.6 9.6 8 10.9 8 12.3V20a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-7.7c0-1.4-.6-2.7-1.7-3.6-.5-.4-.8-.9-.8-1.5V2"/><path d="M8 14h8v4H8z"/></svg>';
   // Desktop: bij een open paneel staat de inklapknop rechts op de plek van de laatste knop; schuif de fles ernaast.
