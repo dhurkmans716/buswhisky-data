@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026103103);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026110101);
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
 
 // === EERSTE TIK OP RESERVEREN/CADEAUBON OP MOBIEL (Dennis 31 okt 2026) ===
@@ -569,8 +569,74 @@ window.__busChatGeladen = true;
   // Desktop: bij een open paneel staat de inklapknop rechts op de plek van de laatste knop; schuif de fles ernaast.
   var st = document.getElementById('bw-shop-launcher-css'); if (!st) { st = document.createElement('style'); st.id = 'bw-shop-launcher-css'; document.head.appendChild(st); } st.textContent = "@media (min-width:640px){#booking-widget.is-open #bwShopLauncher{margin-right:56px}}@media (max-width:639px){html #booking-widget.bw-met-shop [data-booking-widget-open=\"book\"],html #booking-widget.bw-met-shop.is-open [data-booking-widget-open=\"book\"]{padding-left:16px!important;padding-right:14px!important}html #booking-widget.bw-met-shop [data-booking-widget-open=\"book\"] svg{display:none!important}}@media (max-width:370px){html body #booking-widget.bw-met-shop [data-booking-widget-open=\"book\"],html body #booking-widget.bw-met-shop.is-open [data-booking-widget-open=\"book\"]{padding-left:12px!important;padding-right:12px!important}html body #booking-widget.bw-met-shop>div.fixed:not(#booking-widget-panel){gap:6px!important}}";
   // Mobiel: met de fles erbij past de rij alleen als Reserveren zonder icoon staat (anders schuift hij onder de chatknop).
+  // 1 nov 2026 (Dennis): geen laadtijd en geen flits van de reserveringswidget. De webshop laadt op de achtergrond in een eigen,
+  // onzichtbare iframe (#bwShopFrame) boven de reserveringsiframe; de fles schuift die direct in beeld. Reserveren, cadeaubon of
+  // sluiten haalt hem weg, behalve tijdens een lopende bestelling (sessionStorage bw-shop-order, zie n8n 'Webshop terug in widget').
+  // intent=1 in de URL: anders klapt het sluitscript in de widget ('Niet automatisch openen') een al open paneel dicht bij het voorladen.
+  window.__busShopVoor = 1;
+  var SF = null, sfKlaar = false, bezig = false;
+  function hw() { return document.getElementById('booking-widget'); }
+  function hoofd() { var h = hw(); return h && h.querySelector('#booking-widget-panel iframe:not(#bwShopFrame)'); }
+  function vlag() { var t = 0; try { t = +sessionStorage.getItem('bw-shop-order') || 0; } catch (e) {} return t && Date.now() - t < 7200000; }
+  function shopUrl() {
+    var h = hw(), u = ((h && h.dataset && h.dataset.url) || '/reserveren/widget') + '?launcher=0&modal=1&shop=1&intent=1';
+    if (taal && taal !== 'nl') u += '&lang=' + taal;
+    return u;
+  }
+  function voorladen() {
+    if (SF) return SF;
+    var f = hoofd(); if (!f || !f.parentNode) return null;
+    SF = document.createElement('iframe');
+    SF.id = 'bwShopFrame'; SF.title = label; SF.setAttribute('allow', 'payment'); SF.setAttribute('tabindex', '-1');
+    SF.className = 'block w-full h-full border-0';
+    SF.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;border:0;z-index:5;visibility:hidden;background:#F7F4EE';
+    SF.addEventListener('load', function () {
+      var h2 = ''; try { h2 = SF.contentWindow.location.href; } catch (e) { h2 = 'x'; }
+      if (h2 === 'about:blank') return;
+      sfKlaar = true;
+      var h = hw(); if (h && h.classList.contains('bw-shop-actief')) { SF.style.visibility = 'visible'; var m = hoofd(); if (m) m.style.visibility = ''; h.classList.add('is-ready'); }
+    });
+    SF.src = shopUrl();
+    f.parentNode.appendChild(SF);
+    return SF;
+  }
+  function toon() {
+    var h = hw(); if (!h) return false;
+    var s = voorladen(); if (!s) return false;
+    h.classList.add('bw-shop-actief');
+    s.removeAttribute('tabindex');
+    if (sfKlaar) { s.style.visibility = 'visible'; h.classList.add('is-ready'); }
+    else { var m = hoofd(); if (m) m.style.visibility = 'hidden'; h.classList.remove('is-ready'); }
+    return true;
+  }
+  function verberg() {
+    var h = hw(); if (!h || !SF) return;
+    h.classList.remove('bw-shop-actief');
+    SF.style.visibility = 'hidden'; SF.setAttribute('tabindex', '-1');
+    var m = hoofd(); if (m) m.style.visibility = '';
+    var q = ''; try { q = SF.contentWindow.location.search + '|' + SF.contentWindow.location.pathname; } catch (e) { q = 'x'; }
+    if (/besteld=1|shopfout=1/.test(q) || q.indexOf('/reserveren/widget') < 0) { sfKlaar = false; SF.src = shopUrl(); }
+  }
+  function waak() {
+    var h = hw(); if (!h || h.__bwShopWaak) return; h.__bwShopWaak = 1;
+    new MutationObserver(function () {
+      if (!h.classList.contains('is-open') && h.classList.contains('bw-shop-actief') && !vlag()) setTimeout(function () { if (!h.classList.contains('is-open')) verberg(); }, 350);
+    }).observe(h, { attributes: true, attributeFilter: ['class'] });
+    document.addEventListener('click', function (e) {
+      if (bezig) return;
+      var t = e.target && e.target.closest && e.target.closest('[data-booking-widget-open]');
+      if (t && h.classList.contains('bw-shop-actief')) { try { sessionStorage.removeItem('bw-shop-order'); } catch (x) {} verberg(); }
+    }, true);
+  }
+  function startVoorladen() {
+    try { if (navigator.connection && navigator.connection.saveData) return; } catch (e) {}
+    var go = function () { waak(); if (!voorladen()) setTimeout(go, 1000); };
+    var later = function () { if (window.requestIdleCallback) requestIdleCallback(go, { timeout: 3000 }); else setTimeout(go, 1200); };
+    if (document.readyState === 'complete') setTimeout(later, 800); else window.addEventListener('load', function () { setTimeout(later, 800); });
+  }
   function zetShop(poging) {
-    var f = document.querySelector('iframe[src*="/reserveren/widget"]');
+    // Terugval als de voorgeladen iframe er (nog) niet kan komen: oude werkwijze in de hoofdiframe.
+    var f = document.querySelector('iframe[src*="/reserveren/widget"]:not(#bwShopFrame)');
     if (!f) { if (poging < 20) setTimeout(function () { zetShop(poging + 1); }, 100); return; }
     var url = new URL(f.getAttribute('src') || '/reserveren/widget', location.href);
     ['gift', 'category', 'type', 'arrangement', 'service', 'service_code', 'intent'].forEach(function (k) { url.searchParams.delete(k); });
@@ -592,9 +658,11 @@ window.__busChatGeladen = true;
       e.preventDefault(); e.stopPropagation();
       window.__busOpenKlik = Date.now(); window.__busBoekIntent = Date.now();
       var bk = document.querySelector('[data-booking-widget-open="book"]');
-      if (bk) bk.click();
-      zetShop(0);
+      waak();
+      bezig = true; try { if (bk) bk.click(); } finally { bezig = false; }
+      if (!toon()) zetShop(0);
     });
+    startVoorladen();
     return true;
   }
   if (!plaats()) { var n = 0, iv = setInterval(function () { if (plaats() || ++n > 40) clearInterval(iv); }, 250); }
