@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026110102);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026110103);
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
 
 // === EERSTE TIK OP RESERVEREN/CADEAUBON OP MOBIEL (Dennis 31 okt 2026) ===
@@ -570,27 +570,34 @@ window.__busChatGeladen = true;
   // Driver-pagina (bedankpagina, of /bestellen na een afkeuring), dan wordt die verborgen en gaat de gast direct terug naar de pagina
   // waar hij was, met de widget open op de bevestiging (besteld) of op de checkout met de melding (fout).
   (function () {
-    var hm = location.hash.match(/bw-shop=(besteld|fout)(?:&nr=([0-9]+))?(?:&msg=([^&]*))?/);
+    var hm = location.hash.match(/bw-shop=(besteld|fout)(?:&nr=([0-9A-Za-z%-]+))?(?:&msg=([^&]*))?/);
     if (hm) {
       try { history.replaceState(history.state, '', location.pathname + location.search); } catch (e) {}
       window.__bwShopNa = { s: hm[1], nr: hm[2] || '', msg: hm[3] || '' };
       return;
     }
-    var R = null; try { R = JSON.parse(sessionStorage.getItem('bw-shop-retour') || 'null'); } catch (e) {}
+    // localStorage (ook leesbaar als de bank-app de terugkeer in een nieuw tabblad opent), sessionStorage als terugval.
+    var R = null; try { R = JSON.parse(localStorage.getItem('bw-shop-retour') || sessionStorage.getItem('bw-shop-retour') || 'null'); } catch (e) {}
     if (!R || !R.u || Date.now() - (R.t || 0) > 7200000) return;
     var pad = location.pathname;
-    if (!/bestelling|bedankt|order|betaling|payment|checkout|winkelwagen|bestellen|thank/i.test(pad)) return;
+    var html0 = document.documentElement.innerHTML || '';
+    // Driver's bedankpagina herkennen aan de betaalcomponent (adres van die pagina is niet vast), /bestellen en /winkelwagen bij afkeuring.
+    var bedankt = /payment-thank-you|paymentThankYou|mollie-id|Bedankt voor je bestelling|Bestelling bevestigd/i.test(html0);
+    if (!bedankt && !/winkelwagen|bestellen/i.test(pad)) return;
     document.documentElement.style.visibility = 'hidden';
     setTimeout(function () { document.documentElement.style.visibility = ''; }, 8000);
     function klaar() {
       var tx = ((document.body && document.body.textContent) || '').replace(/\s+/g, ' '), html = document.documentElement.innerHTML || '';
-      var nr = (tx.match(/(?:bestel(?:ling|nummer)|order(?:nummer| number)?)[^0-9]{0,25}#?[ ]*([0-9]{4,})/i) || [])[1] || '';
+      var q = '(?:&quot;|")';
+      var nrm = html.match(new RegExp('(?:order_number|ordernumber|order_nr|reference|number)' + q + '\\s*:\\s*' + q + '?([0-9][0-9A-Za-z-]{2,})', 'i'));
+      var nr = nrm ? nrm[1] : ((tx.match(/(?:bestel(?:ling|nummer)|order(?:nummer| number)?)[^0-9]{0,25}#?[ ]*([0-9]{4,})/i) || [])[1] || '');
+      var stm = html.match(new RegExp('payment_status' + q + '\\s*:\\s*\\{[^}]*?identifier' + q + '\\s*:\\s*' + q + '([A-Za-z_]+)', 'i'));
       var nm = html.match(/[$]notify[(][{] *message: *'([^']{1,600})'/);
-      var fout = !!nm || /winkelwagen|bestellen/i.test(pad) || /identifier(&quot;|")\s*:\s*(&quot;|")(canceled|cancelled|failed|expired)/i.test(html) || /geannuleerd|mislukt|niet gelukt|niet geslaagd|niet afgerond/i.test(tx);
+      var fout = !!nm || (!bedankt && /winkelwagen|bestellen/i.test(pad)) || (stm && /cancel|fail|expir|declin|refus/i.test(stm[1])) || /geannuleerd|mislukt|niet gelukt|niet geslaagd|niet afgerond/i.test(tx);
       var msg = '';
       if (nm) { msg = nm[1]; [['Invoice salutation', 'Aanhef'], ['Invoice first name', 'Voornaam'], ['Invoice last name', 'Achternaam'], ['Invoice email', 'E-mailadres'], ['Invoice street', 'Straat'], ['Invoice house number', 'Huisnummer'], ['Invoice zip', 'Postcode'], ['Invoice city', 'Plaats'], ['Invoice country', 'Land'], ['Invoice phone', 'Telefoonnummer'], ['Shipping method', 'Verzendmethode'], ['Payment method', 'Betaalmethode']].forEach(function (v) { msg = msg.split(v[0]).join(v[1]); }); }
-      try { sessionStorage.removeItem('bw-shop-retour'); sessionStorage.removeItem('bw-shop-order'); } catch (e) {}
-      location.replace(String(R.u).split('#')[0] + '#bw-shop=' + (fout ? 'fout' : 'besteld') + (nr && !fout ? '&nr=' + nr : '') + (msg ? '&msg=' + encodeURIComponent(msg.slice(0, 300)) : ''));
+      try { localStorage.removeItem('bw-shop-retour'); sessionStorage.removeItem('bw-shop-retour'); sessionStorage.removeItem('bw-shop-order'); } catch (e) {}
+      location.replace(String(R.u).split('#')[0] + '#bw-shop=' + (fout ? 'fout' : 'besteld') + (nr && !fout ? '&nr=' + encodeURIComponent(nr) : '') + (msg ? '&msg=' + encodeURIComponent(msg.slice(0, 300)) : ''));
     }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', klaar); else klaar();
   })();
