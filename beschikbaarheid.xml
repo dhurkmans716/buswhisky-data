@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beschikbaarheid gegenereerd="2026-11-01T06:32:19.623Z">
+<beschikbaarheid gegenereerd="2026-11-01T11:02:28.795Z">
   <activiteit id="67674" naam="Ontdekkingstocht door Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="135" duurMinuten="720" startUur="9" meerdaags="false">
     <datum waarde="2026-11-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-02" beschikbaar="false" status="niet-beschikbaar"/>
@@ -236,8 +236,8 @@
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-26" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-28" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-29" beschikbaar="true" status="beschikbaar"/>
@@ -597,8 +597,8 @@
     <datum waarde="2026-12-21" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-24" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-28" beschikbaar="false" status="niet-beschikbaar"/>
@@ -778,8 +778,8 @@
     <datum waarde="2026-12-21" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-24" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-28" beschikbaar="false" status="niet-beschikbaar"/>
@@ -906,7 +906,7 @@
     <datum waarde="2027-04-28" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="17793283" naam="12-uurs vergaderarrangement alles inclusief" type="Vergadering" minAantal="5" maxAantal="200" prijs="150" duurMinuten="750" startUur="8" meerdaags="false">
-    <datum waarde="2026-11-01" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-03" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-04" beschikbaar="false" status="niet-beschikbaar"/>
@@ -960,7 +960,7 @@
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-28" beschikbaar="false" status="niet-beschikbaar"/>
@@ -1139,8 +1139,8 @@
     <datum waarde="2026-12-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-21" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-23" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-24" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="false" status="niet-beschikbaar"/>
@@ -1268,7 +1268,7 @@
     <datum waarde="2027-04-28" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="17796744" naam="56-uurs arrangement (1 pers. kamer) alles inclusief" type="Vergadering" minAantal="5" maxAantal="28" prijs="725" duurMinuten="3390" startUur="8" meerdaags="true">
-    <datum waarde="2026-11-01" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-03" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-04" beschikbaar="false" status="niet-beschikbaar"/>
@@ -1320,10 +1320,10 @@
     <datum waarde="2026-12-20" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-21" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-26" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-23" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-24" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="false" status="volgeboekt"/>
     <datum waarde="2026-12-28" beschikbaar="false" status="volgeboekt"/>
     <datum waarde="2026-12-29" beschikbaar="false" status="volgeboekt"/>
@@ -1684,8 +1684,8 @@
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-26" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-28" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-29" beschikbaar="true" status="beschikbaar"/>
@@ -2587,8 +2587,8 @@
     <datum waarde="2026-12-20" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-21" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-23" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-24" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="false" status="niet-beschikbaar"/>
@@ -2716,7 +2716,7 @@
     <datum waarde="2027-04-28" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="18522570" naam="Lunch | 4x4 ecotrail | Whiskytour" type="Bedrijfs uitje" minAantal="4" maxAantal="80" prijs="57" duurMinuten="240" startUur="12" meerdaags="false">
-    <datum waarde="2026-11-01" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-03" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-04" beschikbaar="true" status="beschikbaar"/>
@@ -2770,8 +2770,8 @@
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-26" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-28" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-29" beschikbaar="true" status="beschikbaar"/>
@@ -2951,8 +2951,8 @@
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-26" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-28" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-29" beschikbaar="true" status="beschikbaar"/>
@@ -3132,7 +3132,7 @@
     <datum waarde="2026-12-22" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-24" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-28" beschikbaar="false" status="niet-beschikbaar"/>
@@ -3675,8 +3675,8 @@
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-26" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-28" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-29" beschikbaar="true" status="beschikbaar"/>
@@ -3856,8 +3856,8 @@
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-26" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-28" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-29" beschikbaar="true" status="beschikbaar"/>
@@ -4037,7 +4037,7 @@
     <datum waarde="2026-12-22" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-24" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-28" beschikbaar="false" status="niet-beschikbaar"/>
@@ -4399,8 +4399,8 @@
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-26" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-28" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-29" beschikbaar="true" status="beschikbaar"/>
@@ -4942,8 +4942,8 @@
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-26" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-28" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-29" beschikbaar="true" status="beschikbaar"/>
@@ -5123,8 +5123,8 @@
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-26" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-28" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-29" beschikbaar="true" status="beschikbaar"/>
@@ -5304,8 +5304,8 @@
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-26" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-28" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-29" beschikbaar="true" status="beschikbaar"/>
@@ -5431,7 +5431,7 @@
     <datum waarde="2027-04-28" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="20327328" naam="4x4 Ecotrail | Lunch | Laser Kleiduifschieten | Whiskytour" type="Bedrijfs uitje" minAantal="4" maxAantal="80" prijs="82" duurMinuten="330" startUur="10" meerdaags="false">
-    <datum waarde="2026-11-01" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-01" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-02" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-03" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-04" beschikbaar="true" status="beschikbaar"/>
@@ -5485,8 +5485,8 @@
     <datum waarde="2026-12-22" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-23" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-24" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-25" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-26" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-25" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-26" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-27" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-28" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-29" beschikbaar="true" status="beschikbaar"/>
