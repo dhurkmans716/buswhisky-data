@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026110101);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026110102);
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
 
 // === EERSTE TIK OP RESERVEREN/CADEAUBON OP MOBIEL (Dennis 31 okt 2026) ===
@@ -565,6 +565,35 @@ window.__busChatGeladen = true;
   var LABEL = { nl: 'Whisky kopen', en: 'Buy whisky', de: 'Whisky kaufen', fr: 'Acheter du whisky', es: 'Comprar whisky' };
   var taal = String(document.documentElement.lang || 'nl').slice(0, 2).toLowerCase();
   var label = LABEL[taal] || LABEL.en;
+  // 1 nov 2026: Mollie laat zich niet in een iframe tonen. De webshop rekent daarom af in het volledige venster (net als reserveren
+  // en de cadeaubon); 'Webshop afrekenen in widget' bewaart vooraf sessionStorage bw-shop-retour {u,p,t}. Komt de gast terug op een
+  // Driver-pagina (bedankpagina, of /bestellen na een afkeuring), dan wordt die verborgen en gaat de gast direct terug naar de pagina
+  // waar hij was, met de widget open op de bevestiging (besteld) of op de checkout met de melding (fout).
+  (function () {
+    var hm = location.hash.match(/bw-shop=(besteld|fout)(?:&nr=([0-9]+))?(?:&msg=([^&]*))?/);
+    if (hm) {
+      try { history.replaceState(history.state, '', location.pathname + location.search); } catch (e) {}
+      window.__bwShopNa = { s: hm[1], nr: hm[2] || '', msg: hm[3] || '' };
+      return;
+    }
+    var R = null; try { R = JSON.parse(sessionStorage.getItem('bw-shop-retour') || 'null'); } catch (e) {}
+    if (!R || !R.u || Date.now() - (R.t || 0) > 7200000) return;
+    var pad = location.pathname;
+    if (!/bestelling|bedankt|order|betaling|payment|checkout|winkelwagen|bestellen|thank/i.test(pad)) return;
+    document.documentElement.style.visibility = 'hidden';
+    setTimeout(function () { document.documentElement.style.visibility = ''; }, 8000);
+    function klaar() {
+      var tx = ((document.body && document.body.textContent) || '').replace(/\s+/g, ' '), html = document.documentElement.innerHTML || '';
+      var nr = (tx.match(/(?:bestel(?:ling|nummer)|order(?:nummer| number)?)[^0-9]{0,25}#?[ ]*([0-9]{4,})/i) || [])[1] || '';
+      var nm = html.match(/[$]notify[(][{] *message: *'([^']{1,600})'/);
+      var fout = !!nm || /winkelwagen|bestellen/i.test(pad) || /identifier(&quot;|")\s*:\s*(&quot;|")(canceled|cancelled|failed|expired)/i.test(html) || /geannuleerd|mislukt|niet gelukt|niet geslaagd|niet afgerond/i.test(tx);
+      var msg = '';
+      if (nm) { msg = nm[1]; [['Invoice salutation', 'Aanhef'], ['Invoice first name', 'Voornaam'], ['Invoice last name', 'Achternaam'], ['Invoice email', 'E-mailadres'], ['Invoice street', 'Straat'], ['Invoice house number', 'Huisnummer'], ['Invoice zip', 'Postcode'], ['Invoice city', 'Plaats'], ['Invoice country', 'Land'], ['Invoice phone', 'Telefoonnummer'], ['Shipping method', 'Verzendmethode'], ['Payment method', 'Betaalmethode']].forEach(function (v) { msg = msg.split(v[0]).join(v[1]); }); }
+      try { sessionStorage.removeItem('bw-shop-retour'); sessionStorage.removeItem('bw-shop-order'); } catch (e) {}
+      location.replace(String(R.u).split('#')[0] + '#bw-shop=' + (fout ? 'fout' : 'besteld') + (nr && !fout ? '&nr=' + nr : '') + (msg ? '&msg=' + encodeURIComponent(msg.slice(0, 300)) : ''));
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', klaar); else klaar();
+  })();
   var SVG = '<svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 2h4M10.5 2v5.2c0 .6-.3 1.1-.8 1.5C8.6 9.6 8 10.9 8 12.3V20a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-7.7c0-1.4-.6-2.7-1.7-3.6-.5-.4-.8-.9-.8-1.5V2"/><path d="M8 14h8v4H8z"/></svg>';
   // Desktop: bij een open paneel staat de inklapknop rechts op de plek van de laatste knop; schuif de fles ernaast.
   var st = document.getElementById('bw-shop-launcher-css'); if (!st) { st = document.createElement('style'); st.id = 'bw-shop-launcher-css'; document.head.appendChild(st); } st.textContent = "@media (min-width:640px){#booking-widget.is-open #bwShopLauncher{margin-right:56px}}@media (max-width:639px){html #booking-widget.bw-met-shop [data-booking-widget-open=\"book\"],html #booking-widget.bw-met-shop.is-open [data-booking-widget-open=\"book\"]{padding-left:16px!important;padding-right:14px!important}html #booking-widget.bw-met-shop [data-booking-widget-open=\"book\"] svg{display:none!important}}@media (max-width:370px){html body #booking-widget.bw-met-shop [data-booking-widget-open=\"book\"],html body #booking-widget.bw-met-shop.is-open [data-booking-widget-open=\"book\"]{padding-left:12px!important;padding-right:12px!important}html body #booking-widget.bw-met-shop>div.fixed:not(#booking-widget-panel){gap:6px!important}}";
@@ -596,7 +625,8 @@ window.__busChatGeladen = true;
       sfKlaar = true;
       var h = hw(); if (h && h.classList.contains('bw-shop-actief')) { SF.style.visibility = 'visible'; var m = hoofd(); if (m) m.style.visibility = ''; h.classList.add('is-ready'); }
     });
-    SF.src = shopUrl();
+    var na = window.__bwShopNa; window.__bwShopNa = null;
+    SF.src = shopUrl() + (na ? (na.s === 'besteld' ? '&besteld=1' + (na.nr ? '&nr=' + na.nr : '') : '&shopfout=1' + (na.msg ? '&msg=' + na.msg : '')) : '');
     f.parentNode.appendChild(SF);
     return SF;
   }
@@ -662,7 +692,7 @@ window.__busChatGeladen = true;
       bezig = true; try { if (bk) bk.click(); } finally { bezig = false; }
       if (!toon()) zetShop(0);
     });
-    startVoorladen();
+    if (window.__bwShopNa) { waak(); setTimeout(function () { b.click(); }, 300); } else startVoorladen();
     return true;
   }
   if (!plaats()) { var n = 0, iv = setInterval(function () { if (plaats() || ++n > 40) clearInterval(iv); }, 250); }
