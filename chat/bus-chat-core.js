@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026110104);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026110105);
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
 
 // === EERSTE TIK OP RESERVEREN/CADEAUBON OP MOBIEL (Dennis 31 okt 2026) ===
@@ -583,7 +583,9 @@ window.__busChatGeladen = true;
     }
     // localStorage (ook leesbaar als de bank-app de terugkeer in een nieuw tabblad opent), sessionStorage als terugval.
     var R = null; try { R = JSON.parse(localStorage.getItem('bw-shop-retour') || sessionStorage.getItem('bw-shop-retour') || 'null'); } catch (e) {}
-    if (!R || !R.u || Date.now() - (R.t || 0) > 7200000) return;
+    // 1 nov 2026 15:00: de bank-app opent de terugkeer soms in een ander (niet-incognito) tabblad zonder deze vlag. De bedankpagina
+    // komt er dan toch: zonder vlag alleen op Driver's bedankpagina, en een afkeuring blijft dan Driver's eigen pagina.
+    if (R && (!R.u || Date.now() - (R.t || 0) > 7200000)) R = null;
     var pad = location.pathname;
     var html0 = document.documentElement.innerHTML || '';
     // Driver's bedankpagina herkennen aan de betaalcomponent (adres van die pagina is niet vast), /bestellen en /winkelwagen bij afkeuring.
@@ -597,9 +599,12 @@ window.__busChatGeladen = true;
       } catch (e) { return BED.test(h); }
     }
     var bedankt = isBed(html0);
+    var BEDPAD = /bestelling-geplaatst|bedankt|thank/i;
     if (!bedankt && !/winkelwagen|bestellen|bestelling|betaling|bedankt|thank/i.test(pad)) return;
+    if (!R && !bedankt && !BEDPAD.test(pad)) return;
     function ruim() { try { localStorage.removeItem('bw-shop-retour'); sessionStorage.removeItem('bw-shop-retour'); sessionStorage.removeItem('bw-shop-order'); } catch (e) {} }
     function terugFout(msg) {
+      if (!R) { var o = document.getElementById('bwBedankt'); if (o) o.remove(); document.documentElement.classList.remove('bw-bedankt-aan'); document.documentElement.style.visibility = ''; return; }
       ruim();
       location.replace(String(R.u).split('#')[0] + '#bw-shop=fout' + (msg ? '&msg=' + encodeURIComponent(msg.slice(0, 300)) : ''));
     }
@@ -656,7 +661,7 @@ window.__busChatGeladen = true;
       ruim();
       bouw();
       var af = d.afhalen, naam = d.naam ? ', ' + esc(d.naam) : '';
-      var home = String(R.u).split('#')[0];
+      var home = R ? String(R.u).split('#')[0] : location.origin + (taal && taal !== 'nl' ? '/' + taal + '/' : '/');
       O.querySelector('.bwb-tekst').innerHTML = '<h1>' + t.proost + naam + '!</h1><h2>' + t.bin + '</h2><p>' + (af ? t.subAf : t.sub) + '</p>'
         + (d.nr ? '<div class="bwb-nr">' + t.nr + ' <b>#' + esc(d.nr) + '</b></div>' : '')
         + '<p class="bwb-engel">' + (af ? t.engelAf : t.engel) + '</p>' + (d.pending ? '<p class="bwb-vw">' + t.verwerk + '</p>' : '')
@@ -713,7 +718,7 @@ window.__busChatGeladen = true;
       // Vue kan de bedankcomponent al vervangen hebben: de ruwe HTML van deze pagina beslist dan of het toch de bedankpagina is.
       fetch(location.href, { credentials: 'same-origin' }).then(function (r) { return r.text(); }).then(function (h) {
         if (isBed(h) && !/[$]notify[(]/.test(h)) { clearTimeout(vt); bouw(); document.documentElement.style.visibility = ''; beslis(gegevens(h)); }
-        else if (/winkelwagen|bestellen/i.test(pad)) { if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fk); else fk(); }
+        else if (R && /winkelwagen|bestellen/i.test(pad)) { if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fk); else fk(); }
         else { clearTimeout(vt); document.documentElement.style.visibility = ''; }
       }).catch(function () { clearTimeout(vt); document.documentElement.style.visibility = ''; });
       return;
