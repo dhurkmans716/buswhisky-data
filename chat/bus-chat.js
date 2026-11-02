@@ -46,7 +46,7 @@
     #bus-age-fallback{position:fixed;inset:0;z-index:2147483647;background:rgba(0,0,0,.94);display:flex;align-items:center;justify-content:center;padding:18px}
     #bus-age-fallback .bus-fallback-card{width:min(500px,100%);background:#111;border:1px solid rgba(255,255,255,.2);border-radius:16px;overflow:hidden;box-shadow:0 24px 70px rgba(0,0,0,.55)}
     html.bus-age-pending [data-bus-age-locked="1"]{opacity:.45!important;pointer-events:none!important}
-    @media(max-width:560px){#bus-age-cookiebot{padding:18px 16px 14px}#bus-age-cookiebot h2{font-size:22px}}
+    #CybotCookiebotDialog{display:flex!important;flex-direction:column!important;align-items:stretch!important}\n    #bus-age-cookiebot{order:-1!important;align-self:stretch!important;width:100%!important;max-width:none!important;box-sizing:border-box!important;background:#f3f3f3!important;color:#111!important;border-bottom:1px solid #d2d2d2!important}\n    #bus-age-cookiebot .bus-brand,#bus-age-cookiebot h2,#bus-age-cookiebot p,#bus-age-cookiebot .bus-q,#bus-age-cookiebot .bus-cookie-note,#bus-age-cookiebot .bus-foot{color:#111!important}\n    #bus-age-cookiebot .bus-cookie-note,#bus-age-cookiebot .bus-foot{opacity:.8!important}\n    #bus-age-cookiebot input{background:#fff!important;color:#111!important;border-color:#888!important}\n    @media(max-width:560px){#bus-age-cookiebot{padding:18px 16px 14px}#bus-age-cookiebot h2{font-size:22px}}
   `;
   (document.head||document.documentElement).appendChild(style);
 
