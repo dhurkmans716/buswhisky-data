@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026110106);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026110201);
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
 
 // === EERSTE TIK OP RESERVEREN/CADEAUBON OP MOBIEL (Dennis 31 okt 2026) ===
@@ -753,6 +753,7 @@ window.__busChatGeladen = true;
       var h2 = ''; try { h2 = SF.contentWindow.location.href; } catch (e) { h2 = 'x'; }
       if (h2 === 'about:blank') return;
       sfKlaar = true;
+      setTimeout(geefProduct, 0);
       var h = hw(); if (h && h.classList.contains('bw-shop-actief')) { SF.style.visibility = 'visible'; var m = hoofd(); if (m) m.style.visibility = ''; h.classList.add('is-ready'); }
     });
     var na = window.__bwShopNa; window.__bwShopNa = null;
@@ -794,14 +795,76 @@ window.__busChatGeladen = true;
     var later = function () { if (window.requestIdleCallback) requestIdleCallback(go, { timeout: 3000 }); else setTimeout(go, 1200); };
     if (document.readyState === 'complete') setTimeout(later, 800); else window.addEventListener('load', function () { setTimeout(later, 800); });
   }
-  function zetShop(poging) {
+  function zetShop(poging, product) {
     // Terugval als de voorgeladen iframe er (nog) niet kan komen: oude werkwijze in de hoofdiframe.
     var f = document.querySelector('iframe[src*="/reserveren/widget"]:not(#bwShopFrame)');
-    if (!f) { if (poging < 20) setTimeout(function () { zetShop(poging + 1); }, 100); return; }
+    if (!f) { if (poging < 20) setTimeout(function () { zetShop(poging + 1, product); }, 100); return; }
     var url = new URL(f.getAttribute('src') || '/reserveren/widget', location.href);
-    ['gift', 'category', 'type', 'arrangement', 'service', 'service_code', 'intent'].forEach(function (k) { url.searchParams.delete(k); });
+    ['gift', 'category', 'type', 'arrangement', 'service', 'service_code', 'intent', 'product'].forEach(function (k) { url.searchParams.delete(k); });
     url.searchParams.set('launcher', '0'); url.searchParams.set('modal', '1'); url.searchParams.set('shop', '1');
+    if (product) { url.searchParams.set('product', product); url.searchParams.set('intent', '1'); wilProduct = ''; }
     f.src = url.pathname + url.search;
+  }
+  // === PRODUCTLINKS NAAR DE WEBSHOP IN DE WIDGET (Dennis 2 nov 2026) ===
+  // Een klik op een productlink van de site (Meer info, titel of foto: https://buswhisky.com/<slug>/<driverId>) opent de
+  // webshop in de widget met dat product bovenaan en uitgevouwen (n8n TDOHm6WLSfFVNSEo, script bw-sp-js: __bwToonProduct).
+  // Alleen voor producten die de webshop echt verkoopt (lijst uit de voorgeladen webshop, anders de laatst bekende lijst);
+  // uitverkochte producten, ctrl/cmd/shift/middelklik en target=_blank gaan gewoon naar de productpagina.
+  // Deeplink van buiten: #webshop?product=<id> (of alleen #webshop voor het overzicht).
+  var PIDS = ['12', '80', '8', '38', '92', '5', '19', '18', '20', '30', '6', '7', '4', '78', '85', '86', '87'];
+  var wilProduct = '';
+  function shopIds() {
+    try { var fn = SF && SF.contentWindow && SF.contentWindow.__bwShopIds; var l = fn ? fn() : null; if (l && l.length) { try { localStorage.setItem('bw-shop-ids', l.join(',')); } catch (e) {} return l; } } catch (e) {}
+    try { var c = localStorage.getItem('bw-shop-ids'); if (c) return c.split(','); } catch (e) {}
+    return PIDS;
+  }
+  function productVan(a) {
+    var href = a.getAttribute('href') || ''; if (!href || href.charAt(0) === '#') return '';
+    var tg = (a.getAttribute('target') || '').toLowerCase(); if (tg && tg !== '_self' && tg !== '_top' && tg !== '_parent') return '';
+    var u; try { u = new URL(href, location.href); } catch (e) { return ''; }
+    if (!/(^|[.])buswhisky[.]com$/i.test(u.hostname)) return '';
+    var m = u.pathname.match(/^[/](?:[a-z]{2}[/])?[a-z0-9][a-z0-9-]*[/]([0-9]{1,6})[/]?$/i); if (!m) return '';
+    return shopIds().indexOf(m[1]) >= 0 ? m[1] : '';
+  }
+  function geefProduct() {
+    if (!wilProduct || !SF || !sfKlaar) return;
+    var id = wilProduct, fn = null;
+    try { fn = SF.contentWindow.__bwToonProduct; } catch (e) {}
+    wilProduct = '';
+    if (typeof fn === 'function') { try { fn(id); } catch (e) {} return; }
+    // Oudere widget-HTML zonder __bwToonProduct: opnieuw laden met product in de URL.
+    sfKlaar = false; SF.src = shopUrl() + '&product=' + encodeURIComponent(id);
+    var h = hw(); if (h && h.classList.contains('bw-shop-actief')) { SF.style.visibility = 'hidden'; h.classList.remove('is-ready'); }
+  }
+  function openProduct(id) {
+    var h = hw(), bk = document.querySelector('[data-booking-widget-open="book"]');
+    if (!h || !bk) return false;
+    wilProduct = id ? String(id) : '';
+    window.__busOpenKlik = Date.now(); window.__busBoekIntent = Date.now();
+    waak();
+    if (!h.classList.contains('is-open')) { bezig = true; try { bk.click(); } finally { bezig = false; } }
+    if (toon()) { geefProduct(); } else zetShop(0, wilProduct);
+    try { new Image().src = '/reserveren/widget?launcher=0&modal=1&shop=1&diag=' + encodeURIComponent('product|' + (id || '') + '|' + Date.now() % 1e7); } catch (e) {}
+    return true;
+  }
+  if (!window.__bwProductLinks) {
+    window.__bwProductLinks = 1;
+    window.addEventListener('click', function (e) {
+      if (e.defaultPrevented || e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+      var a = e.target && e.target.closest && e.target.closest('a[href]'); if (!a || a.closest('#booking-widget')) return;
+      if (document.querySelector('[data-bus-shop="uit"],meta[name="bus-shop"][content="uit"]')) return;
+      var id = productVan(a); if (!id) return;
+      if (!openProduct(id)) return;
+      e.preventDefault(); e.stopPropagation(); if (e.stopImmediatePropagation) e.stopImmediatePropagation();
+    }, true);
+    var hashProduct = function () {
+      if (!/^#webshop([?&]|$)/i.test(location.hash)) return;
+      var m = location.hash.match(/[?&]product=([0-9]{1,6})/), id = m ? m[1] : '';
+      try { history.replaceState(history.state, '', location.pathname + location.search); } catch (e) {}
+      if (document.querySelector('[data-bus-shop="uit"],meta[name="bus-shop"][content="uit"]')) return;
+      (function probeer(n) { var k = document.querySelector('[data-booking-widget-open="book"]'); if (k && hw() && document.readyState === 'complete') { setTimeout(function () { openProduct(id); }, 400); return; } if (n < 60) setTimeout(function () { probeer(n + 1); }, 150); })(0);
+    };
+    hashProduct(); window.addEventListener('hashchange', hashProduct);
   }
   function plaats() {
     if (document.querySelector('[data-bus-shop="uit"],meta[name="bus-shop"][content="uit"]')) return true;
