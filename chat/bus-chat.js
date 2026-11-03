@@ -82,6 +82,8 @@
     if(ageOK()){document.documentElement.classList.remove('bus-age-pending');return true}
     const dialog=document.getElementById('CybotCookiebotDialog');
     if(!dialog) return false;
+    const cs=getComputedStyle(dialog),rect=dialog.getBoundingClientRect();
+    if(cs.display==='none'||cs.visibility==='hidden'||rect.width<10||rect.height<10) return false;
     let panel=document.getElementById('bus-age-cookiebot');
     if(!panel){panel=document.createElement('div');panel.id='bus-age-cookiebot';dialog.insertBefore(panel,dialog.firstChild);yearScreen(panel)}
     lockCookiebot(true);
