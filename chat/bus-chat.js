@@ -15,6 +15,8 @@
     try{const v=JSON.parse(localStorage.getItem(KEY)||'null');return !!(v&&v.ok===true&&Date.now()-Number(v.ts||0)<MAX)}catch(e){return false}
   }
   function remember(){try{localStorage.setItem(KEY,JSON.stringify({ok:true,ts:Date.now()}))}catch(e){}}
+  const forceAgeTest=new URLSearchParams(location.search).get('agecheck')==='test';
+  if(forceAgeTest){try{localStorage.removeItem(KEY)}catch(e){}}
   if(ageOK()) return;
   document.documentElement.classList.add('bus-age-pending');
 
