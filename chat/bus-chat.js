@@ -78,20 +78,14 @@
     const check=(mode)=>{const now=new Date(),cy=now.getFullYear(),boundary=cy-18,yr=Number(y.value);if(!/^\d{4}$/.test(y.value)||yr<1900||yr>cy){err.textContent=t.bad;return}if(yr>boundary)return deny(panel);if(yr===boundary){panel.dataset.busConsentMode=mode;return dateScreen(panel,yr)}remember();document.documentElement.classList.remove('bus-age-pending');const accept=document.getElementById(mode==='necessary'?'CybotCookiebotDialogBodyButtonDecline':'CybotCookiebotDialogBodyButtonAccept')||document.getElementById(mode==='necessary'?'CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll':'CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll');if(accept)accept.click();cleanup(panel)};
     panel.querySelector('#bus-age-go').onclick=()=>check('all');const nec=panel.querySelector('#bus-age-necessary');if(nec)nec.onclick=()=>check('necessary');y.addEventListener('keydown',e=>{if(e.key==='Enter')check('all')});setTimeout(()=>y.focus(),40);
   }
-  function integrate(){
-    if(ageOK()){document.documentElement.classList.remove('bus-age-pending');return true}
-    const dialog=document.getElementById('CybotCookiebotDialog');
-    if(!dialog) return false;
-    const cs=getComputedStyle(dialog),rect=dialog.getBoundingClientRect();
-    if(cs.display==='none'||cs.visibility==='hidden'||rect.width<10||rect.height<10) return false;
-    let panel=document.getElementById('bus-age-cookiebot');
-    if(!panel){panel=document.createElement('div');panel.id='bus-age-cookiebot';dialog.insertBefore(panel,dialog.firstChild);yearScreen(panel)}
-    lockCookiebot(true);
-    return true;
-  }
+  function integrate(){return false;}
   function fallback(){
-    if(ageOK()||document.getElementById('bus-age-fallback')||document.getElementById('bus-age-cookiebot'))return;
-    const wrap=document.createElement('div');wrap.id='bus-age-fallback';wrap.innerHTML='<div class="bus-fallback-card"><div id="bus-age-cookiebot"></div></div>';document.body.appendChild(wrap);yearScreen(wrap.querySelector('#bus-age-cookiebot'));const p=wrap.querySelector('#bus-age-cookiebot');const n=p&&p.querySelector('.bus-cookie-note');if(n)n.style.display='none';
+    if(ageOK()||document.getElementById('bus-age-fallback'))return;
+    const stray=document.getElementById('bus-age-cookiebot');if(stray)stray.remove();
+    const wrap=document.createElement('div');wrap.id='bus-age-fallback';wrap.setAttribute('style','position:fixed!important;inset:0!important;z-index:2147483647!important;background:rgba(0,0,0,.82)!important;display:flex!important;align-items:center!important;justify-content:center!important;padding:18px!important;box-sizing:border-box!important;opacity:1!important;visibility:visible!important;');
+    const card=document.createElement('div');card.className='bus-fallback-card';card.setAttribute('style','display:block!important;width:min(560px,100%)!important;max-width:560px!important;min-height:320px!important;background:#f3f3f3!important;color:#111!important;border-radius:16px!important;overflow:hidden!important;box-shadow:0 24px 70px rgba(0,0,0,.55)!important;opacity:1!important;visibility:visible!important;position:relative!important;');
+    const panel=document.createElement('div');panel.id='bus-age-cookiebot';panel.setAttribute('style','display:block!important;width:100%!important;box-sizing:border-box!important;background:#f3f3f3!important;color:#111!important;padding:28px 24px 22px!important;text-align:center!important;opacity:1!important;visibility:visible!important;');
+    card.appendChild(panel);wrap.appendChild(card);document.body.appendChild(wrap);yearScreen(panel);
   }
   function validateAgeFromPanel(panel){
     if(!panel)return false;
@@ -105,7 +99,7 @@
   obs.observe(document.documentElement,{childList:true,subtree:true});
   window.addEventListener('CookiebotOnDialogInit',()=>setTimeout(integrate,0));
   window.addEventListener('CookiebotOnDialogDisplay',()=>setTimeout(integrate,0));
-  if(document.body){if(!integrate())setTimeout(fallback,200)}else document.addEventListener('DOMContentLoaded',()=>{if(!integrate())setTimeout(fallback,200)},{once:true});
+  if(document.body){if(!integrate())setTimeout(fallback,120)}else document.addEventListener('DOMContentLoaded',()=>{if(!integrate())setTimeout(fallback,120)},{once:true});
   setTimeout(()=>{integrate();lockCookiebot(true)},100);
 })();
 import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-chat-core.js?v=' + Math.floor(Date.now() / 3600000));
