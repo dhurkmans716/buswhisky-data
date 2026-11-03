@@ -105,7 +105,7 @@
   obs.observe(document.documentElement,{childList:true,subtree:true});
   window.addEventListener('CookiebotOnDialogInit',()=>setTimeout(integrate,0));
   window.addEventListener('CookiebotOnDialogDisplay',()=>setTimeout(integrate,0));
-  if(document.body){if(!integrate())setTimeout(fallback,1800)}else document.addEventListener('DOMContentLoaded',()=>{if(!integrate())setTimeout(fallback,1800)},{once:true});
+  if(document.body){if(!integrate())setTimeout(fallback,200)}else document.addEventListener('DOMContentLoaded',()=>{if(!integrate())setTimeout(fallback,200)},{once:true});
   setTimeout(()=>{integrate();lockCookiebot(true)},100);
 })();
 import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-chat-core.js?v=' + Math.floor(Date.now() / 3600000));
