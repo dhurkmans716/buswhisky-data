@@ -39,7 +39,7 @@
     #bus-age-cookiebot .bus-fields{display:grid;grid-template-columns:1fr;gap:8px;max-width:360px;margin:0 auto 8px}
     #bus-age-cookiebot .bus-fields.two{grid-template-columns:1fr 1fr}
     #bus-age-cookiebot input{box-sizing:border-box;width:100%;height:46px;border-radius:8px;border:1px solid #777;background:#fff;color:#111;font:700 17px -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;text-align:center;padding:0 10px}
-    #bus-age-cookiebot button{width:100%;max-width:360px;min-height:44px;border:1px solid #fff;border-radius:8px;background:#fff;color:#111;font-weight:800;font-size:14px;cursor:pointer;padding:0 12px}#bus-age-go,#bus-age-enter{display:none!important}
+    #bus-age-cookiebot button{width:100%;max-width:360px;min-height:44px;border:1px solid #fff;border-radius:8px;background:#fff;color:#111;font-weight:800;font-size:14px;cursor:pointer;padding:0 12px}#CybotCookiebotDialog #bus-age-go,#CybotCookiebotDialog #bus-age-enter{display:none!important}
     #bus-age-cookiebot .bus-err{min-height:17px;color:#ffb4a8;font-size:12px;margin-top:6px}
     #bus-age-cookiebot .bus-foot{font-size:11px;color:#aaa;margin-top:7px}
     #bus-age-cookiebot .bus-cookie-note{font-size:12px;color:#bbb;margin:10px 0 0}
@@ -86,7 +86,7 @@
   }
   function fallback(){
     if(ageOK()||document.getElementById('bus-age-fallback')||document.getElementById('bus-age-cookiebot'))return;
-    const wrap=document.createElement('div');wrap.id='bus-age-fallback';wrap.innerHTML='<div class="bus-fallback-card"><div id="bus-age-cookiebot"></div></div>';document.body.appendChild(wrap);yearScreen(wrap.querySelector('#bus-age-cookiebot'));
+    const wrap=document.createElement('div');wrap.id='bus-age-fallback';wrap.innerHTML='<div class="bus-fallback-card"><div id="bus-age-cookiebot"></div></div>';document.body.appendChild(wrap);yearScreen(wrap.querySelector('#bus-age-cookiebot'));const p=wrap.querySelector('#bus-age-cookiebot');const n=p&&p.querySelector('.bus-cookie-note');if(n)n.style.display='none';
   }
   function validateAgeFromPanel(panel){
     if(!panel)return false;
