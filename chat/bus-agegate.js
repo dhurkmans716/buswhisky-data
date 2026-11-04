@@ -277,7 +277,20 @@
   }
 
   // ---------- cookie-instellingen opnieuw openen ----------
-  window.BUSConsent = { open: function () { open(ageOK() ? 'consent' : 'full'); }, ageOK: ageOK };
+  // Leeftijdscheck alleen waar de webshop (de fles) aan staat; elders alleen cookies (Dennis 4 nov 2026).
+  // Zelfde regel als de flessenknop in bus-chat-core.js: domein buswhisky.com, geen webshop=0 in de URL,
+  // geen data-bus-shop="uit" of meta bus-shop=uit. Pas je die regel daar aan, pas hem hier ook aan.
+  function shopAan() {
+    try {
+      if (!/(^|[.])buswhisky[.]com$/i.test(location.hostname)) return false;
+      if (/[?&]webshop=(0|uit|nee)(&|$)/i.test(location.search)) return false;
+      if (document.querySelector('[data-bus-shop="uit"],meta[name="bus-shop"][content="uit"]')) return false;
+      return true;
+    } catch (e) { return true; }
+  }
+  function nodigMode() { return (shopAan() && !ageOK()) ? 'full' : 'consent'; }
+  function cookiebotOpPagina() { return !!(cb() || document.getElementById('Cookiebot') || document.querySelector('script[src*="consent.cookiebot.com/uc.js"]')); }
+  window.BUSConsent = { open: function () { open(nodigMode()); }, ageOK: ageOK, leeftijdscheck: shopAan };
   function privacyLink() {
     var eigen = [].filter.call(document.querySelectorAll('a[href*="privacy"]'), function (x) { return !x.closest('#CybotCookiebotDialog') && !x.closest('#bus-v5-dialog') && x.host === location.host; });
     return eigen.filter(function (x) { return x.getBoundingClientRect().width > 0; })[0] || eigen[0] || null;
@@ -311,7 +324,7 @@
   });
   window.addEventListener('CookiebotOnDialogDisplay', function () {
     // Cookiebot wil zelf iets vragen: dan tonen wij ons ene scherm in plaats van zijn banner.
-    if (!mode) open(ageOK() ? 'consent' : 'full'); else hideNative(true);
+    if (!mode) open(nodigMode()); else hideNative(true);
   });
 
   // ---------- start ----------
@@ -320,8 +333,13 @@
     try { footerLink(); } catch (e) {}
     patchRenew();
     if (/^#cookie-?(instellingen|settings)$/i.test(location.hash)) { window.BUSConsent.open(); return; }
-    if (!ageOK()) { open('full'); return; }
-    if (!consentKnown()) { open('consent'); return; }
+    if (shopAan() && !ageOK()) { open('full'); return; }
+    if (!consentKnown()) {
+      // Alleen cookies: zonder Cookiebot op de pagina valt er niets op te slaan, dan wachten tot Cookiebot er is.
+      if (cookiebotOpPagina()) { open('consent'); return; }
+      window.addEventListener('CookiebotOnLoad', function () { if (!mode && !consentKnown()) open('consent'); }, { once: true });
+      return;
+    }
     watchLegacy();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, { once: true }); else start();
