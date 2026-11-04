@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-03T05:00:25.108Z",
+  "gegenereerd": "2026-11-04T05:00:26.684Z",
   "arrangement": {
     "id": "20275497",
     "naam": "4x4 Ecotrail | middag"
@@ -18,6 +18,14 @@
     "Aantal metingen": 18
   },
   "gastenboek": [
+    {
+      "datum": "3 november",
+      "naam": "Fruitzforlife",
+      "aantalPersonen": 24,
+      "cijfer": 10,
+      "tekst": "Erg leuke gezellige locatie, je voelt je op je gemak en is zeker een aanrader.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Fruitzforlife-20352804"
+    },
     {
       "datum": "27 oktober",
       "naam": "InVorm Keuken & Interieur",
