@@ -151,7 +151,7 @@
       var dt = d.querySelector('#bus-v5-date');
       var upd = function () { var v = y.value.replace(/\D/g, ''); if (v !== y.value) y.value = v; dt.hidden = !(v.length === 4 && Number(v) === new Date().getFullYear() - 18); };
       y.addEventListener('input', upd);
-      d.querySelectorAll('input.b5-in').forEach(function (inp) { inp.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); submit(); } }); });
+      d.querySelectorAll('input.b5-in').forEach(function (inp) { inp.addEventListener('input', function () { err(''); }); inp.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); submit(); } }); });
     }
     return d;
   }
@@ -248,7 +248,8 @@
   window.BUSConsent = { open: function () { open(ageOK() ? 'consent' : 'full'); }, ageOK: ageOK };
   function footerLink() {
     if (document.getElementById('bus-v5-cookielink')) return;
-    var priv = document.querySelector('a[href$="/privacystatement"],a[href*="privacy"]');
+    var eigen = [].filter.call(document.querySelectorAll('a[href*="privacy"]'), function (x) { return !x.closest('#CybotCookiebotDialog') && x.host === location.host; });
+    var priv = eigen.filter(function (x) { return x.getBoundingClientRect().width > 0; })[0] || eigen[0];
     var a = document.createElement('a');
     a.id = 'bus-v5-cookielink'; a.href = '#cookie-instellingen'; a.textContent = T.link;
     a.addEventListener('click', function (e) { e.preventDefault(); window.BUSConsent.open(); });
