@@ -4,5 +4,5 @@
 // Wijzigingen horen in bus-agegate.js (leeftijd + cookies) of bus-chat-core.js (chat, reserveren, webshop).
 // Beide modules laden los van elkaar: een fout in de chat blokkeert de agecheck niet en omgekeerd.
 var __busV = Math.floor(Date.now() / 600000), __busBase = 'https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/';
-import(__busBase + 'bus-agegate.js?v=' + __busV).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
+import(__busBase + 'bus-agegate.js?v=' + __busV).catch(function (e) { console.error('[BUS] agecheck @main mislukt, vaste versie laden', e); return import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@306cd923/chat/bus-agegate.js'); }).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
 import(__busBase + 'bus-chat-core.js?v=' + Math.floor(Date.now() / 3600000)).catch(function (e) { console.error('[BUS] widget laden mislukt', e); });
