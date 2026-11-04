@@ -4,7 +4,9 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026110201);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026110401);
+// Leeftijdscheck + cookiekeuze: eigen module BUS_AGECHECK_CONSENT_V5 (4 nov 2026). Ook hier laden voor bezoekers met een oude gecachete lader.
+import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-agegate.js?v=' + Math.floor(Date.now() / 600000)).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
 
 // === EERSTE TIK OP RESERVEREN/CADEAUBON OP MOBIEL (Dennis 31 okt 2026) ===
@@ -892,10 +894,10 @@ window.__busChatGeladen = true;
 // BUS_CORE_V3_ANCHOR
 })();
 
-// BUS_UNIFIED_AGE_CONSENT_V4
+// BUS_UNIFIED_AGE_CONSENT_V4 UITGESCHAKELD 4 nov 2026: vervangen door BUS_AGECHECK_CONSENT_V5 in bus-agegate.js
 (function(){
 'use strict';
-if(window.__busUnifiedAgeConsentV4)return;
+return;
 window.__busUnifiedAgeConsentV4=true;
 var KEY='bus_age_18plus_v3', YEAR_MS=365*24*60*60*1000;
 var modal=null,style=null,closing=false,submitted=false;
