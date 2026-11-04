@@ -6,7 +6,7 @@ var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
 window.__busBuild = Math.max(window.__busBuild || 0, 2026110401);
 // Leeftijdscheck + cookiekeuze: eigen module BUS_AGECHECK_CONSENT_V5 (4 nov 2026). Ook hier laden voor bezoekers met een oude gecachete lader.
-import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-agegate.js?v=' + Math.floor(Date.now() / 600000)).catch(function (e) { console.error('[BUS] agecheck @main mislukt, vaste versie laden', e); return import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@306cd923/chat/bus-agegate.js'); }).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
+import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@493c3ce5/chat/bus-agegate.js').catch(function (e) { console.error('[BUS] agecheck vaste versie mislukt, @main laden', e); return import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-agegate.js?v=' + Math.floor(Date.now() / 600000)); }).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
 
 // === EERSTE TIK OP RESERVEREN/CADEAUBON OP MOBIEL (Dennis 31 okt 2026) ===
