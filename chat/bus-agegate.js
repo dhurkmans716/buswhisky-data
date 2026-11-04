@@ -1,5 +1,6 @@
 // BUS_AGECHECK_CONSENT_V5 - de enige leeftijdscheck en cookiekeuze van buswhisky.com (Dennis 4 nov 2026).
 // Publiceren: alleen via hulptool zkFUopn4EMQN08am (pad chat/bus-agegate.js); die zet de vaste commit zelf in core en lader.
+// jsDelivr @main kan uren achterlopen; daarom nooit naar @main als hoofdbron verwijzen.
 // Een scherm, een knop (Verder): 18+ vastleggen (365 dagen, alleen {ok,ts}) en de cookiekeuze via de Cookiebot SDK.
 // LET OP: de opslagsleutel mag GEEN cijfers bevatten. Cookiebot (uc.js removeCookieLocalStorage) wist bij elke
 // consentwijziging alle localStorage-sleutels met een cijfer, ook bij alles toegestaan; daardoor verdween bus_age_18plus_v3.
