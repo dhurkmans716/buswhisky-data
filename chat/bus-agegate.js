@@ -25,6 +25,15 @@
     es: { brand: 'BUS WHISKY', title: 'Bienvenido a BUS', intro: 'Un buen whisky necesita tiempo. Tú también.', year: '¿En qué año naciste?', yearPh: 'Año de nacimiento', dateIntro: 'Cumples 18 este año. Indica también el día y el mes.', day: 'Día', month: 'Mes', cookies: 'Preferencias de cookies', cookiesOnly: 'Elige qué cookies permites.', nec: 'Necesarias', always: 'Siempre activas', pref: 'Preferencias', stat: 'Estadísticas', mark: 'Marketing', go: 'Continuar', wait: 'Un momento...', badYear: 'Introduce tu año de nacimiento, por ejemplo 1985.', badDate: 'Introduce un día y mes válidos.', minor: 'Este sitio es solo para mayores de 18 años.', foot: 'Al pulsar Continuar confirmas que tienes 18+ y guardas tu elección de cookies.', footConsent: 'Puedes cambiar tu elección en Configuración de cookies al pie de la página.', link: 'Configuración de cookies' }
   };
   var T = TXT[LANG] || TXT.nl;
+  // Uitleg per categorie + cookieverklaring: toestemming moet geinformeerd zijn (AVG/ePrivacy, Google EU-toestemmingsbeleid).
+  var EXTRA = {
+    nl: { dNec: 'Nodig voor de werking van de site, reserveren en de webshop. Altijd aan.', dPref: 'Onthoudt je keuzes, zoals taal en instellingen.', dStat: 'Inzicht in hoe bezoekers de site gebruiken (Google Analytics).', dMark: 'Advertenties en conversiemeting via Google Ads en Meta.', more: 'Welke cookies gebruiken we?', priv: 'Privacyverklaring' },
+    en: { dNec: 'Required for the site, bookings and the web shop to work. Always on.', dPref: 'Remembers your choices, such as language and settings.', dStat: 'Insight into how visitors use the site (Google Analytics).', dMark: 'Advertising and conversion measurement via Google Ads and Meta.', more: 'Which cookies do we use?', priv: 'Privacy statement' },
+    de: { dNec: 'Erforderlich für Website, Reservierung und Webshop. Immer an.', dPref: 'Speichert deine Auswahl, etwa Sprache und Einstellungen.', dStat: 'Einblick, wie Besucher die Website nutzen (Google Analytics).', dMark: 'Werbung und Conversion-Messung über Google Ads und Meta.', more: 'Welche Cookies verwenden wir?', priv: 'Datenschutzerklärung' },
+    fr: { dNec: 'Nécessaires au fonctionnement du site, des réservations et de la boutique. Toujours actifs.', dPref: 'Mémorisent vos choix, comme la langue et les réglages.', dStat: 'Comprendre comment les visiteurs utilisent le site (Google Analytics).', dMark: 'Publicité et mesure des conversions via Google Ads et Meta.', more: 'Quels cookies utilisons-nous ?', priv: 'Déclaration de confidentialité' },
+    es: { dNec: 'Necesarias para el sitio, las reservas y la tienda. Siempre activas.', dPref: 'Recuerdan tus elecciones, como idioma y ajustes.', dStat: 'Conocer cómo usan el sitio los visitantes (Google Analytics).', dMark: 'Publicidad y medición de conversiones con Google Ads y Meta.', more: '¿Qué cookies usamos?', priv: 'Declaración de privacidad' }
+  };
+  (function (x) { for (var k in x) T[k] = x[k]; })(EXTRA[LANG] || EXTRA.nl);
 
   // ---------- opslag ----------
   function ageOK() {
@@ -100,6 +109,8 @@
     '#bus-v5-card button.b5-go{display:block!important;width:100%!important;min-height:52px!important;margin:16px 0 0!important;border:0!important;border-radius:26px!important;background:#d5ac27!important;color:#111!important;font-size:18px!important;font-weight:700!important;cursor:pointer!important;-webkit-appearance:none!important;appearance:none!important}' +
     '#bus-v5-card button.b5-go:disabled{opacity:.7!important;cursor:wait!important}' +
     '#bus-v5-card .b5-foot{font-size:12px!important;color:#aaa!important;margin:12px 0 0!important}' +
+    '#bus-v5-card .b5-more{font-size:13px!important;margin:12px 0 0!important;color:#aaa!important}#bus-v5-card .b5-more a{color:#d8b435!important;text-decoration:underline!important}' +
+    '#bus-v5-decl{display:block!important;background:#fff!important;border-radius:8px!important;padding:10px!important;margin:8px 0 0!important;max-height:45vh!important;overflow:auto!important;font-size:12px!important;line-height:1.4!important}#bus-v5-decl[hidden]{display:none!important}#bus-v5-decl *{color:#111!important;font-size:12px!important}#bus-v5-decl a{text-decoration:underline!important}' +
     '@media (max-height:640px){#bus-v5-card{padding:16px 16px 14px!important}#bus-v5-card h2{font-size:22px!important}#bus-v5-card .b5-opt{padding:8px 0!important}}';
   function ensureStyle() {
     if (document.getElementById('bus-v5-style')) return;
@@ -134,10 +145,11 @@
         '</div></div>' +
         '<div class="b5-sub">' + T.cookies + '</div>'
         : '<p>' + T.cookiesOnly + '</p>') +
-      sw('bus-v5-nec', T.nec, T.always, true, true) +
-      sw('bus-v5-pref', T.pref, '', cur.p) +
-      sw('bus-v5-stat', T.stat, '', cur.s) +
-      sw('bus-v5-mark', T.mark, '', cur.m) +
+      sw('bus-v5-nec', T.nec, T.dNec, true, true) +
+      sw('bus-v5-pref', T.pref, T.dPref, cur.p) +
+      sw('bus-v5-stat', T.stat, T.dStat, cur.s) +
+      sw('bus-v5-mark', T.mark, T.dMark, cur.m) +
+      '<p class="b5-more"><a href="#" id="bus-v5-more">' + T.more + '</a><span id="bus-v5-privwrap"> | <a href="#" id="bus-v5-priv" target="_blank" rel="noopener">' + T.priv + '</a></span></p><div id="bus-v5-decl" hidden></div>' +
       '<div class="b5-err" id="bus-v5-err" role="alert" aria-live="assertive"></div>' +
       '<button type="button" class="b5-go" id="bus-v5-go">' + T.go + '</button>' +
       '<p class="b5-foot">' + (age ? T.foot : T.footConsent) + '</p>' +
@@ -145,6 +157,21 @@
     d.addEventListener('cancel', function (e) { e.preventDefault(); });
     d.addEventListener('close', function () { if (mode && !busy) { setTimeout(mount, 0); } });
     d.querySelector('#bus-v5-go').addEventListener('click', submit);
+    var privA = privacyLink();
+    if (privA) d.querySelector('#bus-v5-priv').href = privA.href; else d.querySelector('#bus-v5-privwrap').remove();
+    d.querySelector('#bus-v5-more').addEventListener('click', function (e) {
+      e.preventDefault();
+      var box = d.querySelector('#bus-v5-decl'); box.hidden = !box.hidden;
+      if (!box.hidden && !box.firstChild) {
+        // Cookiebot zet de actuele cookieverklaring (alle cookies per categorie) zelf op de plek van dit script.
+        var src = (document.getElementById('Cookiebot') || {}).src || '';
+        var id = (src.match(/cbid=([0-9a-f-]+)/i) || [])[1] || '605957fe-bacb-4d3b-9fc9-0ab8b3c24b88';
+        var s = document.createElement('script'); s.id = 'CookieDeclaration'; s.async = true; s.type = 'text/javascript';
+        s.setAttribute('data-culture', LANG.toUpperCase());
+        s.src = 'https://consent.cookiebot.com/' + id + '/cd.js';
+        box.appendChild(s);
+      }
+    });
     ['bus-v5-pref', 'bus-v5-stat', 'bus-v5-mark'].forEach(function (id) { d.querySelector('#' + id).addEventListener('change', function () { touched = true; }); });
     var y = d.querySelector('#bus-v5-year');
     if (y) {
@@ -246,10 +273,13 @@
 
   // ---------- cookie-instellingen opnieuw openen ----------
   window.BUSConsent = { open: function () { open(ageOK() ? 'consent' : 'full'); }, ageOK: ageOK };
+  function privacyLink() {
+    var eigen = [].filter.call(document.querySelectorAll('a[href*="privacy"]'), function (x) { return !x.closest('#CybotCookiebotDialog') && !x.closest('#bus-v5-dialog') && x.host === location.host; });
+    return eigen.filter(function (x) { return x.getBoundingClientRect().width > 0; })[0] || eigen[0] || null;
+  }
   function footerLink() {
     if (document.getElementById('bus-v5-cookielink')) return;
-    var eigen = [].filter.call(document.querySelectorAll('a[href*="privacy"]'), function (x) { return !x.closest('#CybotCookiebotDialog') && x.host === location.host; });
-    var priv = eigen.filter(function (x) { return x.getBoundingClientRect().width > 0; })[0] || eigen[0];
+    var priv = privacyLink();
     var a = document.createElement('a');
     a.id = 'bus-v5-cookielink'; a.href = '#cookie-instellingen'; a.textContent = T.link;
     a.addEventListener('click', function (e) { e.preventDefault(); window.BUSConsent.open(); });
