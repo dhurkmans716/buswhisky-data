@@ -330,6 +330,8 @@
   // ---------- start ----------
   function start() {
     cleanLegacy();
+    // Testen: ?agecheck=test vergeet de 18+-status en toont het scherm altijd (ook als cookies al gekozen zijn).
+    if (/[?&]agecheck=(test|reset)(&|$)/i.test(location.search)) { try { localStorage.removeItem(KEY); } catch (e) {} console.info('[BUS] agecheck testmodus'); open(shopAan() ? 'full' : 'consent'); return; }
     try { footerLink(); } catch (e) {}
     patchRenew();
     if (/^#cookie-?(instellingen|settings)$/i.test(location.hash)) { window.BUSConsent.open(); return; }
