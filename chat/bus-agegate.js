@@ -123,7 +123,10 @@
       '<span class="b5-sw"><input type="checkbox" role="switch" id="' + id + '"' + (checked ? ' checked' : '') + (disabled ? ' disabled' : '') + ' aria-label="' + label + '"><i></i></span></label>';
   }
   function current() {
-    var c = cb(), co = (c && c.hasResponse && c.consent) || {};
+    var c = cb();
+    // Dennis 4 nov 2026: zonder eerdere keuze staan alle categorieen vooraf aan (bewuste keuze, juridisch risico besproken).
+    if (!(c && c.hasResponse)) return { p: true, s: true, m: true };
+    var co = c.consent || {};
     return { p: !!co.preferences, s: !!co.statistics, m: !!co.marketing };
   }
   function build(m) {
