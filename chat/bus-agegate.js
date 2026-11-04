@@ -79,7 +79,7 @@
       s = document.createElement('style'); s.id = 'bus-v5-hide-native';
       s.textContent = '#CybotCookiebotDialog,#CybotCookiebotDialogBodyUnderlay{display:none!important}';
       document.head.appendChild(s);
-    } else if (!on && s) { s.remove(); }
+    } else if (!on) { if (s) s.remove(); var e = document.getElementById('bus-early-hide-native'); if (e) e.remove(); }
   }
 
   // ---------- stijl ----------
