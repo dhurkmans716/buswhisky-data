@@ -385,6 +385,12 @@ window.__busChatGeladen = true;
     var hnaam = hash.split('?')[0].toLowerCase();
     var sq = u.searchParams;
     var eigen = u.origin === location.origin;
+    // De arrangementlinks op de landingspagina openen de bestaande widget boven deze pagina.
+    if ((u.hostname === 'buswhisky.com' || u.hostname === 'www.buswhisky.com') &&
+        u.pathname.replace(/\/+$/, '') === '/reserveren/widget') {
+      return { soort: 'book', code: sq.get('arrangement') || sq.get('product') || sq.get('service_code') || sq.get('service'),
+               category: sq.get('category') || sq.get('type'), pax: sq.get('pax'), lang: sq.get('lang') };
+    }
     if (/guestplan\.com$/i.test(u.hostname)) {
       if (sq.get('openGiftCardWidget')) return { soort: 'gift' };
       var gc = sq.get('serviceCode');
@@ -399,6 +405,33 @@ window.__busChatGeladen = true;
     return null;
   }
 
+  function openFallback(url) {
+    if (!document.body) return;
+    var shade=document.getElementById('bus-booking-fallback-overlay');
+    if (!shade) {
+      shade=document.createElement('div');
+      shade.id='bus-booking-fallback-overlay';
+      shade.setAttribute('role','dialog');
+      shade.setAttribute('aria-label','Reserveren bij Bus Whisky');
+      shade.style.cssText='position:fixed;inset:0;z-index:2147483400;background:rgba(0,0,0,.62);display:flex;align-items:center;justify-content:center;padding:12px;';
+      var box=document.createElement('div');
+      box.style.cssText='position:relative;width:min(460px,100%);height:min(710px,calc(100dvh - 24px));background:#f7f4ee;border-radius:12px;overflow:hidden;box-shadow:0 15px 50px #0007;';
+      var close=document.createElement('button');
+      close.type='button';close.setAttribute('aria-label','Sluiten');close.textContent='×';
+      close.style.cssText='position:absolute;right:8px;top:8px;z-index:2;width:34px;height:34px;border:0;border-radius:18px;background:#111;color:white;font-size:25px;line-height:29px;cursor:pointer';
+      close.addEventListener('click',function(){shade.remove();});
+      shade.addEventListener('click',function(e){if(e.target===shade)shade.remove();});
+      shade.addEventListener('keydown',function(e){if(e.key==='Escape'){e.preventDefault();shade.remove();}});
+      var iframe=document.createElement('iframe');
+      iframe.setAttribute('title','BUS reserveren');
+      iframe.setAttribute('allow','payment');
+      iframe.style.cssText='width:100%;height:100%;border:0;display:block;';
+      box.appendChild(iframe);box.appendChild(close);shade.appendChild(box);
+      document.body.appendChild(shade);
+    }
+    shade.querySelector('iframe').src=url;
+  }
+
   function open(d, poging) {
     poging = poging || 0;
     var host = document.getElementById('booking-widget');
@@ -406,17 +439,18 @@ window.__busChatGeladen = true;
     var knop = host && host.querySelector('[data-booking-widget-open="' + d.soort + '"]');
     var p = new URLSearchParams();
     if (d.soort === 'gift') { p.set('gift', '1'); } else { if (d.code) p.set('arrangement', d.code); if (d.pax) p.set('pax', d.pax); }
+    if (d.soort === 'book' && d.category) p.set('category', d.category);
     p.set('launcher', '0'); p.set('modal', '1'); p.set('intent', '1');
     var lang = (document.documentElement.lang || '').slice(0, 2).toLowerCase();
     if (lang && lang !== 'nl') p.set('lang', lang);
     var url = ((host && host.dataset.url) || '/reserveren/widget') + '?' + p.toString();
     if (!host || !ifr || !knop) {
       if (poging < 20) { setTimeout(function () { open(d, poging + 1); }, 250); return; }
-      location.href = url.replace('modal=1', 'modal=0');
+      openFallback(url);
       return;
     }
     window.__busBoekIntent = Date.now();
-    knop.click();
+    if (!host.classList.contains('is-open')) knop.click();
     if (!host.classList.contains('is-open') && poging < 20) { setTimeout(function () { open(d, poging + 1); }, 250); return; }
     host.classList.remove('is-ready');
     ifr.src = url;
