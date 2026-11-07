@@ -989,3 +989,142 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
 window.addEventListener('CookiebotOnDialogDisplay',function(){if(modal)hideNative()});
 window.addEventListener('CookiebotOnConsentReady',function(){if(modal)hideNative()});
 })();
+
+// === BUS FANZONE OP BUSWHISKY.COM (Dennis 7 nov 2026) ===
+// De fanzone draait hier, over de site heen (?fanzone=1). De pagina komt als JSON van n8n (fanzone?fmt=json) en staat in een
+// iframe met srcdoc, zodat hij op buswhisky.com zelf draait: reserveren, de webshop en het Dutch Whisky Event openen in de
+// widget OVER de fanzone, de winkelmand is gewoon die van de site en na het betalen kom je terug op ?fanzone=1.
+// Inloggen: de losse n8n-pagina stuurt een ingelogde fan door naar /?fanzone=1#fzs=<sessie>. De sessie staat daarna in
+// localStorage busFzSess. Sluiten (kruisje in de fanzone) haalt ?fanzone=1 weg. Terugknop "Terug naar je fanzone"
+// verschijnt 2 uur lang op andere pagina's nadat je vanuit de fanzone iets opende.
+(function () {
+  'use strict';
+  try { if (window.top !== window || window.__busFzHost) return; } catch (e) { return; }
+  window.__busFzHost = 1;
+  if (!/(^|[.])buswhisky[.]com$/i.test(location.hostname) && !window.__busFzTest) return;
+  var BASE = 'https://buswhiskyevents.app.n8n.cloud/webhook/fanzone';
+  var KS = 'busFzSess', KT = 'busFzTerug', KP = 'busFanProfielV1';
+  function ls(k, v) { try { if (v === undefined) return localStorage.getItem(k); if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) {} return null; }
+  var TOK = /^[A-Za-z0-9_-]{30,80}$/;
+  var q = new URLSearchParams(location.search);
+  var hp = new URLSearchParams(String(location.hash || '').replace(/^#/, ''));
+  var hs = hp.get('fzs');
+  if (hs && TOK.test(hs)) ls(KS, hs);
+  var start = { tab: hp.get('tab') || q.get('tab') || '', fles: hp.get('fles') || q.get('fles') || '', product: hp.get('product') || q.get('product') || '', hash: hp.get('hash') || '', m: hp.get('m') || '' };
+  var wil = q.get('fanzone') === '1' || !!hs;
+  if (hs) { try { history.replaceState(history.state, '', location.pathname + location.search); } catch (e) {} }
+  var ov = null, fr = null, laad = null, nr = 0;
+  function css() {
+    if (document.getElementById('bus-fz-css')) return;
+    var s = document.createElement('style'); s.id = 'bus-fz-css';
+    s.textContent = '#busFz{position:fixed;inset:0;z-index:45;background:#0D0B09;display:block}#busFz iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block;background:#0D0B09}'
+      + '#busFz .bfz-laad{position:absolute;left:50%;top:50%;width:38px;height:38px;margin:-19px 0 0 -19px;border-radius:50%;border:3px solid rgba(227,168,87,.2);border-top-color:#E3A857;animation:bfzDraai .8s linear infinite;pointer-events:none}#busFz .bfz-laad[hidden]{display:none}'
+      + '@keyframes bfzDraai{to{transform:rotate(360deg)}}#busFz .bfz-fout{position:absolute;left:16px;right:16px;top:40%;padding:18px;border-radius:16px;background:#18130F;border:1px solid #3A2B1E;color:#F3EBDD;font:15px/1.5 Inter,system-ui,sans-serif;text-align:center}#busFz .bfz-fout a{color:#E3A857}'
+      + 'html.bus-fz-aan,html.bus-fz-aan body{overflow:hidden!important}html.bus-fz-aan #bwChatKnop,html.bus-fz-aan .chat-window-toggle,html.bus-fz-aan .chat-window-wrapper,html.bus-fz-aan #bwZwart,html.bus-fz-aan #bw-zwart{display:none!important}'
+      + '#busFzTerug{position:fixed;left:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:41;display:flex;align-items:center;gap:8px;height:48px;padding:0 18px;border-radius:999px;border:0;background:#14110F;color:#E3A857;font:600 15px/1 Inter,system-ui,sans-serif;box-shadow:0 4px 16px rgba(0,0,0,.45),0 0 0 2px #E3A857;cursor:pointer}';
+    (document.head || document.documentElement).appendChild(s);
+  }
+  function metParam(aan) {
+    try { var u = new URL(location.href); if (aan) u.searchParams.set('fanzone', '1'); else { u.searchParams.delete('fanzone'); u.searchParams.delete('fles'); u.searchParams.delete('product'); u.searchParams.delete('tab'); } history.replaceState(history.state, '', u.pathname + u.search + u.hash); } catch (e) {}
+  }
+  function bouw() {
+    if (ov) return;
+    css();
+    ov = document.createElement('div'); ov.id = 'busFz'; ov.setAttribute('role', 'dialog'); ov.setAttribute('aria-label', 'Bus Fanzone');
+    fr = document.createElement('iframe'); fr.title = 'Bus Fanzone'; fr.setAttribute('allow', 'clipboard-write; fullscreen; autoplay; encrypted-media; picture-in-picture; web-share');
+    laad = document.createElement('div'); laad.className = 'bfz-laad';
+    ov.appendChild(fr); ov.appendChild(laad);
+    (document.body || document.documentElement).appendChild(ov);
+    document.documentElement.classList.add('bus-fz-aan');
+    var t = document.getElementById('busFzTerug'); if (t) t.remove();
+  }
+  function fout(tekst) {
+    if (!ov) return; laad.hidden = true;
+    var s = ls(KS), d = document.createElement('div'); d.className = 'bfz-fout';
+    d.innerHTML = tekst + '<br><br><a href="' + BASE + (s ? '?s=' + encodeURIComponent(s) + '&solo=1' : '?solo=1') + '">Open de fanzone los</a> of <a href="#" data-dicht>sluit</a>';
+    d.querySelector('[data-dicht]').onclick = function (e) { e.preventDefault(); sluit(); };
+    var oud = ov.querySelector('.bfz-fout'); if (oud) oud.remove(); ov.appendChild(d);
+  }
+  function toon(html, hash) {
+    var mijn = ++nr; laad.hidden = true; var oud = ov.querySelector('.bfz-fout'); if (oud) oud.remove();
+    fr.onload = function () { if (mijn !== nr) return; try { if (hash) fr.contentWindow.location.hash = hash; fr.contentWindow.focus(); } catch (e) {} };
+    fr.srcdoc = html;
+  }
+  function verwerk(p, hash) {
+    laad.hidden = false;
+    p.then(function (r) { return r.json(); }).then(function (j) {
+      if (j && j.naar) { ga(j.naar); return; }
+      if (j && j.html) { toon(j.html, hash); return; }
+      if (j && j.bericht) { fout(String(j.bericht).replace(/[<>&]/g, '')); return; }
+      fout('Dit lukte nu even niet.');
+    }).catch(function () { fout('De fanzone is nu even niet bereikbaar.'); });
+  }
+  function ga(u) {
+    var x; try { x = new URL(String(u), BASE); } catch (e) { return; }
+    if (x.origin + x.pathname !== BASE) { location.href = x.href; return; }
+    var s = x.searchParams.get('s');
+    if (s && TOK.test(s)) ls(KS, s); else if (!x.searchParams.get('l') && !x.searchParams.get('q')) ls(KS, null);
+    x.searchParams.set('fmt', 'json');
+    var hash = String(x.hash || '').replace(/^#/, ''); x.hash = '';
+    verwerk(fetch(x.href, { credentials: 'omit', cache: 'no-store' }), hash);
+  }
+  function post(action, o) {
+    var x; try { x = new URL(String(action), BASE); } catch (e) { return; }
+    var b = new URLSearchParams(); for (var k in o) if (Object.prototype.hasOwnProperty.call(o, k)) b.append(k, o[k] == null ? '' : String(o[k]));
+    b.set('fmt', 'json');
+    verwerk(fetch(x.href, { method: 'POST', credentials: 'omit', cache: 'no-store', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: b.toString() }));
+  }
+  function profiel(fz) {
+    var fan = String(fz || '').split('.')[0];
+    if (!fan) return Promise.resolve(false);
+    var o = null; try { o = JSON.parse(ls(KP) || 'null'); } catch (e) { o = null; }
+    if (o && o.ok && o.tot > Date.now() && o.fz_fan === fan) return Promise.resolve(false);
+    return fetch(BASE + '?a=profiel&fz=' + encodeURIComponent(fz), { credentials: 'omit', cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (p) {
+      if (!p || !p.ok) return false;
+      p.tot = Date.now() + 30 * 86400000; p.fz_fan = fan; ls(KP, JSON.stringify(p)); return true;
+    }).catch(function () { return false; });
+  }
+  function herlaadWidget() {
+    var fs = document.querySelectorAll('#booking-widget iframe');
+    for (var i = 0; i < fs.length; i++) { var s = fs[i].getAttribute('src'); if (s) fs[i].setAttribute('src', s); }
+  }
+  function openWidget(o) {
+    o = o || {}; var hash = o.hash || '', fz = o.fz || '';
+    if (o.href) { try { var x = new URL(o.href); hash = x.hash || '#reserveren'; fz = x.searchParams.get('fz') || fz; } catch (e) { return; } }
+    if (!/^#(webshop|reserveren|cadeaubon|gstpln)/.test(hash)) hash = '#reserveren';
+    ls(KT, String(Date.now()));
+    profiel(fz).then(function (nieuw) {
+      if (nieuw) herlaadWidget();
+      if (location.hash === hash) { try { history.replaceState(history.state, '', location.pathname + location.search); } catch (e) {} }
+      location.hash = hash;
+    });
+  }
+  function extern(u) { if (/^(mailto|tel|sms):/i.test(u)) { location.href = u; return; } try { window.open(u, '_blank', 'noopener'); } catch (e) { location.href = u; } }
+  function kopieer(t) {
+    try { if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(String(t)).catch(oud); return; } } catch (e) {}
+    oud();
+    function oud() { var a = document.createElement('textarea'); a.value = String(t); a.style.cssText = 'position:fixed;top:-100px;opacity:0'; document.body.appendChild(a); a.select(); try { document.execCommand('copy'); } catch (e) {} a.remove(); }
+  }
+  function sluit() { if (ov) ov.remove(); ov = null; fr = null; document.documentElement.classList.remove('bus-fz-aan'); metParam(false); ls(KT, null); }
+  function open(s0) {
+    s0 = s0 || {};
+    bouw(); metParam(true);
+    var s = ls(KS), u = BASE + '?fmt=json' + (s ? '&s=' + encodeURIComponent(s) : '');
+    if (s0.fles) u += '&tab=flessen&fles=' + encodeURIComponent(s0.fles);
+    else if (s0.product) u += '&product=' + encodeURIComponent(s0.product);
+    else if (s0.tab && /^[a-z]{2,12}$/.test(s0.tab)) u += '&tab=' + s0.tab;
+    if (s0.m && /^[a-z_]{1,20}$/.test(s0.m)) u += '&m=' + s0.m;
+    verwerk(fetch(u, { credentials: 'omit', cache: 'no-store' }), /^[a-z0-9/_-]{1,60}$/i.test(s0.hash || '') ? s0.hash : '');
+  }
+  window.busFz = { go: ga, post: post, open: openWidget, extern: extern, kopieer: kopieer, sluit: sluit, openFanzone: open };
+  function terugKnop() {
+    var t = Number(ls(KT) || 0);
+    if (!t || Date.now() - t > 7200000 || !ls(KS) || document.getElementById('busFzTerug')) return;
+    css();
+    var b = document.createElement('button'); b.type = 'button'; b.id = 'busFzTerug'; b.textContent = 'Terug naar je fanzone';
+    b.onclick = function () { b.remove(); open({}); };
+    (document.body || document.documentElement).appendChild(b);
+  }
+  function go() { if (wil) open(start); else terugKnop(); }
+  if (document.body) go(); else document.addEventListener('DOMContentLoaded', go);
+})();
