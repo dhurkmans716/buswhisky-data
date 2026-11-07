@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-06T05:00:28.004Z",
+  "gegenereerd": "2026-11-07T05:00:25.639Z",
   "schaal": 10,
   "aantal": 310,
   "reacties": [
@@ -2086,6 +2086,16 @@
     {
       "arrangementId": "18712057",
       "arrangementNaam": "4x4 Ecotrail | avond",
+      "datum": "6 november",
+      "naam": "Van Den Heuvel Aannemingsbedrijf B.V.",
+      "aantalPersonen": 29,
+      "cijfer": 10,
+      "tekst": "Een mooie, bijzondere locatie met een goed verhaal en leuke activiteiten! Een aanrader voor een leuk personeelsuitje!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Van-Den-Heuvel-Aannemingsbedrijf-B.V.-20345620"
+    },
+    {
+      "arrangementId": "18712057",
+      "arrangementNaam": "4x4 Ecotrail | avond",
       "datum": "26 oktober",
       "naam": "Huisartsenpraktijk de boterbloem",
       "aantalPersonen": 23,
@@ -2272,16 +2282,6 @@
       "cijfer": 10,
       "tekst": "We zijn prettig ontvangen en hebben een gezellige middag/avond gehad.",
       "referentieUrl": "https://www.heischehoeve.com/referenties-Pharming-20158630"
-    },
-    {
-      "arrangementId": "18712057",
-      "arrangementNaam": "4x4 Ecotrail | avond",
-      "datum": "22 december",
-      "naam": "ICTMedia BV",
-      "aantalPersonen": 20,
-      "cijfer": 10,
-      "tekst": "Dat het een Top Locatie is voor zeker ook een Kerst uitje! Mooie locatie, sfeervol, top diner, flexibel en goede service. Dank Ursula voor de top verzorging van ons!\nWe komen zeker weer terug!",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-ICTMedia-BV-20237809"
     },
     {
       "arrangementId": "18795159",
