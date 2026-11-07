@@ -1031,7 +1031,7 @@ window.addEventListener('CookiebotOnConsentReady',function(){if(modal)hideNative
     if (ov) return;
     css();
     ov = document.createElement('div'); ov.id = 'busFz'; ov.setAttribute('role', 'dialog'); ov.setAttribute('aria-label', 'Bus Fanzone');
-    fr = document.createElement('iframe'); fr.title = 'Bus Fanzone'; fr.setAttribute('allow', 'clipboard-write; fullscreen; autoplay; encrypted-media; picture-in-picture; web-share');
+    fr = document.createElement('iframe'); fr.title = 'Bus Fanzone'; fr.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin'); fr.setAttribute('allow', 'clipboard-write; fullscreen; autoplay; encrypted-media; picture-in-picture; web-share');
     laad = document.createElement('div'); laad.className = 'bfz-laad';
     ov.appendChild(fr); ov.appendChild(laad);
     (document.body || document.documentElement).appendChild(ov);
@@ -1125,6 +1125,80 @@ window.addEventListener('CookiebotOnConsentReady',function(){if(modal)hideNative
     b.onclick = function () { b.remove(); open({}); };
     (document.body || document.documentElement).appendChild(b);
   }
+  // --- Snelkoppeling op je telefoon en video's op de site zelf (7 nov 2026) ---
+  // Bij ?fanzone=1 zet de site een app-manifest (Android), apple-touch-icon en app-titel (iPhone) in de head, zodat
+  // "Zet op beginscherm" een eigen BUS Fanzone-icoon geeft dat de fanzone opent. Bij sluiten gaat de head terug.
+  // iPhone: geen manifest, dan bewaart iOS de huidige URL; die krijgt vlak voor het toevoegen #fzs=<sessie>, zodat de
+  // app (eigen opslag op iOS) meteen ingelogd opent. Android: de installatievraag van Chrome wordt opgevangen en
+  // op verzoek van de fanzone getoond. busFz.video(id) speelt een YouTube-film in een laag op de site zelf.
+  var bip = null, pwaWeg = [], pwaEigen = [];
+  window.addEventListener('beforeinstallprompt', function (e) { try { e.preventDefault(); } catch (x) {} bip = e; });
+  window.addEventListener('appinstalled', function () { bip = null; });
+  function standalone() { try { return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true; } catch (e) { return false; } }
+  function isIos() { var u = navigator.userAgent || ''; return /iP(hone|ad|od)/.test(u) || (/Macintosh/.test(u) && (navigator.maxTouchPoints || 0) > 1); }
+  function pwaHead() {
+    var hd = document.head; if (!hd || pwaEigen.length) return;
+    var sel = 'link[rel="manifest"],link[rel="apple-touch-icon"],link[rel="apple-touch-icon-precomposed"],meta[name="apple-mobile-web-app-title"],meta[name="apple-mobile-web-app-capable"],meta[name="mobile-web-app-capable"],meta[name="apple-mobile-web-app-status-bar-style"],meta[name="theme-color"]';
+    var oud = hd.querySelectorAll(sel);
+    for (var i = 0; i < oud.length; i++) { pwaWeg.push(oud[i]); oud[i].parentNode.removeChild(oud[i]); }
+    function voeg(t, a) { var x = document.createElement(t); for (var k in a) x.setAttribute(k, a[k]); x.setAttribute('data-bus-fz', '1'); hd.appendChild(x); pwaEigen.push(x); }
+    voeg('meta', { name: 'apple-mobile-web-app-capable', content: 'yes' });
+    voeg('meta', { name: 'mobile-web-app-capable', content: 'yes' });
+    voeg('meta', { name: 'apple-mobile-web-app-title', content: 'BUS Fanzone' });
+    voeg('meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' });
+    voeg('meta', { name: 'theme-color', content: '#14110F' });
+    voeg('link', { rel: 'apple-touch-icon', sizes: '180x180', href: BASE + '?a=icon&px=180' });
+    voeg('link', { rel: 'icon', type: 'image/png', sizes: '192x192', href: BASE + '?a=icon&px=192' });
+    if (!isIos()) voeg('link', { rel: 'manifest', href: BASE + '?a=manifest' });
+  }
+  function pwaTerug() {
+    var hd = document.head; if (!hd) return;
+    pwaEigen.forEach(function (x) { if (x.parentNode) x.parentNode.removeChild(x); }); pwaEigen = [];
+    pwaWeg.forEach(function (x) { hd.appendChild(x); }); pwaWeg = [];
+  }
+  function zonderFzs() { if (/(^#|&)fzs=/.test(location.hash)) { try { history.replaceState(history.state, '', location.pathname + location.search); } catch (e) {} } }
+  function install() {
+    if (!bip) return Promise.resolve('geen');
+    var p = bip; bip = null;
+    try { p.prompt(); } catch (e) { return Promise.resolve('geen'); }
+    return Promise.resolve(p.userChoice).then(function (c) { return (c && c.outcome) || 'onbekend'; }, function () { return 'onbekend'; });
+  }
+  function iosKlaar() { var s = ls(KS); if (s && TOK.test(s)) { try { history.replaceState(history.state, '', location.pathname + location.search + '#fzs=' + s); } catch (e) {} } }
+  function video(id) {
+    id = String(id || ''); if (!/^[A-Za-z0-9_-]{11}$/.test(id)) return;
+    css();
+    if (!document.getElementById('bus-fz-vcss')) {
+      var st = document.createElement('style'); st.id = 'bus-fz-vcss';
+      st.textContent = '#busFzVid{position:fixed;inset:0;z-index:60;background:rgba(0,0,0,.94);display:flex;align-items:center;justify-content:center;padding:56px 12px calc(16px + env(safe-area-inset-bottom))}'
+        + '#busFzVid .bfz-vr{position:relative;width:100%;max-width:1000px;aspect-ratio:16/9;max-height:100%;background:#000;border-radius:12px;overflow:hidden}'
+        + '#busFzVid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}'
+        + '#busFzVid .bfz-vdicht{position:absolute;top:calc(8px + env(safe-area-inset-top));right:10px;width:44px;height:44px;border-radius:50%;border:1px solid #5A4430;background:#14110F;color:#F3EBDD;font:28px/1 system-ui,sans-serif;cursor:pointer}';
+      (document.head || document.documentElement).appendChild(st);
+    }
+    var o = document.getElementById('busFzVid'); if (o) o.remove();
+    o = document.createElement('div'); o.id = 'busFzVid'; o.setAttribute('role', 'dialog'); o.setAttribute('aria-label', 'Bus TV');
+    var r = document.createElement('div'); r.className = 'bfz-vr';
+    var f = document.createElement('iframe'); f.title = 'Bus TV';
+    f.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+    f.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture; fullscreen'); f.setAttribute('allowfullscreen', '');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&playsinline=1&rel=0&origin=' + encodeURIComponent(location.origin) + '&widget_referrer=' + encodeURIComponent(location.origin + '/');
+    var b = document.createElement('button'); b.type = 'button'; b.className = 'bfz-vdicht'; b.setAttribute('aria-label', 'Sluit de film'); b.innerHTML = '&times;';
+    function dicht() { document.removeEventListener('keydown', esc); if (o.parentNode) o.remove(); try { if (fr) fr.contentWindow.focus(); } catch (e) {} }
+    function esc(e) { if (e.key === 'Escape') dicht(); }
+    b.onclick = dicht; o.onclick = function (e) { if (e.target === o) dicht(); }; document.addEventListener('keydown', esc);
+    r.appendChild(f); o.appendChild(r); o.appendChild(b); (document.body || document.documentElement).appendChild(o); b.focus();
+  }
+  var openOud = open, sluitOud = sluit;
+  open = function (s0) { pwaHead(); return openOud(s0); };
+  sluit = function () { var v = document.getElementById('busFzVid'); if (v) v.remove(); pwaTerug(); var r = sluitOud(); zonderFzs(); return r; };
+  window.busFz.openFanzone = open; window.busFz.sluit = sluit;
+  window.busFz.install = install; window.busFz.kanInstall = function () { return !!bip; };
+  window.busFz.standalone = standalone; window.busFz.ios = isIos; window.busFz.iosKlaar = iosKlaar; window.busFz.video = video;
+  window.addEventListener('message', function (e) {
+    var d = e.data || {}; if (!fr || e.source !== fr.contentWindow || typeof d !== 'object') return;
+    if (d.busFz === 'pwa-install') install().then(function (r) { try { fr.contentWindow.postMessage({ busFz: 'pwa-result', r: r }, '*'); } catch (x) {} });
+    else if (d.busFz === 'video') video(d.id);
+  });
   function go() { if (wil) open(start); else terugKnop(); }
   if (document.body) go(); else document.addEventListener('DOMContentLoaded', go);
 })();
