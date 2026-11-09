@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026110902);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026110903);
 // Leeftijdscheck + cookiekeuze: eigen module BUS_AGECHECK_CONSENT_V5 (4 nov 2026). Ook hier laden voor bezoekers met een oude gecachete lader.
 import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@61a3b3f1/chat/bus-agegate.js').catch(function (e) { console.error('[BUS] agecheck vaste versie mislukt, @main laden', e); return import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-agegate.js?v=' + Math.floor(Date.now() / 600000)); }).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
@@ -16,11 +16,104 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
 (function () {
   if (window.__busGeenTouchVoorladen) return;
   window.__busGeenTouchVoorladen = true;
-  // Sinds 9 nov 2026 ook voor muis: elke voorlaad-hover kostte een n8n-run zonder dat er geklikt werd.
+  // Sinds 9 nov 2026 ook voor muis, behalve als de statische widgetkopie vers is (zie WIDGET ZONDER N8N-RUN).
   document.addEventListener('pointerenter', function (e) {
+    // Muis: voorladen mag weer zodra de statische kopie vers is, want dan kost het geen n8n-run.
+    if (e.pointerType === 'mouse' && window.__busWidgetVers && window.__busWidgetVers()) return;
     var t = e.target;
     if (t && t.closest && t.closest('[data-booking-widget-open]')) e.stopImmediatePropagation();
   }, true);
+})();
+// === WIDGET ZONDER N8N-RUN (Dennis 9 nov 2026: "wel de lusten, niet de lasten") ===
+// De kale widget (nog geen categorie, arrangement of datum gekozen) komt uit een statische kopie die de kwartierbundel
+// in n8n elk kwartier op GitHub zet (branch widget-static). Voorladen bij hover en de klik kosten dan geen n8n-run.
+// Is de kopie er niet of ouder dan 30 minuten, dan gaat alles zoals altijd via n8n.
+(function () {
+  if (window.__busWidgetStatisch) return;
+  window.__busWidgetStatisch = true;
+  var BRON = window.__busWidgetBron || 'https://raw.githubusercontent.com/dhurkmans716/buswhisky-data/widget-static/widget/';
+  var MAX = 30 * 60000;
+  var VERBODEN = ['category', 'type', 'arrangement', 'service_code', 'service', 'shop', 'pax', 'date', 'intent', 'diag', 'code', 'giftcard', 'fz', 'actie'];
+  var kopie = {}, vers = {};
+  function paginaTaal() { return 'nl'; }
+  // De kale widget is voor alle talen dezelfde HTML (de vertaling gebeurt in de widget zelf, op basis van het pad).
+  // Alleen een expliciete lang-parameter geeft andere HTML; die gaat gewoon via n8n.
+  function taalVan(u) { var l = (u.searchParams.get('lang') || '').toLowerCase(); return (!l || l === 'nl') ? 'nl' : null; }
+  function haal(l) {
+    if (!kopie[l]) {
+      kopie[l] = fetch(BRON + l + '.json', { cache: 'no-cache', credentials: 'omit' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (j) { var ok = !!(j && j.html && j.html.length > 1000 && Date.now() - Number(j.ts) < MAX); vers[l] = ok; if (!ok) kopie[l] = null; return ok ? j : null; })
+        .catch(function () { vers[l] = false; kopie[l] = null; return null; });
+    }
+    return kopie[l];
+  }
+  window.__busWidgetVers = function () { var l = paginaTaal(); if (vers[l] === undefined) haal(l); return vers[l] === true; };
+  function geschikt(v) {
+    try {
+      var u = new URL(v, location.href);
+      if (u.origin !== location.origin || !/\/reserveren\/widget\/?$/.test(u.pathname)) return null;
+      if (u.searchParams.get('modal') !== '1' || u.searchParams.get('launcher') !== '0') return null;
+      for (var i = 0; i < VERBODEN.length; i++) if (u.searchParams.has(VERBODEN[i])) return null;
+      var l = taalVan(u);
+      return l ? { url: u.pathname + u.search, l: l } : null;
+    } catch (e) { return null; }
+  }
+  function haak(ifr) {
+    if (!ifr || ifr.__busHaak) return;
+    var d = Object.getOwnPropertyDescriptor(HTMLIFrameElement.prototype, 'src');
+    if (!d || !d.set) return;
+    ifr.__busHaak = true;
+    var beurt = 0;
+    function echt(v) { d.set.call(ifr, v); }
+    function schrijf(url, html) {
+      var w = ifr.contentWindow, doc = w.document, geladen = false;
+      var lt = function () { geladen = true; };
+      ifr.addEventListener('load', lt, { once: true });
+      doc.open();
+      try { w.history.replaceState(null, '', url); } catch (e) {}
+      doc.write(html);
+      doc.close();
+      ifr.__busGeschreven = true;
+      setTimeout(function () { if (!geladen) { ifr.removeEventListener('load', lt); ifr.dispatchEvent(new Event('load')); } }, 60);
+    }
+    Object.defineProperty(ifr, 'src', {
+      configurable: true, enumerable: true,
+      get: function () { return d.get.call(ifr); },
+      set: function (v) {
+        var mijn = ++beurt;
+        var g = geschikt(v);
+        if (!g) { echt(v); return; }
+        haal(g.l).then(function (j) {
+          if (mijn !== beurt) return;
+          if (!j) { echt(v); return; }
+          var leeg = false;
+          try { leeg = !ifr.__busGeschreven && ifr.contentWindow.location.href === 'about:blank'; } catch (e) {}
+          if (leeg) { schrijf(g.url, j.html); return; }
+          // Vers venster nodig (anders blijven oude scriptvariabelen staan): eerst naar about:blank.
+          ifr.addEventListener('load', function opBlank() {
+            var nu = ''; try { nu = ifr.contentWindow.location.href; } catch (e) {}
+            if (nu !== 'about:blank') return;
+            ifr.removeEventListener('load', opBlank);
+            if (mijn !== beurt) return;
+            ifr.__busGeschreven = false;
+            schrijf(g.url, j.html);
+          });
+          echt('about:blank');
+        });
+      }
+    });
+  }
+  function start(p) {
+    var host = document.getElementById('booking-widget');
+    var ifr = host && host.querySelector('iframe');
+    if (!ifr) { if ((p || 0) < 40) setTimeout(function () { start((p || 0) + 1); }, 250); return; }
+    haak(ifr);
+    try { if (navigator.connection && navigator.connection.saveData) return; } catch (e) {}
+    var go = function () { haal(paginaTaal()); };
+    if (window.requestIdleCallback) requestIdleCallback(go, { timeout: 4000 }); else setTimeout(go, 1500);
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { start(0); }); else start(0);
 })();
 if (!window.__busChatGeladen) {
 window.__busChatGeladen = true;
