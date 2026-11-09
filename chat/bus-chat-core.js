@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026110904);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026110905);
 // Leeftijdscheck + cookiekeuze: eigen module BUS_AGECHECK_CONSENT_V5 (4 nov 2026). Ook hier laden voor bezoekers met een oude gecachete lader.
 import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@61a3b3f1/chat/bus-agegate.js').catch(function (e) { console.error('[BUS] agecheck vaste versie mislukt, @main laden', e); return import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-agegate.js?v=' + Math.floor(Date.now() / 600000)); }).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
@@ -27,12 +27,12 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
 // === WIDGET ZONDER N8N-RUN (Dennis 9 nov 2026: "wel de lusten, niet de lasten") ===
 // De kale widget (nog geen categorie, arrangement of datum gekozen) en de webshop (flesknop, shop=1) komen uit een statische
 // kopie die de kwartierbundel in n8n elk kwartier op GitHub zet (branch widget-static). Voorladen en klikken kosten dan geen n8n-run.
-// Is de kopie er niet of ouder dan 30 minuten, dan gaat alles zoals altijd via n8n.
+// Is de kopie er niet of ouder dan 2 uur, dan gaat alles zoals altijd via n8n (Guestplan controleert de tijd bij het boeken opnieuw).
 (function () {
   if (window.__busWidgetStatisch) return;
   window.__busWidgetStatisch = true;
   var BRON = window.__busWidgetBron || 'https://raw.githubusercontent.com/dhurkmans716/buswhisky-data/widget-static/widget/';
-  var MAX = 30 * 60000;
+  var MAX = 120 * 60000;
   var VERBODEN = ['category', 'type', 'arrangement', 'service_code', 'service', 'pax', 'date', 'diag', 'code', 'giftcard', 'fz', 'actie', 'product', 'besteld', 'shopfout', 'nr', 'msg', 'time', 'choose_date'];
   var kopie = {}, vers = {};
   function paginaTaal() { return 'nl'; }
