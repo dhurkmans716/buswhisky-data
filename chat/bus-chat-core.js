@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026110903);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026110904);
 // Leeftijdscheck + cookiekeuze: eigen module BUS_AGECHECK_CONSENT_V5 (4 nov 2026). Ook hier laden voor bezoekers met een oude gecachete lader.
 import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@61a3b3f1/chat/bus-agegate.js').catch(function (e) { console.error('[BUS] agecheck vaste versie mislukt, @main laden', e); return import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-agegate.js?v=' + Math.floor(Date.now() / 600000)); }).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
@@ -25,15 +25,15 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
   }, true);
 })();
 // === WIDGET ZONDER N8N-RUN (Dennis 9 nov 2026: "wel de lusten, niet de lasten") ===
-// De kale widget (nog geen categorie, arrangement of datum gekozen) komt uit een statische kopie die de kwartierbundel
-// in n8n elk kwartier op GitHub zet (branch widget-static). Voorladen bij hover en de klik kosten dan geen n8n-run.
+// De kale widget (nog geen categorie, arrangement of datum gekozen) en de webshop (flesknop, shop=1) komen uit een statische
+// kopie die de kwartierbundel in n8n elk kwartier op GitHub zet (branch widget-static). Voorladen en klikken kosten dan geen n8n-run.
 // Is de kopie er niet of ouder dan 30 minuten, dan gaat alles zoals altijd via n8n.
 (function () {
   if (window.__busWidgetStatisch) return;
   window.__busWidgetStatisch = true;
   var BRON = window.__busWidgetBron || 'https://raw.githubusercontent.com/dhurkmans716/buswhisky-data/widget-static/widget/';
   var MAX = 30 * 60000;
-  var VERBODEN = ['category', 'type', 'arrangement', 'service_code', 'service', 'shop', 'pax', 'date', 'intent', 'diag', 'code', 'giftcard', 'fz', 'actie'];
+  var VERBODEN = ['category', 'type', 'arrangement', 'service_code', 'service', 'pax', 'date', 'diag', 'code', 'giftcard', 'fz', 'actie', 'product', 'besteld', 'shopfout', 'nr', 'msg', 'time', 'choose_date'];
   var kopie = {}, vers = {};
   function paginaTaal() { return 'nl'; }
   // De kale widget is voor alle talen dezelfde HTML (de vertaling gebeurt in de widget zelf, op basis van het pad).
@@ -48,6 +48,18 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
     }
     return kopie[l];
   }
+  // Productlijst van de webshop (anders een run op /webhook/bus-me-widget/shop bij elke opening). Mag 6 uur oud zijn:
+  // voorraad en prijs worden bij het afrekenen in Driver toch opnieuw gecontroleerd.
+  var shopData = null;
+  function haalData() {
+    if (!shopData) {
+      shopData = fetch(BRON + 'shopdata-nl.json', { cache: 'no-cache', credentials: 'omit' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (j) { if (!(j && j.data && j.data.products && j.data.products.length && Date.now() - Number(j.ts) < 6 * 3600000)) { shopData = null; return null; } return j.data; })
+        .catch(function () { shopData = null; return null; });
+    }
+    return shopData;
+  }
   window.__busWidgetVers = function () { var l = paginaTaal(); if (vers[l] === undefined) haal(l); return vers[l] === true; };
   function geschikt(v) {
     try {
@@ -55,8 +67,12 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
       if (u.origin !== location.origin || !/\/reserveren\/widget\/?$/.test(u.pathname)) return null;
       if (u.searchParams.get('modal') !== '1' || u.searchParams.get('launcher') !== '0') return null;
       for (var i = 0; i < VERBODEN.length; i++) if (u.searchParams.has(VERBODEN[i])) return null;
-      var l = taalVan(u);
-      return l ? { url: u.pathname + u.search, l: l } : null;
+      var shop = u.searchParams.get('shop');
+      if (shop && shop !== '1') return null;
+      // intent hoort alleen bij de webshop (voorkomt dichtklappen bij voorladen); bij de gewone widget is het een deeplink.
+      if (!shop && u.searchParams.has('intent')) return null;
+      if (!taalVan(u)) return null;
+      return { url: u.pathname + u.search, l: shop ? 'shop' : 'nl' };
     } catch (e) { return null; }
   }
   function haak(ifr) {
@@ -66,12 +82,21 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
     ifr.__busHaak = true;
     var beurt = 0;
     function echt(v) { d.set.call(ifr, v); }
-    function schrijf(url, html) {
+    function schrijf(url, html, data) {
       var w = ifr.contentWindow, doc = w.document, geladen = false;
       var lt = function () { geladen = true; };
       ifr.addEventListener('load', lt, { once: true });
       doc.open();
       try { w.history.replaceState(null, '', url); } catch (e) {}
+      if (data) {
+        try {
+          var of = w.fetch;
+          w.fetch = function (u) {
+            try { if (/\/webhook\/bus-me-widget\/shop\?lang=nl$/.test(String((u && u.url) || u))) return Promise.resolve(new w.Response(JSON.stringify(data), { status: 200, headers: { 'Content-Type': 'application/json' } })); } catch (e) {}
+            return of.apply(this, arguments);
+          };
+        } catch (e) {}
+      }
       doc.write(html);
       doc.close();
       ifr.__busGeschreven = true;
@@ -84,12 +109,13 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
         var mijn = ++beurt;
         var g = geschikt(v);
         if (!g) { echt(v); return; }
-        haal(g.l).then(function (j) {
+        Promise.all([haal(g.l), g.l === 'shop' ? haalData() : null]).then(function (r) {
+          var j = r[0], data = r[1];
           if (mijn !== beurt) return;
           if (!j) { echt(v); return; }
           var leeg = false;
           try { leeg = !ifr.__busGeschreven && ifr.contentWindow.location.href === 'about:blank'; } catch (e) {}
-          if (leeg) { schrijf(g.url, j.html); return; }
+          if (leeg) { schrijf(g.url, j.html, data); return; }
           // Vers venster nodig (anders blijven oude scriptvariabelen staan): eerst naar about:blank.
           ifr.addEventListener('load', function opBlank() {
             var nu = ''; try { nu = ifr.contentWindow.location.href; } catch (e) {}
@@ -97,20 +123,21 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
             ifr.removeEventListener('load', opBlank);
             if (mijn !== beurt) return;
             ifr.__busGeschreven = false;
-            schrijf(g.url, j.html);
+            schrijf(g.url, j.html, data);
           });
           echt('about:blank');
         });
       }
     });
   }
+  window.__busHaakIframe = haak;
   function start(p) {
     var host = document.getElementById('booking-widget');
     var ifr = host && host.querySelector('iframe');
     if (!ifr) { if ((p || 0) < 40) setTimeout(function () { start((p || 0) + 1); }, 250); return; }
     haak(ifr);
     try { if (navigator.connection && navigator.connection.saveData) return; } catch (e) {}
-    var go = function () { haal(paginaTaal()); };
+    var go = function () { haal(paginaTaal()); haal('shop'); haalData(); };
     if (window.requestIdleCallback) requestIdleCallback(go, { timeout: 4000 }); else setTimeout(go, 1500);
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { start(0); }); else start(0);
@@ -806,7 +833,7 @@ window.__busChatGeladen = true;
         + '<div class="bwb-voet">&#10022; Powered by Bus Whisky Angels&rsquo; Share &#10022;</div>';
       O.classList.add('bwb-vol');
       setTimeout(function () { O.classList.add('bwb-klaar'); setTimeout(function () { var l = O.querySelector('.bwb-laad'); if (l) l.remove(); }, 450); }, 900);
-      try { var dn = (d.nr || '').slice(0, 20); new Image().src = '/reserveren/widget?launcher=0&modal=1&shop=1&diag=' + encodeURIComponent('bedankt|' + dn + '|' + (d.status || '') + '|' + Date.now() % 1e7); } catch (e) {}
+      // diag-baken weg (9 nov 2026): elk baken was een betaalde n8n-run.
     }
     function attr(h, n) { var m = h.match(new RegExp('\\s' + n + '="([^"]*)"', 'i')); return m ? m[1].replace(/&amp;/g, '&').replace(/&quot;/g, '"') : ''; }
     function gegevens(h) {
@@ -898,8 +925,10 @@ window.__busChatGeladen = true;
       var h = hw(); if (h && h.classList.contains('bw-shop-actief')) { SF.style.visibility = 'visible'; var m = hoofd(); if (m) m.style.visibility = ''; h.classList.add('is-ready'); }
     });
     var na = window.__bwShopNa; window.__bwShopNa = null;
-    SF.src = shopUrl() + (na ? (na.s === 'besteld' ? '&besteld=1' + (na.nr ? '&nr=' + na.nr : '') : '&shopfout=1' + (na.msg ? '&msg=' + na.msg : '')) : '');
+    // 9 nov 2026: eerst in de pagina en aan de haak van WIDGET ZONDER N8N-RUN, dan pas de src (statische kopie als die vers is).
     f.parentNode.appendChild(SF);
+    if (window.__busHaakIframe) window.__busHaakIframe(SF);
+    SF.src = shopUrl() + (na ? (na.s === 'besteld' ? '&besteld=1' + (na.nr ? '&nr=' + na.nr : '') : '&shopfout=1' + (na.msg ? '&msg=' + na.msg : '')) : '');
     return SF;
   }
   function toon() {
@@ -990,7 +1019,6 @@ window.__busChatGeladen = true;
     waak();
     if (!h.classList.contains('is-open')) { bezig = true; try { bk.click(); } finally { bezig = false; } }
     if (toon()) { geefProduct(); } else zetShop(0, wilProduct);
-    try { new Image().src = '/reserveren/widget?launcher=0&modal=1&shop=1&diag=' + encodeURIComponent('product|' + (id || '') + '|' + Date.now() % 1e7); } catch (e) {}
     return true;
   }
   if (!window.__bwProductLinks) {
