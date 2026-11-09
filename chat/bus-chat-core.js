@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026110901);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026110902);
 // Leeftijdscheck + cookiekeuze: eigen module BUS_AGECHECK_CONSENT_V5 (4 nov 2026). Ook hier laden voor bezoekers met een oude gecachete lader.
 import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@61a3b3f1/chat/bus-agegate.js').catch(function (e) { console.error('[BUS] agecheck vaste versie mislukt, @main laden', e); return import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-agegate.js?v=' + Math.floor(Date.now() / 600000)); }).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
@@ -16,8 +16,8 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
 (function () {
   if (window.__busGeenTouchVoorladen) return;
   window.__busGeenTouchVoorladen = true;
+  // Sinds 9 nov 2026 ook voor muis: elke voorlaad-hover kostte een n8n-run zonder dat er geklikt werd.
   document.addEventListener('pointerenter', function (e) {
-    if (e.pointerType === 'mouse') return;
     var t = e.target;
     if (t && t.closest && t.closest('[data-booking-widget-open]')) e.stopImmediatePropagation();
   }, true);
@@ -450,6 +450,7 @@ window.__busChatGeladen = true;
       return;
     }
     window.__busBoekIntent = Date.now();
+    window.__busLuiReset = null;
     if (!host.classList.contains('is-open')) knop.click();
     if (!host.classList.contains('is-open') && poging < 20) { setTimeout(function () { open(d, poging + 1); }, 250); return; }
     host.classList.remove('is-ready');
@@ -515,13 +516,24 @@ window.__busChatGeladen = true;
     var src = (ifr && ifr.getAttribute('src')) || '';
     try { if (ifr && ifr.contentWindow && ifr.contentWindow.location.href !== 'about:blank') src = ifr.contentWindow.location.search; } catch (e) {}
     if (!ifr || !/[?&](arrangement|intent)=/.test(src)) return;
+    // Niet meteen herladen (kostte een n8n-run per sluiten); pas bij de volgende klik op een widgetknop.
     var p = new URLSearchParams();
     if (/[?&]gift=1/.test(src)) p.set('gift', '1');
     p.set('launcher', '0'); p.set('modal', '1');
     var lang = (document.documentElement.lang || '').slice(0, 2).toLowerCase();
     if (lang && lang !== 'nl') p.set('lang', lang);
-    ifr.src = (host.dataset.url || '/reserveren/widget') + '?' + p.toString();
+    window.__busLuiReset = (host.dataset.url || '/reserveren/widget') + '?' + p.toString();
   }
+  document.addEventListener('click', function (e) {
+    var url = window.__busLuiReset;
+    if (!url) return;
+    var t = e.target && e.target.closest ? e.target.closest('[data-booking-widget-open]') : null;
+    if (!t) return;
+    window.__busLuiReset = null;
+    var host = document.getElementById('booking-widget');
+    var ifr = host && host.querySelector('iframe');
+    if (ifr) { host.classList.remove('is-ready'); ifr.src = url; }
+  }, true);
   function bewaakSluiten(poging) {
     var host = document.getElementById('booking-widget');
     if (!host) { if ((poging || 0) < 40) setTimeout(function () { bewaakSluiten((poging || 0) + 1); }, 250); return; }
