@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026110401);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026110901);
 // Leeftijdscheck + cookiekeuze: eigen module BUS_AGECHECK_CONSENT_V5 (4 nov 2026). Ook hier laden voor bezoekers met een oude gecachete lader.
 import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@61a3b3f1/chat/bus-agegate.js').catch(function (e) { console.error('[BUS] agecheck vaste versie mislukt, @main laden', e); return import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-agegate.js?v=' + Math.floor(Date.now() / 600000)); }).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
@@ -826,10 +826,15 @@ window.__busChatGeladen = true;
     }, true);
   }
   function startVoorladen() {
+    // 9 nov 2026 (n8n-executiebudget): NIET meer bij elk paginabezoek voorladen; elke voorlading is een betaalde n8n-executie
+    // (43% van alle widgetruns). Nu pas bij intentie: hover, aanraken of focus op de flesknop. Aanraken gaat de klik ~100-300 ms
+    // voor, dus de shop staat er vrijwel meteen. Loopt er een bestelling (bw-shop-order), dan wel direct voorladen.
     try { if (navigator.connection && navigator.connection.saveData) return; } catch (e) {}
-    var go = function () { waak(); if (!voorladen()) setTimeout(go, 1000); };
-    var later = function () { if (window.requestIdleCallback) requestIdleCallback(go, { timeout: 3000 }); else setTimeout(go, 1200); };
-    if (document.readyState === 'complete') setTimeout(later, 800); else window.addEventListener('load', function () { setTimeout(later, 800); });
+    var gedaan = false;
+    var go = function () { if (gedaan) return; waak(); if (voorladen()) gedaan = true; };
+    if (vlag()) { if (document.readyState === 'complete') go(); else window.addEventListener('load', go); return; }
+    var b = document.getElementById('bwShopLauncher'); if (!b) return;
+    ['pointerenter', 'pointerdown', 'touchstart', 'focus'].forEach(function (ev) { b.addEventListener(ev, go, { passive: true }); });
   }
   function zetShop(poging, product) {
     // Terugval als de voorgeladen iframe er (nog) niet kan komen: oude werkwijze in de hoofdiframe.
