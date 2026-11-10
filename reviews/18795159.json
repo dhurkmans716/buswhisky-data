@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-09T05:00:29.279Z",
+  "gegenereerd": "2026-11-10T05:00:30.434Z",
   "arrangement": {
     "id": "18795159",
     "naam": "4x4 Ecotrail & overnachting"
@@ -18,6 +18,14 @@
     "Aantal metingen": 35
   },
   "gastenboek": [
+    {
+      "datum": "9 november",
+      "naam": "Beko Techniek",
+      "aantalPersonen": 31,
+      "cijfer": 10,
+      "tekst": "Top locatie met alle aspecten die je zou wensen voor vrienden/personeelsuitje!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Beko-Techniek-20306978"
+    },
     {
       "datum": "13 april",
       "naam": "Arlette Jansen",
