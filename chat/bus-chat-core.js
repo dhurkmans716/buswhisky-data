@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026110905);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026111001);
 // Leeftijdscheck + cookiekeuze: eigen module BUS_AGECHECK_CONSENT_V5 (4 nov 2026). Ook hier laden voor bezoekers met een oude gecachete lader.
 import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@61a3b3f1/chat/bus-agegate.js').catch(function (e) { console.error('[BUS] agecheck vaste versie mislukt, @main laden', e); return import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-agegate.js?v=' + Math.floor(Date.now() / 600000)); }).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
@@ -1148,9 +1148,12 @@ window.addEventListener('CookiebotOnConsentReady',function(){if(modal)hideNative
   var hp = new URLSearchParams(String(location.hash || '').replace(/^#/, ''));
   var hs = hp.get('fzs') || q.get('fzs');
   if (hs && TOK.test(hs)) ls(KS, hs);
-  var start = { tab: hp.get('tab') || q.get('tab') || '', fles: hp.get('fles') || q.get('fles') || '', product: hp.get('product') || q.get('product') || '', hash: hp.get('hash') || '', m: hp.get('m') || '' };
-  var wil = q.get('fanzone') === '1' || !!hs;
-  if (hs) { try { var uz = new URL(location.href); uz.searchParams.delete('fzs'); history.replaceState(history.state, '', uz.pathname + uz.search); } catch (e) {} }
+  // 10 nov 2026: de inlogmail linkt naar /?fanzone=1#fzl=<token>; de fanzonelaag logt dan zelf in, zonder n8n-tussenpagina's.
+  var hl = hp.get('fzl') || q.get('fzl'); if (!(hl && TOK.test(hl))) hl = '';
+  var KH = 'busFzHtml', vteller = 0, aangeraakt = false;
+  var start = { tab: hp.get('tab') || q.get('tab') || '', fles: hp.get('fles') || q.get('fles') || '', product: hp.get('product') || q.get('product') || '', hash: hp.get('hash') || '', m: hp.get('m') || '', login: hl };
+  var wil = q.get('fanzone') === '1' || !!hs || !!hl;
+  if (hs || hl) { try { var uz = new URL(location.href); uz.searchParams.delete('fzs'); history.replaceState(history.state, '', uz.pathname + uz.search); } catch (e) {} }
   var ov = null, fr = null, laad = null, nr = 0;
   function css() {
     if (document.getElementById('bus-fz-css')) return;
@@ -1183,28 +1186,49 @@ window.addEventListener('CookiebotOnConsentReady',function(){if(modal)hideNative
     d.querySelector('[data-dicht]').onclick = function (e) { e.preventDefault(); sluit(); };
     var oud = ov.querySelector('.bfz-fout'); if (oud) oud.remove(); ov.appendChild(d);
   }
-  function toon(html, hash) {
+  function raak(w) { try { ['click', 'keydown', 'input'].forEach(function (t) { w.addEventListener(t, function () { aangeraakt = true; }, true); }); } catch (e) {} }
+  function toon(html, hash, o) {
+    o = o || {};
+    if (o.bewaar && html.indexOf('window.BUSFZ=') >= 0) { try { localStorage.setItem(KH, JSON.stringify({ s: ls(KS), t: Date.now(), h: html })); } catch (e) { ls(KH, null); } }
+    if (o.wissel && fr && ov) {
+      if (aangeraakt) return;
+      var mijnW = ++nr, oudF = fr, nf = document.createElement('iframe');
+      nf.title = oudF.title; nf.setAttribute('referrerpolicy', oudF.getAttribute('referrerpolicy') || ''); nf.setAttribute('allow', oudF.getAttribute('allow') || '');
+      nf.style.visibility = 'hidden'; ov.insertBefore(nf, laad);
+      nf.onload = function () {
+        nf.onload = null;
+        if (mijnW !== nr || aangeraakt || !ov) { nf.remove(); return; }
+        var y = 0, hh = ''; try { y = oudF.contentWindow.scrollY || 0; hh = oudF.contentWindow.location.hash || ''; } catch (e) {}
+        try { if (hh) nf.contentWindow.location.hash = hh; if (y) nf.contentWindow.scrollTo(0, y); } catch (e) {}
+        nf.style.visibility = ''; oudF.remove(); fr = nf; raak(nf.contentWindow);
+      };
+      nf.srcdoc = html; return;
+    }
     var mijn = ++nr; laad.hidden = true; var oud = ov.querySelector('.bfz-fout'); if (oud) oud.remove();
-    fr.onload = function () { if (mijn !== nr) return; try { if (hash) fr.contentWindow.location.hash = hash; fr.contentWindow.focus(); } catch (e) {} };
+    fr.onload = function () { if (mijn !== nr) return; raak(fr.contentWindow); try { if (hash) fr.contentWindow.location.hash = hash; fr.contentWindow.focus(); } catch (e) {} };
     fr.srcdoc = html;
   }
-  function verwerk(p, hash) {
-    laad.hidden = false;
+  function verwerk(p, hash, o) {
+    o = o || {}; var mijnV = ++vteller;
+    if (!o.wissel) { aangeraakt = true; laad.hidden = false; }
     p.then(function (r) { return r.json(); }).then(function (j) {
+      if (mijnV !== vteller || !ov) return;
       if (j && j.naar) { ga(j.naar); return; }
-      if (j && j.html) { toon(j.html, hash); return; }
+      if (j && j.html) { toon(j.html, hash, o); return; }
+      if (o.wissel) return;
       if (j && j.bericht) { fout(String(j.bericht).replace(/[<>&]/g, '')); return; }
       fout('Dit lukte nu even niet.');
-    }).catch(function () { fout('De fanzone is nu even niet bereikbaar.'); });
+    }).catch(function () { if (mijnV !== vteller || o.wissel) return; fout('De fanzone is nu even niet bereikbaar.'); });
   }
   function ga(u) {
     var x; try { x = new URL(String(u), BASE); } catch (e) { return; }
     if (x.origin + x.pathname !== BASE) { location.href = x.href; return; }
     var s = x.searchParams.get('s');
-    if (s && TOK.test(s)) ls(KS, s); else if (!x.searchParams.get('l') && !x.searchParams.get('q')) ls(KS, null);
+    if (s && TOK.test(s)) ls(KS, s); else if (!x.searchParams.get('l') && !x.searchParams.get('q')) { ls(KS, null); ls(KH, null); }
     x.searchParams.set('fmt', 'json');
     var hash = String(x.hash || '').replace(/^#/, ''); x.hash = '';
-    verwerk(fetch(x.href, { credentials: 'omit', cache: 'no-store' }), hash);
+    var alleenS = !!s; x.searchParams.forEach(function (v, k) { if (k !== 's' && k !== 'fmt') alleenS = false; });
+    verwerk(fetch(x.href, { credentials: 'omit', cache: 'no-store' }), hash, { bewaar: alleenS && !hash });
   }
   function post(action, o) {
     var x; try { x = new URL(String(action), BASE); } catch (e) { return; }
@@ -1247,12 +1271,24 @@ window.addEventListener('CookiebotOnConsentReady',function(){if(modal)hideNative
   function open(s0) {
     s0 = s0 || {};
     bouw(); metParam(true);
+    if (s0.login) {
+      verwerk(fetch(BASE + '-api', { method: 'POST', credentials: 'omit', cache: 'no-store', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: 'actie=inloggen&fmt=json&l=' + encodeURIComponent(s0.login) }));
+      return;
+    }
     var s = ls(KS), u = BASE + '?fmt=json' + (s ? '&s=' + encodeURIComponent(s) : '');
+    // 10 nov 2026: meteen de laatst bekende fanzone tonen (zelfde sessie, max 24 uur oud) en stil verversen.
+    var c = null, kaal = !s0.fles && !s0.product && !s0.tab && !s0.m && !s0.hash;
+    if (kaal && s) { try { c = JSON.parse(localStorage.getItem(KH) || 'null'); } catch (e) { c = null; } }
+    if (c && c.s === s && c.h && Date.now() - c.t < 86400000) {
+      aangeraakt = false; toon(c.h, '');
+      verwerk(fetch(u, { credentials: 'omit', cache: 'no-store' }), '', { wissel: true, bewaar: true });
+      return;
+    }
     if (s0.fles) u += '&tab=flessen&fles=' + encodeURIComponent(s0.fles);
     else if (s0.product) u += '&product=' + encodeURIComponent(s0.product);
     else if (s0.tab && /^[a-z]{2,12}$/.test(s0.tab)) u += '&tab=' + s0.tab;
     if (s0.m && /^[a-z_]{1,20}$/.test(s0.m)) u += '&m=' + s0.m;
-    verwerk(fetch(u, { credentials: 'omit', cache: 'no-store' }), /^[a-z0-9/_-]{1,60}$/i.test(s0.hash || '') ? s0.hash : '');
+    verwerk(fetch(u, { credentials: 'omit', cache: 'no-store' }), /^[a-z0-9/_-]{1,60}$/i.test(s0.hash || '') ? s0.hash : '', { bewaar: kaal });
   }
   window.busFz = { go: ga, post: post, open: openWidget, extern: extern, kopieer: kopieer, sluit: sluit, openFanzone: open };
   function terugKnop() {
