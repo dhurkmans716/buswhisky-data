@@ -1,7 +1,7 @@
 {
-  "gegenereerd": "2026-11-09T05:00:29.279Z",
+  "gegenereerd": "2026-11-10T05:00:30.434Z",
   "schaal": 10,
-  "aantal": 310,
+  "aantal": 311,
   "reacties": [
     {
       "arrangementId": "67674",
@@ -2282,6 +2282,16 @@
       "cijfer": 10,
       "tekst": "We zijn prettig ontvangen en hebben een gezellige middag/avond gehad.",
       "referentieUrl": "https://www.heischehoeve.com/referenties-Pharming-20158630"
+    },
+    {
+      "arrangementId": "18795159",
+      "arrangementNaam": "4x4 Ecotrail & overnachting",
+      "datum": "9 november",
+      "naam": "Beko Techniek",
+      "aantalPersonen": 31,
+      "cijfer": 10,
+      "tekst": "Top locatie met alle aspecten die je zou wensen voor vrienden/personeelsuitje!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Beko-Techniek-20306978"
     },
     {
       "arrangementId": "18795159",
