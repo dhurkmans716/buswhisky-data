@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026111001);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026111002);
 // Leeftijdscheck + cookiekeuze: eigen module BUS_AGECHECK_CONSENT_V5 (4 nov 2026). Ook hier laden voor bezoekers met een oude gecachete lader.
 import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@61a3b3f1/chat/bus-agegate.js').catch(function (e) { console.error('[BUS] agecheck vaste versie mislukt, @main laden', e); return import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-agegate.js?v=' + Math.floor(Date.now() / 600000)); }).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
@@ -1261,7 +1261,17 @@ window.addEventListener('CookiebotOnConsentReady',function(){if(modal)hideNative
       location.hash = hash;
     });
   }
-  function extern(u) { if (/^(mailto|tel|sms):/i.test(u)) { location.href = u; return; } try { window.open(u, '_blank', 'noopener'); } catch (e) { location.href = u; } }
+  // 10 nov 2026 (Dennis): een WhatsApp-link opende op de telefoon een nieuw tabblad (wa.me); terug in de browser zag je een
+  // wit scherm. Op de telefoon gaat een WhatsApp-tekst nu via het deelmenu van de telefoon, je blijft gewoon in de fanzone.
+  function mobiel() { var u = navigator.userAgent || ''; return /iP(hone|ad|od)|Android/i.test(u) || (/Macintosh/.test(u) && (navigator.maxTouchPoints || 0) > 1); }
+  function extern(u) {
+    if (/^(mailto|tel|sms):/i.test(u)) { location.href = u; return; }
+    if (/^https:\/\/(wa\.me|api\.whatsapp\.com)\//i.test(u) && mobiel() && navigator.share) {
+      var t = ''; try { t = new URL(u).searchParams.get('text') || ''; } catch (e) { t = ''; }
+      if (t) { try { navigator.share({ text: t }).catch(function (e) { if (e && e.name === 'NotAllowedError') { try { window.open(u, '_blank', 'noopener'); } catch (x) {} } }); return; } catch (e) {} }
+    }
+    try { window.open(u, '_blank', 'noopener'); } catch (e) { location.href = u; }
+  }
   function kopieer(t) {
     try { if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(String(t)).catch(oud); return; } } catch (e) {}
     oud();
