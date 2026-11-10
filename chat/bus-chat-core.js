@@ -1146,11 +1146,11 @@ window.addEventListener('CookiebotOnConsentReady',function(){if(modal)hideNative
   var TOK = /^[A-Za-z0-9_-]{30,80}$/;
   var q = new URLSearchParams(location.search);
   var hp = new URLSearchParams(String(location.hash || '').replace(/^#/, ''));
-  var hs = hp.get('fzs');
+  var hs = hp.get('fzs') || q.get('fzs');
   if (hs && TOK.test(hs)) ls(KS, hs);
   var start = { tab: hp.get('tab') || q.get('tab') || '', fles: hp.get('fles') || q.get('fles') || '', product: hp.get('product') || q.get('product') || '', hash: hp.get('hash') || '', m: hp.get('m') || '' };
   var wil = q.get('fanzone') === '1' || !!hs;
-  if (hs) { try { history.replaceState(history.state, '', location.pathname + location.search); } catch (e) {} }
+  if (hs) { try { var uz = new URL(location.href); uz.searchParams.delete('fzs'); history.replaceState(history.state, '', uz.pathname + uz.search); } catch (e) {} }
   var ov = null, fr = null, laad = null, nr = 0;
   function css() {
     if (document.getElementById('bus-fz-css')) return;
@@ -1337,6 +1337,47 @@ window.addEventListener('CookiebotOnConsentReady',function(){if(modal)hideNative
     if (d.busFz === 'pwa-install') install().then(function (r) { try { fr.contentWindow.postMessage({ busFz: 'pwa-result', r: r }, '*'); } catch (x) {} });
     else if (d.busFz === 'video') video(d.id);
   });
+  // --- Deelknop van de browser (Dennis 10 nov 2026) ---
+  // Safari (iPhone) en Chrome delen en bookmarken de canonical-link van de pagina, niet de adresbalk. Op de homepage
+  // wees die naar /homepage (404). Buiten de fanzone zetten we /homepage terug naar de echte homepage; in de fanzone
+  // wordt de canonical de aanmeldlink met de vriendencode van de fan (?fanzone=1&aanmelden=1&ref=VF-...), zodat wie
+  // de fanzone via de deelknop deelt een vriend naar de aanmeldpagina stuurt (EUR 10 welkomsttegoed). Nooit de sessie.
+  // Alleen bij "Zet op beginscherm" (iosKlaar) staat de sessie 90 seconden in de canonical, zodat het icoon ingelogd opent.
+  var DEEL = 'https://buswhisky.com/?fanzone=1&aanmelden=1', canonOud = null, ogOud = null, deelIv = null, iosTot = 0;
+  function canonEl() { return document.querySelector('link[rel="canonical"]'); }
+  function homeCanon() {
+    var c = canonEl(); if (!c || c.getAttribute('data-bus-fz')) return;
+    var h = c.getAttribute('href') || '', m = h.match(/^(https?:\/\/(?:www\.)?buswhisky\.com(?:\/[a-z]{2})?)\/homepage\/?([?#].*)?$/i);
+    if (m) c.setAttribute('href', m[1] + '/');
+  }
+  function deelRef() {
+    try { var d = fr && fr.contentDocument; if (d && d.documentElement) { var m = d.documentElement.innerHTML.match(/aanmelden=1&(?:amp;)?ref=(VF-[A-Z0-9]{4,16})/i); if (m) return m[1].toUpperCase(); } } catch (e) {}
+    return '';
+  }
+  function deelZet() {
+    if (!ov) return; var hd = document.head; if (!hd) return;
+    var r = deelRef(), s = ls(KS);
+    var u = (iosTot > Date.now() && s && TOK.test(s)) ? 'https://buswhisky.com/?fanzone=1&fzs=' + encodeURIComponent(s) : (r ? DEEL + '&ref=' + encodeURIComponent(r) : DEEL + '&bron=deel');
+    var c = canonEl();
+    if (!c) { c = document.createElement('link'); c.setAttribute('rel', 'canonical'); c.setAttribute('data-bus-fz', '1'); hd.appendChild(c); }
+    else if (canonOud === null && !c.getAttribute('data-bus-fz')) canonOud = c.getAttribute('href') || '';
+    if (c.getAttribute('href') !== u) c.setAttribute('href', u);
+    var o = document.querySelector('meta[property="og:url"]');
+    if (o) { if (ogOud === null) ogOud = o.getAttribute('content') || ''; if (o.getAttribute('content') !== u) o.setAttribute('content', u); }
+  }
+  function deelUit() {
+    if (deelIv) { clearInterval(deelIv); deelIv = null; } iosTot = 0;
+    var c = canonEl();
+    if (c) { if (c.getAttribute('data-bus-fz')) c.parentNode.removeChild(c); else if (canonOud !== null) c.setAttribute('href', canonOud); }
+    var o = document.querySelector('meta[property="og:url"]'); if (o && ogOud !== null) o.setAttribute('content', ogOud);
+    canonOud = null; ogOud = null; homeCanon();
+  }
+  var openDeel = open, sluitDeel = sluit, iosKlaarOud = iosKlaar;
+  open = function (s0) { var r = openDeel(s0); deelZet(); if (!deelIv) deelIv = setInterval(deelZet, 1000); return r; };
+  sluit = function () { var r = sluitDeel(); deelUit(); return r; };
+  iosKlaar = function () { iosTot = Date.now() + 90000; deelZet(); return iosKlaarOud(); };
+  window.busFz.openFanzone = open; window.busFz.sluit = sluit; window.busFz.iosKlaar = iosKlaar;
+  homeCanon(); setTimeout(homeCanon, 1500); setTimeout(homeCanon, 5000);
   function go() { if (wil) open(start); else terugKnop(); }
   if (document.body) go(); else document.addEventListener('DOMContentLoaded', go);
 })();
