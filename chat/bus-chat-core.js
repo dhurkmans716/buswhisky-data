@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026111103);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026111104);
 // Leeftijdscheck + cookiekeuze: eigen module BUS_AGECHECK_CONSENT_V5 (4 nov 2026). Ook hier laden voor bezoekers met een oude gecachete lader.
 import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@61a3b3f1/chat/bus-agegate.js').catch(function (e) { console.error('[BUS] agecheck vaste versie mislukt, @main laden', e); return import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-agegate.js?v=' + Math.floor(Date.now() / 600000)); }).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
@@ -41,7 +41,7 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
   // personen, categorie) staat als statische kopie op GitHub (map k/, index k/index.json). Bestaat er een verse kopie voor
   // precies deze sleutel, dan komt de pagina daarvandaan en kost hij geen n8n-run. Anders gaat alles zoals altijd via n8n.
   // Aan/uit: localStorage bw-fase2 = 1 of 0 overschrijft window.__busFase2Standaard.
-  function FASE2() { try { var v = localStorage.getItem('bw-fase2'); if (v === '1') return true; if (v === '0') return false; } catch (e) {} return window.__busFase2Standaard === true; }
+  function FASE2() { try { var v = localStorage.getItem('bw-fase2'); if (v === '1') return true; if (v === '0') return false; } catch (e) {} return window.__busFase2Standaard !== false; } // 11 nov 2026: fase 2 standaard aan na geslaagde test in Chrome
   var SLEUTELS = ['category', 'type', 'lang', 'arrangement', 'service_code', 'service', 'gift', 'shop', 'pax', 'date', 'launcher', 'modal'];
   function fnvK(s) { var h = 0x811c9dc5; for (var i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; } return h.toString(16); }
   function sleutelVan(u) { return SLEUTELS.map(function (k) { var v = u.searchParams.get(k); return k + '=' + (v == null ? '' : v); }).join('&'); }
