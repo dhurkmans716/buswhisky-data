@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026111002);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026111101);
 // Leeftijdscheck + cookiekeuze: eigen module BUS_AGECHECK_CONSENT_V5 (4 nov 2026). Ook hier laden voor bezoekers met een oude gecachete lader.
 import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@61a3b3f1/chat/bus-agegate.js').catch(function (e) { console.error('[BUS] agecheck vaste versie mislukt, @main laden', e); return import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-agegate.js?v=' + Math.floor(Date.now() / 600000)); }).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
@@ -32,7 +32,8 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
   if (window.__busWidgetStatisch) return;
   window.__busWidgetStatisch = true;
   var BRON = window.__busWidgetBron || 'https://raw.githubusercontent.com/dhurkmans716/buswhisky-data/widget-static/widget/';
-  var MAX = 120 * 60000;
+  // 11 nov 2026: 's nachts (21-07 uur) publiceert de kwartierbundel niet; dan mag de laatste kopie van de avond blijven gelden.
+  var MAX = (function () { var h = new Date().getUTCHours(); return (h >= 20 || h < 7) ? 11 * 60 : 120; })() * 60000;
   var VERBODEN = ['category', 'type', 'arrangement', 'service_code', 'service', 'pax', 'date', 'diag', 'code', 'giftcard', 'fz', 'actie', 'product', 'besteld', 'shopfout', 'nr', 'msg', 'time', 'choose_date'];
   var kopie = {}, vers = {};
   function paginaTaal() { return 'nl'; }
@@ -520,7 +521,8 @@ window.__busChatGeladen = true;
     if (hnaam === 'gstpln_openwidget') return eigen ? { soort: 'book', code: hq.get('serviceCode') || hq.get('arrangement'), pax: hq.get('partySize') || hq.get('pax') } : null;
     if (hnaam === 'reserveren') {
       if (!eigen) return null;
-      return { soort: 'book', code: hq.get('arrangement') || sq.get('arrangement'), pax: hq.get('pax') || sq.get('pax') };
+      // 11 nov 2026: categorie mee (programmaknoppen op de M&E-pagina's zijn hashlinks, zodat crawlers geen n8n-run veroorzaken).
+      return { soort: 'book', code: hq.get('arrangement') || sq.get('arrangement'), pax: hq.get('pax') || sq.get('pax'), category: hq.get('category') || hq.get('type') || sq.get('category') };
     }
     return null;
   }
