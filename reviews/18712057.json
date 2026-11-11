@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-10T05:00:30.434Z",
+  "gegenereerd": "2026-11-11T05:00:30.538Z",
   "arrangement": {
     "id": "18712057",
     "naam": "4x4 Ecotrail | avond"
@@ -18,6 +18,14 @@
     "Aantal metingen": 161
   },
   "gastenboek": [
+    {
+      "datum": "10 november",
+      "naam": "Vd Vleuten Elektrotechniek BV",
+      "aantalPersonen": 40,
+      "cijfer": 2,
+      "tekst": "4X4 ECOTRAIL NOOIT DOEN IN HET DONKER/NAJAAR",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Vd-Vleuten-Elektrotechniek-BV-20343809"
+    },
     {
       "datum": "6 november",
       "naam": "Van Den Heuvel Aannemingsbedrijf B.V.",
@@ -169,14 +177,6 @@
       "cijfer": 10,
       "tekst": "Beste allemaal, wat een ontzettende mooie, leuke locatie hebben jullie. We hebben genoten, veel geleerd over whiskey en de kwaliteit van het eten en drinken was perfect. Het personeel is zo vriendelijk en gastvrij en we hebben ons als \"thuis\" gevoeld. We komen zeker nog een keer terug.\n\nVriendelijke groet namens het hele Fluke Europe Team.",
       "referentieUrl": "https://www.heischehoeve.com/referenties-Fluke-Europe-BV-20274025"
-    },
-    {
-      "datum": "5 februari",
-      "naam": "Pharming",
-      "aantalPersonen": 14,
-      "cijfer": 10,
-      "tekst": "We zijn prettig ontvangen en hebben een gezellige middag/avond gehad.",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Pharming-20158630"
     }
   ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-4x4_ecotrail_%7C_avond"
