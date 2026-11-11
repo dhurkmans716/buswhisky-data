@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026111102);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026111103);
 // Leeftijdscheck + cookiekeuze: eigen module BUS_AGECHECK_CONSENT_V5 (4 nov 2026). Ook hier laden voor bezoekers met een oude gecachete lader.
 import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@61a3b3f1/chat/bus-agegate.js').catch(function (e) { console.error('[BUS] agecheck vaste versie mislukt, @main laden', e); return import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-agegate.js?v=' + Math.floor(Date.now() / 600000)); }).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
@@ -115,9 +115,13 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
     var d = Object.getOwnPropertyDescriptor(HTMLIFrameElement.prototype, 'src');
     if (!d || !d.set) return;
     ifr.__busHaak = true;
+    // Bij een statische pagina blijft het echte src-attribuut staan; code die getAttribute('src') leest ziet de virtuele URL (11 nov 2026).
+    var gaSrc = ifr.getAttribute;
+    ifr.getAttribute = function (n) { if (String(n).toLowerCase() === 'src' && ifr.__busVirtSrc != null) return ifr.__busVirtSrc; return gaSrc.apply(ifr, arguments); };
     var beurt = 0;
-    function echt(v) { d.set.call(ifr, v); }
+    function echt(v) { ifr.__busVirtSrc = null; d.set.call(ifr, v); }
     function schrijf(url, html, data) {
+      ifr.__busVirtSrc = url; // statische pagina: voor de rest van de site (boeklinks, app.js) staat de iframe op deze URL
       var w = ifr.contentWindow, doc = w.document, geladen = false;
       var lt = function () { geladen = true; };
       ifr.addEventListener('load', lt, { once: true });
@@ -139,7 +143,7 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
     }
     Object.defineProperty(ifr, 'src', {
       configurable: true, enumerable: true,
-      get: function () { return d.get.call(ifr); },
+      get: function () { return ifr.__busVirtSrc != null ? new URL(ifr.__busVirtSrc, location.href).href : d.get.call(ifr); },
       set: function (v) {
         var mijn = ++beurt;
         var g = geschikt(v);
