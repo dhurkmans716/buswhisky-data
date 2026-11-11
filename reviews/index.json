@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-10T05:00:30.434Z",
+  "gegenereerd": "2026-11-11T05:00:30.538Z",
   "schaal": 10,
   "arrangementen": [
     {
@@ -158,15 +158,15 @@
       "id": "19617909",
       "naam": "4x4 Ecotrail, Laser kleiduifschieten & Whisky | middag",
       "score": 9,
-      "aantalBeoordelingen": 69,
+      "aantalBeoordelingen": 76,
       "aantalGastenboek": 20,
       "reviewsUrl": "reviews/19617909.json"
     },
     {
       "id": "19617961",
       "naam": "Laser Kleiduifschieten | middag",
-      "score": 9,
-      "aantalBeoordelingen": 31,
+      "score": 8,
+      "aantalBeoordelingen": 34,
       "aantalGastenboek": 4,
       "reviewsUrl": "reviews/19617961.json"
     },
@@ -174,7 +174,7 @@
       "id": "19638837",
       "naam": "4x4 Ecotrail, laserkleiduifschieten, tour whiskystokerij, pubquiz & overnachting",
       "score": 8,
-      "aantalBeoordelingen": 75,
+      "aantalBeoordelingen": 78,
       "aantalGastenboek": 20,
       "reviewsUrl": "reviews/19638837.json"
     },
@@ -182,7 +182,7 @@
       "id": "19893479",
       "naam": "4x4 Ecotrail, Laser kleiduifschieten & Pubquiz | avond",
       "score": 7,
-      "aantalBeoordelingen": 6,
+      "aantalBeoordelingen": 7,
       "aantalGastenboek": 3,
       "reviewsUrl": "reviews/19893479.json"
     },
@@ -209,6 +209,14 @@
       "aantalBeoordelingen": 18,
       "aantalGastenboek": 14,
       "reviewsUrl": "reviews/20275497.json"
+    },
+    {
+      "id": "20327328",
+      "naam": "4x4 Ecotrail | Lunch | Laser Kleiduifschieten | Whiskytour",
+      "score": 8,
+      "aantalBeoordelingen": 2,
+      "aantalGastenboek": 0,
+      "reviewsUrl": "reviews/20327328.json"
     }
   ]
 }
