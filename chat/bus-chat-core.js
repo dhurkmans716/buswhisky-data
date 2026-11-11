@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026111101);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026111102);
 // Leeftijdscheck + cookiekeuze: eigen module BUS_AGECHECK_CONSENT_V5 (4 nov 2026). Ook hier laden voor bezoekers met een oude gecachete lader.
 import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@61a3b3f1/chat/bus-agegate.js').catch(function (e) { console.error('[BUS] agecheck vaste versie mislukt, @main laden', e); return import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-agegate.js?v=' + Math.floor(Date.now() / 600000)); }).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
@@ -37,10 +37,44 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
   var VERBODEN = ['category', 'type', 'arrangement', 'service_code', 'service', 'pax', 'date', 'diag', 'code', 'giftcard', 'fz', 'actie', 'product', 'besteld', 'shopfout', 'nr', 'msg', 'time', 'choose_date'];
   var kopie = {}, vers = {};
   function paginaTaal() { return 'nl'; }
+  // === FASE 2 (Dennis 11 nov 2026): elke widgetpagina die n8n de afgelopen 25 minuten heeft opgebouwd (deeplink, datum,
+  // personen, categorie) staat als statische kopie op GitHub (map k/, index k/index.json). Bestaat er een verse kopie voor
+  // precies deze sleutel, dan komt de pagina daarvandaan en kost hij geen n8n-run. Anders gaat alles zoals altijd via n8n.
+  // Aan/uit: localStorage bw-fase2 = 1 of 0 overschrijft window.__busFase2Standaard.
+  function FASE2() { try { var v = localStorage.getItem('bw-fase2'); if (v === '1') return true; if (v === '0') return false; } catch (e) {} return window.__busFase2Standaard === true; }
+  var SLEUTELS = ['category', 'type', 'lang', 'arrangement', 'service_code', 'service', 'gift', 'shop', 'pax', 'date', 'launcher', 'modal'];
+  function fnvK(s) { var h = 0x811c9dc5; for (var i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; } return h.toString(16); }
+  function sleutelVan(u) { return SLEUTELS.map(function (k) { var v = u.searchParams.get(k); return k + '=' + (v == null ? '' : v); }).join('&'); }
+  function algemeen(u) { if (!FASE2()) return null; return { url: u.pathname + u.search, l: 'k:' + fnvK(sleutelVan(u)) }; }
+  // Overdag hooguit 45 minuten oud (de kwartierbundel ververst elk kwartier), 's nachts (21-07 uur) geldt de stand van de avond.
+  function maxK() { var h = new Date().getUTCHours(); return (h >= 20 || h < 7) ? 11 * 3600000 : 45 * 60000; }
+  var kIdx = null, kIdxT = 0, kKop = {};
+  function kIndex() {
+    if (!kIdx || Date.now() - kIdxT > 300000) {
+      kIdxT = Date.now();
+      kIdx = fetch(BRON + 'k/index.json', { cache: 'no-cache', credentials: 'omit' })
+        .then(function (r) { return r.ok ? r.json() : {}; })
+        .catch(function () { kIdx = null; return {}; });
+    }
+    return kIdx;
+  }
+  function haalK(h) {
+    return kIndex().then(function (ix) {
+      var t = Number((ix && ix[h]) || 0);
+      if (!t || Date.now() - t > maxK()) return null;
+      if (!kKop[h] || kKop[h].t !== t) {
+        kKop[h] = { t: t, p: fetch(BRON + 'k/' + h + '.json', { cache: 'no-cache', credentials: 'omit' })
+          .then(function (r) { return r.ok ? r.json() : null; })
+          .catch(function () { return null; }) };
+      }
+      return kKop[h].p.then(function (j) { return (j && j.html && j.html.length > 1000 && Date.now() - Number(j.ts) < maxK()) ? j : null; });
+    });
+  }
   // De kale widget is voor alle talen dezelfde HTML (de vertaling gebeurt in de widget zelf, op basis van het pad).
   // Alleen een expliciete lang-parameter geeft andere HTML; die gaat gewoon via n8n.
   function taalVan(u) { var l = (u.searchParams.get('lang') || '').toLowerCase(); return (!l || l === 'nl') ? 'nl' : null; }
   function haal(l) {
+    if (String(l).indexOf('k:') === 0) return haalK(String(l).slice(2));
     if (!kopie[l]) {
       kopie[l] = fetch(BRON + l + '.json', { cache: 'no-cache', credentials: 'omit' })
         .then(function (r) { return r.ok ? r.json() : null; })
@@ -66,13 +100,13 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
     try {
       var u = new URL(v, location.href);
       if (u.origin !== location.origin || !/\/reserveren\/widget\/?$/.test(u.pathname)) return null;
-      if (u.searchParams.get('modal') !== '1' || u.searchParams.get('launcher') !== '0') return null;
-      for (var i = 0; i < VERBODEN.length; i++) if (u.searchParams.has(VERBODEN[i])) return null;
+      if (u.searchParams.get('modal') !== '1' || u.searchParams.get('launcher') !== '0') return algemeen(u);
+      for (var i = 0; i < VERBODEN.length; i++) if (u.searchParams.has(VERBODEN[i])) return algemeen(u);
       var shop = u.searchParams.get('shop');
-      if (shop && shop !== '1') return null;
+      if (shop && shop !== '1') return algemeen(u);
       // intent hoort alleen bij de webshop (voorkomt dichtklappen bij voorladen); bij de gewone widget is het een deeplink.
-      if (!shop && u.searchParams.has('intent')) return null;
-      if (!taalVan(u)) return null;
+      if (!shop && u.searchParams.has('intent')) return algemeen(u);
+      if (!taalVan(u)) return algemeen(u);
       return { url: u.pathname + u.search, l: shop ? 'shop' : 'nl' };
     } catch (e) { return null; }
   }
@@ -132,13 +166,22 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
     });
   }
   window.__busHaakIframe = haak;
+  // Navigatie binnen de widget (datum, personen, arrangement, categorie) komt via window.__bwNav in de widgetpagina hier binnen,
+  // zodat ook die stap eerst de statische kopie probeert. Geeft false als dat niet kan; dan navigeert de widget zelf.
+  window.__busWidgetNaar = function (url, win) {
+    if (!FASE2()) return false;
+    var l = document.querySelectorAll('iframe'), ifr = null;
+    for (var i = 0; i < l.length; i++) { try { if (l[i].contentWindow === win) { ifr = l[i]; break; } } catch (e) {} }
+    if (!ifr || !ifr.__busHaak) return false;
+    try { ifr.src = new URL(url, win.location.href).href; return true; } catch (e) { return false; }
+  };
   function start(p) {
     var host = document.getElementById('booking-widget');
     var ifr = host && host.querySelector('iframe');
     if (!ifr) { if ((p || 0) < 40) setTimeout(function () { start((p || 0) + 1); }, 250); return; }
     haak(ifr);
     try { if (navigator.connection && navigator.connection.saveData) return; } catch (e) {}
-    var go = function () { haal(paginaTaal()); haal('shop'); haalData(); };
+    var go = function () { haal(paginaTaal()); haal('shop'); haalData(); if (FASE2()) kIndex(); };
     if (window.requestIdleCallback) requestIdleCallback(go, { timeout: 4000 }); else setTimeout(go, 1500);
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { start(0); }); else start(0);
