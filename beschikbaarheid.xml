@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beschikbaarheid gegenereerd="2026-11-12T06:32:17.060Z">
+<beschikbaarheid gegenereerd="2026-11-12T11:02:28.729Z">
   <activiteit id="67674" naam="Ontdekkingstocht door Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="135" duurMinuten="720" startUur="9" meerdaags="false">
     <datum waarde="2026-11-12" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-13" beschikbaar="false" status="niet-beschikbaar"/>
@@ -579,8 +579,8 @@
     <datum waarde="2026-12-14" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-15" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-16" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-18" beschikbaar="true" status="beperkt" plekkenVrij="20.5"/>
+    <datum waarde="2026-12-17" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-18" beschikbaar="false" status="optie"/>
     <datum waarde="2026-12-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-21" beschikbaar="true" status="beschikbaar"/>
@@ -760,8 +760,8 @@
     <datum waarde="2026-12-14" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-15" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-16" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-18" beschikbaar="true" status="beperkt" plekkenVrij="20.5"/>
+    <datum waarde="2026-12-17" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-18" beschikbaar="false" status="optie"/>
     <datum waarde="2026-12-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-21" beschikbaar="true" status="beschikbaar"/>
@@ -942,7 +942,7 @@
     <datum waarde="2026-12-15" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-16" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-18" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-18" beschikbaar="false" status="optie"/>
     <datum waarde="2026-12-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-20" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-21" beschikbaar="true" status="beschikbaar"/>
@@ -1121,9 +1121,9 @@
     <datum waarde="2026-12-13" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-14" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-15" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-16" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-18" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-16" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-17" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-18" beschikbaar="false" status="optie"/>
     <datum waarde="2026-12-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-21" beschikbaar="true" status="beschikbaar"/>
@@ -2569,9 +2569,9 @@
     <datum waarde="2026-12-13" beschikbaar="true" status="beperkt" plekkenVrij="20"/>
     <datum waarde="2026-12-14" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-15" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-16" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-17" beschikbaar="true" status="beschikbaar"/>
-    <datum waarde="2026-12-18" beschikbaar="true" status="beperkt" plekkenVrij="20.5"/>
+    <datum waarde="2026-12-16" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-17" beschikbaar="false" status="niet-beschikbaar"/>
+    <datum waarde="2026-12-18" beschikbaar="false" status="optie"/>
     <datum waarde="2026-12-19" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-20" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-21" beschikbaar="true" status="beschikbaar"/>
@@ -2716,7 +2716,7 @@
     <datum waarde="2027-05-09" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="18522570" naam="Lunch | 4x4 ecotrail | Whiskytour" type="Bedrijfs uitje" minAantal="4" maxAantal="80" prijs="57" duurMinuten="240" startUur="12" meerdaags="false">
-    <datum waarde="2026-11-12" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-12" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-13" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-14" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-15" beschikbaar="true" status="beschikbaar"/>
@@ -4888,7 +4888,7 @@
     <datum waarde="2027-05-09" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="19972945" naam="4x4 ecotrail, kleiduifschieten &amp; whiskygames" type="Bedrijfs uitje" minAantal="15" maxAantal="450" prijs="185" duurMinuten="600" startUur="10" meerdaags="false">
-    <datum waarde="2026-11-12" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-12" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-13" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-14" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-15" beschikbaar="false" status="niet-beschikbaar"/>
@@ -5431,7 +5431,7 @@
     <datum waarde="2027-05-09" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="20327328" naam="4x4 Ecotrail | Lunch | Laser Kleiduifschieten | Whiskytour" type="Bedrijfs uitje" minAantal="4" maxAantal="80" prijs="82" duurMinuten="330" startUur="10" meerdaags="false">
-    <datum waarde="2026-11-12" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-12" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-13" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-14" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-15" beschikbaar="false" status="niet-beschikbaar"/>
