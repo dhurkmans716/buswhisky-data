@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-12T05:00:29.566Z",
+  "gegenereerd": "2026-11-13T05:00:36.679Z",
   "schaal": 10,
   "aantal": 311,
   "reacties": [
@@ -606,6 +606,26 @@
     {
       "arrangementId": "17793261",
       "arrangementNaam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
+      "datum": "12 november",
+      "naam": "Jeroen Bosch Ziekenhuis",
+      "aantalPersonen": 21,
+      "cijfer": 8,
+      "tekst": "niets",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Jeroen-Bosch-Ziekenhuis-20150679"
+    },
+    {
+      "arrangementId": "17793261",
+      "arrangementNaam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
+      "datum": "12 november",
+      "naam": "Jeroen Bosch Ziekenhuis",
+      "aantalPersonen": 21,
+      "cijfer": 10,
+      "tekst": "Super leuke en relaxte locatie voor een een- of meerdaagse training. Mede door de enorme gastvrijheid, het heerlijke eten, de rondleiding, 4x4 rijden, pubquiz etc. in onze 'vrije tijd' was het een zekere aanrader.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Jeroen-Bosch-Ziekenhuis-20150679"
+    },
+    {
+      "arrangementId": "17793261",
+      "arrangementNaam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
       "datum": "30 september",
       "naam": "AAG",
       "aantalPersonen": 18,
@@ -782,26 +802,6 @@
       "cijfer": 10,
       "tekst": "De Heische Hoeve is een heerlijke plek, waar je in een knusse setting kunt vergaderen en waar ook tijd en ruimte is voor een leuke activiteit en voor een gezellige tijd met elkaar. De sfeer is ongedwongen, het personeel zeer vriendelijk en het eten erg lekker. Zowel tijdens het ontbijt, als de lunch en het diner (in ons geval de barbecue) is er volop keuze uit verse producten en met dieetwensen en allergieen wordt heel goed rekening gehouden. De kamers zijn klein en knus, maar bieden alles wat je nodig hebt voor een kort verblijf. De Heische Hoeve is echt een aanrader!",
       "referentieUrl": "https://www.heischehoeve.com/referenties-Randstad-18037184"
-    },
-    {
-      "arrangementId": "17793261",
-      "arrangementNaam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
-      "datum": "6 oktober",
-      "naam": "Koninklijke Auris Groep",
-      "aantalPersonen": 27,
-      "cijfer": 8,
-      "tekst": "Een prima locatie!! Kamer/ bed / douche keurig verzorgd",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Koninklijke-Auris-Groep-20153618"
-    },
-    {
-      "arrangementId": "17793261",
-      "arrangementNaam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
-      "datum": "6 oktober",
-      "naam": "Koninklijke Auris Groep",
-      "aantalPersonen": 27,
-      "cijfer": 8,
-      "tekst": "Leuke locatie, waar meerdere activiteiten kunnen worden bijgeboekt. Rustige omgeving en kamers zijn prima.",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Koninklijke-Auris-Groep-20153618"
     },
     {
       "arrangementId": "17793283",
