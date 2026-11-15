@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beschikbaarheid gegenereerd="2026-11-15T06:32:17.794Z">
+<beschikbaarheid gegenereerd="2026-11-15T11:02:24.509Z">
   <activiteit id="67674" naam="Ontdekkingstocht door Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="135" duurMinuten="720" startUur="9" meerdaags="false">
     <datum waarde="2026-11-15" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-16" beschikbaar="false" status="niet-beschikbaar"/>
@@ -906,7 +906,7 @@
     <datum waarde="2027-05-12" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="17793283" naam="12-uurs vergaderarrangement alles inclusief" type="Vergadering" minAantal="5" maxAantal="200" prijs="150" duurMinuten="750" startUur="8" meerdaags="false">
-    <datum waarde="2026-11-15" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-15" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-16" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-17" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-18" beschikbaar="true" status="beschikbaar"/>
@@ -1268,7 +1268,7 @@
     <datum waarde="2027-05-12" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="17796744" naam="56-uurs arrangement (1 pers. kamer) alles inclusief" type="Vergadering" minAantal="5" maxAantal="28" prijs="725" duurMinuten="3390" startUur="8" meerdaags="true">
-    <datum waarde="2026-11-15" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-15" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-16" beschikbaar="true" status="beperkt" plekkenVrij="26"/>
     <datum waarde="2026-11-17" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-18" beschikbaar="false" status="niet-beschikbaar"/>
@@ -2716,7 +2716,7 @@
     <datum waarde="2027-05-12" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="18522570" naam="Lunch | 4x4 ecotrail | Whiskytour" type="Bedrijfs uitje" minAantal="4" maxAantal="80" prijs="57" duurMinuten="240" startUur="12" meerdaags="false">
-    <datum waarde="2026-11-15" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-15" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-16" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-17" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-18" beschikbaar="true" status="beschikbaar"/>
