@@ -1,12 +1,12 @@
 {
-  "gegenereerd": "2026-11-16T06:32:17.348Z",
+  "gegenereerd": "2026-11-16T11:02:21.472Z",
   "arrangement": {
     "id": "67674",
     "naam": "Ontdekkingstocht door Brabant",
     "type": "Bedrijfs uitje",
     "minAantal": 15,
     "maxAantal": 120,
-    "prijs": 135,
+    "prijs": 149.5,
     "duurMinuten": 720,
     "startUur": 9,
     "meerdaags": false
