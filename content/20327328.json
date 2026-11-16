@@ -1,12 +1,12 @@
 {
-  "gegenereerd": "2026-11-16T06:32:17.348Z",
+  "gegenereerd": "2026-11-16T11:02:21.472Z",
   "arrangement": {
     "id": "20327328",
     "naam": "4x4 Ecotrail | Lunch | Laser Kleiduifschieten | Whiskytour",
     "type": "Bedrijfs uitje",
     "minAantal": 4,
     "maxAantal": 80,
-    "prijs": 82,
+    "prijs": 92.5,
     "duurMinuten": 330,
     "startUur": 10,
     "meerdaags": false
