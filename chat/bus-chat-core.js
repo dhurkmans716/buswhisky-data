@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026111104);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026111601);
 // Leeftijdscheck + cookiekeuze: eigen module BUS_AGECHECK_CONSENT_V5 (4 nov 2026). Ook hier laden voor bezoekers met een oude gecachete lader.
 import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@61a3b3f1/chat/bus-agegate.js').catch(function (e) { console.error('[BUS] agecheck vaste versie mislukt, @main laden', e); return import('https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@main/chat/bus-agegate.js?v=' + Math.floor(Date.now() / 600000)); }).catch(function (e) { console.error('[BUS] agecheck laden mislukt', e); });
 var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist/chat.bundle.es.js').then(function (m) { createChat = m.createChat; });
@@ -1476,3 +1476,7 @@ window.addEventListener('CookiebotOnConsentReady',function(){if(modal)hideNative
   function go() { if (wil) open(start); else terugKnop(); }
   if (document.body) go(); else document.addEventListener('DOMContentLoaded', go);
 })();
+
+;/* 16 nov 2026: de camperkalender (github.io-iframe) vraagt via postMessage om naar Mollie te gaan. Een cross-origin iframe
+   mag na een trage aanvraag het hoofdvenster vaak niet meer zelf navigeren (iOS), deze pagina wel. Alleen bekende https-hosts. */
+(function(){if(window.__busCamperNav)return;window.__busCamperNav=1;window.addEventListener('message',function(e){try{if(e.origin!=='https://dhurkmans716.github.io')return;var d=e.data||{};if(d.type!=='BUS_CAMPER_NAV')return;var u=new URL(String(d.url));var h=u.hostname;var ok=u.protocol==='https:'&&(/(^|\.)mollie\.com$/.test(h)||/(^|\.)buswhisky\.com$/.test(h)||h==='buswhiskyevents.app.n8n.cloud'||h==='dhurkmans716.github.io');if(!ok)return;window.location.assign(u.href)}catch(x){}})})();
