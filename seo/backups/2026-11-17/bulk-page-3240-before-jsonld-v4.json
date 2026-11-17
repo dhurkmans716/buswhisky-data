@@ -1,0 +1,8 @@
+{
+  "pageId": 3240,
+  "slug": "over-onze-whisky",
+  "url": "https://buswhisky.com/over-onze-whisky",
+  "original_json_script": "",
+  "modified": "2026-05-18T18:25:46",
+  "new_json_script": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"AboutPage\",\n      \"@id\": \"https://buswhisky.com/over-onze-whisky#webpage\",\n      \"url\": \"https://buswhisky.com/over-onze-whisky\",\n      \"name\": \"Over onze whisky\",\n      \"inLanguage\": \"nl-NL\",\n      \"isPartOf\": {\n        \"@id\": \"https://buswhisky.com/#website\"\n      },\n      \"about\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      }\n    }\n  ]\n}\n</script>"
+}
