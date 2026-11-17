@@ -1,0 +1,8 @@
+{
+  "pageId": 829,
+  "slug": "restaurant-en",
+  "url": "https://buswhisky.com/en/restaurant",
+  "original_json_script": "",
+  "modified": "2026-11-09T02:34:21",
+  "new_json_script": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"WebPage\",\n      \"@id\": \"https://buswhisky.com/en/restaurant#webpage\",\n      \"url\": \"https://buswhisky.com/en/restaurant\",\n      \"name\": \"BUS Whisky Restaurant\",\n      \"inLanguage\": \"en\",\n      \"isPartOf\": {\n        \"@id\": \"https://buswhisky.com/#website\"\n      },\n      \"about\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      },\n      \"mainEntity\": {\n        \"@id\": \"https://buswhisky.com/restaurant#restaurant\"\n      }\n    }\n  ]\n}\n</script>"
+}
