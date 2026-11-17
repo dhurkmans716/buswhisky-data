@@ -1,0 +1,8 @@
+{
+  "pageId": 72,
+  "slug": "activiteiten",
+  "url": "https://buswhisky.com/activiteiten",
+  "original_json_script": "",
+  "modified": "2026-11-04T21:26:15",
+  "new_json_script": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"WebPage\",\n      \"@id\": \"https://buswhisky.com/activiteiten#webpage\",\n      \"url\": \"https://buswhisky.com/activiteiten\",\n      \"name\": \"Rondleiding BUS Whiskystokerij\",\n      \"inLanguage\": \"nl-NL\",\n      \"isPartOf\": {\n        \"@id\": \"https://buswhisky.com/#website\"\n      },\n      \"about\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      },\n      \"mainEntity\": {\n        \"@id\": \"https://buswhisky.com/activiteiten#service\"\n      }\n    },\n    {\n      \"@type\": \"Service\",\n      \"@id\": \"https://buswhisky.com/activiteiten#service\",\n      \"name\": \"Rondleiding BUS Whiskystokerij\",\n      \"serviceType\": \"Distilleerderijrondleiding\",\n      \"url\": \"https://buswhisky.com/activiteiten\",\n      \"provider\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      },\n      \"areaServed\": {\n        \"@type\": \"Country\",\n        \"name\": \"Nederland\"\n      }\n    }\n  ]\n}\n</script>"
+}
