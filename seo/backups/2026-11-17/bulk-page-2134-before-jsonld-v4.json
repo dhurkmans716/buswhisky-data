@@ -1,0 +1,8 @@
+{
+  "pageId": 2134,
+  "slug": "help-ons-mee",
+  "url": "https://buswhisky.com/help-ons-mee",
+  "original_json_script": "",
+  "modified": "2026-05-18T09:37:40",
+  "new_json_script": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"AboutPage\",\n      \"@id\": \"https://buswhisky.com/help-ons-mee#webpage\",\n      \"url\": \"https://buswhisky.com/help-ons-mee\",\n      \"name\": \"Help BUS Whisky mee\",\n      \"inLanguage\": \"nl-NL\",\n      \"isPartOf\": {\n        \"@id\": \"https://buswhisky.com/#website\"\n      },\n      \"about\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      }\n    }\n  ]\n}\n</script>"
+}
