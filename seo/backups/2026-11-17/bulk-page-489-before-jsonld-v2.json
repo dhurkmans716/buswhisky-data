@@ -1,0 +1,8 @@
+{
+  "pageId": 489,
+  "slug": "slijterij",
+  "url": "https://buswhisky.com/slijterij",
+  "original_json_script": "",
+  "modified": "2026-09-13T13:32:27",
+  "new_json_script": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"CollectionPage\",\n      \"@id\": \"https://buswhisky.com/slijterij#webpage\",\n      \"url\": \"https://buswhisky.com/slijterij\",\n      \"name\": \"BUS Whisky online slijterij\",\n      \"inLanguage\": \"nl-NL\",\n      \"isPartOf\": {\n        \"@id\": \"https://buswhisky.com/#website\"\n      },\n      \"about\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      }\n    }\n  ]\n}\n</script>"
+}
