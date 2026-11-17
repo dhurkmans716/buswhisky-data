@@ -1,0 +1,8 @@
+{
+  "pageId": 4008,
+  "slug": "export-trade",
+  "url": "https://buswhisky.com/export-trade",
+  "original_json_script": "",
+  "modified": "2026-08-25T07:22:30",
+  "new_json_script": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"AboutPage\",\n      \"@id\": \"https://buswhisky.com/export-trade#webpage\",\n      \"url\": \"https://buswhisky.com/export-trade\",\n      \"name\": \"BUS Whisky Export & Trade\",\n      \"inLanguage\": \"nl-NL\",\n      \"isPartOf\": {\n        \"@id\": \"https://buswhisky.com/#website\"\n      },\n      \"about\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      }\n    }\n  ]\n}\n</script>"
+}
