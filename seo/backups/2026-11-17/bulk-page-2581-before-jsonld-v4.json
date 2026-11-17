@@ -1,0 +1,8 @@
+{
+  "pageId": 2581,
+  "slug": "inspiratie-cases",
+  "url": "https://buswhisky.com/inspiratie-cases",
+  "original_json_script": "",
+  "modified": "2026-01-10T11:59:25",
+  "new_json_script": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"CollectionPage\",\n      \"@id\": \"https://buswhisky.com/inspiratie-cases#webpage\",\n      \"url\": \"https://buswhisky.com/inspiratie-cases\",\n      \"name\": \"Inspiratie en cases BUS Whisky\",\n      \"inLanguage\": \"nl-NL\",\n      \"isPartOf\": {\n        \"@id\": \"https://buswhisky.com/#website\"\n      },\n      \"about\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      }\n    }\n  ]\n}\n</script>"
+}
