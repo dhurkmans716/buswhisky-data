@@ -1,0 +1,8 @@
+{
+  "savedAt": "2026-11-17",
+  "wp_id": 510,
+  "slug": "restaurant",
+  "modified_before": "2026-11-02T08:58:18",
+  "original_json_script": "",
+  "new_json_script": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Restaurant\",\n      \"@id\": \"https://buswhisky.com/restaurant#restaurant\",\n      \"name\": \"Restaurant BUS Whisky\",\n      \"url\": \"https://buswhisky.com/restaurant\",\n      \"description\": \"Restaurant bij de BUS whiskystokerij in Loosbroek met seizoensgebonden verrassingsmenu's, streekproducten en plantaardige opties.\",\n      \"telephone\": \"+31 413 418016\",\n      \"email\": \"info@buswhisky.com\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"streetAddress\": \"Heideweg 1A\",\n        \"postalCode\": \"5472 LC\",\n        \"addressLocality\": \"Loosbroek\",\n        \"addressRegion\": \"Noord-Brabant\",\n        \"addressCountry\": \"NL\"\n      },\n      \"servesCuisine\": [\n        \"Streekproducten\",\n        \"Seizoensgebonden gerechten\"\n      ],\n      \"hasMenu\": \"https://buswhisky.com/restaurant\",\n      \"branchOf\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      }\n    },\n    {\n      \"@type\": \"WebPage\",\n      \"@id\": \"https://buswhisky.com/restaurant#webpage\",\n      \"url\": \"https://buswhisky.com/restaurant\",\n      \"name\": \"BUS Whisky Proeflokaal | Lekker uit eten met streekproducten\",\n      \"mainEntity\": {\n        \"@id\": \"https://buswhisky.com/restaurant#restaurant\"\n      },\n      \"isPartOf\": {\n        \"@id\": \"https://buswhisky.com/#website\"\n      },\n      \"inLanguage\": \"nl-NL\"\n    }\n  ]\n}\n</script>"
+}
