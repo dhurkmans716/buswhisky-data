@@ -1,0 +1,8 @@
+{
+  "savedAt": "2026-11-17",
+  "wp_id": 160,
+  "slug": "homepage",
+  "modified_before": "2026-11-04T21:26:14",
+  "original_json_script": "",
+  "new_json_script": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Organization\",\n      \"@id\": \"https://buswhisky.com/#organization\",\n      \"name\": \"BUS Whisky\",\n      \"legalName\": \"Bus Whisky Distillers B.V.\",\n      \"url\": \"https://buswhisky.com/\",\n      \"telephone\": \"+31 413 418016\",\n      \"email\": \"info@buswhisky.com\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"streetAddress\": \"Heideweg 1A\",\n        \"postalCode\": \"5472 LC\",\n        \"addressLocality\": \"Loosbroek\",\n        \"addressRegion\": \"Noord-Brabant\",\n        \"addressCountry\": \"NL\"\n      }\n    },\n    {\n      \"@type\": \"WebSite\",\n      \"@id\": \"https://buswhisky.com/#website\",\n      \"url\": \"https://buswhisky.com/\",\n      \"name\": \"BUS Whisky\",\n      \"inLanguage\": \"nl-NL\",\n      \"publisher\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      }\n    },\n    {\n      \"@type\": \"WebPage\",\n      \"@id\": \"https://buswhisky.com/#webpage\",\n      \"url\": \"https://buswhisky.com/\",\n      \"name\": \"BUS Whisky - Nederlandse Whisky\",\n      \"isPartOf\": {\n        \"@id\": \"https://buswhisky.com/#website\"\n      },\n      \"about\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      },\n      \"inLanguage\": \"nl-NL\"\n    }\n  ]\n}\n</script>"
+}
