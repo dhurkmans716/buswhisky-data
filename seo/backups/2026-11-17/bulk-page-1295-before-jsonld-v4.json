@@ -1,0 +1,8 @@
+{
+  "pageId": 1295,
+  "slug": "missie-visie",
+  "url": "https://buswhisky.com/missie-visie",
+  "original_json_script": "",
+  "modified": "2026-05-18T08:54:47",
+  "new_json_script": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"AboutPage\",\n      \"@id\": \"https://buswhisky.com/missie-visie#webpage\",\n      \"url\": \"https://buswhisky.com/missie-visie\",\n      \"name\": \"Missie en visie BUS Whisky\",\n      \"inLanguage\": \"nl-NL\",\n      \"isPartOf\": {\n        \"@id\": \"https://buswhisky.com/#website\"\n      },\n      \"about\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      }\n    }\n  ]\n}\n</script>"
+}
