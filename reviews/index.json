@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-16T05:00:26.674Z",
+  "gegenereerd": "2026-11-17T05:00:27.252Z",
   "schaal": 10,
   "arrangementen": [
     {
@@ -14,7 +14,7 @@
       "id": "960185",
       "naam": "Whisky & Weilandgames",
       "score": 9,
-      "aantalBeoordelingen": 220,
+      "aantalBeoordelingen": 221,
       "aantalGastenboek": 20,
       "reviewsUrl": "reviews/960185.json"
     },
@@ -38,7 +38,7 @@
       "id": "17793283",
       "naam": "12-uurs vergaderarrangement alles inclusief",
       "score": 9,
-      "aantalBeoordelingen": 113,
+      "aantalBeoordelingen": 114,
       "aantalGastenboek": 20,
       "reviewsUrl": "reviews/17793283.json"
     },
@@ -70,7 +70,7 @@
       "id": "18212800",
       "naam": "4x4 Ecotrail, Whiskytour & Pubquiz | avond",
       "score": 8,
-      "aantalBeoordelingen": 145,
+      "aantalBeoordelingen": 148,
       "aantalGastenboek": 20,
       "reviewsUrl": "reviews/18212800.json"
     },
@@ -102,7 +102,7 @@
       "id": "18385479",
       "naam": "Weekend actief in Brabant",
       "score": 8,
-      "aantalBeoordelingen": 8,
+      "aantalBeoordelingen": 9,
       "aantalGastenboek": 5,
       "reviewsUrl": "reviews/18385479.json"
     },
@@ -110,7 +110,7 @@
       "id": "18494490",
       "naam": "Whisky & 4x4 weekend",
       "score": 10,
-      "aantalBeoordelingen": 20,
+      "aantalBeoordelingen": 21,
       "aantalGastenboek": 7,
       "reviewsUrl": "reviews/18494490.json"
     },
@@ -118,7 +118,7 @@
       "id": "18522570",
       "naam": "Lunch | 4x4 ecotrail | Whiskytour",
       "score": 9,
-      "aantalBeoordelingen": 26,
+      "aantalBeoordelingen": 31,
       "aantalGastenboek": 8,
       "reviewsUrl": "reviews/18522570.json"
     },
@@ -126,7 +126,7 @@
       "id": "18712057",
       "naam": "4x4 Ecotrail | avond",
       "score": 9,
-      "aantalBeoordelingen": 171,
+      "aantalBeoordelingen": 185,
       "aantalGastenboek": 20,
       "reviewsUrl": "reviews/18712057.json"
     },
@@ -134,7 +134,7 @@
       "id": "18795159",
       "naam": "4x4 Ecotrail & overnachting",
       "score": 9,
-      "aantalBeoordelingen": 37,
+      "aantalBeoordelingen": 39,
       "aantalGastenboek": 17,
       "reviewsUrl": "reviews/18795159.json"
     },
@@ -150,7 +150,7 @@
       "id": "19310420",
       "naam": "Suppen, kanovaren & fluisterboot",
       "score": 9,
-      "aantalBeoordelingen": 23,
+      "aantalBeoordelingen": 24,
       "aantalGastenboek": 4,
       "reviewsUrl": "reviews/19310420.json"
     },
@@ -203,10 +203,18 @@
       "reviewsUrl": "reviews/19972945.json"
     },
     {
+      "id": "20275419",
+      "naam": "4x4 Ecotrail, Whiskytour & Pubquiz | middag",
+      "score": 10,
+      "aantalBeoordelingen": 1,
+      "aantalGastenboek": 0,
+      "reviewsUrl": "reviews/20275419.json"
+    },
+    {
       "id": "20275497",
       "naam": "4x4 Ecotrail | middag",
       "score": 9,
-      "aantalBeoordelingen": 18,
+      "aantalBeoordelingen": 27,
       "aantalGastenboek": 14,
       "reviewsUrl": "reviews/20275497.json"
     },
