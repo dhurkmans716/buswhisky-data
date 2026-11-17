@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-16T05:00:26.674Z",
+  "gegenereerd": "2026-11-17T05:00:27.252Z",
   "arrangement": {
     "id": "18385479",
     "naam": "Weekend actief in Brabant"
@@ -7,15 +7,15 @@
   "beoordeling": {
     "score": 8,
     "schaal": 10,
-    "aantalBeoordelingen": 8
+    "aantalBeoordelingen": 9
   },
   "deelscores": {
-    "Programma": 9,
-    "Begeleiding outdoor": 7.5,
-    "Kwaliteit diner/BBQ": 7.8,
-    "Vriendelijkheid bediening": 8.3,
-    "Algemene oordeel": 8,
-    "Aantal metingen": 7
+    "Programma": 9.1,
+    "Begeleiding outdoor": 7.6,
+    "Kwaliteit diner/BBQ": 8,
+    "Vriendelijkheid bediening": 8.4,
+    "Algemene oordeel": 8.2,
+    "Aantal metingen": 8
   },
   "gastenboek": [
     {
