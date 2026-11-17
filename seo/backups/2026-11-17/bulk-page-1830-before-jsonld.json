@@ -1,0 +1,8 @@
+{
+  "pageId": 1830,
+  "slug": "theatershow",
+  "url": "https://buswhisky.com/theatershow",
+  "original_json_script": "",
+  "modified": "2026-11-02T08:46:44",
+  "new_json_script": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"CollectionPage\",\n      \"@id\": \"https://buswhisky.com/theatershow#webpage\",\n      \"url\": \"https://buswhisky.com/theatershow\",\n      \"name\": \"BUS Whisky Theatershow\",\n      \"inLanguage\": \"nl-NL\",\n      \"isPartOf\": {\n        \"@id\": \"https://buswhisky.com/#website\"\n      },\n      \"about\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      }\n    }\n  ]\n}\n</script>"
+}
