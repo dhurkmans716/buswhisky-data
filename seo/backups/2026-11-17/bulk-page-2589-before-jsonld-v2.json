@@ -1,0 +1,8 @@
+{
+  "pageId": 2589,
+  "slug": "bedrijfsfestival-brabant",
+  "url": "https://buswhisky.com/bedrijfsfestival",
+  "original_json_script": "",
+  "modified": "2026-01-16T17:45:27",
+  "new_json_script": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"WebPage\",\n      \"@id\": \"https://buswhisky.com/bedrijfsfestival#webpage\",\n      \"url\": \"https://buswhisky.com/bedrijfsfestival\",\n      \"name\": \"Bedrijfsfestival bij BUS Whisky\",\n      \"inLanguage\": \"nl-NL\",\n      \"isPartOf\": {\n        \"@id\": \"https://buswhisky.com/#website\"\n      },\n      \"about\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      },\n      \"mainEntity\": {\n        \"@id\": \"https://buswhisky.com/bedrijfsfestival#service\"\n      }\n    },\n    {\n      \"@type\": \"Service\",\n      \"@id\": \"https://buswhisky.com/bedrijfsfestival#service\",\n      \"name\": \"Bedrijfsfestival bij BUS Whisky\",\n      \"serviceType\": \"Bedrijfsfestival\",\n      \"url\": \"https://buswhisky.com/bedrijfsfestival\",\n      \"provider\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      },\n      \"areaServed\": {\n        \"@type\": \"Country\",\n        \"name\": \"Nederland\"\n      }\n    }\n  ]\n}\n</script>"
+}
