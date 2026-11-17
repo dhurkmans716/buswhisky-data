@@ -1,0 +1,8 @@
+{
+  "pageId": 248,
+  "slug": "werken",
+  "url": "https://buswhisky.com/werken",
+  "original_json_script": "",
+  "modified": "2026-05-29T13:57:57",
+  "new_json_script": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"CollectionPage\",\n      \"@id\": \"https://buswhisky.com/werken#webpage\",\n      \"url\": \"https://buswhisky.com/werken\",\n      \"name\": \"Werken bij BUS Whisky\",\n      \"inLanguage\": \"nl-NL\",\n      \"isPartOf\": {\n        \"@id\": \"https://buswhisky.com/#website\"\n      },\n      \"about\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      }\n    }\n  ]\n}\n</script>"
+}
