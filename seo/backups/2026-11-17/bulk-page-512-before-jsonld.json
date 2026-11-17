@@ -1,0 +1,8 @@
+{
+  "pageId": 512,
+  "slug": "bb-kamers",
+  "url": "https://buswhisky.com/bed-breakfast-brabant-whiskystokerij",
+  "original_json_script": "",
+  "modified": "2026-11-02T09:48:00",
+  "new_json_script": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"WebPage\",\n      \"@id\": \"https://buswhisky.com/bed-breakfast-brabant-whiskystokerij#webpage\",\n      \"url\": \"https://buswhisky.com/bed-breakfast-brabant-whiskystokerij\",\n      \"name\": \"BUS Whisky Bed & Breakfast in Brabant\",\n      \"inLanguage\": \"nl-NL\",\n      \"isPartOf\": {\n        \"@id\": \"https://buswhisky.com/#website\"\n      },\n      \"about\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      },\n      \"mainEntity\": {\n        \"@id\": \"https://buswhisky.com/bed-breakfast-brabant-whiskystokerij#lodging\"\n      }\n    },\n    {\n      \"@type\": \"LodgingBusiness\",\n      \"@id\": \"https://buswhisky.com/bed-breakfast-brabant-whiskystokerij#lodging\",\n      \"name\": \"BUS Whisky Bed & Breakfast\",\n      \"url\": \"https://buswhisky.com/bed-breakfast-brabant-whiskystokerij\",\n      \"telephone\": \"+31 413 418016\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"streetAddress\": \"Heideweg 1A\",\n        \"postalCode\": \"5472 LC\",\n        \"addressLocality\": \"Loosbroek\",\n        \"addressRegion\": \"Noord-Brabant\",\n        \"addressCountry\": \"NL\"\n      },\n      \"branchOf\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      }\n    }\n  ]\n}\n</script>"
+}
