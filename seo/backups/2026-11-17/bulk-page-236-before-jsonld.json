@@ -1,0 +1,8 @@
+{
+  "pageId": 236,
+  "slug": "over-bus",
+  "url": "https://buswhisky.com/over-ons",
+  "original_json_script": "",
+  "modified": "2026-05-18T09:47:42",
+  "new_json_script": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"AboutPage\",\n      \"@id\": \"https://buswhisky.com/over-ons#webpage\",\n      \"url\": \"https://buswhisky.com/over-ons\",\n      \"name\": \"Over BUS Whisky\",\n      \"inLanguage\": \"nl-NL\",\n      \"isPartOf\": {\n        \"@id\": \"https://buswhisky.com/#website\"\n      },\n      \"about\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      }\n    }\n  ]\n}\n</script>"
+}
