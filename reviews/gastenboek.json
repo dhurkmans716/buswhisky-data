@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-16T05:00:26.674Z",
+  "gegenereerd": "2026-11-17T05:00:27.252Z",
   "schaal": 10,
   "aantal": 311,
   "reacties": [
@@ -606,6 +606,26 @@
     {
       "arrangementId": "17793261",
       "arrangementNaam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
+      "datum": "16 november",
+      "naam": "Jeroen Bosch Ziekenhuis",
+      "aantalPersonen": 21,
+      "cijfer": 8,
+      "tekst": "Een fijn verblijf bij een bedrijf dat heel gepassioneerd is in hun werk. \nHeerlijke maaltijden en prima kamer.\nKom graag nog een keer terug.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Jeroen-Bosch-Ziekenhuis-20150679"
+    },
+    {
+      "arrangementId": "17793261",
+      "arrangementNaam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
+      "datum": "16 november",
+      "naam": "Jeroen Bosch Ziekenhuis",
+      "aantalPersonen": 21,
+      "cijfer": 8,
+      "tekst": "Een sfeervolle locatie, zeer geschikt voor groepen!",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Jeroen-Bosch-Ziekenhuis-20150679"
+    },
+    {
+      "arrangementId": "17793261",
+      "arrangementNaam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
       "datum": "12 november",
       "naam": "Jeroen Bosch Ziekenhuis",
       "aantalPersonen": 21,
@@ -782,26 +802,6 @@
       "cijfer": 8,
       "tekst": "Mooie rustige en relaxte omgeving om een paar \"heidagen\" te hebben met je team. Verzorging is prima, eten is goed en meer dan voldoende, het was schoon en eigenlijk was aan alles gedacht. Zo niet dan was het met een vraag opgelost.",
       "referentieUrl": "https://www.heischehoeve.com/referenties-Politie-eenheid-Rotterdam-20178587"
-    },
-    {
-      "arrangementId": "17793261",
-      "arrangementNaam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
-      "datum": "30 oktober",
-      "naam": "AAG B.V.",
-      "aantalPersonen": 22,
-      "cijfer": 8,
-      "tekst": "Een leuke ontspannen locatie voor een prettig verblijf",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-AAG-B.V.-17687586"
-    },
-    {
-      "arrangementId": "17793261",
-      "arrangementNaam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
-      "datum": "23 oktober",
-      "naam": "Randstad",
-      "aantalPersonen": 17,
-      "cijfer": 10,
-      "tekst": "De Heische Hoeve is een heerlijke plek, waar je in een knusse setting kunt vergaderen en waar ook tijd en ruimte is voor een leuke activiteit en voor een gezellige tijd met elkaar. De sfeer is ongedwongen, het personeel zeer vriendelijk en het eten erg lekker. Zowel tijdens het ontbijt, als de lunch en het diner (in ons geval de barbecue) is er volop keuze uit verse producten en met dieetwensen en allergieen wordt heel goed rekening gehouden. De kamers zijn klein en knus, maar bieden alles wat je nodig hebt voor een kort verblijf. De Heische Hoeve is echt een aanrader!",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Randstad-18037184"
     },
     {
       "arrangementId": "17793283",
@@ -1026,6 +1026,16 @@
     {
       "arrangementId": "17796744",
       "arrangementNaam": "56-uurs arrangement (1 pers. kamer) alles inclusief",
+      "datum": "16 november",
+      "naam": "Dow Benelux",
+      "aantalPersonen": 15,
+      "cijfer": 8,
+      "tekst": "Dat doe ik niet zo vaak.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Dow-Benelux-20314397"
+    },
+    {
+      "arrangementId": "17796744",
+      "arrangementNaam": "56-uurs arrangement (1 pers. kamer) alles inclusief",
       "datum": "15 november",
       "naam": "Ipco Process Systems BV",
       "aantalPersonen": 8,
@@ -1211,16 +1221,6 @@
       "aantalPersonen": 17,
       "cijfer": 10,
       "tekst": "Allereerst mijn complimenten aan de kok voor het heerlijke 3-gangen diner.\nDaarnaast genoten van de prachtige locatie en de hartelijke uitstekende bediening",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Cooperatie-DELA-18721092"
-    },
-    {
-      "arrangementId": "17796744",
-      "arrangementNaam": "56-uurs arrangement (1 pers. kamer) alles inclusief",
-      "datum": "24 mei",
-      "naam": "Cooperatie DELA",
-      "aantalPersonen": 17,
-      "cijfer": 6,
-      "tekst": "De algehele verzorging, kwaliteit medewerkers en eten, drinks en sfeer, omgeving van de locatie TOP",
       "referentieUrl": "https://www.heischehoeve.com/referenties-Cooperatie-DELA-18721092"
     },
     {
