@@ -1,0 +1,8 @@
+{
+  "pageId": 2573,
+  "slug": "heidagen-strategiesessies",
+  "url": "https://buswhisky.com/heidagen-strategiesessies",
+  "original_json_script": "",
+  "modified": "2026-01-10T11:41:25",
+  "new_json_script": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"WebPage\",\n      \"@id\": \"https://buswhisky.com/heidagen-strategiesessies#webpage\",\n      \"url\": \"https://buswhisky.com/heidagen-strategiesessies\",\n      \"name\": \"Heidagen en strategiesessies bij BUS Whisky\",\n      \"inLanguage\": \"nl-NL\",\n      \"isPartOf\": {\n        \"@id\": \"https://buswhisky.com/#website\"\n      },\n      \"about\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      },\n      \"mainEntity\": {\n        \"@id\": \"https://buswhisky.com/heidagen-strategiesessies#service\"\n      }\n    },\n    {\n      \"@type\": \"Service\",\n      \"@id\": \"https://buswhisky.com/heidagen-strategiesessies#service\",\n      \"name\": \"Heidagen en strategiesessies bij BUS Whisky\",\n      \"serviceType\": \"Vergaderarrangementen\",\n      \"url\": \"https://buswhisky.com/heidagen-strategiesessies\",\n      \"provider\": {\n        \"@id\": \"https://buswhisky.com/#organization\"\n      },\n      \"areaServed\": {\n        \"@type\": \"Country\",\n        \"name\": \"Nederland\"\n      }\n    }\n  ]\n}\n</script>"
+}
