@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-16T05:00:26.674Z",
+  "gegenereerd": "2026-11-17T05:00:27.252Z",
   "arrangement": {
     "id": "17796744",
     "naam": "56-uurs arrangement (1 pers. kamer) alles inclusief"
@@ -21,6 +21,14 @@
     "Aantal metingen": 66
   },
   "gastenboek": [
+    {
+      "datum": "16 november",
+      "naam": "Dow Benelux",
+      "aantalPersonen": 15,
+      "cijfer": 8,
+      "tekst": "Dat doe ik niet zo vaak.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Dow-Benelux-20314397"
+    },
     {
       "datum": "15 november",
       "naam": "Ipco Process Systems BV",
@@ -171,14 +179,6 @@
       "aantalPersonen": 17,
       "cijfer": 10,
       "tekst": "Allereerst mijn complimenten aan de kok voor het heerlijke 3-gangen diner.\nDaarnaast genoten van de prachtige locatie en de hartelijke uitstekende bediening",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Cooperatie-DELA-18721092"
-    },
-    {
-      "datum": "24 mei",
-      "naam": "Cooperatie DELA",
-      "aantalPersonen": 17,
-      "cijfer": 6,
-      "tekst": "De algehele verzorging, kwaliteit medewerkers en eten, drinks en sfeer, omgeving van de locatie TOP",
       "referentieUrl": "https://www.heischehoeve.com/referenties-Cooperatie-DELA-18721092"
     }
   ],
