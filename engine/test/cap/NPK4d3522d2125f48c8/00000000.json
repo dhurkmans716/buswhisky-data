@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPK4d3522d2125f48c8:mwmnxcpdddg6fk":{"qty":1,"status":"HOLD","expires_at":"2026-11-18T21:59:08.386Z","owner":"Tmwmnv97l-R1:CANCEL:r2","at":"2026-11-18T21:58:08.386Z"}}}
+{"capacity":1,"entries":{"npk:NPK4d3522d2125f48c8:mwmnxcpdddg6fk":{"qty":1,"status":"CONFIRMED","owner":"Tmwmnv97l-R1:CANCEL:r2","at":"2026-11-18T21:58:11.628Z"}}}
