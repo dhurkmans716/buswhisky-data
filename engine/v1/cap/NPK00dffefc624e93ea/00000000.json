@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPK00dffefc624e93ea:mwnc6seqg3j2bs":{"qty":1,"status":"HOLD","expires_at":"2026-11-19T09:19:19.446Z","owner":"gp:TFGUvEvWbKW:v26ff0ef3","at":"2026-11-19T09:17:19.446Z"}}}
+{"capacity":1,"entries":{"npk:NPK00dffefc624e93ea:mwnc6seqg3j2bs":{"qty":1,"status":"CONFIRMED","owner":"gp:TFGUvEvWbKW:v26ff0ef3","at":"2026-11-19T09:17:22.664Z"}}}
