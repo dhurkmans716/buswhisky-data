@@ -1,1 +1,1 @@
-{"capacity":24,"entries":{"co:CO-TEST-MANAGE-1":{"qty":1,"status":"HOLD","expires_at":"2026-11-19T08:20:36.912Z","owner":"CO-TEST-MANAGE-1","at":"2026-11-19T08:05:36.912Z"}}}
+{"capacity":24,"entries":{"co:CO-TEST-MANAGE-1":{"qty":1,"status":"CONFIRMED","owner":"CO-TEST-MANAGE-1","at":"2026-11-19T08:05:38.826Z"}}}
