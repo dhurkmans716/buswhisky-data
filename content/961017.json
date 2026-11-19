@@ -1,12 +1,12 @@
 {
-  "gegenereerd": "2026-11-19T08:26:56.888Z",
+  "gegenereerd": "2026-11-19T11:02:27.083Z",
   "arrangement": {
     "id": "961017",
     "naam": "De Whisky & Weilandgames + overnachting",
     "type": "Bedrijfs uitje",
     "minAantal": 20,
     "maxAantal": 100,
-    "prijs": 235,
+    "prijs": 249.5,
     "duurMinuten": 1200,
     "startUur": 14,
     "meerdaags": true
