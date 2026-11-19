@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPKcb1b3a312fc74d07:mwnyvnm4by7s2o":{"qty":1,"status":"HOLD","expires_at":"2026-11-19T19:54:31.666Z","owner":"co:CO-1795117876806-PI83SG:L3:NEW:r1","at":"2026-11-19T19:52:31.666Z"}}}
+{"capacity":1,"entries":{"npk:NPKcb1b3a312fc74d07:mwnyvnm4by7s2o":{"qty":1,"status":"CONFIRMED","owner":"co:CO-1795117876806-PI83SG:L3:NEW:r1","at":"2026-11-19T19:52:39.343Z"}}}
