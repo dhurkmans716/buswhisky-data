@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-19T08:26:56.888Z",
+  "gegenereerd": "2026-11-19T11:02:27.083Z",
   "bron": "KMT gateway via n8n (Bus Whisky)",
   "activiteiten": [
     {
@@ -8,7 +8,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 120,
-      "prijs": 135,
+      "prijs": 149.5,
       "duurMinuten": 720,
       "startUur": 9,
       "meerdaags": false,
@@ -917,7 +917,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 20,
       "maxAantal": 450,
-      "prijs": 99.5,
+      "prijs": 109.5,
       "duurMinuten": 360,
       "startUur": 14,
       "meerdaags": false,
@@ -1826,7 +1826,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 20,
       "maxAantal": 100,
-      "prijs": 235,
+      "prijs": 249.5,
       "duurMinuten": 1200,
       "startUur": 14,
       "meerdaags": true,
@@ -8227,7 +8227,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 120,
-      "prijs": 121,
+      "prijs": 139.5,
       "duurMinuten": 360,
       "startUur": 17,
       "meerdaags": false,
@@ -10955,7 +10955,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 100,
-      "prijs": 275,
+      "prijs": 279.5,
       "duurMinuten": 1350,
       "startUur": 13,
       "meerdaags": true,
@@ -11864,7 +11864,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 100,
-      "prijs": 475.5,
+      "prijs": 499.5,
       "duurMinuten": 2610,
       "startUur": 19,
       "meerdaags": true,
@@ -12776,7 +12776,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 100,
-      "prijs": 480.5,
+      "prijs": 499.5,
       "duurMinuten": 2370,
       "startUur": 19,
       "meerdaags": true,
@@ -12902,8 +12902,8 @@
         },
         {
           "datum": "2026-12-12",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-13",
@@ -13705,8 +13705,8 @@
       "datums": [
         {
           "datum": "2026-11-19",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-20",
@@ -15639,8 +15639,8 @@
         },
         {
           "datum": "2026-12-12",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-13",
@@ -16428,7 +16428,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 70,
       "maxAantal": 200,
-      "prijs": 125,
+      "prijs": 149.5,
       "duurMinuten": 540,
       "startUur": 13,
       "meerdaags": false,
@@ -17337,7 +17337,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 150,
-      "prijs": 99.5,
+      "prijs": 109.5,
       "duurMinuten": 480,
       "startUur": 13,
       "meerdaags": false,
@@ -20062,9 +20062,9 @@
       "id": "19638837",
       "naam": "4x4 Ecotrail, laserkleiduifschieten, tour whiskystokerij, pubquiz & overnachting",
       "type": "Bedrijfs uitje",
-      "minAantal": 4,
+      "minAantal": 10,
       "maxAantal": 100,
-      "prijs": 275,
+      "prijs": 299.5,
       "duurMinuten": 1200,
       "startUur": 14,
       "meerdaags": true,
@@ -21888,7 +21888,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 120,
-      "prijs": 150,
+      "prijs": 169.5,
       "duurMinuten": 390,
       "startUur": 17,
       "meerdaags": false,
@@ -23707,7 +23707,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 150,
-      "prijs": 185,
+      "prijs": 199.5,
       "duurMinuten": 660,
       "startUur": 10,
       "meerdaags": false,
@@ -24616,7 +24616,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 450,
-      "prijs": 185,
+      "prijs": 199.5,
       "duurMinuten": 600,
       "startUur": 10,
       "meerdaags": false,
@@ -24624,8 +24624,8 @@
       "datums": [
         {
           "datum": "2026-11-19",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-20",
@@ -25525,7 +25525,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 120,
-      "prijs": 121,
+      "prijs": 139.5,
       "duurMinuten": 360,
       "startUur": 14,
       "meerdaags": false,
@@ -26434,7 +26434,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 4,
       "maxAantal": 250,
-      "prijs": 99.5,
+      "prijs": 119.5,
       "duurMinuten": 360,
       "startUur": 14,
       "meerdaags": false,
@@ -27351,8 +27351,8 @@
       "datums": [
         {
           "datum": "2026-11-19",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-20",
