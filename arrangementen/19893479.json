@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-19T08:26:56.888Z",
+  "gegenereerd": "2026-11-19T11:02:27.083Z",
   "bron": "vers",
   "arrangement": {
     "id": "19893479",
@@ -7,7 +7,7 @@
     "type": "Bedrijfs uitje",
     "minAantal": 15,
     "maxAantal": 120,
-    "prijs": 150,
+    "prijs": 169.5,
     "duurMinuten": 390,
     "startUur": 17,
     "meerdaags": false
