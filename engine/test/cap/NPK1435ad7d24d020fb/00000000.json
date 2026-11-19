@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPK1435ad7d24d020fb:mwn8g4hj8dehic":{"qty":1,"status":"HOLD","expires_at":"2026-11-19T07:33:36.496Z","owner":"co:CO-TEST-MANAGE-1:W1:L0:NEW:r1","at":"2026-11-19T07:32:36.496Z"}}}
+{"capacity":1,"entries":{"npk:NPK1435ad7d24d020fb:mwn8g4hj8dehic":{"qty":1,"status":"CONFIRMED","owner":"co:CO-TEST-MANAGE-1:W1:L0:NEW:r1","at":"2026-11-19T07:32:39.452Z"}}}
