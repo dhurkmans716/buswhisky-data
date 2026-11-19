@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPK43eb9a71f038644b:mwne79tn9bv7fb":{"qty":1,"status":"HOLD","expires_at":"2026-11-19T10:15:41.262Z","owner":"gp:osVsMyktiln:v42ce2f86","at":"2026-11-19T10:13:41.262Z"}}}
+{"capacity":1,"entries":{"npk:NPK43eb9a71f038644b:mwne79tn9bv7fb":{"qty":1,"status":"CONFIRMED","owner":"gp:osVsMyktiln:v42ce2f86","at":"2026-11-19T10:13:44.825Z"}}}
