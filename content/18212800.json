@@ -1,12 +1,12 @@
 {
-  "gegenereerd": "2026-11-19T08:26:56.888Z",
+  "gegenereerd": "2026-11-19T11:02:27.083Z",
   "arrangement": {
     "id": "18212800",
     "naam": "4x4 Ecotrail, Whiskytour & Pubquiz | avond",
     "type": "Bedrijfs uitje",
     "minAantal": 15,
     "maxAantal": 120,
-    "prijs": 121,
+    "prijs": 139.5,
     "duurMinuten": 360,
     "startUur": 17,
     "meerdaags": false
