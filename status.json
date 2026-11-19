@@ -1,16 +1,12 @@
 {
-  "gegenereerd": "2026-11-18T06:32:20.762Z",
-  "vorigeFeedGegenereerd": "2026-11-17T17:02:19.750Z",
-  "maandcalls": {
-    "totaal": 217,
-    "geldig": 217,
-    "mislukt": 0
-  },
-  "arrangementen": {
-    "totaal": 31,
-    "vers": 31,
-    "hergebruikt": 0,
-    "onvolledig": 0
-  },
-  "afwijkingen": []
+  "gecontroleerdOp": "2026-11-19T07:54:58.156Z",
+  "status": "STORING_KMT_GATEWAY",
+  "liveBeschikbaarheidGeverifieerd": false,
+  "publicatieNieuweBeschikbaarheidOvergeslagen": true,
+  "laatstGeldigeBeschikbaarheidGegenereerd": "2026-11-18T06:32:20.762Z",
+  "laatstBekendeArrangementen": 31,
+  "oorzaak": "KMT publieke gateway retourneert geen arrangementtype-JSON",
+  "foutCode": "KMT_TYPES_GEEN_JSON",
+  "uitleg": "De bestaande beschikbaarheid.json, arrangementen/*.json en contentbestanden zijn niet overschreven. De publieke KMT gateway moet opnieuw correcte JSON leveren. Bij herstel voert deze workflow automatisch weer de normale publicatie uit.",
+  "endpoint": "https://www.heischehoeve.com/gateway/webProduct/type/"
 }
