@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPKc3d87efb7cf7b6d1:mwn9tvzadnvp8c":{"qty":1,"status":"HOLD","expires_at":"2026-11-19T08:13:18.304Z","owner":"REALTEST-413606:UPDATE:r2","at":"2026-11-19T08:11:18.304Z"}}}
+{"capacity":1,"entries":{"npk:NPKc3d87efb7cf7b6d1:mwn9tvzadnvp8c":{"qty":1,"status":"CONFIRMED","owner":"REALTEST-413606:UPDATE:r2","at":"2026-11-19T08:11:21.491Z"}}}
