@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPK5b2141c55d66d7a7:mwnd172fdr6jju":{"qty":1,"status":"HOLD","expires_at":"2026-11-19T09:42:58.105Z","owner":"gp:METrEBUDvVC:v9c1f8519","at":"2026-11-19T09:40:58.105Z"}}}
+{"capacity":1,"entries":{"npk:NPK5b2141c55d66d7a7:mwnd172fdr6jju":{"qty":1,"status":"CONFIRMED","owner":"gp:METrEBUDvVC:v9c1f8519","at":"2026-11-19T09:41:01.446Z"}}}
