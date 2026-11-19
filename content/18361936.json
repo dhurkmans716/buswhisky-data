@@ -1,12 +1,12 @@
 {
-  "gegenereerd": "2026-11-18T06:32:20.762Z",
+  "gegenereerd": "2026-11-19T08:26:56.888Z",
   "arrangement": {
     "id": "18361936",
     "naam": "Suppen, kanovaren, fluisterboot & overnachting",
     "type": "Bedrijfs uitje",
     "minAantal": 15,
     "maxAantal": 100,
-    "prijs": 279.5,
+    "prijs": 275,
     "duurMinuten": 1350,
     "startUur": 13,
     "meerdaags": true
