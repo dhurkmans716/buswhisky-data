@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPK43dec38046123622:mwnemlm2b1g63n":{"qty":1,"status":"HOLD","expires_at":"2026-11-19T10:27:36.342Z","owner":"gp:FWHaqt4wrEs:va7eb8d14","at":"2026-11-19T10:25:36.342Z"}}}
+{"capacity":1,"entries":{"npk:NPK43dec38046123622:mwnemlm2b1g63n":{"qty":1,"status":"CONFIRMED","owner":"gp:FWHaqt4wrEs:va7eb8d14","at":"2026-11-19T10:25:40.821Z"}}}
