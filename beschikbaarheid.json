@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-18T06:32:20.762Z",
+  "gegenereerd": "2026-11-19T08:26:56.888Z",
   "bron": "KMT gateway via n8n (Bus Whisky)",
   "activiteiten": [
     {
@@ -8,17 +8,12 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 120,
-      "prijs": 149.5,
+      "prijs": 135,
       "duurMinuten": 720,
       "startUur": 9,
       "meerdaags": false,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": false,
@@ -906,6 +901,11 @@
         },
         {
           "datum": "2027-05-15",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -917,17 +917,12 @@
       "type": "Bedrijfs uitje",
       "minAantal": 20,
       "maxAantal": 450,
-      "prijs": 109.5,
+      "prijs": 99.5,
       "duurMinuten": 360,
       "startUur": 14,
       "meerdaags": false,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": true,
@@ -1817,6 +1812,11 @@
           "datum": "2027-05-15",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         }
       ]
     },
@@ -1826,17 +1826,12 @@
       "type": "Bedrijfs uitje",
       "minAantal": 20,
       "maxAantal": 100,
-      "prijs": 249.5,
+      "prijs": 235,
       "duurMinuten": 1200,
       "startUur": 14,
       "meerdaags": true,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": false,
@@ -2726,6 +2721,11 @@
           "datum": "2027-05-15",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": true,
+          "status": "beschikbaar"
         }
       ]
     },
@@ -2741,11 +2741,6 @@
       "meerdaags": true,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": false,
@@ -2815,8 +2810,7 @@
         {
           "datum": "2026-12-02",
           "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 19
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-12-03",
@@ -3643,6 +3637,11 @@
         },
         {
           "datum": "2027-05-15",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
         }
@@ -3661,11 +3660,6 @@
       "bron": "vers",
       "datums": [
         {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
           "datum": "2026-11-19",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
@@ -3734,8 +3728,7 @@
         {
           "datum": "2026-12-02",
           "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 19
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-12-03",
@@ -4564,6 +4557,11 @@
           "datum": "2027-05-15",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         }
       ]
     },
@@ -4579,11 +4577,6 @@
       "meerdaags": false,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": false,
@@ -5473,6 +5466,11 @@
           "datum": "2027-05-15",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": true,
+          "status": "beschikbaar"
         }
       ]
     },
@@ -5488,11 +5486,6 @@
       "meerdaags": true,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": false,
@@ -5562,8 +5555,7 @@
         {
           "datum": "2026-12-02",
           "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 19
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-12-03",
@@ -6390,6 +6382,11 @@
           "datum": "2027-05-15",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         }
       ]
     },
@@ -6405,11 +6402,6 @@
       "meerdaags": true,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": false,
@@ -6481,8 +6473,7 @@
         {
           "datum": "2026-12-02",
           "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 19
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-12-03",
@@ -7311,6 +7302,11 @@
         },
         {
           "datum": "2027-05-15",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -7329,11 +7325,6 @@
       "bron": "vers",
       "datums": [
         {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
           "datum": "2026-11-19",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
@@ -8220,6 +8211,11 @@
         },
         {
           "datum": "2027-05-15",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
         }
@@ -8231,17 +8227,12 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 120,
-      "prijs": 139.5,
+      "prijs": 121,
       "duurMinuten": 360,
       "startUur": 17,
       "meerdaags": false,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": true,
@@ -9129,6 +9120,11 @@
         },
         {
           "datum": "2027-05-15",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -9147,11 +9143,6 @@
       "bron": "vers",
       "datums": [
         {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
           "datum": "2026-11-19",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
@@ -10040,6 +10031,11 @@
           "datum": "2027-05-15",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         }
       ]
     },
@@ -10055,11 +10051,6 @@
       "meerdaags": true,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": false,
@@ -10950,6 +10941,11 @@
           "datum": "2027-05-15",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         }
       ]
     },
@@ -10959,17 +10955,12 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 100,
-      "prijs": 279.5,
+      "prijs": 275,
       "duurMinuten": 1350,
       "startUur": 13,
       "meerdaags": true,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": false,
@@ -11859,6 +11850,11 @@
           "datum": "2027-05-15",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": true,
+          "status": "beschikbaar"
         }
       ]
     },
@@ -11868,17 +11864,12 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 100,
-      "prijs": 499.5,
+      "prijs": 475.5,
       "duurMinuten": 2610,
       "startUur": 19,
       "meerdaags": true,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": false,
@@ -12771,6 +12762,11 @@
           "datum": "2027-05-15",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": true,
+          "status": "beschikbaar"
         }
       ]
     },
@@ -12780,17 +12776,12 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 100,
-      "prijs": 499.5,
+      "prijs": 480.5,
       "duurMinuten": 2370,
       "startUur": 19,
       "meerdaags": true,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": false,
@@ -12862,8 +12853,7 @@
         {
           "datum": "2026-12-02",
           "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 19
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-12-03",
@@ -13693,6 +13683,11 @@
           "datum": "2027-05-15",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": true,
+          "status": "beschikbaar"
         }
       ]
     },
@@ -13708,11 +13703,6 @@
       "meerdaags": false,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": true,
@@ -14600,6 +14590,11 @@
         },
         {
           "datum": "2027-05-15",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -14618,11 +14613,6 @@
       "bron": "vers",
       "datums": [
         {
-          "datum": "2026-11-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
           "datum": "2026-11-19",
           "beschikbaar": true,
           "status": "beschikbaar"
@@ -15511,6 +15501,11 @@
           "datum": "2027-05-15",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": true,
+          "status": "beschikbaar"
         }
       ]
     },
@@ -15526,11 +15521,6 @@
       "meerdaags": true,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": false,
@@ -16424,6 +16414,11 @@
           "datum": "2027-05-15",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": true,
+          "status": "beschikbaar"
         }
       ]
     },
@@ -16433,17 +16428,12 @@
       "type": "Bedrijfs uitje",
       "minAantal": 70,
       "maxAantal": 200,
-      "prijs": 149.5,
+      "prijs": 125,
       "duurMinuten": 540,
       "startUur": 13,
       "meerdaags": false,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": false,
@@ -17331,6 +17321,11 @@
         },
         {
           "datum": "2027-05-15",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -17342,17 +17337,12 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 150,
-      "prijs": 109.5,
+      "prijs": 99.5,
       "duurMinuten": 480,
       "startUur": 13,
       "meerdaags": false,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": false,
@@ -18240,6 +18230,11 @@
         },
         {
           "datum": "2027-05-15",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -18258,11 +18253,6 @@
       "bron": "vers",
       "datums": [
         {
-          "datum": "2026-11-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
           "datum": "2026-11-19",
           "beschikbaar": true,
           "status": "beschikbaar"
@@ -19151,6 +19141,11 @@
           "datum": "2027-05-15",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         }
       ]
     },
@@ -19167,11 +19162,6 @@
       "bron": "vers",
       "datums": [
         {
-          "datum": "2026-11-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
           "datum": "2026-11-19",
           "beschikbaar": true,
           "status": "beschikbaar"
@@ -20060,6 +20050,11 @@
           "datum": "2027-05-15",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         }
       ]
     },
@@ -20067,19 +20062,14 @@
       "id": "19638837",
       "naam": "4x4 Ecotrail, laserkleiduifschieten, tour whiskystokerij, pubquiz & overnachting",
       "type": "Bedrijfs uitje",
-      "minAantal": 10,
+      "minAantal": 4,
       "maxAantal": 100,
-      "prijs": 299.5,
+      "prijs": 275,
       "duurMinuten": 1200,
       "startUur": 14,
       "meerdaags": true,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": false,
@@ -20975,6 +20965,11 @@
           "datum": "2027-05-15",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": true,
+          "status": "beschikbaar"
         }
       ]
     },
@@ -20991,11 +20986,6 @@
       "bron": "vers",
       "datums": [
         {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
           "datum": "2026-11-19",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
@@ -21882,6 +21872,11 @@
         },
         {
           "datum": "2027-05-15",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
         }
@@ -21893,17 +21888,12 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 120,
-      "prijs": 169.5,
+      "prijs": 150,
       "duurMinuten": 390,
       "startUur": 17,
       "meerdaags": false,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": true,
@@ -22793,6 +22783,11 @@
           "datum": "2027-05-15",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         }
       ]
     },
@@ -22808,11 +22803,6 @@
       "meerdaags": true,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": false,
@@ -23703,6 +23693,11 @@
           "datum": "2027-05-15",
           "beschikbaar": false,
           "status": "niet-beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         }
       ]
     },
@@ -23712,17 +23707,12 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 150,
-      "prijs": 199.5,
+      "prijs": 185,
       "duurMinuten": 660,
       "startUur": 10,
       "meerdaags": false,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": false,
@@ -24610,6 +24600,11 @@
         },
         {
           "datum": "2027-05-15",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -24621,17 +24616,12 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 450,
-      "prijs": 199.5,
+      "prijs": 185,
       "duurMinuten": 600,
       "startUur": 10,
       "meerdaags": false,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": true,
@@ -25521,6 +25511,11 @@
           "datum": "2027-05-15",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         }
       ]
     },
@@ -25530,17 +25525,12 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 120,
-      "prijs": 139.5,
+      "prijs": 121,
       "duurMinuten": 360,
       "startUur": 14,
       "meerdaags": false,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": true,
@@ -26428,6 +26418,11 @@
         },
         {
           "datum": "2027-05-15",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -26439,17 +26434,12 @@
       "type": "Bedrijfs uitje",
       "minAantal": 4,
       "maxAantal": 250,
-      "prijs": 119.5,
+      "prijs": 99.5,
       "duurMinuten": 360,
       "startUur": 14,
       "meerdaags": false,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
         {
           "datum": "2026-11-19",
           "beschikbaar": true,
@@ -27337,6 +27327,11 @@
         },
         {
           "datum": "2027-05-15",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
           "beschikbaar": true,
           "status": "beschikbaar"
         }
@@ -27355,11 +27350,6 @@
       "bron": "vers",
       "datums": [
         {
-          "datum": "2026-11-18",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
           "datum": "2026-11-19",
           "beschikbaar": true,
           "status": "beschikbaar"
@@ -28248,6 +28238,11 @@
           "datum": "2027-05-15",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-05-16",
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         }
       ]
     }
