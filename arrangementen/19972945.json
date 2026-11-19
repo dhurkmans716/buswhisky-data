@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-18T06:32:20.762Z",
+  "gegenereerd": "2026-11-19T08:26:56.888Z",
   "bron": "vers",
   "arrangement": {
     "id": "19972945",
@@ -7,17 +7,12 @@
     "type": "Bedrijfs uitje",
     "minAantal": 15,
     "maxAantal": 450,
-    "prijs": 199.5,
+    "prijs": 185,
     "duurMinuten": 600,
     "startUur": 10,
     "meerdaags": false
   },
   "datums": [
-    {
-      "datum": "2026-11-18",
-      "beschikbaar": true,
-      "status": "beschikbaar"
-    },
     {
       "datum": "2026-11-19",
       "beschikbaar": true,
@@ -907,6 +902,11 @@
       "datum": "2027-05-15",
       "beschikbaar": true,
       "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-05-16",
+      "beschikbaar": false,
+      "status": "niet-beschikbaar"
     }
   ]
 }
