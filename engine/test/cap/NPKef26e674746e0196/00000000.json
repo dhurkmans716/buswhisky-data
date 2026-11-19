@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPKef26e674746e0196:mwn658vwco40mh":{"qty":1,"status":"HOLD","expires_at":"2026-11-19T06:29:09.801Z","owner":"co:CO-TEST-1795069660551-B:L1:NEW:r1","at":"2026-11-19T06:28:09.801Z"}}}
+{"capacity":1,"entries":{"npk:NPKef26e674746e0196:mwn658vwco40mh":{"qty":1,"status":"CONFIRMED","owner":"co:CO-TEST-1795069660551-B:L1:NEW:r1","at":"2026-11-19T06:28:13.495Z"}}}
