@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPKdcea64653e5c1d27:mwn5apv94frsm7":{"qty":1,"status":"HOLD","expires_at":"2026-11-19T06:05:25.444Z","owner":"co:CO-TEST-1795068261280-A:L0:NEW:r1","at":"2026-11-19T06:04:25.444Z"}}}
+{"capacity":1,"entries":{"npk:NPKdcea64653e5c1d27:mwn5apv94frsm7":{"qty":1,"status":"CONFIRMED","owner":"co:CO-TEST-1795068261280-A:L0:NEW:r1","at":"2026-11-19T06:04:28.489Z"}}}
