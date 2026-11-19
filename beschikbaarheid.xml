@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beschikbaarheid gegenereerd="2026-11-19T08:26:56.888Z">
-  <activiteit id="67674" naam="Ontdekkingstocht door Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="135" duurMinuten="720" startUur="9" meerdaags="false">
+<beschikbaarheid gegenereerd="2026-11-19T11:02:27.083Z">
+  <activiteit id="67674" naam="Ontdekkingstocht door Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="149.5" duurMinuten="720" startUur="9" meerdaags="false">
     <datum waarde="2026-11-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
@@ -181,7 +181,7 @@
     <datum waarde="2027-05-15" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-05-16" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
-  <activiteit id="960185" naam="Whisky &amp; Weilandgames" type="Bedrijfs uitje" minAantal="20" maxAantal="450" prijs="99.5" duurMinuten="360" startUur="14" meerdaags="false">
+  <activiteit id="960185" naam="Whisky &amp; Weilandgames" type="Bedrijfs uitje" minAantal="20" maxAantal="450" prijs="109.5" duurMinuten="360" startUur="14" meerdaags="false">
     <datum waarde="2026-11-19" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
@@ -362,7 +362,7 @@
     <datum waarde="2027-05-15" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-05-16" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
-  <activiteit id="961017" naam="De Whisky &amp; Weilandgames + overnachting" type="Bedrijfs uitje" minAantal="20" maxAantal="100" prijs="235" duurMinuten="1200" startUur="14" meerdaags="true">
+  <activiteit id="961017" naam="De Whisky &amp; Weilandgames + overnachting" type="Bedrijfs uitje" minAantal="20" maxAantal="100" prijs="249.5" duurMinuten="1200" startUur="14" meerdaags="true">
     <datum waarde="2026-11-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
@@ -1629,7 +1629,7 @@
     <datum waarde="2027-05-15" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-05-16" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
-  <activiteit id="18212800" naam="4x4 Ecotrail, Whiskytour &amp; Pubquiz | avond" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="121" duurMinuten="360" startUur="17" meerdaags="false">
+  <activiteit id="18212800" naam="4x4 Ecotrail, Whiskytour &amp; Pubquiz | avond" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="139.5" duurMinuten="360" startUur="17" meerdaags="false">
     <datum waarde="2026-11-19" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
@@ -2172,7 +2172,7 @@
     <datum waarde="2027-05-15" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-05-16" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
-  <activiteit id="18361936" naam="Suppen, kanovaren, fluisterboot &amp; overnachting" type="Bedrijfs uitje" minAantal="15" maxAantal="100" prijs="275" duurMinuten="1350" startUur="13" meerdaags="true">
+  <activiteit id="18361936" naam="Suppen, kanovaren, fluisterboot &amp; overnachting" type="Bedrijfs uitje" minAantal="15" maxAantal="100" prijs="279.5" duurMinuten="1350" startUur="13" meerdaags="true">
     <datum waarde="2026-11-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
@@ -2353,7 +2353,7 @@
     <datum waarde="2027-05-15" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-05-16" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
-  <activiteit id="18385479" naam="Weekend actief in Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="100" prijs="475.5" duurMinuten="2610" startUur="19" meerdaags="true">
+  <activiteit id="18385479" naam="Weekend actief in Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="100" prijs="499.5" duurMinuten="2610" startUur="19" meerdaags="true">
     <datum waarde="2026-11-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
@@ -2534,7 +2534,7 @@
     <datum waarde="2027-05-15" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-05-16" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
-  <activiteit id="18494490" naam="Whisky &amp; 4x4 weekend" type="Bedrijfs uitje" minAantal="15" maxAantal="100" prijs="480.5" duurMinuten="2370" startUur="19" meerdaags="true">
+  <activiteit id="18494490" naam="Whisky &amp; 4x4 weekend" type="Bedrijfs uitje" minAantal="15" maxAantal="100" prijs="499.5" duurMinuten="2370" startUur="19" meerdaags="true">
     <datum waarde="2026-11-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
@@ -2558,7 +2558,7 @@
     <datum waarde="2026-12-09" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-10" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-11" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-12-12" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-12" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-13" beschikbaar="true" status="beperkt" plekkenVrij="20"/>
     <datum waarde="2026-12-14" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-15" beschikbaar="true" status="beschikbaar"/>
@@ -2716,7 +2716,7 @@
     <datum waarde="2027-05-16" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="18522570" naam="Lunch | 4x4 ecotrail | Whiskytour" type="Bedrijfs uitje" minAantal="4" maxAantal="80" prijs="72.5" duurMinuten="240" startUur="12" meerdaags="false">
-    <datum waarde="2026-11-19" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-22" beschikbaar="true" status="beschikbaar"/>
@@ -3101,7 +3101,7 @@
     <datum waarde="2026-12-09" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-10" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-11" beschikbaar="false" status="niet-beschikbaar"/>
-    <datum waarde="2026-12-12" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-12-12" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-13" beschikbaar="true" status="beperkt" plekkenVrij="20"/>
     <datum waarde="2026-12-14" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-12-15" beschikbaar="false" status="niet-beschikbaar"/>
@@ -3258,7 +3258,7 @@
     <datum waarde="2027-05-15" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-05-16" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
-  <activiteit id="18985953" naam="Summer event" type="Bedrijfs uitje" minAantal="70" maxAantal="200" prijs="125" duurMinuten="540" startUur="13" meerdaags="false">
+  <activiteit id="18985953" naam="Summer event" type="Bedrijfs uitje" minAantal="70" maxAantal="200" prijs="149.5" duurMinuten="540" startUur="13" meerdaags="false">
     <datum waarde="2026-11-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
@@ -3439,7 +3439,7 @@
     <datum waarde="2027-05-15" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-05-16" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
-  <activiteit id="19310420" naam="Suppen, kanovaren &amp; fluisterboot" type="Bedrijfs uitje" minAantal="15" maxAantal="150" prijs="99.5" duurMinuten="480" startUur="13" meerdaags="false">
+  <activiteit id="19310420" naam="Suppen, kanovaren &amp; fluisterboot" type="Bedrijfs uitje" minAantal="15" maxAantal="150" prijs="109.5" duurMinuten="480" startUur="13" meerdaags="false">
     <datum waarde="2026-11-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
@@ -3982,7 +3982,7 @@
     <datum waarde="2027-05-15" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-05-16" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
-  <activiteit id="19638837" naam="4x4 Ecotrail, laserkleiduifschieten, tour whiskystokerij, pubquiz &amp; overnachting" type="Bedrijfs uitje" minAantal="4" maxAantal="100" prijs="275" duurMinuten="1200" startUur="14" meerdaags="true">
+  <activiteit id="19638837" naam="4x4 Ecotrail, laserkleiduifschieten, tour whiskystokerij, pubquiz &amp; overnachting" type="Bedrijfs uitje" minAantal="10" maxAantal="100" prijs="299.5" duurMinuten="1200" startUur="14" meerdaags="true">
     <datum waarde="2026-11-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
@@ -4344,7 +4344,7 @@
     <datum waarde="2027-05-15" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-05-16" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
-  <activiteit id="19893479" naam="4x4 Ecotrail, Laser kleiduifschieten &amp; Pubquiz | avond" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="150" duurMinuten="390" startUur="17" meerdaags="false">
+  <activiteit id="19893479" naam="4x4 Ecotrail, Laser kleiduifschieten &amp; Pubquiz | avond" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="169.5" duurMinuten="390" startUur="17" meerdaags="false">
     <datum waarde="2026-11-19" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
@@ -4706,7 +4706,7 @@
     <datum waarde="2027-05-15" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2027-05-16" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
-  <activiteit id="19972803" naam="4x4 ecotrail, kleiduifschieten, suppen &amp; kanovaren" type="Bedrijfs uitje" minAantal="15" maxAantal="150" prijs="185" duurMinuten="660" startUur="10" meerdaags="false">
+  <activiteit id="19972803" naam="4x4 ecotrail, kleiduifschieten, suppen &amp; kanovaren" type="Bedrijfs uitje" minAantal="15" maxAantal="150" prijs="199.5" duurMinuten="660" startUur="10" meerdaags="false">
     <datum waarde="2026-11-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
@@ -4887,8 +4887,8 @@
     <datum waarde="2027-05-15" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-05-16" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
-  <activiteit id="19972945" naam="4x4 ecotrail, kleiduifschieten &amp; whiskygames" type="Bedrijfs uitje" minAantal="15" maxAantal="450" prijs="185" duurMinuten="600" startUur="10" meerdaags="false">
-    <datum waarde="2026-11-19" beschikbaar="true" status="beschikbaar"/>
+  <activiteit id="19972945" naam="4x4 ecotrail, kleiduifschieten &amp; whiskygames" type="Bedrijfs uitje" minAantal="15" maxAantal="450" prijs="199.5" duurMinuten="600" startUur="10" meerdaags="false">
+    <datum waarde="2026-11-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-22" beschikbaar="false" status="niet-beschikbaar"/>
@@ -5068,7 +5068,7 @@
     <datum waarde="2027-05-15" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-05-16" beschikbaar="false" status="niet-beschikbaar"/>
   </activiteit>
-  <activiteit id="20275419" naam="4x4 Ecotrail, Whiskytour &amp; Pubquiz | middag" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="121" duurMinuten="360" startUur="14" meerdaags="false">
+  <activiteit id="20275419" naam="4x4 Ecotrail, Whiskytour &amp; Pubquiz | middag" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="139.5" duurMinuten="360" startUur="14" meerdaags="false">
     <datum waarde="2026-11-19" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
@@ -5249,7 +5249,7 @@
     <datum waarde="2027-05-15" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2027-05-16" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
-  <activiteit id="20275497" naam="4x4 Ecotrail | middag" type="Bedrijfs uitje" minAantal="4" maxAantal="250" prijs="99.5" duurMinuten="360" startUur="14" meerdaags="false">
+  <activiteit id="20275497" naam="4x4 Ecotrail | middag" type="Bedrijfs uitje" minAantal="4" maxAantal="250" prijs="119.5" duurMinuten="360" startUur="14" meerdaags="false">
     <datum waarde="2026-11-19" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
@@ -5431,7 +5431,7 @@
     <datum waarde="2027-05-16" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="20327328" naam="4x4 Ecotrail | Lunch | Laser Kleiduifschieten | Whiskytour" type="Bedrijfs uitje" minAantal="4" maxAantal="80" prijs="92.5" duurMinuten="330" startUur="10" meerdaags="false">
-    <datum waarde="2026-11-19" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-19" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-20" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-21" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-22" beschikbaar="false" status="niet-beschikbaar"/>
