@@ -1,1 +1,1 @@
-{"capacity":24,"entries":{"co:CO-TEST-1795068261280-B":{"qty":2,"status":"HOLD","expires_at":"2026-11-19T06:14:35.838Z","owner":"CO-TEST-1795068261280-B","at":"2026-11-19T06:04:35.838Z"}}}
+{"capacity":24,"entries":{"co:CO-TEST-1795068261280-B":{"qty":2,"status":"CONFIRMED","owner":"CO-TEST-1795068261280-B","at":"2026-11-19T06:04:42.206Z"}}}
