@@ -1,1 +1,1 @@
-{"capacity":28,"entries":{"co:CO-TEST-REG-WW1:ma0146aad":{"qty":1,"status":"HOLD","expires_at":"2026-11-20T17:26:56.599Z","owner":"CO-TEST-REG-WW1","at":"2026-11-20T17:11:56.599Z","supersedes":["co:CO-TEST-REG-WW1"]}}}
+{"capacity":28,"entries":{"co:CO-TEST-REG-WW1:ma0146aad":{"qty":1,"status":"CONFIRMED","owner":"CO-TEST-REG-WW1","at":"2026-11-20T17:12:04.577Z"}}}
