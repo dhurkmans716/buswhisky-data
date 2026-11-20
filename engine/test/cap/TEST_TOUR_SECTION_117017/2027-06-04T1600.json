@@ -1,1 +1,1 @@
-{"capacity":24,"entries":{"co:CO-TEST-D-PAY2":{"qty":2,"status":"CONFIRMED","owner":"CO-TEST-D-PAY2","at":"2026-11-20T16:48:11.067Z"}}}
+{"capacity":24,"entries":{"co:CO-TEST-D-PAY2":{"qty":2,"status":"CONFIRMED","owner":"CO-TEST-D-PAY2","at":"2026-11-20T16:48:11.067Z"},"co:CO-TEST-D-VOL2":{"qty":21,"status":"HOLD","expires_at":"2026-11-20T17:03:13.497Z","owner":"CO-TEST-D-VOL2","at":"2026-11-20T16:48:13.497Z"}}}
