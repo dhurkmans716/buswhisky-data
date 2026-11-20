@@ -1,1 +1,1 @@
-{"capacity":24,"entries":{"co:CO-TEST-E-VOL1":{"qty":10,"status":"CONFIRMED","owner":"CO-TEST-E-VOL1","at":"2026-11-20T16:53:55.713Z"}}}
+{"capacity":24,"entries":{"co:CO-TEST-E-VOL1":{"qty":10,"status":"CONFIRMED","owner":"CO-TEST-E-VOL1","at":"2026-11-20T16:53:55.713Z"},"co:CO-TEST-E-VOL2":{"qty":10,"status":"HOLD","expires_at":"2026-11-20T17:09:00.654Z","owner":"CO-TEST-E-VOL2","at":"2026-11-20T16:54:00.654Z"}}}
