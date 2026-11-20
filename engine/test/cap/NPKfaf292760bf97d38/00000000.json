@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPKfaf292760bf97d38:mwp7x7qh2lxxup":{"qty":1,"status":"HOLD","expires_at":"2026-11-20T16:54:26.633Z","owner":"lk:TEST:test-kamer-een:2099-07-03:1n1k:2099-07-03:K1:NEW:r1","at":"2026-11-20T16:53:26.633Z"}}}
+{"capacity":1,"entries":{"npk:NPKfaf292760bf97d38:mwp7x7qh2lxxup":{"qty":1,"status":"CONFIRMED","owner":"lk:TEST:test-kamer-een:2099-07-03:1n1k:2099-07-03:K1:NEW:r1","at":"2026-11-20T16:53:30.030Z"}}}
