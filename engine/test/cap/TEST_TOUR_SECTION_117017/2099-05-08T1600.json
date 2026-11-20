@@ -1,1 +1,1 @@
-{"capacity":24,"entries":{"co:CO-TEST-BB-1961816558180-BB6631":{"qty":2,"status":"HOLD","expires_at":"2026-11-20T16:42:07.462Z","owner":"CO-TEST-BB-1961816558180-BB6631","at":"2026-11-20T16:32:07.462Z"}}}
+{"capacity":24,"entries":{"co:CO-TEST-BB-1961816558180-BB6631":{"qty":2,"status":"CONFIRMED","owner":"CO-TEST-BB-1961816558180-BB6631","at":"2026-11-20T16:32:10.071Z"}}}
