@@ -1,1 +1,1 @@
-{"capacity":28,"entries":{"co:CO-TEST-REG-WB1:m2825dbcb":{"qty":1,"status":"HOLD","expires_at":"2026-11-20T17:25:06.137Z","owner":"CO-TEST-REG-WB1","at":"2026-11-20T17:10:06.137Z","supersedes":["co:CO-TEST-REG-WB1"]}}}
+{"capacity":28,"entries":{"co:CO-TEST-REG-WB1:m2825dbcb":{"qty":1,"status":"CONFIRMED","owner":"CO-TEST-REG-WB1","at":"2026-11-20T17:10:09.152Z"}}}
