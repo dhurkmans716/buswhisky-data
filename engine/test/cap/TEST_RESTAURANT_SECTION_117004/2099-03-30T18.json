@@ -1,1 +1,1 @@
-{"capacity":54,"entries":{}}
+{"capacity":54,"entries":{"co:CO-TEST-MV-B1:m8f365eec":{"qty":2,"status":"HOLD","expires_at":"2026-11-20T14:41:44.706Z","owner":"CO-TEST-MV-B1","at":"2026-11-20T14:26:44.706Z","supersedes":["co:CO-TEST-MV-B1:m57ecaca5"]}}}
