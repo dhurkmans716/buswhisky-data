@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPK608f332b997d45a5:mwp81h5d1zrdsb":{"qty":1,"status":"HOLD","expires_at":"2026-11-20T16:57:45.405Z","owner":"lk:TEST:test-drie-nachten:2099-07-10:3n1k:2099-07-12:K1:NEW:","at":"2026-11-20T16:56:45.405Z"}}}
+{"capacity":1,"entries":{"npk:NPK608f332b997d45a5:mwp81h5d1zrdsb":{"qty":1,"status":"CONFIRMED","owner":"lk:TEST:test-drie-nachten:2099-07-10:3n1k:2099-07-12:K1:NEW:","at":"2026-11-20T16:56:48.669Z"}}}
