@@ -1,1 +1,1 @@
-{"capacity":54,"entries":{"co:OPT-163b2876-20261212":{"qty":2,"status":"HOLD","expires_at":"2026-11-20T14:34:17.012Z","owner":"OPT-163b2876-20261212","at":"2026-11-20T13:34:17.012Z"}}}
+{"capacity":54,"entries":{"co:OPT-163b2876-20261212":{"qty":2,"status":"HOLD","expires_at":"2026-11-20T14:34:17.012Z","owner":"OPT-163b2876-20261212","at":"2026-11-20T13:34:17.012Z"},"co:CO-TEST-ARR-01":{"qty":2,"status":"CONFIRMED","owner":"CO-TEST-ARR-01","at":"2026-11-20T13:45:33.357Z"}}}
