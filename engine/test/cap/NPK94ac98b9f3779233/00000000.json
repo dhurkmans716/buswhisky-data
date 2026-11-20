@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPK94ac98b9f3779233:mwp824e24t2z3r":{"qty":1,"status":"HOLD","expires_at":"2026-11-20T16:58:15.619Z","owner":"lk:TEST:test-drie-kamers:2099-07-17:2n3k:2099-07-18:K1:NEW:r","at":"2026-11-20T16:57:15.619Z"}}}
+{"capacity":1,"entries":{"npk:NPK94ac98b9f3779233:mwp824e24t2z3r":{"qty":1,"status":"CONFIRMED","owner":"lk:TEST:test-drie-kamers:2099-07-17:2n3k:2099-07-18:K1:NEW:r","at":"2026-11-20T16:57:19.098Z"}}}
