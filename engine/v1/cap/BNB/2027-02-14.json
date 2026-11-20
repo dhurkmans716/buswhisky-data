@@ -1,1 +1,1 @@
-{"capacity":28,"entries":{"co:CO-1795099033177-LEY6LH":{"qty":1,"status":"CONFIRMED","owner":"CO-1795099033177-LEY6LH","at":"2026-11-19T14:38:29.280Z"}}}
+{"capacity":28,"entries":{"co:CO-1795099033177-LEY6LH":{"qty":1,"status":"CONFIRMED","owner":"CO-1795099033177-LEY6LH","at":"2026-11-19T14:38:29.280Z"},"co:CO-1795179328168-7KU4FE":{"qty":1,"status":"HOLD","expires_at":"2026-11-20T13:15:29.845Z","owner":"CO-1795179328168-7KU4FE","at":"2026-11-20T12:55:29.845Z"}}}
