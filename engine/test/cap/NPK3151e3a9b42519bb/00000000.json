@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPK3151e3a9b42519bb:mwp283807vedyo":{"qty":1,"status":"HOLD","expires_at":"2026-11-20T14:14:56.610Z","owner":"co:CO-TEST-MV-B1:L2:NEW:r1","at":"2026-11-20T14:13:56.610Z"}}}
+{"capacity":1,"entries":{"npk:NPK3151e3a9b42519bb:mwp283807vedyo":{"qty":1,"status":"CONFIRMED","owner":"co:CO-TEST-MV-B1:L2:NEW:r1","at":"2026-11-20T14:14:01.702Z"}}}
