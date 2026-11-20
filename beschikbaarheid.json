@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-20T06:32:16.323Z",
+  "gegenereerd": "2026-11-20T11:02:23.893Z",
   "bron": "KMT gateway via n8n (Bus Whisky)",
   "activiteiten": [
     {
@@ -6447,8 +6447,7 @@
         {
           "datum": "2026-11-28",
           "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 4
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-11-29",
@@ -12827,8 +12826,7 @@
         {
           "datum": "2026-11-28",
           "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 4
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-11-29",
@@ -13705,8 +13703,8 @@
       "datums": [
         {
           "datum": "2026-11-20",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-21",
@@ -15564,8 +15562,7 @@
         {
           "datum": "2026-11-28",
           "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 4
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-11-29",
@@ -20114,8 +20111,7 @@
         {
           "datum": "2026-11-28",
           "beschikbaar": true,
-          "status": "beperkt",
-          "plekkenVrij": 4
+          "status": "beschikbaar"
         },
         {
           "datum": "2026-11-29",
@@ -24624,8 +24620,8 @@
       "datums": [
         {
           "datum": "2026-11-20",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-21",
@@ -27351,8 +27347,8 @@
       "datums": [
         {
           "datum": "2026-11-20",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-21",
