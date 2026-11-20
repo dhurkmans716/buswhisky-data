@@ -1,1 +1,1 @@
-{"capacity":28,"entries":{"lk:TEST:test-kamer-een:2099-07-03:1n1k":{"qty":1,"status":"HOLD","expires_at":"2026-11-20T17:03:22.567Z","owner":"lk:TEST:test-kamer-een:2099-07-03:1n1k","at":"2026-11-20T16:53:22.567Z"}}}
+{"capacity":28,"entries":{"lk:TEST:test-kamer-een:2099-07-03:1n1k":{"qty":1,"status":"CONFIRMED","owner":"lk:TEST:test-kamer-een:2099-07-03:1n1k","at":"2026-11-20T16:53:24.486Z"}}}
