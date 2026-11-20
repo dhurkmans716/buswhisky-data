@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPK31db2458faa2176e:mwp79eryai31rm":{"qty":1,"status":"HOLD","expires_at":"2026-11-20T16:35:56.190Z","owner":"co:CO-TEST-BB-6131730515254-BB86E4:L0:NEW:r1","at":"2026-11-20T16:34:56.190Z"}}}
+{"capacity":1,"entries":{"npk:NPK31db2458faa2176e:mwp79eryai31rm":{"qty":1,"status":"CONFIRMED","owner":"co:CO-TEST-BB-6131730515254-BB86E4:L0:NEW:r1","at":"2026-11-20T16:34:59.043Z"}}}
