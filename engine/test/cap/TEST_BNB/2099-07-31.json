@@ -1,1 +1,1 @@
-{"capacity":28,"entries":{"lk:TEST:test-storing-gast:2099-07-31:1n1k":{"qty":1,"status":"HOLD","expires_at":"2026-11-20T17:07:49.365Z","owner":"lk:TEST:test-storing-gast:2099-07-31:1n1k","at":"2026-11-20T16:57:49.365Z"}}}
+{"capacity":28,"entries":{"lk:TEST:test-storing-gast:2099-07-31:1n1k":{"qty":1,"status":"CONFIRMED","owner":"lk:TEST:test-storing-gast:2099-07-31:1n1k","at":"2026-11-20T16:57:51.071Z"}}}
