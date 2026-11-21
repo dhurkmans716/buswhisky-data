@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPKbc820c727b99e4e4:mwqrwppxatdc37":{"qty":1,"status":"HOLD","expires_at":"2026-11-21T19:02:41.802Z","owner":"gp:FhMwUXhURga:CANCEL:1795287641","at":"2026-11-21T19:00:41.802Z"}}}
+{"capacity":1,"entries":{"npk:NPKbc820c727b99e4e4:mwqrwppxatdc37":{"qty":1,"status":"CONFIRMED","owner":"gp:FhMwUXhURga:CANCEL:1795287641","at":"2026-11-21T19:00:47.298Z"}}}
