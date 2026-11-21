@@ -1,1 +1,1 @@
-{"capacity":24,"entries":{"co:CO-1795075187804-AFPZJM":{"qty":1,"status":"HOLD","expires_at":"2026-11-19T08:19:48.633Z","owner":"CO-1795075187804-AFPZJM","at":"2026-11-19T07:59:48.633Z"}}}
+{"capacity":24,"entries":{"rest:6036840da1bb8cf8":{"qty":19,"status":"CONFIRMED","owner":"rest:6036840da1bb8cf8","source":"BASELINE","at":"2026-11-21T12:01:10.461Z"}}}
