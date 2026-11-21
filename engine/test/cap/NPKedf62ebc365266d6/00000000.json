@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPKedf62ebc365266d6:mwq4z710zi85d":{"qty":1,"status":"HOLD","expires_at":"2026-11-21T08:19:46.282Z","owner":"co:CO-TEST-REG-A1:L0:WENS:9eed9120","at":"2026-11-21T08:18:46.282Z"}}}
+{"capacity":1,"entries":{"npk:NPKedf62ebc365266d6:mwq4z710zi85d":{"qty":1,"status":"CONFIRMED","owner":"co:CO-TEST-REG-A1:L0:WENS:9eed9120","at":"2026-11-21T08:18:49.417Z"}}}
