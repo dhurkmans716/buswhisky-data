@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPK8fcc49d1abd746b3:mwquj8g536kqpp":{"qty":1,"status":"HOLD","expires_at":"2026-11-21T20:16:11.955Z","owner":"co:CO-1795292041578-XBVLAD:L0:NEW:r1","at":"2026-11-21T20:14:11.955Z"}}}
+{"capacity":1,"entries":{"npk:NPK8fcc49d1abd746b3:mwquj8g536kqpp":{"qty":1,"status":"CONFIRMED","owner":"co:CO-1795292041578-XBVLAD:L0:NEW:r1","at":"2026-11-21T20:14:15.596Z"}}}
