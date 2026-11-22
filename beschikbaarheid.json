@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-22T11:02:27.109Z",
+  "gegenereerd": "2026-11-22T17:02:19.767Z",
   "bron": "KMT gateway via n8n (Bus Whisky)",
   "activiteiten": [
     {
@@ -8238,8 +8238,8 @@
       "datums": [
         {
           "datum": "2026-11-22",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-23",
@@ -14617,8 +14617,8 @@
       "datums": [
         {
           "datum": "2026-11-22",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-23",
@@ -16438,8 +16438,8 @@
       "datums": [
         {
           "datum": "2026-11-22",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-23",
@@ -22806,8 +22806,8 @@
       "datums": [
         {
           "datum": "2026-11-22",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-23",
@@ -25534,8 +25534,8 @@
       "datums": [
         {
           "datum": "2026-11-22",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-23",
@@ -26443,8 +26443,8 @@
       "datums": [
         {
           "datum": "2026-11-22",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-23",
