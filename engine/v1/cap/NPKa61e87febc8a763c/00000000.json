@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPKa61e87febc8a763c:mws7c4cf5a6bpv":{"qty":1,"status":"HOLD","expires_at":"2026-11-22T19:02:20.963Z","owner":"gp:cNJwc3CRBFk:ve71d42a2","at":"2026-11-22T19:00:20.963Z"}}}
+{"capacity":1,"entries":{"npk:NPKa61e87febc8a763c:mws7c4cf5a6bpv":{"qty":1,"status":"CONFIRMED","owner":"gp:cNJwc3CRBFk:ve71d42a2","at":"2026-11-22T19:00:32.450Z"}}}
