@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026112201);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026112202);
 /* VISITBUS_CHAT_STYLE_FIX_20261118 */
 (function(){if(!/(^|\\.)visitbus\\.nl$/i.test(location.hostname))return;var rules='.chat-window-wrapper .chat-window .chat-header{display:block!important;visibility:visible!important;opacity:1!important;background:#141414!important;color:#fff!important;min-height:56px!important;padding:12px 48px 12px 16px!important;box-sizing:border-box!important}.chat-window-wrapper .chat-window .chat-header h1,.chat-window-wrapper .chat-window .chat-header h2,.chat-window-wrapper .chat-window .chat-header .chat-heading{color:#fff!important;font-size:16px!important;font-weight:700!important;line-height:24px!important;margin:0!important}.chat-window-wrapper .chat-window .bw-powered,.chat-window-wrapper .chat-window .bw-powered *{font-family:Arial,sans-serif!important;font-size:11px!important;line-height:14px!important;font-weight:500!important;text-transform:none!important;letter-spacing:0!important}.chat-window-wrapper .chat-window .bw-powered{display:flex!important;align-items:center!important;justify-content:center!important;gap:5px!important;min-height:24px!important;padding:5px 6px!important;background:#000!important;color:#fff!important;box-sizing:border-box!important;text-align:center!important}.chat-window-wrapper .chat-window .bw-powered svg{width:12px!important;height:12px!important;flex:0 0 12px!important}.chat-window-wrapper .chat-window .chat-layout{min-height:0!important;flex:1 1 auto!important}@media(max-width:480px){.chat-window-wrapper .chat-window .bw-powered,.chat-window-wrapper .chat-window .bw-powered *{font-size:10px!important;line-height:13px!important}}';function go(){if(document.getElementById('bus-visitbus-chat-style'))return;var s=document.createElement('style');s.id='bus-visitbus-chat-style';s.textContent=rules;(document.head||document.documentElement).appendChild(s)}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go,{once:true});else go();})();
 
@@ -107,21 +107,71 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
   // Aan/uit: localStorage bw-render = 1 of 0 overschrijft window.__busRenderStandaard.
   function RENDER() { try { var v = localStorage.getItem('bw-render'); if (v === '1') return true; if (v === '0') return false; } catch (e) {} return window.__busRenderStandaard === true; }
   if (window.__busRenderStandaard === undefined) window.__busRenderStandaard = true;
-  var RB = BRON + 'r/', LUXON = 'https://cdn.jsdelivr.net/npm/luxon@3.7.2/build/es6/luxon.mjs';
+  var RB = BRON + 'r/', LUXON = 'https://cdn.jsdelivr.net/npm/luxon@3.7.2/build/es6/luxon.min.mjs', LUXON_VOL = 'https://cdn.jsdelivr.net/npm/luxon@3.7.2/build/es6/luxon.mjs';
+  // 22 nov 2026 (Dennis, akkoord publiceren): render.js en snap.json via jsDelivr op de vaste commit uit index.json
+  // (onveranderlijk, een jaar in de browsercache, wereldwijde CDN); raw.githubusercontent alleen nog als terugval.
+  // Elke download heeft een time-out, zodat een hangende verbinding de widget nooit blokkeert (dan valt hij terug op n8n).
+  var JSD = 'https://cdn.jsdelivr.net/gh/dhurkmans716/buswhisky-data@';
+  function bwNu() { try { return performance.now(); } catch (e) { return Date.now(); } }
+  function bwHaal(u, ms, soort) {
+    var ac = null; try { ac = new AbortController(); } catch (e) {}
+    var to = setTimeout(function () { try { if (ac) ac.abort(); } catch (e) {} }, ms);
+    var o = { credentials: 'omit' }; if (ac) o.signal = ac.signal; if (soort === 'index') o.cache = 'no-cache';
+    var p = fetch(u, o).then(function (r) { if (!r.ok) throw new Error('http ' + r.status); return soort === 'text' ? r.text() : r.json(); });
+    var tm = new Promise(function (x, rej) { setTimeout(function () { rej(new Error('timeout ' + ms)); }, ms + 50); });
+    return Promise.race([p, tm]).then(function (v) { clearTimeout(to); return v; }, function (e) { clearTimeout(to); throw e; });
+  }
+  var bwLaad = { start: 0, index: null, render: null, snap: null, luxon: null, host: '', fout: '' };
+  window.__bwLaadTiming = bwLaad;
+  function bwBestand(man, naam, q, soort) {
+    var t0 = bwNu();
+    var raw = function () { return bwHaal(RB + naam + q, 6000, soort).then(function (v) { bwLaad[naam === 'render.js' ? 'render' : 'snap'] = Math.round(bwNu() - t0); bwLaad.host = bwLaad.host || 'raw'; if (bwLaad.host === 'jsd') bwLaad.host = 'gemengd'; return v; }); };
+    if (!man.commit || !/^[0-9a-f]{40}$/.test(String(man.commit))) return raw();
+    return bwHaal(JSD + man.commit + '/widget/r/' + naam, 4000, soort).then(function (v) { bwLaad[naam === 'render.js' ? 'render' : 'snap'] = Math.round(bwNu() - t0); if (!bwLaad.host) bwLaad.host = 'jsd'; else if (bwLaad.host === 'raw') bwLaad.host = 'gemengd'; return v; }, raw);
+  }
+  function bwLuxon() {
+    var t0 = bwNu();
+    var tm = function (p, ms) { return Promise.race([p, new Promise(function (x, rej) { setTimeout(function () { rej(new Error('timeout')); }, ms); })]); };
+    return tm(import(LUXON), 5000).catch(function () { return tm(import(LUXON_VOL), 6000); }).then(function (m) { bwLaad.luxon = Math.round(bwNu() - t0); return m; });
+  }
+  function bwIndex() {
+    var t0 = bwNu();
+    return bwHaal(RB + 'index.json?t=' + Math.floor(Date.now() / 60000), 3000, 'index').then(function (man) {
+      bwLaad.index = Math.round(bwNu() - t0);
+      try { if (man && man.render) localStorage.setItem('bw-r-index', JSON.stringify(man)); } catch (e) {}
+      return man;
+    }, function (e) {
+      // index.json niet bereikbaar: laatste bekende index uit deze browser (rMax bewaakt de versheid).
+      bwLaad.index = -1;
+      try { var m = JSON.parse(localStorage.getItem('bw-r-index') || 'null'); if (m && m.commit) return m; } catch (x) {}
+      throw e;
+    });
+  }
+  function bwKlasse(ms) { return ms < 500 ? '0-0,5s' : ms < 1000 ? '0,5-1s' : ms < 2000 ? '1-2s' : ms < 4000 ? '2-4s' : '4s+'; }
+  function bwGa4(naam, ms, extra) {
+    try {
+      var g = typeof window.gtag === 'function' ? window.gtag : function () { (window.dataLayer = window.dataLayer || []).push(arguments); };
+      var p = { send_to: 'G-0S69HE9T00', value: Math.max(0, Math.round(ms)), bw_ms: Math.max(0, Math.round(ms)), bw_klasse: bwKlasse(ms), bw_toestel: /iPhone|iPad|iPod/.test(navigator.userAgent) ? 'iOS' : /Android/.test(navigator.userAgent) ? 'Android' : /Windows/.test(navigator.userAgent) ? 'Windows' : /Mac OS/.test(navigator.userAgent) ? 'Mac' : 'overig', bw_build: String(window.__busBuild || '') };
+      for (var k in extra) if (Object.prototype.hasOwnProperty.call(extra, k)) p[k] = extra[k];
+      g('event', naam, p);
+    } catch (e) {}
+  }
+  window.__bwGa4 = bwGa4;
   // Diensten mogen overdag 2 uur oud zijn, 's nachts geldt de stand van de avond (capaciteit controleert de checkout live).
   function rMax() { var h = new Date().getUTCHours(); return (h >= 20 || h < 7) ? 11 * 3600000 : 2 * 3600000; }
   var rStack = null, rKlaar = false;
   function rLaad() {
     if (!RENDER()) return Promise.resolve(null);
     if (!rStack) {
-      rStack = fetch(RB + 'index.json?t=' + Math.floor(Date.now() / 60000), { cache: 'no-cache', credentials: 'omit' })
-        .then(function (r) { return r.ok ? r.json() : null; })
+      bwLaad.start = bwNu(); bwLaad.host = ''; bwLaad.fout = '';
+      var lxP = bwLuxon();
+      rStack = bwIndex()
         .then(function (man) {
-          if (!man || man.uit === true || !man.render || !man.snapTs || Date.now() - Number(man.snapTs) > rMax()) return null;
+          if (!man || man.uit === true || !man.render || !man.snapTs || Date.now() - Number(man.snapTs) > rMax()) { bwLaad.fout = 'index'; return null; }
           return Promise.all([
-            fetch(RB + 'render.js?h=' + encodeURIComponent(man.render), { credentials: 'omit' }).then(function (r) { return r.ok ? r.text() : null; }),
-            fetch(RB + 'snap.json?t=' + encodeURIComponent(man.snapTs), { credentials: 'omit' }).then(function (r) { return r.ok ? r.json() : null; }),
-            import(LUXON)
+            bwBestand(man, 'render.js', '?h=' + encodeURIComponent(man.render), 'text'),
+            bwBestand(man, 'snap.json', '?t=' + encodeURIComponent(man.snapTs), 'json'),
+            lxP
           ]).then(function (a) {
             var js = a[0], sj = a[1], lx = a[2];
             if (!js || !sj || !sj.data || !lx || !lx.DateTime || Date.now() - Number(sj.ts) > rMax()) return null;
@@ -131,7 +181,11 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
             return { snap: sj.data, DateTime: lx.DateTime, f: window.__bwRenderWidget, h: man.render };
           });
         })
-        .catch(function (e) { try { console.warn('[BUS] widget-renderer niet beschikbaar', e); } catch (x) {} return null; });
+        .catch(function (e) { bwLaad.fout = String((e && e.message) || e).slice(0, 40); try { console.warn('[BUS] widget-renderer niet beschikbaar', e); } catch (x) {} return null; });
+      rStack.then(function (s) {
+        // GA4 (22 nov 2026): hoe lang het voorladen duurde, via welke host, en per bestand.
+        bwGa4('bw_laad', bwNu() - bwLaad.start, { bw_bron: s ? 'browser' : 'mislukt', bw_host: bwLaad.host || 'geen', bw_fout: bwLaad.fout || '', bw_index_ms: bwLaad.index, bw_render_ms: bwLaad.render, bw_snap_ms: bwLaad.snap, bw_luxon_ms: bwLaad.luxon });
+      });
       rStack.then(function (s) { if (!s) setTimeout(function () { rStack = null; }, 60000); });
     }
     return rStack;
@@ -168,6 +222,37 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
       return { url: u.pathname + u.search, l: shop ? 'shop' : 'nl' };
     } catch (e) { return null; }
   }
+  // GA4 bw_open (22 nov 2026): tijd van de tik op Reserveren/Cadeaubon/fles tot de widget in het paneel staat, met de bron
+  // (browser = lokaal gebouwd, kopie = statische kopie, n8n = terugvalpad). Een keer per tik.
+  function bwTik(e) {
+    var t = e.target && e.target.closest ? e.target.closest('[data-booking-widget-open],#bwShopLauncher') : null;
+    if (!t) return;
+    if (e.type === 'click') {
+      if (!e.isTrusted) return;
+      var tik = window.__bwTik = { t: bwNu(), soort: t.getAttribute('data-booking-widget-open') || 'shop', gemeld: false, klaar: rKlaar };
+      // Stond de widget al klaar in het paneel (voorgeladen), dan verandert er niets aan de iframe: meet dan tot het paneel open is.
+      setTimeout(function () {
+        if (tik.gemeld || window.__bwTik !== tik) return;
+        var host = document.getElementById('booking-widget'), ifr = host && host.querySelector('iframe');
+        if (ifr && ifr.__busGeschreven && !ifr.__bwBezig && host.classList.contains('is-open')) { ifr.__bwBron = 'al-geladen'; bwOpenMeld(ifr); }
+      }, 120);
+      return;
+    }
+    if (RENDER()) rLaad(); // voorladen start al bij aanraken, muis of focus
+  }
+  document.addEventListener('click', bwTik, true);
+  document.addEventListener('touchstart', bwTik, { capture: true, passive: true });
+  document.addEventListener('pointerdown', bwTik, { capture: true, passive: true });
+  document.addEventListener('mouseover', bwTik, { capture: true, passive: true });
+  document.addEventListener('focusin', bwTik, true);
+  function bwOpenMeld(ifr) {
+    var k = window.__bwTik;
+    if (!k || k.gemeld) return;
+    var ms = bwNu() - k.t;
+    if (ms < 0 || ms > 30000) return;
+    k.gemeld = true;
+    bwGa4('bw_open', ms, { bw_bron: ifr.__bwBron || 'onbekend', bw_onderdeel: k.soort, bw_voorgeladen: k.klaar ? 'ja' : 'nee' });
+  }
   function haak(ifr) {
     if (!ifr || ifr.__busHaak) return;
     var d = Object.getOwnPropertyDescriptor(HTMLIFrameElement.prototype, 'src');
@@ -177,7 +262,11 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
     var gaSrc = ifr.getAttribute;
     ifr.getAttribute = function (n) { if (String(n).toLowerCase() === 'src' && ifr.__busVirtSrc != null) return ifr.__busVirtSrc; return gaSrc.apply(ifr, arguments); };
     var beurt = 0;
-    function echt(v) { ifr.__busVirtSrc = null; d.set.call(ifr, v); }
+    function echt(v) {
+      ifr.__busVirtSrc = null;
+      if (v && v !== 'about:blank') { ifr.__bwBron = 'n8n'; ifr.addEventListener('load', function () { ifr.__bwBezig = false; bwOpenMeld(ifr); }, { once: true }); }
+      d.set.call(ifr, v);
+    }
     function schrijf(url, html, data) {
       ifr.__busVirtSrc = url; // statische pagina: voor de rest van de site (boeklinks, app.js) staat de iframe op deze URL
       var w = ifr.contentWindow, doc = w.document, geladen = false;
@@ -202,6 +291,8 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
       doc.write(html);
       doc.close();
       ifr.__busGeschreven = true;
+      ifr.__bwBezig = false;
+      bwOpenMeld(ifr);
       setTimeout(function () { if (!geladen) { ifr.removeEventListener('load', lt); ifr.dispatchEvent(new Event('load')); } }, 60);
     }
     Object.defineProperty(ifr, 'src', {
@@ -209,6 +300,7 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
       get: function () { return ifr.__busVirtSrc != null ? new URL(ifr.__busVirtSrc, location.href).href : d.get.call(ifr); },
       set: function (v) {
         var mijn = ++beurt;
+        if (v && v !== 'about:blank') ifr.__bwBezig = true;
         var rg = RENDER() ? rGeschikt(v) : null;
         var g = geschikt(v);
         if (!g && !rg) { echt(v); return; }
@@ -225,6 +317,7 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
           if (mijn !== beurt) return;
           if (!j) { echt(v); return; }
           if (j.lokaal) g = { url: j.url };
+          ifr.__bwBron = j.lokaal ? 'browser' : 'kopie';
           var leeg = false;
           try { leeg = !ifr.__busGeschreven && ifr.contentWindow.location.href === 'about:blank'; } catch (e) {}
           if (leeg) { schrijf(g.url, j.html, data); return; }
@@ -259,7 +352,7 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
     haak(ifr);
     try { if (navigator.connection && navigator.connection.saveData) return; } catch (e) {}
     var go = function () { haalData(); rLaad().then(function (s) { if (s) return; haal(paginaTaal()); haal('shop'); if (FASE2()) kIndex(); }); };
-    if (window.requestIdleCallback) requestIdleCallback(go, { timeout: 4000 }); else setTimeout(go, 1500);
+    if (window.requestIdleCallback) requestIdleCallback(go, { timeout: 1500 }); else setTimeout(go, 800);
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { start(0); }); else start(0);
 })();
