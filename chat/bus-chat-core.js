@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026111601);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026112201);
 /* VISITBUS_CHAT_STYLE_FIX_20261118 */
 (function(){if(!/(^|\\.)visitbus\\.nl$/i.test(location.hostname))return;var rules='.chat-window-wrapper .chat-window .chat-header{display:block!important;visibility:visible!important;opacity:1!important;background:#141414!important;color:#fff!important;min-height:56px!important;padding:12px 48px 12px 16px!important;box-sizing:border-box!important}.chat-window-wrapper .chat-window .chat-header h1,.chat-window-wrapper .chat-window .chat-header h2,.chat-window-wrapper .chat-window .chat-header .chat-heading{color:#fff!important;font-size:16px!important;font-weight:700!important;line-height:24px!important;margin:0!important}.chat-window-wrapper .chat-window .bw-powered,.chat-window-wrapper .chat-window .bw-powered *{font-family:Arial,sans-serif!important;font-size:11px!important;line-height:14px!important;font-weight:500!important;text-transform:none!important;letter-spacing:0!important}.chat-window-wrapper .chat-window .bw-powered{display:flex!important;align-items:center!important;justify-content:center!important;gap:5px!important;min-height:24px!important;padding:5px 6px!important;background:#000!important;color:#fff!important;box-sizing:border-box!important;text-align:center!important}.chat-window-wrapper .chat-window .bw-powered svg{width:12px!important;height:12px!important;flex:0 0 12px!important}.chat-window-wrapper .chat-window .chat-layout{min-height:0!important;flex:1 1 auto!important}@media(max-width:480px){.chat-window-wrapper .chat-window .bw-powered,.chat-window-wrapper .chat-window .bw-powered *{font-size:10px!important;line-height:13px!important}}';function go(){if(document.getElementById('bus-visitbus-chat-style'))return;var s=document.createElement('style');s.id='bus-visitbus-chat-style';s.textContent=rules;(document.head||document.documentElement).appendChild(s)}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go,{once:true});else go();})();
 
@@ -98,7 +98,62 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
     }
     return shopData;
   }
-  window.__busWidgetVers = function () { var l = paginaTaal(); if (vers[l] === undefined) haal(l); return vers[l] === true; };
+
+  // === WIDGET IN DE BROWSER (Dennis 22 nov 2026: "fase 2 compleet") ===
+  // De kwartierbundel zet elk kwartier widget/r/render.js (exact dezelfde code als de n8n-widgetworkflow, automatisch gebouwd)
+  // en widget/r/snap.json (de diensten) op widget-static. Deze pagina bouwt de widget daarmee zelf: openen, deeplinks,
+  // categorie, datum en personen kosten geen n8n-run meer. n8n draait pas bij Reserveer (live controle voor de betaling) en
+  // voor restaurant-deeplinks met live tijden. Lukt iets niet, dan gaat alles zoals voorheen via n8n.
+  // Aan/uit: localStorage bw-render = 1 of 0 overschrijft window.__busRenderStandaard.
+  function RENDER() { try { var v = localStorage.getItem('bw-render'); if (v === '1') return true; if (v === '0') return false; } catch (e) {} return window.__busRenderStandaard === true; }
+  if (window.__busRenderStandaard === undefined) window.__busRenderStandaard = true;
+  var RB = BRON + 'r/', LUXON = 'https://cdn.jsdelivr.net/npm/luxon@3.7.2/build/es6/luxon.mjs';
+  // Diensten mogen overdag 2 uur oud zijn, 's nachts geldt de stand van de avond (capaciteit controleert de checkout live).
+  function rMax() { var h = new Date().getUTCHours(); return (h >= 20 || h < 7) ? 11 * 3600000 : 2 * 3600000; }
+  var rStack = null, rKlaar = false;
+  function rLaad() {
+    if (!RENDER()) return Promise.resolve(null);
+    if (!rStack) {
+      rStack = fetch(RB + 'index.json?t=' + Math.floor(Date.now() / 60000), { cache: 'no-cache', credentials: 'omit' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (man) {
+          if (!man || man.uit === true || !man.render || !man.snapTs || Date.now() - Number(man.snapTs) > rMax()) return null;
+          return Promise.all([
+            fetch(RB + 'render.js?h=' + encodeURIComponent(man.render), { credentials: 'omit' }).then(function (r) { return r.ok ? r.text() : null; }),
+            fetch(RB + 'snap.json?t=' + encodeURIComponent(man.snapTs), { credentials: 'omit' }).then(function (r) { return r.ok ? r.json() : null; }),
+            import(LUXON)
+          ]).then(function (a) {
+            var js = a[0], sj = a[1], lx = a[2];
+            if (!js || !sj || !sj.data || !lx || !lx.DateTime || Date.now() - Number(sj.ts) > rMax()) return null;
+            if (window.__bwRenderWidgetHash !== man.render) { (new Function(js))(); window.__bwRenderWidgetHash = man.render; }
+            if (typeof window.__bwRenderWidget !== 'function') return null;
+            rKlaar = true;
+            return { snap: sj.data, DateTime: lx.DateTime, f: window.__bwRenderWidget, h: man.render };
+          });
+        })
+        .catch(function (e) { try { console.warn('[BUS] widget-renderer niet beschikbaar', e); } catch (x) {} return null; });
+      rStack.then(function (s) { if (!s) setTimeout(function () { rStack = null; }, 60000); });
+    }
+    return rStack;
+  }
+  function rGeschikt(v) {
+    try {
+      var u = new URL(v, location.href);
+      if (u.origin !== location.origin || !/\/reserveren\/widget\/?$/.test(u.pathname) || u.searchParams.has('diag')) return null;
+      var q = {}; u.searchParams.forEach(function (val, k) { q[k] = val; });
+      return { url: u.pathname + u.search, q: q };
+    } catch (e) { return null; }
+  }
+  function rRender(q) {
+    return rLaad().then(function (s) {
+      if (!s) return null;
+      var t0 = Date.now();
+      return Promise.resolve(s.f(q, s.snap, s.DateTime)).then(function (h) { window.__bwLaatsteRender = { ms: Date.now() - t0, ok: !!h, q: q }; return h || null; })
+        .catch(function (e) { try { console.warn('[BUS] widget lokaal bouwen mislukt', e); } catch (x) {} return null; });
+    });
+  }
+  window.__bwRenderLaad = rLaad; window.__bwRenderLokaal = rRender;
+  window.__busWidgetVers = function () { if (rKlaar) return true; if (RENDER()) rLaad(); var l = paginaTaal(); if (vers[l] === undefined) haal(l); return vers[l] === true; };
   function geschikt(v) {
     try {
       var u = new URL(v, location.href);
@@ -130,15 +185,20 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
       ifr.addEventListener('load', lt, { once: true });
       doc.open();
       try { w.history.replaceState(null, '', url); } catch (e) {}
-      if (data) {
-        try {
-          var of = w.fetch;
-          w.fetch = function (u) {
-            try { if (/\/webhook\/bus-me-widget\/shop\?lang=nl$/.test(String((u && u.url) || u))) return Promise.resolve(new w.Response(JSON.stringify(data), { status: 200, headers: { 'Content-Type': 'application/json' } })); } catch (e) {}
-            return of.apply(this, arguments);
-          };
-        } catch (e) {}
-      }
+      try {
+        var of = w.fetch;
+        w.fetch = function (u, o) {
+          try {
+            var s = String((u && u.url) || u);
+            if (data && /\/webhook\/bus-me-widget\/shop\?lang=nl$/.test(s)) return Promise.resolve(new w.Response(JSON.stringify(data), { status: 200, headers: { 'Content-Type': 'application/json' } }));
+            // 22 nov 2026: andere datum of personen (SPA in de widget) lokaal bouwen in plaats van een n8n-run.
+            var mth = String((o && o.method) || (u && u.method) || 'GET').toUpperCase();
+            var rg = mth === 'GET' && RENDER() ? rGeschikt(new URL(s, w.location.href).href) : null;
+            if (rg) { var self = this, args = arguments; return rRender(rg.q).then(function (h) { return h ? new w.Response(h, { status: 200, headers: { 'Content-Type': 'text/html; charset=utf-8' } }) : of.apply(self, args); }); }
+          } catch (e) {}
+          return of.apply(this, arguments);
+        };
+      } catch (e) {}
       doc.write(html);
       doc.close();
       ifr.__busGeschreven = true;
@@ -149,12 +209,22 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
       get: function () { return ifr.__busVirtSrc != null ? new URL(ifr.__busVirtSrc, location.href).href : d.get.call(ifr); },
       set: function (v) {
         var mijn = ++beurt;
+        var rg = RENDER() ? rGeschikt(v) : null;
         var g = geschikt(v);
-        if (!g) { echt(v); return; }
-        Promise.all([haal(g.l), g.l === 'shop' ? haalData() : null]).then(function (r) {
+        if (!g && !rg) { echt(v); return; }
+        var shopV = !!(rg && rg.q.shop === '1') || !!(g && g.l === 'shop');
+        Promise.all([rg ? rRender(rg.q) : null, shopV ? haalData() : null]).then(function (r0) {
+          if (mijn !== beurt) return null;
+          // 22 nov 2026: lokaal gebouwd (geen n8n-run); anders de oude weg (statische kopie of n8n).
+          if (r0[0]) return [{ html: r0[0], url: rg.url, lokaal: true }, r0[1]];
+          if (!g) { echt(v); return null; }
+          return Promise.all([haal(g.l), g.l === 'shop' ? (r0[1] || haalData()) : null]);
+        }).then(function (r) {
+          if (!r) return;
           var j = r[0], data = r[1];
           if (mijn !== beurt) return;
           if (!j) { echt(v); return; }
+          if (j.lokaal) g = { url: j.url };
           var leeg = false;
           try { leeg = !ifr.__busGeschreven && ifr.contentWindow.location.href === 'about:blank'; } catch (e) {}
           if (leeg) { schrijf(g.url, j.html, data); return; }
@@ -188,7 +258,7 @@ var __busChatModule = import('https://cdn.jsdelivr.net/npm/@n8n/chat@1.44.7/dist
     if (!ifr) { if ((p || 0) < 40) setTimeout(function () { start((p || 0) + 1); }, 250); return; }
     haak(ifr);
     try { if (navigator.connection && navigator.connection.saveData) return; } catch (e) {}
-    var go = function () { haal(paginaTaal()); haal('shop'); haalData(); if (FASE2()) kIndex(); };
+    var go = function () { haalData(); rLaad().then(function (s) { if (s) return; haal(paginaTaal()); haal('shop'); if (FASE2()) kIndex(); }); };
     if (window.requestIdleCallback) requestIdleCallback(go, { timeout: 4000 }); else setTimeout(go, 1500);
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function () { start(0); }); else start(0);
