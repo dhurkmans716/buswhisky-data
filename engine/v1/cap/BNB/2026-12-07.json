@@ -1,1 +1,1 @@
-{"capacity":28,"entries":{"winter-4m4enLbyp3i-0712":{"qty":2,"status":"CONFIRMED","owner":"winter:4m4enLbyp3i","source":"BASELINE","at":"2026-11-20T11:37:21.307Z"}}}
+{"capacity":28,"entries":{"winter-4m4enLbyp3i-0712":{"qty":2,"status":"CONFIRMED","owner":"winter:4m4enLbyp3i","source":"BASELINE","at":"2026-11-20T11:37:21.307Z"},"co:CO-1795357407888-F1M4BB":{"qty":1,"status":"HOLD","expires_at":"2026-11-22T14:43:31.976Z","owner":"CO-1795357407888-F1M4BB","at":"2026-11-22T14:23:31.976Z"}}}
