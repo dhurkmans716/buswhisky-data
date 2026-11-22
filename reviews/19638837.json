@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-18T05:00:28.789Z",
+  "gegenereerd": "2026-11-22T05:00:20.552Z",
   "arrangement": {
     "id": "19638837",
     "naam": "4x4 Ecotrail, laserkleiduifschieten, tour whiskystokerij, pubquiz & overnachting"
@@ -18,6 +18,14 @@
     "Aantal metingen": 74
   },
   "gastenboek": [
+    {
+      "datum": "18 november",
+      "naam": "Caravanstalling de Wit",
+      "aantalPersonen": 4,
+      "cijfer": 8,
+      "tekst": "Mooie locatie met vriendelijke mensen en een leuk programma.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Caravanstalling-de-Wit-20353090"
+    },
     {
       "datum": "13 oktober",
       "naam": "AAFF Accountancy & Advies",
@@ -60,27 +68,27 @@
     },
     {
       "datum": "18 mei",
-      "naam": "Hav&eacute;-Digitap B.V.",
+      "naam": "Hav&Atilde;&copy;-Digitap B.V.",
       "aantalPersonen": 27,
       "cijfer": 6,
       "tekst": "Laat ik daar maar niets in schrijven.",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Hav%C3%A9-Digitap-B.V.-20280369"
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Hav%C3%83%C2%A9-Digitap-B.V.-20280369"
     },
     {
       "datum": "18 mei",
-      "naam": "Hav&eacute;-Digitap B.V.",
+      "naam": "Hav&Atilde;&copy;-Digitap B.V.",
       "aantalPersonen": 27,
       "cijfer": 6,
       "tekst": "Ik vrees niet veel goeds. Programma zag er zo leuk uit, we hadden er echt zin in, maar het viel achteraf zwaar tegen. Heel vervelend t.o.v. onze personeelsvereniging.",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Hav%C3%A9-Digitap-B.V.-20280369"
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Hav%C3%83%C2%A9-Digitap-B.V.-20280369"
     },
     {
       "datum": "18 mei",
-      "naam": "Hav&eacute;-Digitap B.V.",
+      "naam": "Hav&Atilde;&copy;-Digitap B.V.",
       "aantalPersonen": 27,
       "cijfer": 2,
-      "tekst": "Een mooie locatie en omgeving. Gezellig authentiek ingericht. De slaapkamer is enigszins erg klein, koud en de vloerbedekking zat vol met vlekken. Dit geeft niet het gevoel van een goede hygi&euml;ne. Het bed lag bij mij prima. Al kraakte deze bij een elke omdraai. Mijn partner had het idee dat het matras was doorgelegen.",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Hav%C3%A9-Digitap-B.V.-20280369"
+      "tekst": "Een mooie locatie en omgeving. Gezellig authentiek ingericht. De slaapkamer is enigszins erg klein, koud en de vloerbedekking zat vol met vlekken. Dit geeft niet het gevoel van een goede hygi&Atilde;&laquo;ne. Het bed lag bij mij prima. Al kraakte deze bij een elke omdraai. Mijn partner had het idee dat het matras was doorgelegen.",
+      "referentieUrl": "https://www.heischehoeve.com/referenties-Hav%C3%83%C2%A9-Digitap-B.V.-20280369"
     },
     {
       "datum": "7 mei",
@@ -103,7 +111,7 @@
       "naam": "ROC van Twente",
       "aantalPersonen": 29,
       "cijfer": 10,
-      "tekst": "Fijne ruimte om gezamenlijk door te brengen met een team. Na de activiteiten kun je je goed terugtrekken en uitrusten in de priv&eacute;-kamers met prima voorzieningen! Zeker aan te raden!",
+      "tekst": "Fijne ruimte om gezamenlijk door te brengen met een team. Na de activiteiten kun je je goed terugtrekken en uitrusten in de priv&Atilde;&copy;-kamers met prima voorzieningen! Zeker aan te raden!",
       "referentieUrl": "https://www.heischehoeve.com/referenties-ROC-van-Twente-20151398"
     },
     {
@@ -169,14 +177,6 @@
       "cijfer": 10,
       "tekst": "Heel erg bedankt voor de goede zorgen. Het viergangen verrassingsdiner was voortreffelijk, de locatie erg prettig en de communicatie verliep soepel. Het laserkleiduifschieten en de Wisky Tour waren erg leuk, mede dankzij het enthousiasme van John. Bedankt!",
       "referentieUrl": "https://www.heischehoeve.com/referenties-LOC7000-20075032"
-    },
-    {
-      "datum": "13 december",
-      "naam": "Camping en Villapark de Paardekreek",
-      "aantalPersonen": 15,
-      "cijfer": 8,
-      "tekst": "leuke locatie om te verblijven, erg vriendelijk personeel, leuk dat je als groep je eigen ruimte tot je beschikking hebt.",
-      "referentieUrl": "https://www.heischehoeve.com/referenties-Camping-en-Villapark-de-Paardekreek-20116226"
     }
   ],
   "bron": "https://www.heischehoeve.com/bedrijfsuitje-4x4_ecotrail,_laserkleiduifschieten,_tour_whiskystokerij,_pubquiz___overnachting"
