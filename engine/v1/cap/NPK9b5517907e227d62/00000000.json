@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPK9b5517907e227d62:mwt23uon4bwn62":{"qty":1,"status":"HOLD","expires_at":"2026-11-23T09:23:43.342Z","owner":"co:CO-1795425669687-YN92WZ:L0:NEW:r1","at":"2026-11-23T09:21:43.342Z"}}}
+{"capacity":1,"entries":{"npk:NPK9b5517907e227d62:mwt23uon4bwn62":{"qty":1,"status":"CONFIRMED","owner":"co:CO-1795425669687-YN92WZ:L0:NEW:r1","at":"2026-11-23T09:21:47.551Z"}}}
