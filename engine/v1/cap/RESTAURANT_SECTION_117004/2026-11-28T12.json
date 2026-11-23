@@ -1,1 +1,1 @@
-{"capacity":54,"entries":{"npl-ec45c020abc735b2":{"qty":5,"status":"CONFIRMED","owner":"nappkin-handmatig","source":"BASELINE","at":"2026-11-19T12:44:07.178Z"}}}
+{"capacity":60,"entries":{"npl-ec45c020abc735b2":{"qty":5,"status":"CONFIRMED","owner":"nappkin-handmatig","source":"BASELINE","at":"2026-11-19T12:44:07.178Z"},"co:CO-1795467523104-K6ELGK":{"qty":2,"status":"HOLD","expires_at":"2026-11-23T21:18:50.362Z","owner":"CO-1795467523104-K6ELGK","at":"2026-11-23T20:58:50.362Z"}}}
