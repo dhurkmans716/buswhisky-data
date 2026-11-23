@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPKf3f9152239d6bc44:mwtf2e2lesxj1w":{"qty":1,"status":"HOLD","expires_at":"2026-11-23T15:26:30.091Z","owner":"kmt:20329751:H:2026-11-26:TAFELS:namen-v1","at":"2026-11-23T15:24:30.091Z"}}}
+{"capacity":1,"entries":{"npk:NPKf3f9152239d6bc44:mwtf2e2lesxj1w":{"qty":1,"status":"CONFIRMED","owner":"kmt:20329751:H:2026-11-26:TAFELS:namen-v1","at":"2026-11-23T15:24:35.159Z"}}}
