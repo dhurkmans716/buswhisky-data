@@ -1,1 +1,1 @@
-{"capacity":24,"entries":{"co:STAFF-E8ECF5E82F981D:m9baff6a7":{"qty":2,"status":"HOLD","expires_at":"2026-11-24T15:29:03.174Z","owner":"STAFF-E8ECF5E82F981D","at":"2026-11-24T15:14:03.174Z","supersedes":["co:STAFF-E8ECF5E82F981D"]}}}
+{"capacity":24,"entries":{"co:STAFF-E8ECF5E82F981D:m9baff6a7":{"qty":2,"status":"CONFIRMED","owner":"STAFF-E8ECF5E82F981D","at":"2026-11-24T15:14:05.933Z"}}}
