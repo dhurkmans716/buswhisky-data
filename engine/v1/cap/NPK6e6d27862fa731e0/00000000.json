@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPK6e6d27862fa731e0:mwuzwrpp4ivbd8":{"qty":1,"status":"HOLD","expires_at":"2026-11-24T17:57:46.002Z","owner":"co:CO-1795542938777-5FLUCI:L0:NEW:r1","at":"2026-11-24T17:55:46.002Z"}}}
+{"capacity":1,"entries":{"npk:NPK6e6d27862fa731e0:mwuzwrpp4ivbd8":{"qty":1,"status":"CONFIRMED","owner":"co:CO-1795542938777-5FLUCI:L0:NEW:r1","at":"2026-11-24T17:55:51.161Z"}}}
