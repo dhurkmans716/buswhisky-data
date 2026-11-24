@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPKef64389007280dd2:mwuqm1d35zo6c8":{"qty":1,"status":"HOLD","expires_at":"2026-11-24T13:37:29.033Z","owner":"partner:BZFLCXK-overnachting:v0a9951a2","at":"2026-11-24T13:35:29.033Z"}}}
+{"capacity":1,"entries":{"npk:NPKef64389007280dd2:mwuqm1d35zo6c8":{"qty":1,"status":"CONFIRMED","owner":"partner:BZFLCXK-overnachting:v0a9951a2","at":"2026-11-24T13:35:35.036Z"}}}
