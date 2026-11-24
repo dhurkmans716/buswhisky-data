@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-23T17:02:18.029Z",
+  "gegenereerd": "2026-11-24T06:32:17.116Z",
   "bron": "vers",
   "arrangement": {
     "id": "17793283",
@@ -13,11 +13,6 @@
     "meerdaags": false
   },
   "datums": [
-    {
-      "datum": "2026-11-23",
-      "beschikbaar": false,
-      "status": "niet-beschikbaar"
-    },
     {
       "datum": "2026-11-24",
       "beschikbaar": true,
@@ -470,13 +465,13 @@
     },
     {
       "datum": "2027-02-22",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "optie"
     },
     {
       "datum": "2027-02-23",
-      "beschikbaar": true,
-      "status": "beschikbaar"
+      "beschikbaar": false,
+      "status": "optie"
     },
     {
       "datum": "2027-02-24",
@@ -905,6 +900,11 @@
     },
     {
       "datum": "2027-05-20",
+      "beschikbaar": true,
+      "status": "beschikbaar"
+    },
+    {
+      "datum": "2027-05-21",
       "beschikbaar": true,
       "status": "beschikbaar"
     }
