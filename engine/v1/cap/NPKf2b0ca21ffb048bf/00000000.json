@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPKf2b0ca21ffb048bf:mwuivqr4cknume":{"qty":1,"status":"HOLD","expires_at":"2026-11-24T10:01:04.608Z","owner":"co:STAFF-678372b7-32ac-48c8-9528-856e692c0749:L0:NEW:r1","at":"2026-11-24T09:59:04.608Z"}}}
+{"capacity":1,"entries":{"npk:NPKf2b0ca21ffb048bf:mwuivqr4cknume":{"qty":1,"status":"CONFIRMED","owner":"co:STAFF-678372b7-32ac-48c8-9528-856e692c0749:L0:NEW:r1","at":"2026-11-24T09:59:09.656Z"}}}
