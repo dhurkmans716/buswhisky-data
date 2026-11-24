@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPKc594ac9325435861:mwumved4d6sp9g":{"qty":1,"status":"HOLD","expires_at":"2026-11-24T11:52:47.018Z","owner":"co:CO-1795521002839-BEUMQD:L1:NEW:r1","at":"2026-11-24T11:50:47.018Z"}}}
+{"capacity":1,"entries":{"npk:NPKc594ac9325435861:mwumved4d6sp9g":{"qty":1,"status":"CONFIRMED","owner":"co:CO-1795521002839-BEUMQD:L1:NEW:r1","at":"2026-11-24T11:50:51.607Z"}}}
