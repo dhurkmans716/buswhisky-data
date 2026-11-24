@@ -1,1 +1,1 @@
-{"capacity":24,"entries":{"co:CO-1795189993207-PFV9S6":{"qty":2,"status":"HOLD","expires_at":"2026-11-20T16:13:19.856Z","owner":"CO-1795189993207-PFV9S6","at":"2026-11-20T15:53:19.856Z"},"co:CO-1795190199964-J24B71":{"qty":2,"status":"HOLD","expires_at":"2026-11-20T16:16:44.125Z","owner":"CO-1795190199964-J24B71","at":"2026-11-20T15:56:44.125Z"}}}
+{"capacity":24,"entries":{"kmt-20387587-W-2027-01-22":{"qty":11,"status":"CONFIRMED","owner":"KMT-20387587","source":"BASELINE","at":"2026-11-24T06:16:01.230Z"}}}
