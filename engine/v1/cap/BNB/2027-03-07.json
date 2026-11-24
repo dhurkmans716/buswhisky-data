@@ -1,1 +1,1 @@
-{"capacity":28,"entries":{"gp-gzbN1UU9drm":{"qty":1,"status":"CONFIRMED","owner":"guestplan:gzbN1UU9drm","source":"BASELINE","at":"2026-11-18T21:38:31.763Z"}}}
+{"capacity":28,"entries":{"gp-gzbN1UU9drm":{"qty":1,"status":"CONFIRMED","owner":"guestplan:gzbN1UU9drm","source":"BASELINE","at":"2026-11-18T21:38:31.763Z"},"co:CO-1795543627748-KLZ249":{"qty":1,"status":"HOLD","expires_at":"2026-11-24T18:27:11.021Z","owner":"CO-1795543627748-KLZ249","at":"2026-11-24T18:07:11.021Z"}}}
