@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPK818516f77d2365ad:mwumrqf08qvy59":{"qty":1,"status":"HOLD","expires_at":"2026-11-24T11:48:55.975Z","owner":"co:CO-TEST-STAFF-364780C7153E26:L0:NEW:r1","at":"2026-11-24T11:47:55.975Z"}}}
+{"capacity":1,"entries":{"npk:NPK818516f77d2365ad:mwumrqf08qvy59":{"qty":1,"status":"CONFIRMED","owner":"co:CO-TEST-STAFF-364780C7153E26:L0:NEW:r1","at":"2026-11-24T11:48:00.097Z"}}}
