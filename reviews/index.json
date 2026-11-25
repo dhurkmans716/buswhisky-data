@@ -1,55 +1,7 @@
 {
-  "gegenereerd": "2026-11-24T05:00:44.453Z",
+  "gegenereerd": "2026-11-25T05:00:45.568Z",
   "schaal": 10,
   "arrangementen": [
-    {
-      "id": "17793261",
-      "naam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
-      "score": 8,
-      "aantalBeoordelingen": 604,
-      "aantalGastenboek": 20,
-      "reviewsUrl": "reviews/17793261.json"
-    },
-    {
-      "id": "17796664",
-      "naam": "48-uurs arrangement (1 pers. kamer) alles inclusief",
-      "score": 9,
-      "aantalBeoordelingen": 15,
-      "aantalGastenboek": 2,
-      "reviewsUrl": "reviews/17796664.json"
-    },
-    {
-      "id": "17796744",
-      "naam": "56-uurs arrangement (1 pers. kamer) alles inclusief",
-      "score": 8,
-      "aantalBeoordelingen": 70,
-      "aantalGastenboek": 20,
-      "reviewsUrl": "reviews/17796744.json"
-    },
-    {
-      "id": "17982849",
-      "naam": "Doe-het-zelf Weekendbruiloft hoogseizoen (vr t/m zo)",
-      "score": 9,
-      "aantalBeoordelingen": 37,
-      "aantalGastenboek": 20,
-      "reviewsUrl": "reviews/17982849.json"
-    },
-    {
-      "id": "18252230",
-      "naam": "Doe-het-zelf Midweekbruiloft hoogseizoen (di t/m do)",
-      "score": 9,
-      "aantalBeoordelingen": 18,
-      "aantalGastenboek": 9,
-      "reviewsUrl": "reviews/18252230.json"
-    },
-    {
-      "id": "18252288",
-      "naam": "Doe-het-zelf Weekendbruiloft LIGHT laagseizoen (vr t/m zo)",
-      "score": 9,
-      "aantalBeoordelingen": 19,
-      "aantalGastenboek": 9,
-      "reviewsUrl": "reviews/18252288.json"
-    },
     {
       "id": "18522570",
       "naam": "Lunch | 4x4 ecotrail | Whiskytour",
@@ -81,14 +33,6 @@
       "aantalBeoordelingen": 7,
       "aantalGastenboek": 3,
       "reviewsUrl": "reviews/19893479.json"
-    },
-    {
-      "id": "19893954",
-      "naam": "Winterse dropping, Pubquiz & overnachting",
-      "score": 7,
-      "aantalBeoordelingen": 5,
-      "aantalGastenboek": 0,
-      "reviewsUrl": "reviews/19893954.json"
     },
     {
       "id": "19972945",
