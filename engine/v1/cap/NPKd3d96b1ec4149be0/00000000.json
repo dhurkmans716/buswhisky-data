@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPKd3d96b1ec4149be0:mwvqeibna7yx2u":{"qty":1,"status":"HOLD","expires_at":"2026-11-25T06:19:23.638Z","owner":"kmtkamers:20413772:2027-01-25:v1","at":"2026-11-25T06:17:23.638Z"}}}
+{"capacity":1,"entries":{"npk:NPKd3d96b1ec4149be0:mwvqeibna7yx2u":{"qty":1,"status":"CONFIRMED","owner":"kmtkamers:20413772:2027-01-25:v1","at":"2026-11-25T06:17:27.941Z"}}}
