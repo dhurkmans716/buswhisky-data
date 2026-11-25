@@ -1,1 +1,1 @@
-{"capacity":54,"entries":{"co:CO-1795201157126-R1762E":{"qty":2,"status":"CONFIRMED","owner":"CO-1795201157126-R1762E","at":"2026-11-20T18:59:24.280Z"}}}
+{"capacity":60,"entries":{"co:CO-1795201157126-R1762E":{"qty":2,"status":"CONFIRMED","owner":"CO-1795201157126-R1762E","at":"2026-11-20T18:59:24.280Z"},"co:CO-1795616498775-SXLCNB":{"qty":4,"status":"HOLD","expires_at":"2026-11-25T14:41:42.426Z","owner":"CO-1795616498775-SXLCNB","at":"2026-11-25T14:21:42.426Z"}}}
