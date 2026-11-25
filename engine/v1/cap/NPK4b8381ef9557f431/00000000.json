@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPK4b8381ef9557f431:mwwjcmoy2pfp7z":{"qty":1,"status":"HOLD","expires_at":"2026-11-25T19:49:44.817Z","owner":"rest:3d63d52774fd1e36:v6bf4bf17","at":"2026-11-25T19:47:44.817Z"}}}
+{"capacity":1,"entries":{"npk:NPK4b8381ef9557f431:mwwjcmoy2pfp7z":{"qty":1,"status":"CONFIRMED","owner":"rest:3d63d52774fd1e36:v6bf4bf17","at":"2026-11-25T19:47:49.768Z"}}}
