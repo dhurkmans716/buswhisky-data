@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPK61be41628ed22e20:mwwdxzb4sqgv6":{"qty":1,"status":"HOLD","expires_at":"2026-11-25T17:18:23.403Z","owner":"co:CO-1795626928752-4MGPGV:L2:NEW:r1","at":"2026-11-25T17:16:23.403Z"}}}
+{"capacity":1,"entries":{"npk:NPK61be41628ed22e20:mwwdxzb4sqgv6":{"qty":1,"status":"CONFIRMED","owner":"co:CO-1795626928752-4MGPGV:L2:NEW:r1","at":"2026-11-25T17:16:28.908Z"}}}
