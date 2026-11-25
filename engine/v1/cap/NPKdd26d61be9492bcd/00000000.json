@@ -1,1 +1,1 @@
-{"capacity":1,"entries":{"npk:NPKdd26d61be9492bcd:mwvvsaqpbusnmq":{"qty":1,"status":"HOLD","expires_at":"2026-11-25T08:50:05.062Z","owner":"co:CO-1795596404373-HN64EV:L1:NEW:r1","at":"2026-11-25T08:48:05.062Z"}}}
+{"capacity":1,"entries":{"npk:NPKdd26d61be9492bcd:mwvvsaqpbusnmq":{"qty":1,"status":"CONFIRMED","owner":"co:CO-1795596404373-HN64EV:L1:NEW:r1","at":"2026-11-25T08:48:09.980Z"}}}
