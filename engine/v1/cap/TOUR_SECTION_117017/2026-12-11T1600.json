@@ -1,1 +1,1 @@
-{"capacity":24,"entries":{"gpx-2DwANsMtTUo":{"qty":12,"status":"CONFIRMED","owner":"guestplan:2DwANsMtTUo","source":"BASELINE","at":"2026-11-18T22:09:10.293Z"}}}
+{"capacity":200,"entries":{"gpx-2DwANsMtTUo":{"qty":12,"status":"CONFIRMED","owner":"guestplan:2DwANsMtTUo","source":"BASELINE","at":"2026-11-18T22:09:10.293Z"},"co:CO-1795689864019-EKU02P":{"qty":2,"status":"HOLD","expires_at":"2026-11-26T11:04:34.718Z","owner":"CO-1795689864019-EKU02P","at":"2026-11-26T10:44:34.718Z"}}}
