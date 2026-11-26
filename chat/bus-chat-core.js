@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026112601);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026112602);
 /* VISITBUS_INLINE_AANBOD_20261126 */
 // 26 nov 2026 (Dennis: "vormgeving en customer journey van de widget integraal in de website"). Op visitbus.nl staat het
 // aanbod als de echte reserveerwidget direct onder de header (inline=1, kaarten in een raster, datum en personen bovenaan,
@@ -12,7 +12,7 @@ window.__busBuild = Math.max(window.__busBuild || 0, 2026112601);
 (function(){if(!/(^|\.)visitbus\.nl$/i.test(location.hostname)||window.top!==window)return;
 var OLM='18522570,20327328,19972945',HD='67674,19972803,18522570,20327328,19972945',
 MA='19617961,19310420,960185,18712057,20275497,18212800,20275419,18985953,19617909,19893479',
-OV='19893954,18795159,18361936,19638837,18385479,18494490,961017';
+OV='19893954,18795159,18361936,19638837,18385479,18494490,961017';return;// vervangen door V2 hieronder
 var P={'/bedrijfsuitjes':['bedrijfsuitjes','','Al onze bedrijfsuitjes'],'/bedrijfsuitjes/ochtend-lunch-middag':['bedrijfsuitjes',OLM,'Ochtend, lunch en middag'],'/ochtend-lunch-middag':['bedrijfsuitjes',OLM,'Ochtend, lunch en middag'],
 '/halve-dag':['bedrijfsuitjes',MA,'Middag en avond'],'/hele-dag':['bedrijfsuitjes',HD,'Een hele dag op pad'],'/met-overnachting':['bedrijfsuitjes',OV,'Bedrijfsuitjes met overnachting'],
 '/bedrijfsuitje-met-overnachting':['bedrijfsuitjes',OV,'Bedrijfsuitjes met overnachting'],'/gratis-busvervoer':['bedrijfsuitjes','','Al onze bedrijfsuitjes'],
@@ -36,6 +36,50 @@ window.addEventListener('message',function(e){if(e.origin!==ORI||!fr||e.source!=
 function start(){if(bouw())return;var n=0,iv=setInterval(function(){if(bouw()||++n>40)clearInterval(iv)},250)}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();})();
 
+/* VISITBUS_INLINE_AANBOD_V2_20261126 */
+// 26 nov 2026 (Dennis: "vormgeving en customer journey van de widget integraal in de website"). Op visitbus.nl staat het
+// aanbod als de echte reserveerwidget direct onder de header (inline=1, gelijke tegels, filterrij boven de bedrijfsuitjes).
+// Lees meer opent de eigen pagina /activiteiten/<slug>, waar het arrangement groot in de widget staat (detail=1) met daaronder
+// offerte/optie inclusief datum en personen. De Rosegaar-slider, -lijst en -productblok verdwijnen op die pagina's.
+// De gewone widget (pop-up) verandert hierdoor niet: alles in de widget zit achter inline=1.
+(function(){if(!/(^|\.)visitbus\.nl$/i.test(location.hostname)||window.top!==window)return;
+var OLM='18522570,20327328,19972945',HD='67674,19972803,18522570,20327328,19972945',
+MA='19617961,19310420,960185,18712057,20275497,18212800,20275419,18985953,19617909,19893479',
+OV='19893954,18795159,18361936,19638837,18385479,18494490,961017',TYP='o:'+OLM+';m:'+MA+';h:'+HD+';n:'+OV;
+var B='bedrijfsuitjes',V='vergaderingen';
+var P={'/bedrijfsuitjes':[B,'','Al onze bedrijfsuitjes',TYP],'/gratis-busvervoer':[B,'','Al onze bedrijfsuitjes',TYP],
+'/bedrijfsuitjes/ochtend-lunch-middag':[B,OLM,'Ochtend, lunch en middag',''],'/ochtend-lunch-middag':[B,OLM,'Ochtend, lunch en middag',''],
+'/halve-dag':[B,MA,'Middag en avond',''],'/hele-dag':[B,HD,'Een hele dag op pad',''],'/met-overnachting':[B,OV,'Bedrijfsuitjes met overnachting',''],
+'/bedrijfsuitje-met-overnachting':[B,OV,'Bedrijfsuitjes met overnachting',''],
+'/vergaderen':[V,'','Onze vergaderarrangementen'],'/vergaderarrangementen':[V,'','Onze vergaderarrangementen'],'/vergaderzalen':[V,'','Onze vergaderarrangementen'],
+'/heisessies-strategiedagen':[V,'17793283,17793235,17793261,17796664','Arrangementen voor heisessies en strategiedagen'],
+'/vergaderen-met-overnachting':[V,'17793235,17793261,17796664,17796744','Vergaderen met overnachting']};
+var S={18522570:'lunch-4x4-ecotrail-whiskytour',20327328:'lunch-laser-kleiduifschieten-whiskytour',19617961:'laser-kleiduifschieten-middag',19310420:'suppen-kanovaren-fluisterboot',
+960185:'whisky-weilandgames',18712057:'4x4-ecotrail-avond',20275497:'4x4-ecotrail-middag',18212800:'4x4-ecotrail-whiskytour-pubquiz-avond',20275419:'4x4-ecotrail-whiskytour-pubquiz-middag',
+67674:'ontdekkingstocht-door-brabant',18985953:'summer-event',19617909:'4x4-ecotrail-laser-kleiduifschieten-whisky-middag',19893479:'4x4-ecotrail-laser-kleiduifschieten-pubquiz-avond',
+19972945:'4x4-ecotrail-kleiduifschieten-whiskygames',19972803:'4x4-ecotrail-kleiduifschieten-suppen-kanovaren',19893954:'winterse-dropping-pubquiz-overnachting',
+18795159:'4x4-ecotrail-overnachting',18361936:'suppen-kanovaren-fluisterboot-overnachting',19638837:'4x4-ecotrail-laserkleiduifschieten-tour-whiskystokerij-pubquiz-overnachting',
+18385479:'weekend-actief-in-brabant',18494490:'whisky-4x4-weekend',961017:'de-whisky-weilandgames-overnachting',17793283:'12-uurs-vergaderarrangement-alles-inclusief',
+17793235:'24-uurs-arrangement-1-pers-kamer-alles-inclusief',17793261:'32-uurs-arrangement-1-pers-kamer-alles-inclusief',17796664:'48-uurs-arrangement-1-pers-kamer-alles-inclusief',
+17796744:'56-uurs-arrangement-1-pers-kamer-alles-inclusief'};
+var pad=location.pathname.replace(/\/+$/,'')||'/',c=P[pad],det=null;
+if(!c){var m=pad.match(/^\/activiteiten\/([^\/]+)$/);if(m)for(var k in S)if(S[k]===m[1])det=k;if(!det)return;c=[/^1779/.test(det)?V:B,det,'',''];}
+var ORI='https://buswhisky.com',fr=null;
+function verberg(root){[].forEach.call(root.children,function(x,i){if(i===0||x.id==='bw-inline-aanbod'||x.tagName==='STYLE'||x.tagName==='SCRIPT')return;var t=x.textContent||'';
+ if(det?/\bpy-20\b/.test(x.className):(x.querySelector('.outings-slider-next,.swiper-container-outings')||x.querySelectorAll('a[href*="/activiteiten/"]').length>=2||/Wat voor uitje zoek je/i.test(t)))x.style.display='none'})}
+function bouw(){if(document.getElementById('bw-inline-aanbod'))return true;var hero=document.querySelector('.content > .relative.overflow-hidden')||document.querySelector('.content > div');if(!hero||!hero.parentElement)return false;
+ var root=hero.parentElement,w=document.createElement('div');w.id='bw-inline-aanbod';w.style.background='#F7F4EE';
+ w.innerHTML='<div class="container pt-16 pb-16"><div class="text-center"><h4 class="py-4 mb-6"></h4></div></div>';var h4=w.querySelector('h4');if(c[2])h4.textContent=c[2];else h4.parentNode.remove();
+ fr=document.createElement('iframe');fr.title=c[2]||'Arrangement';fr.setAttribute('scrolling','no');fr.setAttribute('allow','payment');
+ fr.style.cssText='display:block;width:100%;border:0;height:900px;min-height:400px;background:transparent;overflow:hidden';
+ fr.src=ORI+'/reserveren/widget?category='+c[0]+'&lang=nl&launcher=0&modal=1&inline=1'+(det?'&arrangement='+det+'&ids='+det+'&detail=1':(c[1]?'&ids='+c[1]:'')+(c[0]===B?'&filter=1':'')+(c[3]?'&typen='+encodeURIComponent(c[3]):''));
+ w.firstChild.appendChild(fr);root.insertBefore(w,hero.nextSibling);verberg(root);setTimeout(function(){verberg(root)},1500);return true}
+window.addEventListener('message',function(e){if(e.origin!==ORI||!fr||e.source!==fr.contentWindow)return;var m=e.data||{};if(!m.bwInline)return;
+ if(m.h>200)fr.style.height=Math.ceil(m.h)+'px';
+ if(m.lees&&S[m.lees]){location.href='/activiteiten/'+S[m.lees];return}
+ if(typeof m.top==='number'){var y=fr.getBoundingClientRect().top+window.scrollY+m.top-110;window.scrollTo({top:Math.max(0,y),behavior:'smooth'})}});
+function start(){if(bouw())return;var n=0,iv=setInterval(function(){if(bouw()||++n>40)clearInterval(iv)},250)}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();})();
 /* VISITBUS_CHAT_STYLE_FIX_20261118 */
 (function(){if(!/(^|\\.)visitbus\\.nl$/i.test(location.hostname))return;var rules='.chat-window-wrapper .chat-window .chat-header{display:block!important;visibility:visible!important;opacity:1!important;background:#141414!important;color:#fff!important;min-height:56px!important;padding:12px 48px 12px 16px!important;box-sizing:border-box!important}.chat-window-wrapper .chat-window .chat-header h1,.chat-window-wrapper .chat-window .chat-header h2,.chat-window-wrapper .chat-window .chat-header .chat-heading{color:#fff!important;font-size:16px!important;font-weight:700!important;line-height:24px!important;margin:0!important}.chat-window-wrapper .chat-window .bw-powered,.chat-window-wrapper .chat-window .bw-powered *{font-family:Arial,sans-serif!important;font-size:11px!important;line-height:14px!important;font-weight:500!important;text-transform:none!important;letter-spacing:0!important}.chat-window-wrapper .chat-window .bw-powered{display:flex!important;align-items:center!important;justify-content:center!important;gap:5px!important;min-height:24px!important;padding:5px 6px!important;background:#000!important;color:#fff!important;box-sizing:border-box!important;text-align:center!important}.chat-window-wrapper .chat-window .bw-powered svg{width:12px!important;height:12px!important;flex:0 0 12px!important}.chat-window-wrapper .chat-window .chat-layout{min-height:0!important;flex:1 1 auto!important}@media(max-width:480px){.chat-window-wrapper .chat-window .bw-powered,.chat-window-wrapper .chat-window .bw-powered *{font-size:10px!important;line-height:13px!important}}';function go(){if(document.getElementById('bus-visitbus-chat-style'))return;var s=document.createElement('style');s.id='bus-visitbus-chat-style';s.textContent=rules;(document.head||document.documentElement).appendChild(s)}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go,{once:true});else go();})();
 
