@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-26T11:02:24.702Z",
+  "gegenereerd": "2026-11-26T17:02:16.854Z",
   "bron": "KMT gateway via n8n (Bus Whisky)",
   "activiteiten": [
     {
@@ -8,7 +8,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 120,
-      "prijs": 149.5,
+      "prijs": 159.5,
       "duurMinuten": 720,
       "startUur": 9,
       "meerdaags": false,
@@ -917,7 +917,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 20,
       "maxAantal": 450,
-      "prijs": 109.5,
+      "prijs": 119.5,
       "duurMinuten": 360,
       "startUur": 14,
       "meerdaags": false,
@@ -925,8 +925,8 @@
       "datums": [
         {
           "datum": "2026-11-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-27",
@@ -1090,8 +1090,8 @@
         },
         {
           "datum": "2026-12-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-30",
@@ -1100,13 +1100,13 @@
         },
         {
           "datum": "2026-12-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-02",
@@ -1826,7 +1826,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 20,
       "maxAantal": 100,
-      "prijs": 249.5,
+      "prijs": 259.5,
       "duurMinuten": 1200,
       "startUur": 14,
       "meerdaags": true,
@@ -6559,32 +6559,32 @@
         {
           "datum": "2026-12-27",
           "beschikbaar": false,
-          "status": "volgeboekt"
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-28",
           "beschikbaar": false,
-          "status": "volgeboekt"
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-29",
           "beschikbaar": false,
-          "status": "volgeboekt"
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-30",
           "beschikbaar": false,
-          "status": "volgeboekt"
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-31",
           "beschikbaar": false,
-          "status": "volgeboekt"
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-01",
           "beschikbaar": false,
-          "status": "volgeboekt"
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-02",
@@ -8223,7 +8223,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 120,
-      "prijs": 139.5,
+      "prijs": 149.5,
       "duurMinuten": 360,
       "startUur": 17,
       "meerdaags": false,
@@ -8231,8 +8231,8 @@
       "datums": [
         {
           "datum": "2026-11-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-27",
@@ -8386,33 +8386,33 @@
         },
         {
           "datum": "2026-12-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-30",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-02",
@@ -10951,7 +10951,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 100,
-      "prijs": 279.5,
+      "prijs": 289.5,
       "duurMinuten": 1350,
       "startUur": 13,
       "meerdaags": true,
@@ -11860,7 +11860,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 100,
-      "prijs": 499.5,
+      "prijs": 509.5,
       "duurMinuten": 2610,
       "startUur": 19,
       "meerdaags": true,
@@ -12772,7 +12772,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 100,
-      "prijs": 499.5,
+      "prijs": 509.5,
       "duurMinuten": 2370,
       "startUur": 19,
       "meerdaags": true,
@@ -13852,33 +13852,33 @@
         },
         {
           "datum": "2026-12-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-30",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-02",
@@ -14598,7 +14598,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 4,
       "maxAantal": 250,
-      "prijs": 119.5,
+      "prijs": 129.5,
       "duurMinuten": 300,
       "startUur": 17,
       "meerdaags": false,
@@ -14606,8 +14606,8 @@
       "datums": [
         {
           "datum": "2026-11-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-27",
@@ -14761,33 +14761,33 @@
         },
         {
           "datum": "2026-12-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-30",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-02",
@@ -14818,6 +14818,161 @@
           "datum": "2027-01-07",
           "beschikbaar": true,
           "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-08",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-09",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-10",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-11",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-12",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-13",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-14",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-15",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-16",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-17",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-18",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-19",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-20",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-21",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-22",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-23",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-24",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-25",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-26",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-27",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-28",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-29",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-30",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-01-31",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-02-01",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-02-02",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-02-03",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-02-04",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-02-05",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-02-06",
+          "beschikbaar": true,
+          "status": "beschikbaar"
+        },
+        {
+          "datum": "2027-02-07",
+          "beschikbaar": true,
+          "status": "beschikbaar"
         }
       ]
     },
@@ -14827,7 +14982,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 10,
       "maxAantal": 100,
-      "prijs": 259.5,
+      "prijs": 269.5,
       "duurMinuten": 1080,
       "startUur": 16,
       "meerdaags": true,
@@ -14840,192 +14995,12 @@
       "type": "Bedrijfs uitje",
       "minAantal": 70,
       "maxAantal": 200,
-      "prijs": 149.5,
+      "prijs": 159.5,
       "duurMinuten": 540,
       "startUur": 13,
       "meerdaags": false,
       "bron": "vers",
       "datums": [
-        {
-          "datum": "2026-11-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-11-27",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-11-28",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-11-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-11-30",
-          "beschikbaar": true,
-          "status": "beschikbaar"
-        },
-        {
-          "datum": "2026-12-01",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-02",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-03",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-04",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-05",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-06",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-07",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-08",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-09",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-10",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-11",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-12",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-13",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-14",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-15",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-16",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-17",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-18",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-19",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-20",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-21",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-22",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-23",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-24",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-25",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-26",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-27",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-28",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-29",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-30",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
-        {
-          "datum": "2026-12-31",
-          "beschikbaar": false,
-          "status": "niet-beschikbaar"
-        },
         {
           "datum": "2027-01-01",
           "beschikbaar": false,
@@ -15749,7 +15724,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 150,
-      "prijs": 109.5,
+      "prijs": 119.5,
       "duurMinuten": 480,
       "startUur": 13,
       "meerdaags": false,
@@ -16658,7 +16633,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 8,
       "maxAantal": 120,
-      "prijs": 159.5,
+      "prijs": 169.5,
       "duurMinuten": 420,
       "startUur": 14,
       "meerdaags": false,
@@ -16666,8 +16641,8 @@
       "datums": [
         {
           "datum": "2026-11-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-27",
@@ -16826,28 +16801,28 @@
         },
         {
           "datum": "2026-12-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-30",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-02",
@@ -17567,7 +17542,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 4,
       "maxAantal": 250,
-      "prijs": 109.5,
+      "prijs": 119.5,
       "duurMinuten": 360,
       "startUur": 14,
       "meerdaags": false,
@@ -17575,8 +17550,8 @@
       "datums": [
         {
           "datum": "2026-11-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-27",
@@ -17735,28 +17710,28 @@
         },
         {
           "datum": "2026-12-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-30",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-02",
@@ -18476,7 +18451,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 10,
       "maxAantal": 100,
-      "prijs": 299.5,
+      "prijs": 309.5,
       "duurMinuten": 1200,
       "startUur": 14,
       "meerdaags": true,
@@ -20299,7 +20274,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 120,
-      "prijs": 169.5,
+      "prijs": 179.5,
       "duurMinuten": 390,
       "startUur": 17,
       "meerdaags": false,
@@ -20307,8 +20282,8 @@
       "datums": [
         {
           "datum": "2026-11-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-27",
@@ -20467,28 +20442,28 @@
         },
         {
           "datum": "2026-12-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-30",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-02",
@@ -21208,7 +21183,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 20,
       "maxAantal": 500,
-      "prijs": 249.5,
+      "prijs": 259.5,
       "duurMinuten": 1180,
       "startUur": 16,
       "meerdaags": true,
@@ -21373,7 +21348,7 @@
         {
           "datum": "2026-12-27",
           "beschikbaar": false,
-          "status": "volgeboekt"
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-28",
@@ -22118,7 +22093,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 150,
-      "prijs": 199.5,
+      "prijs": 209.5,
       "duurMinuten": 660,
       "startUur": 10,
       "meerdaags": false,
@@ -23027,7 +23002,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 450,
-      "prijs": 199.5,
+      "prijs": 209.5,
       "duurMinuten": 600,
       "startUur": 10,
       "meerdaags": false,
@@ -23195,28 +23170,28 @@
         },
         {
           "datum": "2026-12-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-30",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-02",
@@ -23936,7 +23911,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 15,
       "maxAantal": 120,
-      "prijs": 139.5,
+      "prijs": 149.5,
       "duurMinuten": 360,
       "startUur": 14,
       "meerdaags": false,
@@ -23944,8 +23919,8 @@
       "datums": [
         {
           "datum": "2026-11-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-27",
@@ -24099,33 +24074,33 @@
         },
         {
           "datum": "2026-12-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-30",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-02",
@@ -24845,7 +24820,7 @@
       "type": "Bedrijfs uitje",
       "minAantal": 4,
       "maxAantal": 250,
-      "prijs": 119.5,
+      "prijs": 129.5,
       "duurMinuten": 360,
       "startUur": 14,
       "meerdaags": false,
@@ -24853,8 +24828,8 @@
       "datums": [
         {
           "datum": "2026-11-26",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-11-27",
@@ -25008,33 +24983,33 @@
         },
         {
           "datum": "2026-12-27",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-30",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-02",
@@ -25922,28 +25897,28 @@
         },
         {
           "datum": "2026-12-28",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-29",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-30",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2026-12-31",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-01",
-          "beschikbaar": true,
-          "status": "beschikbaar"
+          "beschikbaar": false,
+          "status": "niet-beschikbaar"
         },
         {
           "datum": "2027-01-02",
