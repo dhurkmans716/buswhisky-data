@@ -63,7 +63,7 @@ var S={18522570:'lunch-4x4-ecotrail-whiskytour',20327328:'lunch-laser-kleiduifsc
 17793235:'24-uurs-arrangement-1-pers-kamer-alles-inclusief',17793261:'32-uurs-arrangement-1-pers-kamer-alles-inclusief',17796664:'48-uurs-arrangement-1-pers-kamer-alles-inclusief',
 17796744:'56-uurs-arrangement-1-pers-kamer-alles-inclusief'};
 var pad=location.pathname.replace(/\/+$/,'')||'/',c=P[pad],det=null;
-if(!c){var m=pad.match(/^\/activiteiten\/([^\/]+)$/);if(m)for(var k in S)if(S[k]===m[1])det=k;if(!det)return;c=[/^1779/.test(det)?V:B,det,'',''];}
+if(!c){var m=pad.match(/^\/activiteiten\/([^\/]+)$/);if(m)for(var k in S)if(S[k]===m[1])det=k;if(!det||!window.matchMedia('(max-width:1023px)').matches)return;c=[/^1779/.test(det)?V:B,det,'',''];try{var vs=document.createElement('style');vs.textContent='.content>.py-20:not(:first-child){display:none!important}';(document.head||document.documentElement).appendChild(vs)}catch(e){}}
 var ORI='https://buswhisky.com',fr=null;
 function verberg(root){[].forEach.call(root.children,function(x,i){if(i===0||x.id==='bw-inline-aanbod'||x.tagName==='STYLE'||x.tagName==='SCRIPT')return;var t=x.textContent||'';
  if(det?/\bpy-20\b/.test(x.className):(x.querySelector('.outings-slider-next,.swiper-container-outings')||x.querySelectorAll('a[href*="/activiteiten/"]').length>=2||/Wat voor uitje zoek je/i.test(t)))x.style.display='none'})}
