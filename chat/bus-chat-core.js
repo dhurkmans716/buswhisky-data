@@ -81,6 +81,29 @@ window.addEventListener('message',function(e){if(e.origin!==ORI||!fr||e.source!=
  if(typeof m.top==='number'){var y=fr.getBoundingClientRect().top+window.scrollY+m.top-110;window.scrollTo({top:Math.max(0,y),behavior:'smooth'})}});
 function start(){if(bouw())return;var n=0,iv=setInterval(function(){if(bouw()||++n>40)clearInterval(iv)},250)}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();})();
+/* VISITBUS_INLINE_SECTIES_V3_20261126 */
+// 26 nov 2026 (Dennis): Meer bij Bus (rondleidingen, workshops) en Camperplaatsen tonen het aanbod als de echte widget,
+// in dezelfde gelijke tegels als bedrijfsuitjes en weekendje weg (inline=1). Op /meer-bij-bus vervangt elk widgetblok de
+// eigen sectie (ankers #rondleidingen en #workshops blijven werken); theatershow blijft zoals hij is. Pop-up verandert niet.
+(function(){if(!/(^|\.)visitbus\.nl$/i.test(location.hostname)||window.top!==window)return;
+var ORI='https://buswhisky.com',pad=location.pathname.replace(/\/+$/,'')||'/';
+var M={'/meer-bij-bus':[['rondleidingen','tours','42SA1mn,79BAxWL,R9QCpTf,Fc7ZW1','Rondleidingen en proeverij'],['workshops','tours','8qDW2f7,VQqxkyQ,PW7hBwF','Workshops whisky stoken']],
+'/camperplaatsen':[[null,'bb','VfVGRnM','Camping Culinair']]};
+var L=M[pad];if(!L)return;var frs=[];
+function blok(s){var w=document.createElement('div');w.className='bw-inline-sectie';w.style.background='#F7F4EE';
+ w.innerHTML='<div class="container pt-16 pb-16"><div class="text-center"><h4 class="py-4 mb-6"></h4></div></div>';w.querySelector('h4').textContent=s[3];
+ var fr=document.createElement('iframe');fr.title=s[3];fr.setAttribute('scrolling','no');fr.setAttribute('allow','payment');
+ fr.style.cssText='display:block;width:100%;border:0;height:700px;min-height:300px;background:transparent;overflow:hidden';
+ fr.src=ORI+'/reserveren/widget?category='+s[1]+'&lang=nl&launcher=0&modal=1&inline=1&ids='+s[2];w.firstChild.appendChild(fr);frs.push(fr);return w}
+function bouw(){if(document.querySelector('.bw-inline-sectie'))return true;var ct=document.querySelector('.content');if(!ct||!ct.children.length)return false;
+ var ok=false;L.forEach(function(s){var w=blok(s);if(s[0]){var o=document.getElementById(s[0]);if(!o)return;var t=o;while(t.parentElement&&t.parentElement!==ct)t=t.parentElement;if(t.parentElement!==ct)return;
+  o.removeAttribute('id');w.id=s[0];ct.insertBefore(w,t);t.style.display='none';ok=true}else{var h=ct.querySelector(':scope > .relative.overflow-hidden')||ct.firstElementChild;ct.insertBefore(w,h.nextSibling);ok=true}});
+ if(ok&&location.hash){var a=document.getElementById(location.hash.slice(1));if(a)setTimeout(function(){window.scrollTo({top:a.getBoundingClientRect().top+window.scrollY-90})},300)}return ok}
+window.addEventListener('message',function(e){if(e.origin!==ORI)return;var fr=null;frs.forEach(function(f){if(f.contentWindow===e.source)fr=f});if(!fr)return;var m=e.data||{};if(!m.bwInline)return;
+ if(m.h>200)fr.style.height=Math.ceil(m.h)+'px';
+ if(typeof m.top==='number'){var y=fr.getBoundingClientRect().top+window.scrollY+m.top-110;window.scrollTo({top:Math.max(0,y),behavior:'smooth'})}});
+function start(){if(bouw())return;var n=0,iv=setInterval(function(){if(bouw()||++n>40)clearInterval(iv)},250)}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();})();
 /* VISITBUS_CHAT_STYLE_FIX_20261118 */
 (function(){if(!/(^|\\.)visitbus\\.nl$/i.test(location.hostname))return;var rules='.chat-window-wrapper .chat-window .chat-header{display:block!important;visibility:visible!important;opacity:1!important;background:#141414!important;color:#fff!important;min-height:56px!important;padding:12px 48px 12px 16px!important;box-sizing:border-box!important}.chat-window-wrapper .chat-window .chat-header h1,.chat-window-wrapper .chat-window .chat-header h2,.chat-window-wrapper .chat-window .chat-header .chat-heading{color:#fff!important;font-size:16px!important;font-weight:700!important;line-height:24px!important;margin:0!important}.chat-window-wrapper .chat-window .bw-powered,.chat-window-wrapper .chat-window .bw-powered *{font-family:Arial,sans-serif!important;font-size:11px!important;line-height:14px!important;font-weight:500!important;text-transform:none!important;letter-spacing:0!important}.chat-window-wrapper .chat-window .bw-powered{display:flex!important;align-items:center!important;justify-content:center!important;gap:5px!important;min-height:24px!important;padding:5px 6px!important;background:#000!important;color:#fff!important;box-sizing:border-box!important;text-align:center!important}.chat-window-wrapper .chat-window .bw-powered svg{width:12px!important;height:12px!important;flex:0 0 12px!important}.chat-window-wrapper .chat-window .chat-layout{min-height:0!important;flex:1 1 auto!important}@media(max-width:480px){.chat-window-wrapper .chat-window .bw-powered,.chat-window-wrapper .chat-window .bw-powered *{font-size:10px!important;line-height:13px!important}}';function go(){if(document.getElementById('bus-visitbus-chat-style'))return;var s=document.createElement('style');s.id='bus-visitbus-chat-style';s.textContent=rules;(document.head||document.documentElement).appendChild(s)}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go,{once:true});else go();})();
 
