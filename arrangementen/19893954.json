@@ -1,5 +1,5 @@
 {
-  "gegenereerd": "2026-11-26T11:02:24.702Z",
+  "gegenereerd": "2026-11-26T17:02:16.854Z",
   "bron": "vers",
   "arrangement": {
     "id": "19893954",
@@ -7,7 +7,7 @@
     "type": "Bedrijfs uitje",
     "minAantal": 20,
     "maxAantal": 500,
-    "prijs": 249.5,
+    "prijs": 259.5,
     "duurMinuten": 1180,
     "startUur": 16,
     "meerdaags": true
@@ -172,7 +172,7 @@
     {
       "datum": "2026-12-27",
       "beschikbaar": false,
-      "status": "volgeboekt"
+      "status": "niet-beschikbaar"
     },
     {
       "datum": "2026-12-28",
