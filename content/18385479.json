@@ -1,12 +1,12 @@
 {
-  "gegenereerd": "2026-11-26T11:02:24.702Z",
+  "gegenereerd": "2026-11-26T17:02:16.854Z",
   "arrangement": {
     "id": "18385479",
     "naam": "Weekend actief in Brabant",
     "type": "Bedrijfs uitje",
     "minAantal": 15,
     "maxAantal": 100,
-    "prijs": 499.5,
+    "prijs": 509.5,
     "duurMinuten": 2610,
     "startUur": 19,
     "meerdaags": true
