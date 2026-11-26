@@ -1,12 +1,12 @@
 {
-  "gegenereerd": "2026-11-26T11:02:24.702Z",
+  "gegenereerd": "2026-11-26T17:02:16.854Z",
   "arrangement": {
     "id": "19310420",
     "naam": "Suppen, kanovaren & fluisterboot",
     "type": "Bedrijfs uitje",
     "minAantal": 15,
     "maxAantal": 150,
-    "prijs": 109.5,
+    "prijs": 119.5,
     "duurMinuten": 480,
     "startUur": 13,
     "meerdaags": false
@@ -20,7 +20,7 @@
   "dinerKeuzeMogelijk": true,
   "afkoopEigenRisico": false,
   "afbeeldingen": {
-    "hoofd": "https://www.heischehoeve.com/download/?id=19618760&fileType=auto",
+    "hoofd": "https://www.heischehoeve.com/download/?id=18501331&fileType=auto",
     "sticker": "https://www.heischehoeve.com/download/?id=13730083&fileType=auto",
     "carousel": [
       "https://www.heischehoeve.com/download/?id=18496040&fileType=auto"
