@@ -1,12 +1,12 @@
 {
-  "gegenereerd": "2026-11-26T11:02:24.702Z",
+  "gegenereerd": "2026-11-26T17:02:16.854Z",
   "arrangement": {
     "id": "67674",
     "naam": "Ontdekkingstocht door Brabant",
     "type": "Bedrijfs uitje",
     "minAantal": 15,
     "maxAantal": 120,
-    "prijs": 149.5,
+    "prijs": 159.5,
     "duurMinuten": 720,
     "startUur": 9,
     "meerdaags": false
@@ -17,7 +17,7 @@
   "browserTitel": "Bedrijfsuitje kanovaren in Brabant - Gastrijck De Heische Hoeve",
   "beschikbaarLabel": "1 april -1 november",
   "arrangementLabel": "all-inclusive",
-  "dinerKeuzeMogelijk": false,
+  "dinerKeuzeMogelijk": true,
   "afkoopEigenRisico": false,
   "afbeeldingen": {
     "hoofd": "https://www.heischehoeve.com/download/?id=17875774&fileType=auto",
