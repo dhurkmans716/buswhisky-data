@@ -1,12 +1,12 @@
 {
-  "gegenereerd": "2026-11-26T11:02:24.702Z",
+  "gegenereerd": "2026-11-26T17:02:16.854Z",
   "arrangement": {
     "id": "960185",
     "naam": "Whisky & Weilandgames",
     "type": "Bedrijfs uitje",
     "minAantal": 20,
     "maxAantal": 450,
-    "prijs": 109.5,
+    "prijs": 119.5,
     "duurMinuten": 360,
     "startUur": 14,
     "meerdaags": false
