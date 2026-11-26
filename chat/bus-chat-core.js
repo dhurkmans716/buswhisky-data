@@ -51,6 +51,7 @@ var P={'/bedrijfsuitjes':[B,'','Al onze bedrijfsuitjes',TYP],'/gratis-busvervoer
 '/bedrijfsuitjes/ochtend-lunch-middag':[B,OLM,'Ochtend, lunch en middag',TYP],'/ochtend-lunch-middag':[B,OLM,'Ochtend, lunch en middag',TYP],
 '/halve-dag':[B,MA,'Middag en avond',TYP],'/hele-dag':[B,HD,'Een hele dag op pad',TYP],'/met-overnachting':[B,OV,'Bedrijfsuitjes met overnachting',TYP],
 '/bedrijfsuitje-met-overnachting':[B,OV,'Bedrijfsuitjes met overnachting',TYP],
+'/weekendje-weg':['bb','8k2E2xk,BUS-WINTERWEEKEND-ZA-2026,RJxp2qM,BUS-WINTERWEEKEND-ZO-2026,8xaX6xY,5qXESKN,9v16vHU,Ltnx4j2,G4353Cd,RYD4wmp,CfXFwbt','Onze B&B weekendarrangementen'],'/bed-breakfast':['bb','8k2E2xk,BUS-WINTERWEEKEND-ZA-2026,RJxp2qM,BUS-WINTERWEEKEND-ZO-2026,8xaX6xY,5qXESKN,9v16vHU,Ltnx4j2,G4353Cd,RYD4wmp,CfXFwbt','Onze B&B weekendarrangementen'],
 '/vergaderen':[V,'','Onze vergaderarrangementen'],'/vergaderarrangementen':[V,'','Onze vergaderarrangementen'],'/vergaderzalen':[V,'','Onze vergaderarrangementen'],
 '/heisessies-strategiedagen':[V,'17793283,17793235,17793261,17796664','Arrangementen voor heisessies en strategiedagen'],
 '/vergaderen-met-overnachting':[V,'17793235,17793261,17796664,17796744','Vergaderen met overnachting']};
