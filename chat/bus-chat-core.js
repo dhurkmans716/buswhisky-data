@@ -4,7 +4,7 @@
 // Chatmodule dynamisch laden (31 okt 2026): de rest van dit bestand draait meteen, ook als de module nog onderweg is.
 var createChat = null;
 // Buildnummer: de reserveerwidget-iframe (n8n) vergelijkt dit en laadt deze kern opnieuw in een pagina met een verouderde gecachete versie.
-window.__busBuild = Math.max(window.__busBuild || 0, 2026112602);
+window.__busBuild = Math.max(window.__busBuild || 0, 2026112603);
 /* VISITBUS_INLINE_AANBOD_20261126 */
 // 26 nov 2026 (Dennis: "vormgeving en customer journey van de widget integraal in de website"). Op visitbus.nl staat het
 // aanbod als de echte reserveerwidget direct onder de header (inline=1, kaarten in een raster, datum en personen bovenaan,
@@ -48,9 +48,9 @@ MA='19617961,19310420,960185,18712057,20275497,18212800,20275419,18985953,196179
 OV='19893954,18795159,18361936,19638837,18385479,18494490,961017',TYP='o:'+OLM+';m:'+MA+';h:'+HD+';n:'+OV;
 var B='bedrijfsuitjes',V='vergaderingen';
 var P={'/bedrijfsuitjes':[B,'','Al onze bedrijfsuitjes',TYP],'/gratis-busvervoer':[B,'','Al onze bedrijfsuitjes',TYP],
-'/bedrijfsuitjes/ochtend-lunch-middag':[B,OLM,'Ochtend, lunch en middag',''],'/ochtend-lunch-middag':[B,OLM,'Ochtend, lunch en middag',''],
-'/halve-dag':[B,MA,'Middag en avond',''],'/hele-dag':[B,HD,'Een hele dag op pad',''],'/met-overnachting':[B,OV,'Bedrijfsuitjes met overnachting',''],
-'/bedrijfsuitje-met-overnachting':[B,OV,'Bedrijfsuitjes met overnachting',''],
+'/bedrijfsuitjes/ochtend-lunch-middag':[B,OLM,'Ochtend, lunch en middag',TYP],'/ochtend-lunch-middag':[B,OLM,'Ochtend, lunch en middag',TYP],
+'/halve-dag':[B,MA,'Middag en avond',TYP],'/hele-dag':[B,HD,'Een hele dag op pad',TYP],'/met-overnachting':[B,OV,'Bedrijfsuitjes met overnachting',TYP],
+'/bedrijfsuitje-met-overnachting':[B,OV,'Bedrijfsuitjes met overnachting',TYP],
 '/vergaderen':[V,'','Onze vergaderarrangementen'],'/vergaderarrangementen':[V,'','Onze vergaderarrangementen'],'/vergaderzalen':[V,'','Onze vergaderarrangementen'],
 '/heisessies-strategiedagen':[V,'17793283,17793235,17793261,17796664','Arrangementen voor heisessies en strategiedagen'],
 '/vergaderen-met-overnachting':[V,'17793235,17793261,17796664,17796744','Vergaderen met overnachting']};
