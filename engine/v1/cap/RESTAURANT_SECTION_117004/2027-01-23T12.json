@@ -1,1 +1,1 @@
-{"capacity":54,"entries":{"co:CO-1795095842204-UU42L9":{"qty":4,"status":"CONFIRMED","owner":"CO-1795095842204-UU42L9","at":"2026-11-19T13:44:36.594Z"}}}
+{"capacity":60,"entries":{"co:CO-1795095842204-UU42L9":{"qty":4,"status":"CONFIRMED","owner":"CO-1795095842204-UU42L9","at":"2026-11-19T13:44:36.594Z"},"co:CO-1795704534508-Z82CQR":{"qty":2,"status":"HOLD","expires_at":"2026-11-26T15:09:02.314Z","owner":"CO-1795704534508-Z82CQR","at":"2026-11-26T14:49:02.314Z"}}}
