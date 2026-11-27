@@ -1,31 +1,7 @@
 {
-  "gegenereerd": "2026-11-26T05:00:44.340Z",
+  "gegenereerd": "2026-11-27T05:00:45.329Z",
   "schaal": 10,
   "arrangementen": [
-    {
-      "id": "17982849",
-      "naam": "Doe-het-zelf Weekendbruiloft hoogseizoen (vr t/m zo)",
-      "score": 9,
-      "aantalBeoordelingen": 37,
-      "aantalGastenboek": 20,
-      "reviewsUrl": "reviews/17982849.json"
-    },
-    {
-      "id": "18252230",
-      "naam": "Doe-het-zelf Midweekbruiloft hoogseizoen (di t/m do)",
-      "score": 9,
-      "aantalBeoordelingen": 18,
-      "aantalGastenboek": 9,
-      "reviewsUrl": "reviews/18252230.json"
-    },
-    {
-      "id": "18252288",
-      "naam": "Doe-het-zelf Weekendbruiloft LIGHT laagseizoen (vr t/m zo)",
-      "score": 9,
-      "aantalBeoordelingen": 19,
-      "aantalGastenboek": 9,
-      "reviewsUrl": "reviews/18252288.json"
-    },
     {
       "id": "18522570",
       "naam": "Lunch | 4x4 ecotrail | Whiskytour",
@@ -51,20 +27,28 @@
       "reviewsUrl": "reviews/18795159.json"
     },
     {
+      "id": "19617909",
+      "naam": "4x4 Ecotrail, Laser kleiduifschieten & Whisky | middag",
+      "score": 9,
+      "aantalBeoordelingen": 78,
+      "aantalGastenboek": 20,
+      "reviewsUrl": "reviews/19617909.json"
+    },
+    {
+      "id": "19638837",
+      "naam": "4x4 Ecotrail, laserkleiduifschieten, tour whiskystokerij, pubquiz & overnachting",
+      "score": 8,
+      "aantalBeoordelingen": 79,
+      "aantalGastenboek": 20,
+      "reviewsUrl": "reviews/19638837.json"
+    },
+    {
       "id": "19893479",
       "naam": "4x4 Ecotrail, Laser kleiduifschieten & Pubquiz | avond",
       "score": 7,
       "aantalBeoordelingen": 7,
       "aantalGastenboek": 3,
       "reviewsUrl": "reviews/19893479.json"
-    },
-    {
-      "id": "19893954",
-      "naam": "Winterse dropping, Pubquiz & overnachting",
-      "score": 7,
-      "aantalBeoordelingen": 5,
-      "aantalGastenboek": 0,
-      "reviewsUrl": "reviews/19893954.json"
     },
     {
       "id": "19972945",
@@ -86,7 +70,7 @@
       "id": "20275497",
       "naam": "4x4 Ecotrail | middag",
       "score": 9,
-      "aantalBeoordelingen": 27,
+      "aantalBeoordelingen": 28,
       "aantalGastenboek": 14,
       "reviewsUrl": "reviews/20275497.json"
     },
