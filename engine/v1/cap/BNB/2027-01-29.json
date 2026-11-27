@@ -1,1 +1,1 @@
-{"capacity":28,"entries":{"gp-BRgqis1umAZ":{"qty":1,"status":"CONFIRMED","owner":"guestplan:BRgqis1umAZ","source":"BASELINE","at":"2026-11-18T21:37:58.324Z"}}}
+{"capacity":28,"entries":{"gp-BRgqis1umAZ":{"qty":1,"status":"CONFIRMED","owner":"guestplan:BRgqis1umAZ","source":"BASELINE","at":"2026-11-18T21:37:58.324Z"},"co:CO-1795811906664-4ERZ76":{"qty":1,"status":"HOLD","expires_at":"2026-11-27T20:58:29.395Z","owner":"CO-1795811906664-4ERZ76","at":"2026-11-27T20:38:29.395Z"}}}
