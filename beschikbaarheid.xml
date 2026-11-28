@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beschikbaarheid gegenereerd="2026-11-28T06:32:16.924Z">
+<beschikbaarheid gegenereerd="2026-11-28T11:02:21.712Z">
   <activiteit id="67674" naam="Ontdekkingstocht door Brabant" type="Bedrijfs uitje" minAantal="15" maxAantal="120" prijs="159.5" duurMinuten="720" startUur="9" meerdaags="false">
     <datum waarde="2026-11-28" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-29" beschikbaar="false" status="niet-beschikbaar"/>
@@ -2716,7 +2716,7 @@
     <datum waarde="2027-05-25" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="18522570" naam="Lunch | 4x4 ecotrail | Whiskytour" type="Bedrijfs uitje" minAantal="4" maxAantal="80" prijs="72.5" duurMinuten="240" startUur="12" meerdaags="false">
-    <datum waarde="2026-11-28" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-28" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-29" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-11-30" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-01" beschikbaar="true" status="beschikbaar"/>
@@ -4888,7 +4888,7 @@
     <datum waarde="2027-05-25" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="19972945" naam="4x4 ecotrail, kleiduifschieten &amp; whiskygames" type="Bedrijfs uitje" minAantal="15" maxAantal="450" prijs="209.5" duurMinuten="600" startUur="10" meerdaags="false">
-    <datum waarde="2026-11-28" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-28" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-29" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-30" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-01" beschikbaar="true" status="beschikbaar"/>
@@ -5431,7 +5431,7 @@
     <datum waarde="2027-05-25" beschikbaar="true" status="beschikbaar"/>
   </activiteit>
   <activiteit id="20327328" naam="4x4 Ecotrail | Lunch | Laser Kleiduifschieten | Whiskytour" type="Bedrijfs uitje" minAantal="4" maxAantal="80" prijs="92.5" duurMinuten="330" startUur="10" meerdaags="false">
-    <datum waarde="2026-11-28" beschikbaar="true" status="beschikbaar"/>
+    <datum waarde="2026-11-28" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-29" beschikbaar="false" status="niet-beschikbaar"/>
     <datum waarde="2026-11-30" beschikbaar="true" status="beschikbaar"/>
     <datum waarde="2026-12-01" beschikbaar="true" status="beschikbaar"/>
