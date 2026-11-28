@@ -1,7 +1,119 @@
 {
-  "gegenereerd": "2026-11-27T05:00:45.329Z",
+  "gegenereerd": "2026-11-28T05:00:19.753Z",
   "schaal": 10,
   "arrangementen": [
+    {
+      "id": "67674",
+      "naam": "Ontdekkingstocht door Brabant",
+      "score": 8,
+      "aantalBeoordelingen": 277,
+      "aantalGastenboek": 20,
+      "reviewsUrl": "reviews/67674.json"
+    },
+    {
+      "id": "960185",
+      "naam": "Whisky & Weilandgames",
+      "score": 9,
+      "aantalBeoordelingen": 221,
+      "aantalGastenboek": 20,
+      "reviewsUrl": "reviews/960185.json"
+    },
+    {
+      "id": "17793235",
+      "naam": "24-uurs arrangement (1 pers. kamer) alles inclusief",
+      "score": 8,
+      "aantalBeoordelingen": 138,
+      "aantalGastenboek": 20,
+      "reviewsUrl": "reviews/17793235.json"
+    },
+    {
+      "id": "17793261",
+      "naam": "32-uurs arrangement (1 pers. kamer) alles inclusief",
+      "score": 8,
+      "aantalBeoordelingen": 604,
+      "aantalGastenboek": 20,
+      "reviewsUrl": "reviews/17793261.json"
+    },
+    {
+      "id": "17793283",
+      "naam": "12-uurs vergaderarrangement alles inclusief",
+      "score": 9,
+      "aantalBeoordelingen": 114,
+      "aantalGastenboek": 20,
+      "reviewsUrl": "reviews/17793283.json"
+    },
+    {
+      "id": "17796664",
+      "naam": "48-uurs arrangement (1 pers. kamer) alles inclusief",
+      "score": 9,
+      "aantalBeoordelingen": 15,
+      "aantalGastenboek": 2,
+      "reviewsUrl": "reviews/17796664.json"
+    },
+    {
+      "id": "17796744",
+      "naam": "56-uurs arrangement (1 pers. kamer) alles inclusief",
+      "score": 8,
+      "aantalBeoordelingen": 70,
+      "aantalGastenboek": 20,
+      "reviewsUrl": "reviews/17796744.json"
+    },
+    {
+      "id": "17982849",
+      "naam": "Doe-het-zelf Weekendbruiloft hoogseizoen (vr t/m zo)",
+      "score": 9,
+      "aantalBeoordelingen": 37,
+      "aantalGastenboek": 20,
+      "reviewsUrl": "reviews/17982849.json"
+    },
+    {
+      "id": "18212800",
+      "naam": "4x4 Ecotrail, Whiskytour & Pubquiz | avond",
+      "score": 8,
+      "aantalBeoordelingen": 148,
+      "aantalGastenboek": 20,
+      "reviewsUrl": "reviews/18212800.json"
+    },
+    {
+      "id": "18252230",
+      "naam": "Doe-het-zelf Midweekbruiloft hoogseizoen (di t/m do)",
+      "score": 9,
+      "aantalBeoordelingen": 18,
+      "aantalGastenboek": 9,
+      "reviewsUrl": "reviews/18252230.json"
+    },
+    {
+      "id": "18252288",
+      "naam": "Doe-het-zelf Weekendbruiloft LIGHT laagseizoen (vr t/m zo)",
+      "score": 9,
+      "aantalBeoordelingen": 19,
+      "aantalGastenboek": 9,
+      "reviewsUrl": "reviews/18252288.json"
+    },
+    {
+      "id": "18361936",
+      "naam": "Suppen, kanovaren, fluisterboot & overnachting",
+      "score": 9,
+      "aantalBeoordelingen": 20,
+      "aantalGastenboek": 8,
+      "reviewsUrl": "reviews/18361936.json"
+    },
+    {
+      "id": "18385479",
+      "naam": "Weekend actief in Brabant",
+      "score": 8,
+      "aantalBeoordelingen": 9,
+      "aantalGastenboek": 5,
+      "reviewsUrl": "reviews/18385479.json"
+    },
+    {
+      "id": "18494490",
+      "naam": "Whisky & 4x4 weekend",
+      "score": 10,
+      "aantalBeoordelingen": 21,
+      "aantalGastenboek": 7,
+      "reviewsUrl": "reviews/18494490.json"
+    },
     {
       "id": "18522570",
       "naam": "Lunch | 4x4 ecotrail | Whiskytour",
@@ -27,12 +139,36 @@
       "reviewsUrl": "reviews/18795159.json"
     },
     {
+      "id": "18985953",
+      "naam": "Summer event",
+      "score": 8,
+      "aantalBeoordelingen": 1,
+      "aantalGastenboek": 0,
+      "reviewsUrl": "reviews/18985953.json"
+    },
+    {
+      "id": "19310420",
+      "naam": "Suppen, kanovaren & fluisterboot",
+      "score": 9,
+      "aantalBeoordelingen": 24,
+      "aantalGastenboek": 4,
+      "reviewsUrl": "reviews/19310420.json"
+    },
+    {
       "id": "19617909",
       "naam": "4x4 Ecotrail, Laser kleiduifschieten & Whisky | middag",
       "score": 9,
       "aantalBeoordelingen": 78,
       "aantalGastenboek": 20,
       "reviewsUrl": "reviews/19617909.json"
+    },
+    {
+      "id": "19617961",
+      "naam": "Laser Kleiduifschieten | middag",
+      "score": 8,
+      "aantalBeoordelingen": 36,
+      "aantalGastenboek": 4,
+      "reviewsUrl": "reviews/19617961.json"
     },
     {
       "id": "19638837",
@@ -49,6 +185,14 @@
       "aantalBeoordelingen": 7,
       "aantalGastenboek": 3,
       "reviewsUrl": "reviews/19893479.json"
+    },
+    {
+      "id": "19893954",
+      "naam": "Winterse dropping, Pubquiz & overnachting",
+      "score": 7,
+      "aantalBeoordelingen": 5,
+      "aantalGastenboek": 0,
+      "reviewsUrl": "reviews/19893954.json"
     },
     {
       "id": "19972945",
