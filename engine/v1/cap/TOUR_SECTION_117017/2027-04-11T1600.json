@@ -1,1 +1,1 @@
-{"capacity":200,"entries":{"co:CO-1795344713681-KDPFSU":{"qty":2,"status":"HOLD","expires_at":"2026-11-22T11:11:59.286Z","owner":"CO-1795344713681-KDPFSU","at":"2026-11-22T10:51:59.286Z"}}}
+{"capacity":24,"entries":{"partner-LWNCFMR-tour":{"qty":2,"status":"CONFIRMED","owner":"partner:LWNCFMR-tour","source":"BASELINE","at":"2026-11-28T13:10:36.002Z"}}}
