@@ -1,1 +1,1 @@
-{"capacity":54,"entries":{"gpx-yXvFasUcjZa":{"qty":2,"status":"CONFIRMED","owner":"guestplan:yXvFasUcjZa","source":"BASELINE","at":"2026-11-18T22:08:04.251Z"}}}
+{"capacity":60,"entries":{"gpx-yXvFasUcjZa":{"qty":2,"status":"CONFIRMED","owner":"guestplan:yXvFasUcjZa","source":"BASELINE","at":"2026-11-18T22:08:04.251Z"},"co:STAFF-6B46F2437713F7":{"qty":8,"status":"HOLD","expires_at":"2026-11-28T11:13:59.578Z","owner":"STAFF-6B46F2437713F7","at":"2026-11-28T10:53:59.578Z"}}}
