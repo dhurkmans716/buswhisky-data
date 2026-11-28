@@ -1,1 +1,1 @@
-{"capacity":60,"entries":{"co:CO-TEST-STAFF-5A5D312F101E8E":{"qty":8,"status":"HOLD","expires_at":"2026-11-28T11:13:41.599Z","owner":"CO-TEST-STAFF-5A5D312F101E8E","at":"2026-11-28T10:53:41.599Z"}}}
+{"capacity":60,"entries":{"co:CO-TEST-STAFF-5A5D312F101E8E":{"qty":8,"status":"CONFIRMED","owner":"CO-TEST-STAFF-5A5D312F101E8E","at":"2026-11-28T10:53:43.811Z"}}}
