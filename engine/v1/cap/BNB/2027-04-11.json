@@ -1,1 +1,1 @@
-{"capacity":28,"entries":{"co:CO-1795344713681-KDPFSU":{"qty":1,"status":"HOLD","expires_at":"2026-11-22T11:11:56.227Z","owner":"CO-1795344713681-KDPFSU","at":"2026-11-22T10:51:56.227Z"}}}
+{"capacity":28,"entries":{"partner-LWNCFMR-overnachting":{"qty":1,"status":"CONFIRMED","owner":"partner:LWNCFMR-overnachting","source":"BASELINE","at":"2026-11-28T13:10:34.271Z"}}}
